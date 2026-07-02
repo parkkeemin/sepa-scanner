@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEPA 야간 스캐너</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0F131B; --panel:#171D28; --panel2:#1E2634; --line:#2A3446;
+  --ink:#E8EAF0; --sub:#8B96A8; --dim:#5A6478;
+  --hot:#F0564F; --warm:#EFA033; --cool:#4FA8A0; --mono:'IBM Plex Mono',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:'IBM Plex Sans KR',sans-serif;line-height:1.6}
+.wrap{max-width:880px;margin:0 auto;padding:28px 16px 80px}
+
+header{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:20px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.18em;color:var(--hot);text-transform:uppercase}
+h1{font-size:26px;font-weight:700;margin:6px 0 2px}
+.meta{font-family:var(--mono);font-size:12px;color:var(--sub)}
+
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 8px}
+.chip{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 16px;min-width:96px}
+.chip .n{font-family:var(--mono);font-size:22px;font-weight:500}
+.chip .l{font-size:12px;color:var(--sub)}
+.chip.hot .n{color:var(--hot)} .chip.warm .n{color:var(--warm)} .chip.cool .n{color:var(--cool)}
+
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0;align-items:center}
+.fbtn{background:var(--panel);border:1px solid var(--line);color:var(--sub);border-radius:8px;
+  padding:7px 14px;font-size:13px;font-family:inherit;cursor:pointer}
+.fbtn.on{color:var(--ink);border-color:var(--sub);background:var(--panel2)}
+.fbtn:focus-visible{outline:2px solid var(--warm);outline-offset:2px}
+#q{flex:1;min-width:150px;background:var(--panel);border:1px solid var(--line);border-radius:8px;
+  padding:8px 12px;color:var(--ink);font-family:inherit;font-size:14px}
+#q::placeholder{color:var(--dim)}
+
+.row{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  padding:14px 16px;margin-bottom:10px;cursor:pointer;transition:border-color .15s}
+.row:hover{border-color:var(--sub)}
+.top{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.name{font-weight:700;font-size:16px}
+.code{font-family:var(--mono);font-size:12px;color:var(--dim)}
+.mkt{font-size:11px;color:var(--sub);border:1px solid var(--line);border-radius:5px;padding:1px 7px}
+.price{font-family:var(--mono);font-size:15px;margin-left:auto}
+.badge{font-size:12px;font-weight:500;border-radius:6px;padding:2px 9px}
+.badge.g9{background:rgba(240,86,79,.14);color:var(--hot)}
+.badge.g8{background:rgba(239,160,51,.14);color:var(--warm)}
+.badge.g7{background:rgba(79,168,160,.14);color:var(--cool)}
+
+.gauge{display:flex;gap:3px;margin-top:10px}
+.seg{height:6px;flex:1;border-radius:2px;background:var(--panel2)}
+.seg.f9{background:var(--hot)} .seg.f8{background:var(--warm)} .seg.f7{background:var(--cool)}
+.score-t{font-family:var(--mono);font-size:11px;color:var(--sub);margin-top:5px}
+
+.detail{display:none;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);
+  display:none;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px}
+.row.open .detail{display:grid}
+.crit{font-size:12px;color:var(--sub)}
+.crit.ok{color:var(--ink)}
+.crit .m{font-family:var(--mono)}
+
+.empty{color:var(--sub);text-align:center;padding:50px 0;font-size:14px}
+.foot{margin-top:28px;padding-top:16px;border-top:1px solid var(--line);
+  font-size:12px;color:var(--dim);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.foot a{color:var(--cool);text-decoration:none}
+@media (prefers-reduced-motion:no-preference){
+  .row{animation:in .25s ease both}
+  @keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Nightly scan · KRX open api</div>
+    <h1>SEPA 야간 스캐너</h1>
+    <div class="meta" id="meta">결과 불러오는 중…</div>
+  </header>
+
+  <div class="chips" id="chips"></div>
+
+  <div class="controls">
+    <button class="fbtn on" data-g="all">전체</button>
+    <button class="fbtn" data-g="최우선">최우선</button>
+    <button class="fbtn" data-g="집중관찰">집중관찰</button>
+    <button class="fbtn" data-g="관심종목">관심종목</button>
+    <button class="fbtn on" data-m="all" style="margin-left:8px">전체 시장</button>
+    <button class="fbtn" data-m="코스피">코스피</button>
+    <button class="fbtn" data-m="코스닥">코스닥</button>
+    <input id="q" type="search" placeholder="종목명·코드 검색">
+  </div>
+
+  <div id="list"></div>
+
+  <div class="foot">
+    <span>매 평일 저녁 6시 10분 자동 스캔 · 투자 판단의 참고 자료이며 매수 추천이 아닙니다</span>
+    <a href="SEPA_결과.xlsx" download>엑셀 내려받기</a>
+  </div>
+</div>
+
+<script>
+const CRIT_LABELS = {
+  trend1_ma50:"50일선 위", trend2_ma150:"150일선 위", trend3_ma200:"200일선 위",
+  trend4_cross:"150>200 배열", trend5_ma200_rising:"200일선 상승",
+  strength1_low52:"52주 저점 +30%", strength2_high52:"52주 고점 75%",
+  volume:"거래량 우위", vcp:"변동성 축소", risk_stop:"손절폭 적정"
+};
+let DATA=null, fG="all", fM="all", fQ="";
+
+function gradeCls(g){return g>=9?"g9":g===8?"g8":"g7"}
+function segCls(g){return g>=9?"f9":g===8?"f8":"f7"}
+
+function render(){
+  const list=document.getElementById("list");
+  if(!DATA){list.innerHTML='<div class="empty">데이터가 없습니다</div>';return}
+  const rows=DATA.results.filter(r=>
+    (fG==="all"||r.grade===fG)&&(fM==="all"||r.market===fM)&&
+    (fQ===""||r.name.includes(fQ)||r.code.includes(fQ))
+  );
+  if(!rows.length){list.innerHTML='<div class="empty">조건에 맞는 종목이 없습니다</div>';return}
+  list.innerHTML=rows.map(r=>{
+    const segs=Array.from({length:10},(_,i)=>
+      `<div class="seg ${i<r.score?segCls(r.score):""}"></div>`).join("");
+    const crits=Object.entries(r.detail||{}).map(([k,v])=>
+      `<div class="crit ${v?"ok":""}"><span class="m">${v?"✓":"✗"}</span> ${CRIT_LABELS[k]||k}</div>`).join("");
+    return `<div class="row" onclick="this.classList.toggle('open')">
+      <div class="top">
+        <span class="name">${r.name}</span>
+        <span class="code">${r.code}</span>
+        <span class="mkt">${r.market}</span>
+        <span class="badge ${gradeCls(r.score)}">${r.grade}</span>
+        <span class="price">${r.price.toLocaleString()}원</span>
+      </div>
+      <div class="gauge">${segs}</div>
+      <div class="score-t">SEPA ${r.score}/10 · 눌러서 세부 기준 보기</div>
+      <div class="detail">${crits}</div>
+    </div>`;
+  }).join("");
+}
+
+function bind(sel,key){
+  document.querySelectorAll(sel).forEach(b=>b.addEventListener("click",()=>{
+    document.querySelectorAll(sel).forEach(x=>x.classList.remove("on"));
+    b.classList.add("on");
+    if(key==="g")fG=b.dataset.g; else fM=b.dataset.m;
+    render();
+  }));
+}
+bind("[data-g]","g"); bind("[data-m]","m");
+document.getElementById("q").addEventListener("input",e=>{fQ=e.target.value.trim();render()});
+
+fetch("results.json?"+Date.now())
+ .then(r=>{if(!r.ok)throw new Error(r.status);return r.json()})
+ .then(d=>{
+   DATA=d;
+   document.getElementById("meta").textContent=
+     `기준일 ${d.scan_date.slice(0,4)}.${d.scan_date.slice(4,6)}.${d.scan_date.slice(6)} · 생성 ${d.generated_at} · ${d.min_score}점 이상 ${d.total}종목`;
+   document.getElementById("chips").innerHTML=`
+     <div class="chip hot"><div class="n">${d.counts["최우선"]}</div><div class="l">최우선 (9~10점)</div></div>
+     <div class="chip warm"><div class="n">${d.counts["집중관찰"]}</div><div class="l">집중관찰 (8점)</div></div>
+     <div class="chip cool"><div class="n">${d.counts["관심종목"]}</div><div class="l">관심종목 (7점)</div></div>`;
+   render();
+ })
+ .catch(()=>{
+   document.getElementById("meta").textContent="아직 스캔 결과가 없습니다";
+   document.getElementById("list").innerHTML=
+     '<div class="empty">첫 스캔이 완료되면 결과가 표시됩니다.<br>GitHub Actions에서 "SEPA 자동 스캔"을 수동 실행해 보세요.</div>';
+ });
+</script>
+</body>
+</html>
