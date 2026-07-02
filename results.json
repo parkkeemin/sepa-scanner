@@ -1,0 +1,10153 @@
+{
+ "scan_date": "20260701",
+ "generated_at": "2026-07-02 17:16:40 KST",
+ "min_score": 7,
+ "total": 507,
+ "counts": {
+  "최우선": 89,
+  "집중관찰": 164,
+  "관심종목": 254
+ },
+ "results": [
+  {
+   "market": "코스피",
+   "code": "003490",
+   "name": "대한항공",
+   "price": 27800.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "900260",
+   "name": "로스웰",
+   "price": 1666.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "019010",
+   "name": "베뉴지",
+   "price": 5470.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "028260",
+   "name": "삼성물산",
+   "price": 434000.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "005930",
+   "name": "삼성전자",
+   "price": 314500.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "037350",
+   "name": "성도이엔지",
+   "price": 11200.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "037760",
+   "name": "쎄니트",
+   "price": 2420.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "226950",
+   "name": "올릭스",
+   "price": 167000.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "101160",
+   "name": "월덱스",
+   "price": 30050.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "007660",
+   "name": "이수페타시스",
+   "price": 132900.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "029460",
+   "name": "케이씨",
+   "price": 35050.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "049430",
+   "name": "코메론",
+   "price": 19910.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "064760",
+   "name": "티씨케이",
+   "price": 287500.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "014680",
+   "name": "한솔케미칼",
+   "price": 304000.0,
+   "score": 10,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "069730",
+   "name": "DSR제강",
+   "price": 5570.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "383220",
+   "name": "F&F",
+   "price": 77400.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "083450",
+   "name": "GST",
+   "price": 54300.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "060560",
+   "name": "HC홈센타",
+   "price": 2240.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "105560",
+   "name": "KB금융",
+   "price": 158500.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "010955",
+   "name": "S-Oil우",
+   "price": 56600.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "040610",
+   "name": "SG&G",
+   "price": 3315.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "034730",
+   "name": "SK",
+   "price": 763000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "402340",
+   "name": "SK스퀘어",
+   "price": 1757000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "03473K",
+   "name": "SK우",
+   "price": 453500.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "475150",
+   "name": "SK이터닉스",
+   "price": 59400.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "000660",
+   "name": "SK하이닉스",
+   "price": 2560000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "013580",
+   "name": "계룡건설",
+   "price": 23800.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "066620",
+   "name": "국보디자인",
+   "price": 24500.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "137080",
+   "name": "나래나노텍",
+   "price": 5850.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "036800",
+   "name": "나이스정보통신",
+   "price": 29550.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "353200",
+   "name": "대덕전자",
+   "price": 154400.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "192080",
+   "name": "더블유게임즈",
+   "price": 65000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "012510",
+   "name": "더존비즈온",
+   "price": 120000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "028100",
+   "name": "동아지질",
+   "price": 17240.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "072870",
+   "name": "메가스터디",
+   "price": 13260.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "025560",
+   "name": "미래산업",
+   "price": 58500.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "089970",
+   "name": "브이엠",
+   "price": 119700.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "033560",
+   "name": "블루콤",
+   "price": 3825.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "086670",
+   "name": "비엠티",
+   "price": 16620.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "093190",
+   "name": "빅솔론",
+   "price": 8140.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "062040",
+   "name": "산일전기",
+   "price": 261500.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "028050",
+   "name": "삼성E&A",
+   "price": 51700.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "02826K",
+   "name": "삼성물산우B",
+   "price": 260500.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "009155",
+   "name": "삼성전기우",
+   "price": 782000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "005935",
+   "name": "삼성전자우",
+   "price": 204500.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "000810",
+   "name": "삼성화재",
+   "price": 623000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "252990",
+   "name": "샘씨엔에스",
+   "price": 14000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "236200",
+   "name": "슈프리마",
+   "price": 44150.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "192440",
+   "name": "슈피겐코리아",
+   "price": 29700.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "222800",
+   "name": "심텍",
+   "price": 157300.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "160980",
+   "name": "싸이맥스",
+   "price": 43050.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "096530",
+   "name": "씨젠",
+   "price": 28700.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "052710",
+   "name": "아모텍",
+   "price": 24800.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "339950",
+   "name": "아이비김영",
+   "price": 2695.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "262840",
+   "name": "아이퀘스트",
+   "price": 2900.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "473000",
+   "name": "에스케이증권제12호스팩",
+   "price": 2060.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "244920",
+   "name": "에이플러스에셋",
+   "price": 10910.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "278470",
+   "name": "에이피알",
+   "price": 408000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "064850",
+   "name": "에프앤가이드",
+   "price": 27800.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "101400",
+   "name": "엔시트론",
+   "price": 1757.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "170920",
+   "name": "엘티씨",
+   "price": 55300.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "122640",
+   "name": "예스티",
+   "price": 39250.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "271560",
+   "name": "오리온",
+   "price": 136700.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "001800",
+   "name": "오리온홀딩스",
+   "price": 25200.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "240810",
+   "name": "원익IPS",
+   "price": 165600.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "074600",
+   "name": "원익QnC",
+   "price": 36850.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "473050",
+   "name": "유안타제15호스팩",
+   "price": 2077.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "084370",
+   "name": "유진테크",
+   "price": 206500.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "005950",
+   "name": "이수화학",
+   "price": 13230.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "036930",
+   "name": "주성엔지니어링",
+   "price": 242000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "281820",
+   "name": "케이씨텍",
+   "price": 117500.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "00781K",
+   "name": "코리아써키트2우B",
+   "price": 20800.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "241710",
+   "name": "코스메카코리아",
+   "price": 80600.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "219130",
+   "name": "타이거일렉",
+   "price": 73000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "095610",
+   "name": "테스",
+   "price": 213000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "089030",
+   "name": "테크윙",
+   "price": 58400.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "204610",
+   "name": "티쓰리",
+   "price": 2905.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "131290",
+   "name": "티에스이",
+   "price": 276000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "225590",
+   "name": "패션플랫폼",
+   "price": 3400.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "053610",
+   "name": "프로텍",
+   "price": 82700.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "319660",
+   "name": "피에스케이",
+   "price": 211500.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "066980",
+   "name": "한성크린텍",
+   "price": 2575.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "009420",
+   "name": "한올바이오파마",
+   "price": 61600.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "058450",
+   "name": "한주에이알티",
+   "price": 4600.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "069960",
+   "name": "현대백화점",
+   "price": 194000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "057050",
+   "name": "현대홈쇼핑",
+   "price": 87300.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "061250",
+   "name": "화일약품",
+   "price": 8390.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "298040",
+   "name": "효성중공업",
+   "price": 3718000.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "093370",
+   "name": "후성",
+   "price": 17310.0,
+   "score": 9,
+   "grade": "최우선",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "056730",
+   "name": "CNT85",
+   "price": 1950.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "000990",
+   "name": "DB하이텍",
+   "price": 133200.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "155660",
+   "name": "DSR",
+   "price": 4455.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "078930",
+   "name": "GS",
+   "price": 73000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "007070",
+   "name": "GS리테일",
+   "price": 23600.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "078935",
+   "name": "GS우",
+   "price": 54100.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "329180",
+   "name": "HD현대중공업",
+   "price": 615000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "403870",
+   "name": "HPSP",
+   "price": 50200.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "415640",
+   "name": "KB발해인프라",
+   "price": 10080.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "092220",
+   "name": "KEC",
+   "price": 3580.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "092230",
+   "name": "KPX홀딩스",
+   "price": 80200.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "093050",
+   "name": "LF",
+   "price": 22500.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "011070",
+   "name": "LG이노텍",
+   "price": 907000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "079550",
+   "name": "LIG디펜스앤에어로스페이스",
+   "price": 770000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "036570",
+   "name": "NC",
+   "price": 255500.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "005945",
+   "name": "NH투자증권우",
+   "price": 24600.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "019550",
+   "name": "SBI인베스트먼트",
+   "price": 934.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "004060",
+   "name": "SG세계물산",
+   "price": 2530.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "084870",
+   "name": "TBH글로벌",
+   "price": 1842.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "139130",
+   "name": "iM금융지주",
+   "price": 16880.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "000500",
+   "name": "가온전선",
+   "price": 300500.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "012205",
+   "name": "계양전기우",
+   "price": 8620.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "098460",
+   "name": "고영",
+   "price": 33650.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "037710",
+   "name": "광주신세계",
+   "price": 43500.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "078130",
+   "name": "국일제지",
+   "price": 3800.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "900070",
+   "name": "글로벌에스엠",
+   "price": 1047.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "002990",
+   "name": "금호건설",
+   "price": 14540.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "002995",
+   "name": "금호건설우",
+   "price": 43900.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "013700",
+   "name": "까뮤이앤씨",
+   "price": 1374.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "091590",
+   "name": "남화토건",
+   "price": 9630.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "085910",
+   "name": "네오티스",
+   "price": 20000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "137940",
+   "name": "넥스트아이",
+   "price": 2160.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "00806K",
+   "name": "대덕1우",
+   "price": 11660.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "009190",
+   "name": "대양금속",
+   "price": 1747.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "120240",
+   "name": "대정화금",
+   "price": 13730.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "224060",
+   "name": "더코디",
+   "price": 4860.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "228340",
+   "name": "동양파일",
+   "price": 6240.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "005290",
+   "name": "동진쎄미켐",
+   "price": 56500.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "110990",
+   "name": "디아이티",
+   "price": 20700.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "104040",
+   "name": "디에스엠",
+   "price": 1625.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "131180",
+   "name": "딜리",
+   "price": 3910.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "089860",
+   "name": "롯데렌탈",
+   "price": 31950.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "000400",
+   "name": "롯데손해보험",
+   "price": 2050.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "023530",
+   "name": "롯데쇼핑",
+   "price": 185000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "241770",
+   "name": "메카로",
+   "price": 45050.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "477380",
+   "name": "미래에셋비전스팩4호",
+   "price": 2075.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "085620",
+   "name": "미래에셋생명",
+   "price": 20650.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "003650",
+   "name": "미창석유",
+   "price": 136000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "000890",
+   "name": "보해양조",
+   "price": 2285.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "226340",
+   "name": "본느",
+   "price": 2080.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "141000",
+   "name": "비아트론",
+   "price": 9570.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "448730",
+   "name": "삼성FN리츠",
+   "price": 5600.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "032830",
+   "name": "삼성생명",
+   "price": 387000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "009150",
+   "name": "삼성전기",
+   "price": 2205000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "016360",
+   "name": "삼성증권",
+   "price": 112700.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "000815",
+   "name": "삼성화재우",
+   "price": 409000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "002810",
+   "name": "삼영무역",
+   "price": 19760.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "005680",
+   "name": "삼영전자",
+   "price": 16170.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "054090",
+   "name": "삼진엘앤디",
+   "price": 1013.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "046390",
+   "name": "삼화네트웍스",
+   "price": 1939.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "001820",
+   "name": "삼화콘덴서",
+   "price": 155500.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "027580",
+   "name": "상보",
+   "price": 1372.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "079650",
+   "name": "서산",
+   "price": 4765.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "035890",
+   "name": "서희건설",
+   "price": 2200.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "014910",
+   "name": "성문전자",
+   "price": 2515.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "000180",
+   "name": "성창기업지주",
+   "price": 4795.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "011560",
+   "name": "세보엠이씨",
+   "price": 27950.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "032680",
+   "name": "소프트센",
+   "price": 1043.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "328380",
+   "name": "솔트웨어",
+   "price": 2525.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "094840",
+   "name": "슈프리마에이치큐",
+   "price": 12210.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "004170",
+   "name": "신세계",
+   "price": 776000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "031430",
+   "name": "신세계인터내셔날",
+   "price": 12770.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "055550",
+   "name": "신한지주",
+   "price": 96400.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "049960",
+   "name": "쎌바이오텍",
+   "price": 15710.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "115480",
+   "name": "씨유메디칼",
+   "price": 1933.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "189330",
+   "name": "씨이랩",
+   "price": 9930.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "159010",
+   "name": "아스플로",
+   "price": 22000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "054800",
+   "name": "아이디스홀딩스",
+   "price": 14360.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "001540",
+   "name": "안국약품",
+   "price": 10080.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "061040",
+   "name": "알에프텍",
+   "price": 8130.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "092600",
+   "name": "앤씨앤",
+   "price": 2470.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "109960",
+   "name": "앱토크롬",
+   "price": 1731.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "005850",
+   "name": "에스엘",
+   "price": 58400.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "472230",
+   "name": "에스케이증권제11호스팩",
+   "price": 2070.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "039440",
+   "name": "에스티아이",
+   "price": 31600.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "237690",
+   "name": "에스티팜",
+   "price": 131600.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "043340",
+   "name": "에쎈테크",
+   "price": 784.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "060900",
+   "name": "에이전트AI",
+   "price": 4420.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "159910",
+   "name": "에코글로우",
+   "price": 2935.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "383310",
+   "name": "에코프로에이치엔",
+   "price": 30350.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "373200",
+   "name": "엑스플러스",
+   "price": 2790.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "085310",
+   "name": "엔케이",
+   "price": 9000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "290650",
+   "name": "엘앤씨바이오",
+   "price": 90700.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "037950",
+   "name": "엘컴텍",
+   "price": 3035.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "002630",
+   "name": "오리엔트바이오",
+   "price": 882.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "067170",
+   "name": "오텍",
+   "price": 2895.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "057540",
+   "name": "옴니시스템",
+   "price": 848.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "019210",
+   "name": "와이지-원",
+   "price": 21150.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "011300",
+   "name": "우성머티리얼스",
+   "price": 2310.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "104830",
+   "name": "원익머트리얼즈",
+   "price": 41500.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "036090",
+   "name": "위지트",
+   "price": 1520.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "036200",
+   "name": "유니셈",
+   "price": 10720.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "474490",
+   "name": "유안타제16호스팩",
+   "price": 2050.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "493790",
+   "name": "유안타제17호스팩",
+   "price": 2015.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "023410",
+   "name": "유진기업",
+   "price": 4515.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "333050",
+   "name": "이노테나",
+   "price": 5190.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "478110",
+   "name": "이베스트스팩6호",
+   "price": 2035.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "039030",
+   "name": "이오테크닉스",
+   "price": 435000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "041830",
+   "name": "인바디",
+   "price": 62000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "083640",
+   "name": "인콘",
+   "price": 1119.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "049070",
+   "name": "인탑스",
+   "price": 18840.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "064290",
+   "name": "인텍플러스",
+   "price": 48500.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "019540",
+   "name": "일지테크",
+   "price": 5910.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "043910",
+   "name": "자연과환경",
+   "price": 3310.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "317400",
+   "name": "자이에스앤디",
+   "price": 4620.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "417840",
+   "name": "저스템",
+   "price": 15300.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "109070",
+   "name": "주성코퍼레이션",
+   "price": 1704.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "065060",
+   "name": "지엔코",
+   "price": 2675.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "311320",
+   "name": "지오엘리먼트",
+   "price": 11250.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "088790",
+   "name": "진도",
+   "price": 2385.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "033250",
+   "name": "체시스",
+   "price": 3430.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "900310",
+   "name": "컬러레이",
+   "price": 1920.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "038530",
+   "name": "케이바이오랩스",
+   "price": 837.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "001620",
+   "name": "케이비아이동국실업",
+   "price": 2360.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "417310",
+   "name": "코람코더원리츠",
+   "price": 9970.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "007810",
+   "name": "코리아써키트",
+   "price": 90100.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "041960",
+   "name": "코미팜",
+   "price": 7960.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "043710",
+   "name": "코스리거글로벌",
+   "price": 3680.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "052330",
+   "name": "코텍",
+   "price": 11310.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "322780",
+   "name": "코퍼스코리아",
+   "price": 2720.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "051780",
+   "name": "큐로홀딩스",
+   "price": 2895.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "049120",
+   "name": "파인디앤씨",
+   "price": 2080.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "032800",
+   "name": "판타지오",
+   "price": 1900.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "054300",
+   "name": "팬스타엔터프라이즈",
+   "price": 904.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "001020",
+   "name": "페이퍼코리아",
+   "price": 2250.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "256630",
+   "name": "포인트엔지니어링",
+   "price": 4460.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "114630",
+   "name": "폴라리스우노",
+   "price": 1777.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "298060",
+   "name": "풍전약품",
+   "price": 2830.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "031980",
+   "name": "피에스케이홀딩스",
+   "price": 166500.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "469880",
+   "name": "하나30호스팩",
+   "price": 2105.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "086790",
+   "name": "하나금융지주",
+   "price": 116400.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "067310",
+   "name": "하나마이크론",
+   "price": 51300.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "166090",
+   "name": "하나머티리얼즈",
+   "price": 67000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "005430",
+   "name": "한국공항",
+   "price": 87500.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "071050",
+   "name": "한국금융지주",
+   "price": 228000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "071055",
+   "name": "한국금융지주우",
+   "price": 153000.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "017890",
+   "name": "한국알콜",
+   "price": 11980.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "006200",
+   "name": "한국전자홀딩스",
+   "price": 2505.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "025890",
+   "name": "한국주강",
+   "price": 2170.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "161890",
+   "name": "한국콜마",
+   "price": 106800.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "161390",
+   "name": "한국타이어앤테크놀로지",
+   "price": 62800.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "020000",
+   "name": "한섬",
+   "price": 21750.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "114810",
+   "name": "한솔아이원스",
+   "price": 14800.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "025750",
+   "name": "한솔홈데코",
+   "price": 1925.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "045100",
+   "name": "한양이엔지",
+   "price": 38400.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "180640",
+   "name": "한진칼",
+   "price": 125200.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "009460",
+   "name": "한창제지",
+   "price": 2860.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "900270",
+   "name": "헝셩그룹",
+   "price": 609.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "005440",
+   "name": "현대지에프홀딩스",
+   "price": 16510.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "001450",
+   "name": "현대해상",
+   "price": 34400.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "126640",
+   "name": "화신정공",
+   "price": 4070.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "000850",
+   "name": "화천기공",
+   "price": 36900.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "298000",
+   "name": "효성화학",
+   "price": 44600.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "353190",
+   "name": "휴럼",
+   "price": 2845.0,
+   "score": 8,
+   "grade": "집중관찰",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "265520",
+   "name": "AP시스템",
+   "price": 22450.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "138930",
+   "name": "BNK금융지주",
+   "price": 17320.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "000480",
+   "name": "CR홀딩스",
+   "price": 4980.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "065770",
+   "name": "CS",
+   "price": 1498.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "012030",
+   "name": "DB",
+   "price": 1796.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "000300",
+   "name": "DH오토넥스",
+   "price": 4200.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "015590",
+   "name": "DKME",
+   "price": 2115.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "375500",
+   "name": "DL이앤씨",
+   "price": 66800.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "37550L",
+   "name": "DL이앤씨2우(전환)",
+   "price": 44750.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "007340",
+   "name": "DN오토모티브",
+   "price": 38100.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "245620",
+   "name": "EDGC",
+   "price": 741.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "443060",
+   "name": "HD현대마린솔루션",
+   "price": 226000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "322000",
+   "name": "HD현대에너지솔루션",
+   "price": 152200.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "267260",
+   "name": "HD현대일렉트릭",
+   "price": 1012000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "278650",
+   "name": "HLB바이오스텝",
+   "price": 2905.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "024850",
+   "name": "HLB이노베이션",
+   "price": 12360.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "095340",
+   "name": "ISC",
+   "price": 170700.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "067290",
+   "name": "JW신약",
+   "price": 1847.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "024840",
+   "name": "KBI메탈",
+   "price": 4825.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "002380",
+   "name": "KCC",
+   "price": 477000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "033780",
+   "name": "KT&G",
+   "price": 167100.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "052900",
+   "name": "KX하이텍",
+   "price": 1325.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "003550",
+   "name": "LG",
+   "price": 96600.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "064400",
+   "name": "LG씨엔에스",
+   "price": 76200.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "066570",
+   "name": "LG전자",
+   "price": 193300.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "066575",
+   "name": "LG전자우",
+   "price": 70300.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "006260",
+   "name": "LS",
+   "price": 399000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "091970",
+   "name": "LSK아이로봇",
+   "price": 2620.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "229640",
+   "name": "LS에코에너지",
+   "price": 60700.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "078020",
+   "name": "LS증권",
+   "price": 6700.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "108670",
+   "name": "LX하우시스",
+   "price": 33700.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "086960",
+   "name": "MDS테크",
+   "price": 2165.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "005940",
+   "name": "NH투자증권",
+   "price": 29550.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "456040",
+   "name": "OCI",
+   "price": 100100.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "010060",
+   "name": "OCI홀딩스",
+   "price": 240000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "178920",
+   "name": "PI첨단소재",
+   "price": 21000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "218410",
+   "name": "RFHIC",
+   "price": 64500.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "327260",
+   "name": "RF머트리얼즈",
+   "price": 57600.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "010950",
+   "name": "S-Oil",
+   "price": 109600.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "184230",
+   "name": "SGA솔루션즈",
+   "price": 1826.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "002360",
+   "name": "SH에너지화학",
+   "price": 1855.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "001740",
+   "name": "SK네트웍스",
+   "price": 10290.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "001510",
+   "name": "SK증권",
+   "price": 2575.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "017670",
+   "name": "SK텔레콤",
+   "price": 88600.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "048550",
+   "name": "SM C&C",
+   "price": 1680.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "198440",
+   "name": "강동씨앤엘",
+   "price": 1982.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "053950",
+   "name": "경남제약",
+   "price": 1753.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "012200",
+   "name": "계양전기",
+   "price": 5330.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "950190",
+   "name": "고스트스튜디오",
+   "price": 9400.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "035290",
+   "name": "골드앤에스",
+   "price": 2170.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "017900",
+   "name": "광전자",
+   "price": 6830.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "026910",
+   "name": "광진실업",
+   "price": 5000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "053260",
+   "name": "금강철강",
+   "price": 5080.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "214330",
+   "name": "금호에이치티",
+   "price": 2555.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "001210",
+   "name": "금호전기",
+   "price": 1389.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "049080",
+   "name": "기가레인",
+   "price": 6250.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "420770",
+   "name": "기가비스",
+   "price": 189200.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "242040",
+   "name": "나무기술",
+   "price": 4970.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "001260",
+   "name": "남광토건",
+   "price": 10340.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "004270",
+   "name": "남성",
+   "price": 6830.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "094860",
+   "name": "네오리진",
+   "price": 1305.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "092730",
+   "name": "네오팜",
+   "price": 18500.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "033640",
+   "name": "네패스",
+   "price": 25550.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "330860",
+   "name": "네패스아크",
+   "price": 38800.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "060260",
+   "name": "뉴보텍",
+   "price": 1803.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "123840",
+   "name": "뉴온",
+   "price": 2070.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "012340",
+   "name": "뉴인텍",
+   "price": 980.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "144960",
+   "name": "뉴파워프라즈마",
+   "price": 8120.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "058730",
+   "name": "다스코",
+   "price": 4320.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "483650",
+   "name": "달바글로벌",
+   "price": 241500.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "008060",
+   "name": "대덕",
+   "price": 17240.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "35320K",
+   "name": "대덕전자1우",
+   "price": 31650.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "004780",
+   "name": "대륙제관",
+   "price": 3895.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "017650",
+   "name": "대림제지",
+   "price": 8690.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "065150",
+   "name": "대산F&B",
+   "price": 1450.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "047040",
+   "name": "대우건설",
+   "price": 19420.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "006340",
+   "name": "대원전선",
+   "price": 13400.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "006345",
+   "name": "대원전선우",
+   "price": 15960.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "024890",
+   "name": "대원화성",
+   "price": 2785.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "010170",
+   "name": "대한광통신",
+   "price": 13850.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "001440",
+   "name": "대한전선",
+   "price": 36800.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "043090",
+   "name": "더테크놀로지",
+   "price": 1140.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "077360",
+   "name": "덕산하이메탈",
+   "price": 12530.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "005960",
+   "name": "동부건설",
+   "price": 7460.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "088910",
+   "name": "동우팜투테이블",
+   "price": 2325.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "094170",
+   "name": "동운아나텍",
+   "price": 33550.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "000150",
+   "name": "두산",
+   "price": 1590000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "241560",
+   "name": "두산밥캣",
+   "price": 63700.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "131970",
+   "name": "두산테스나",
+   "price": 112600.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "336260",
+   "name": "두산퓨얼셀",
+   "price": 59500.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "196490",
+   "name": "디에이테크놀로지",
+   "price": 6090.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "197140",
+   "name": "디지캡",
+   "price": 2160.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "290550",
+   "name": "디케이티",
+   "price": 21950.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "388790",
+   "name": "라이콤",
+   "price": 4785.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "090360",
+   "name": "로보스타",
+   "price": 86900.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "073570",
+   "name": "리튬포어스",
+   "price": 1640.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "193250",
+   "name": "링크드",
+   "price": 1162.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "439090",
+   "name": "마녀공장",
+   "price": 16030.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "027740",
+   "name": "마니커",
+   "price": 1057.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "446540",
+   "name": "메가터치",
+   "price": 6290.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "118000",
+   "name": "메타케어",
+   "price": 1240.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "006920",
+   "name": "모헨즈",
+   "price": 4160.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "477470",
+   "name": "미래에셋비전스팩5호",
+   "price": 2105.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "482680",
+   "name": "미래에셋비전스팩7호",
+   "price": 2055.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "00680K",
+   "name": "미래에셋증권2우B",
+   "price": 14820.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "081660",
+   "name": "미스토홀딩스",
+   "price": 43100.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "059090",
+   "name": "미코",
+   "price": 19490.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "424760",
+   "name": "벨로크",
+   "price": 2120.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "002070",
+   "name": "비비안",
+   "price": 6660.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "419540",
+   "name": "비스토스",
+   "price": 3260.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "065170",
+   "name": "비엘팜텍",
+   "price": 2720.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "082920",
+   "name": "비츠로셀",
+   "price": 41700.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "054220",
+   "name": "비츠로시스",
+   "price": 1607.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "044480",
+   "name": "빌리언스",
+   "price": 1090.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "143240",
+   "name": "사람인",
+   "price": 16040.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "223310",
+   "name": "사토시홀딩스",
+   "price": 3925.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "006400",
+   "name": "삼성SDI",
+   "price": 491000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "018260",
+   "name": "삼성에스디에스",
+   "price": 197400.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "006110",
+   "name": "삼아알미늄",
+   "price": 42700.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "004440",
+   "name": "삼일씨엔에스",
+   "price": 7500.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "017480",
+   "name": "삼현철강",
+   "price": 4865.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "010960",
+   "name": "삼호개발",
+   "price": 4235.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "038540",
+   "name": "상상인",
+   "price": 2075.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "092190",
+   "name": "서울바이오시스",
+   "price": 7140.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "046890",
+   "name": "서울반도체",
+   "price": 11340.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "004410",
+   "name": "서울식품",
+   "price": 913.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "004415",
+   "name": "서울식품우",
+   "price": 6830.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "027040",
+   "name": "서울전자통신",
+   "price": 1995.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "065710",
+   "name": "서호전기",
+   "price": 45000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 0,
+    "trend3_ma200": 0,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "007610",
+   "name": "선도전기",
+   "price": 5110.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "043260",
+   "name": "성호전자",
+   "price": 30600.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "053060",
+   "name": "세동",
+   "price": 1361.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "004365",
+   "name": "세방우",
+   "price": 9500.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "331920",
+   "name": "셀레믹스",
+   "price": 12310.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "032685",
+   "name": "소프트센우",
+   "price": 13610.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "258790",
+   "name": "소프트캠프",
+   "price": 3690.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "347700",
+   "name": "스피어",
+   "price": 28050.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "011930",
+   "name": "신성이엔지",
+   "price": 21000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "036710",
+   "name": "심텍홀딩스",
+   "price": 4495.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "088280",
+   "name": "쏘닉스",
+   "price": 3190.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "115530",
+   "name": "씨엔플러스",
+   "price": 1876.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "332370",
+   "name": "아이디피",
+   "price": 5300.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "066430",
+   "name": "아이로보틱스",
+   "price": 2585.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "052860",
+   "name": "아이앤씨",
+   "price": 4800.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "038880",
+   "name": "아이에이",
+   "price": 2410.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "451220",
+   "name": "아이엠티",
+   "price": 11990.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "078860",
+   "name": "아이오케이이엔엠",
+   "price": 2990.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "031820",
+   "name": "아이티센씨티에스",
+   "price": 5240.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "010280",
+   "name": "아이티센엔텍",
+   "price": 4860.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "123010",
+   "name": "알엔티엑스",
+   "price": 1640.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "085810",
+   "name": "알티캐스트",
+   "price": 1217.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "238090",
+   "name": "앤디포스",
+   "price": 2640.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "138360",
+   "name": "앤로보틱스",
+   "price": 2445.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "011090",
+   "name": "에넥스",
+   "price": 1075.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "121890",
+   "name": "에스디시스템",
+   "price": 1967.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "031330",
+   "name": "에스에이엠티",
+   "price": 11940.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "473950",
+   "name": "에스케이증권제13호스팩",
+   "price": 2045.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "096630",
+   "name": "에스코넥",
+   "price": 1980.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "096690",
+   "name": "에이루트",
+   "price": 5290.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "477340",
+   "name": "에이치엠씨제7호스팩",
+   "price": 2030.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "148930",
+   "name": "에이치와이티씨",
+   "price": 3230.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "007460",
+   "name": "에이프로젠",
+   "price": 2550.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "003060",
+   "name": "에이프로젠바이오로직스",
+   "price": 2085.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "097780",
+   "name": "에코볼트",
+   "price": 1548.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "356680",
+   "name": "엑스게이트",
+   "price": 15500.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "227950",
+   "name": "엔투텍",
+   "price": 1175.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "032790",
+   "name": "엠젠솔루션",
+   "price": 1043.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "033160",
+   "name": "엠케이전자",
+   "price": 18380.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "052420",
+   "name": "오성첨단소재",
+   "price": 7700.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "031510",
+   "name": "오스템",
+   "price": 1057.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "080580",
+   "name": "오킨스전자",
+   "price": 16190.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "005320",
+   "name": "온타이드",
+   "price": 842.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "380540",
+   "name": "옵티코어",
+   "price": 8450.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "046970",
+   "name": "우리로",
+   "price": 5780.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "018620",
+   "name": "우진비앤지",
+   "price": 2455.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "043590",
+   "name": "웰킵스하이텍",
+   "price": 872.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "038620",
+   "name": "위즈코프",
+   "price": 1813.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "097800",
+   "name": "윈팩",
+   "price": 2210.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "008600",
+   "name": "윌비스",
+   "price": 2620.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "024800",
+   "name": "유성티엔에스",
+   "price": 4255.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "003465",
+   "name": "유화증권우",
+   "price": 3095.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "080010",
+   "name": "이상네트웍스",
+   "price": 7110.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "074610",
+   "name": "이엔플러스",
+   "price": 5110.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "041520",
+   "name": "이엘씨",
+   "price": 8630.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "088290",
+   "name": "이원컴포텍",
+   "price": 2535.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "134060",
+   "name": "이퓨쳐",
+   "price": 4760.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "001840",
+   "name": "이화공영",
+   "price": 2215.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "071200",
+   "name": "인피니트헬스케어",
+   "price": 6700.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "103590",
+   "name": "일진전기",
+   "price": 83400.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "049630",
+   "name": "재영솔루텍",
+   "price": 7180.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "033100",
+   "name": "제룡전기",
+   "price": 54700.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "127120",
+   "name": "제이에스링크",
+   "price": 36350.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "080220",
+   "name": "제주반도체",
+   "price": 103300.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "462520",
+   "name": "조선내화",
+   "price": 15920.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "303030",
+   "name": "지니틱스",
+   "price": 1538.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "382800",
+   "name": "지앤비에스 에코",
+   "price": 5080.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "002780",
+   "name": "진흥기업",
+   "price": 879.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "009310",
+   "name": "참엔지니어링",
+   "price": 5330.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "079190",
+   "name": "케스피온",
+   "price": 571.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "093320",
+   "name": "케이아이엔엑스",
+   "price": 107000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 0,
+    "trend3_ma200": 0,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "272110",
+   "name": "케이엔제이",
+   "price": 31300.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "225430",
+   "name": "케이엠제약",
+   "price": 1800.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "042040",
+   "name": "케이피엠테크",
+   "price": 3710.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "080530",
+   "name": "코디",
+   "price": 2280.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "007815",
+   "name": "코리아써우",
+   "price": 22400.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "003690",
+   "name": "코리안리",
+   "price": 12760.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "089890",
+   "name": "코세스",
+   "price": 37000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "222040",
+   "name": "코스맥스엔비티",
+   "price": 6420.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "355150",
+   "name": "코스텍시스",
+   "price": 27800.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "003070",
+   "name": "코오롱글로벌",
+   "price": 10090.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "365270",
+   "name": "큐라클",
+   "price": 12270.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "016600",
+   "name": "큐캐피탈",
+   "price": 2460.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "040350",
+   "name": "크레오에스지",
+   "price": 7790.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "475430",
+   "name": "키스트론",
+   "price": 6800.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "125020",
+   "name": "티씨머티리얼즈",
+   "price": 6010.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "043220",
+   "name": "티에스넥스젠",
+   "price": 1710.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "356860",
+   "name": "티엘비",
+   "price": 81300.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "037030",
+   "name": "파워넷",
+   "price": 4390.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "131760",
+   "name": "파인텍",
+   "price": 1869.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "140860",
+   "name": "파크시스템스",
+   "price": 267500.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "028670",
+   "name": "팬오션",
+   "price": 4800.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "168360",
+   "name": "펨트론",
+   "price": 21200.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "064800",
+   "name": "포니링크",
+   "price": 2150.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "039980",
+   "name": "폴라리스AI",
+   "price": 4725.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "234100",
+   "name": "폴라리스세원",
+   "price": 2445.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "053160",
+   "name": "프리엠스",
+   "price": 9190.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 0,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "009810",
+   "name": "플레이그램",
+   "price": 2030.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "032580",
+   "name": "피델릭스",
+   "price": 5700.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "147760",
+   "name": "피엠티",
+   "price": 5000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "417180",
+   "name": "핑거스토리",
+   "price": 4325.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "0041L0",
+   "name": "하나35호스팩",
+   "price": 2015.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 0,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "007280",
+   "name": "한국특강",
+   "price": 2080.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "047810",
+   "name": "한국항공우주",
+   "price": 154200.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 0,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "042700",
+   "name": "한미반도체",
+   "price": 246500.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "452280",
+   "name": "한선엔지니어링",
+   "price": 15140.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "004710",
+   "name": "한솔테크닉스",
+   "price": 10820.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "320000",
+   "name": "한울반도체",
+   "price": 13590.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "091440",
+   "name": "한울소재과학",
+   "price": 2655.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 0,
+    "trend3_ma200": 0,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "276730",
+   "name": "한울앤제주",
+   "price": 22200.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "198940",
+   "name": "한주라이트메탈",
+   "price": 1659.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "088350",
+   "name": "한화생명",
+   "price": 4380.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "082740",
+   "name": "한화엔진",
+   "price": 55000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "498390",
+   "name": "한화플러스제5호스팩",
+   "price": 2035.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "195870",
+   "name": "해성디에스",
+   "price": 70600.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "453340",
+   "name": "현대그린푸드",
+   "price": 16750.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "012330",
+   "name": "현대모비스",
+   "price": 494000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "307950",
+   "name": "현대오토에버",
+   "price": 524000.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "005380",
+   "name": "현대차",
+   "price": 487500.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "011080",
+   "name": "형지I&C",
+   "price": 2440.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 0,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스피",
+   "code": "004800",
+   "name": "효성",
+   "price": 186300.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "078590",
+   "name": "휴림에이텍",
+   "price": 2350.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "205470",
+   "name": "휴마시스",
+   "price": 2370.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "115160",
+   "name": "휴맥스",
+   "price": 6830.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 1,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 1,
+    "strength2_high52": 0,
+    "volume": 1,
+    "vcp": 0,
+    "risk_stop": 0
+   }
+  },
+  {
+   "market": "코스닥",
+   "code": "010240",
+   "name": "흥국",
+   "price": 5370.0,
+   "score": 7,
+   "grade": "관심종목",
+   "detail": {
+    "trend1_ma50": 0,
+    "trend2_ma150": 1,
+    "trend3_ma200": 1,
+    "trend4_cross": 1,
+    "trend5_ma200_rising": 1,
+    "strength1_low52": 0,
+    "strength2_high52": 1,
+    "volume": 0,
+    "vcp": 1,
+    "risk_stop": 1
+   }
+  }
+ ]
+}
