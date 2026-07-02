@@ -1,1 +1,38 @@
+name: SEPA 자동 스캔
 
+on:
+  schedule:
+    - cron: '10 9 * * 1-5'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 라이브러리 설치
+        run: pip install requests pandas numpy openpyxl
+
+      - name: SEPA 스캔 실행
+        env:
+          KRX_AUTH_KEY: ${{ secrets.KRX_AUTH_KEY }}
+        run: python scanner.py
+
+      - name: 결과 커밋
+        run: |
+          git config user.name "sepa-bot"
+          git config user.email "actions@github.com"
+          git add results.json SEPA_결과.xlsx
+          git diff --cached --quiet || git commit -m "자동 스캔 결과 $(date +'%Y-%m-%d')"
+          git push
