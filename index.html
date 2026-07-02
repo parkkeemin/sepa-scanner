@@ -60,6 +60,11 @@ h1{font-size:26px;font-weight:700;margin:6px 0 2px}
 .crit{font-size:12px;color:var(--sub)}
 .crit.ok{color:var(--ink)}
 .crit .m{font-family:var(--mono)}
+.plan{grid-column:1/-1;background:var(--panel2);border:1px solid var(--line);border-radius:8px;
+  padding:10px 12px;font-size:13px;display:flex;gap:14px;flex-wrap:wrap}
+.plan b{font-family:var(--mono);font-weight:500}
+.plan .buy b{color:var(--warm)} .plan .stop b{color:var(--hot)} .plan .tgt b{color:var(--cool)}
+.plan-note{grid-column:1/-1;font-size:11px;color:var(--dim)}
 
 .empty{color:var(--sub);text-align:center;padding:50px 0;font-size:14px}
 .foot{margin-top:28px;padding-top:16px;border-top:1px solid var(--line);
@@ -95,7 +100,7 @@ h1{font-size:26px;font-weight:700;margin:6px 0 2px}
   <div id="list"></div>
 
   <div class="foot">
-    <span>매 평일 저녁 6시 10분 자동 스캔 · 투자 판단의 참고 자료이며 매수 추천이 아닙니다</span>
+    <span>매 평일 저녁 6시 10분 자동 스캔 · 스팩 제외 · 참고가는 규칙 기반 계산값(예측 아님) · 투자 판단의 참고 자료이며 매수 추천이 아닙니다</span>
     <a href="SEPA_결과.xlsx" download>엑셀 내려받기</a>
   </div>
 </div>
@@ -125,6 +130,11 @@ function render(){
       `<div class="seg ${i<r.score?segCls(r.score):""}"></div>`).join("");
     const crits=Object.entries(r.detail||{}).map(([k,v])=>
       `<div class="crit ${v?"ok":""}"><span class="m">${v?"✓":"✗"}</span> ${CRIT_LABELS[k]||k}</div>`).join("");
+    const plan=r.buy_ref?`<div class="plan">
+        <span class="buy">매수 참고 <b>${r.buy_ref.toLocaleString()}원</b> 돌파 시</span>
+        <span class="stop">손절 참고 <b>${r.stop_ref.toLocaleString()}원</b> (-8%)</span>
+        <span class="tgt">1차 목표 <b>${r.target_ref.toLocaleString()}원</b> (+20%)</span>
+      </div><div class="plan-note">※ SEPA 규칙 기반 기계적 계산값 · 예측·매수추천 아님</div>`:"";
     return `<div class="row" onclick="this.classList.toggle('open')">
       <div class="top">
         <span class="name">${r.name}</span>
@@ -135,7 +145,7 @@ function render(){
       </div>
       <div class="gauge">${segs}</div>
       <div class="score-t">SEPA ${r.score}/10 · 눌러서 세부 기준 보기</div>
-      <div class="detail">${crits}</div>
+      <div class="detail">${plan}${crits}</div>
     </div>`;
   }).join("");
 }

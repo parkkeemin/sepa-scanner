@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-SEPA 스캐너 v7.0 — GitHub Actions 자동 실행판
-- KRX OPEN API로 코스피+코스닥 전 종목 SEPA 채점
-- 결과를 results.json + SEPA_결과.xlsx 로 저장
-- 인증키는 환경변수 KRX_AUTH_KEY 로 주입 (GitHub Secrets)
+SEPA 스캐너 v7.1 — GitHub Actions 자동 실행판
+- v7.1: 스팩(SPAC) 종목 제외 + 매수/손절/목표 참고가 계산 추가
+- 참고가는 SEPA 규칙 기반 기계적 계산값이며 예측이 아님
 """
 
 import os
@@ -17,9 +16,9 @@ from datetime import datetime, timedelta, timezone
 # ===== 설정 =====
 AUTH_KEY = os.environ.get("KRX_AUTH_KEY", "")
 MIN_SCORE = 7
-REQUIRED_DAYS = 260          # 52주 고저점 정확도를 위해 260 거래일
+REQUIRED_DAYS = 260
 STOP_LOSS_PCT = 8.0
-API_DELAY = 0.3              # KRX 부하 방지
+API_DELAY = 0.3
 
 BASE_URL = "https://data-dbg.krx.co.kr/svc/apis"
 ENDPOINTS = {
@@ -32,7 +31,6 @@ KST = timezone(timedelta(hours=9))
 
 
 def fetch_daily(market, date_str):
-    """단일 날짜 전 종목 일별매매정보"""
     resp = requests.get(
         ENDPOINTS[market], params={"basDd": date_str}, headers=HEADERS, timeout=30
     )
@@ -41,7 +39,6 @@ def fetch_daily(market, date_str):
 
 
 def find_recent_trading_day(max_back=10):
-    """최근 유효 거래일 자동 탐색"""
     for i in range(1, max_back + 1):
         d = datetime.now(KST) - timedelta(days=i)
         if d.weekday() >= 5:
@@ -59,7 +56,6 @@ def find_recent_trading_day(max_back=10):
 
 
 def build_cache(market, base_date, required_days):
-    """과거 N거래일 캐시 {date: {isu_cd: row}}"""
     cache = {}
     date = datetime.strptime(base_date, "%Y%m%d")
     fetched, attempts = 0, 0
@@ -147,28 +143,48 @@ def scan(market, label, cache):
     latest = sorted(cache.keys())[-1]
     tickers = list(cache[latest].keys())
     print(f"[SCAN] {label} {len(tickers)}종목")
+    skipped_spac = 0
     for i, isu_cd in enumerate(tickers):
         try:
+            row = cache[latest][isu_cd]
+            name = row.get("ISU_NM", "")
+
+            # v7.1: 스팩(SPAC) 종목 제외
+            if "스팩" in name:
+                skipped_spac += 1
+                continue
+
             closes, volumes = extract_series(cache, isu_cd)
             if len(closes) < 200:
                 continue
             score, detail = sepa_score(closes, volumes, STOP_LOSS_PCT)
+
             if score >= MIN_SCORE:
-                row = cache[latest][isu_cd]
+                current_price = float(row["TDD_CLSPRC"].replace(",", ""))
+
+                # v7.1: SEPA 규칙 기반 참고가 (예측 아님 — 기계적 계산)
+                pivot = max(closes[-20:])          # 최근 20거래일 고점(피벗)
+                buy_ref = int(round(pivot))        # 돌파 매수 참고가
+                stop_ref = int(round(pivot * 0.92))   # 손절 참고가 (-8%)
+                target_ref = int(round(pivot * 1.20)) # 1차 목표 참고가 (+20%)
+
                 results.append({
                     "market": label,
                     "code": row["ISU_CD"],
-                    "name": row["ISU_NM"],
-                    "price": float(row["TDD_CLSPRC"].replace(",", "")),
+                    "name": name,
+                    "price": current_price,
                     "score": score,
                     "grade": grade(score),
+                    "buy_ref": buy_ref,
+                    "stop_ref": stop_ref,
+                    "target_ref": target_ref,
                     "detail": detail,
                 })
         except Exception:
             continue
         if (i + 1) % 300 == 0:
             print(f"  {i+1}/{len(tickers)}... (통과 {len(results)})")
-    print(f"[OK] {label} 통과 {len(results)}종목")
+    print(f"[OK] {label} 통과 {len(results)}종목 (스팩 제외 {skipped_spac}개)")
     return results
 
 
@@ -202,11 +218,11 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=1)
     print(f"[DONE] results.json 저장 — 총 {len(all_results)}종목")
 
-    # 엑셀도 함께 저장 (다운로드용)
     if all_results:
         df = pd.DataFrame([
             {"시장": r["market"], "종목코드": r["code"], "종목명": r["name"],
-             "현재가": r["price"], "SEPA점수": r["score"], "등급": r["grade"]}
+             "현재가": r["price"], "SEPA점수": r["score"], "등급": r["grade"],
+             "매수참고가": r["buy_ref"], "손절참고가": r["stop_ref"], "1차목표가": r["target_ref"]}
             for r in all_results
         ])
         df.to_excel("SEPA_결과.xlsx", index=False)
