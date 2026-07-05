@@ -1,1 +1,42 @@
+name: KIS 장중 감시
+
+on:
+  schedule:
+    # 오전조: UTC 23:50 (일~목) = 한국시간 08:50 (월~금)
+    - cron: '50 23 * * 0-4'
+    # 오후조: UTC 03:00 (월~금) = 한국시간 12:00 (월~금)
+    - cron: '0 3 * * 1-5'
+  workflow_dispatch: {}   # 수동 시작 버튼 (지연 없이 정시 시작하고 싶을 때)
+
+# v3.2: 오전조가 지연 시작으로 오후조와 겹치면 토큰이 서로 폐기되는 문제 방지
+# → 같은 그룹은 동시에 1개만 실행 (오후조는 오전조 종료까지 대기)
+concurrency:
+  group: kis-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 210
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 라이브러리 설치
+        run: pip install requests
+
+      - name: 장중 감시 실행
+        env:
+          KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # 매수참고가 필터 끄려면 아래 주석 해제
+          # USE_BUY_REF_FILTER: "0"
+        run: python monitor.py
 
