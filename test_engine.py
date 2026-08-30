@@ -65,20 +65,29 @@ def bars(code, name, market, seq, mktcap=500_000_000_000):
         d += dt.timedelta(days=1)
     return rows
 
-N = 120
-# (A) 주도주: 120일 완만 상승 후 마지막날 +8% 장대양봉 + 거래대금 폭증
+N = 200
+# (A) 주도주 시작점: 완만 횡보 후 마지막날 +8% 장대양봉 + 거래대금 2,700억, 시총 0.5조
 a = [(10000, 10100, 9900, 10000, 300_000) for _ in range(N - 1)]
-a += [(10050, 10850, 10000, 10800, 25_000_000)]      # 거래대금 2,700억
-# (B) 바닥권 턴어라운드: 저점 박스 횡보 후 대량거래 장대양봉
-b = [(5000, 5100, 4900, 5000, 100_000) for _ in range(N - 1)]
-b[0] = (8000, 8200, 7900, 8000, 100_000)             # 52주 고점 형성
-b += [(5050, 5600, 5020, 5550, 3_000_000)]           # 거래대금 166억, 전일比 30배
-# (C) 탈락: 긴 윗꼬리 + 바닥 대비 5배 급등
-c = [(2000 + i * 60, 2100 + i * 60, 1950 + i * 60, 2050 + i * 60, 500_000) for i in range(N - 1)]
+a += [(10050, 10850, 10000, 10800, 25_000_000)]
+# (A-2) 대형주: 조건은 같지만 시총 50조 → 김종봉 지적대로 제외돼야 함
+a2 = list(a)
+# (A-3) 등락률 과다: +14% → 원문 5~10% 범위 밖
+a3 = [(10000, 10100, 9900, 10000, 300_000) for _ in range(N - 1)]
+a3 += [(10050, 11450, 10000, 11400, 25_000_000)]
+# (B) 바닥권 턴어라운드: 고점 20,000 → 폭락 → 150일 횡보 → 300만 주 장대양봉
+b = [(20000, 20200, 19800, 20000, 200_000) for _ in range(40)]
+b += [(20000 - i * 1600, 20100 - i * 1600, 19700 - i * 1600, 19800 - i * 1600, 400_000)
+      for i in range(9)]
+b += [(5000, 5100, 4900, 5000, 100_000) for _ in range(N - 1 - len(b))]
+b += [(5050, 5600, 5020, 5550, 3_200_000)]
+# (C) 고점 과열: 바닥 대비 5배 급등 + 긴 윗꼬리
+c = [(2000 + i * 36, 2100 + i * 36, 1950 + i * 36, 2050 + i * 36, 500_000) for i in range(N - 1)]
 c += [(9200, 12000, 9100, 9900, 30_000_000)]
 
 df = pd.DataFrame(
     bars("111111", "가상주도주", "KOSPI", a)
+    + bars("444444", "가상대형주", "KOSPI", a2, mktcap=50_000_000_000_000)
+    + bars("555555", "가상급등주", "KOSPI", a3)
     + bars("222222", "가상턴어라운드", "KOSDAQ", b)
     + bars("333333", "가상과열주", "KOSPI", c)
 ).sort_values(["code", "date"]).reset_index(drop=True)
@@ -94,8 +103,17 @@ check("1개 조건 미달 종목은 near 로 분리", all(len(x["missing"]) == 1
 
 check("트랙A가 주도주 1종목만 선별", [x["code"] for x in ta] == ["111111"],
       str([x["name"] for x in ta]))
+check("시총 10조 초과 대형주 제외 (김종봉 지적)",
+      "444444" not in [x["code"] for x in ta], str([x["name"] for x in ta]))
+check("등락률 +14% 는 원문 5~10% 밖이라 제외",
+      "555555" not in [x["code"] for x in ta], str([x["name"] for x in ta]))
 check("트랙B가 턴어라운드 1종목만 선별", [x["code"] for x in tb] == ["222222"],
       str([x["name"] for x in tb]))
+if tb:
+    check("고점 대비 65% 이상 하락한 바닥권", tb[0]["from_high_pct"] >= 65,
+          f'고점대비 {tb[0]["from_high_pct"]}% 하락')
+    check("절대 거래량 300만 주 이상", tb[0]["vol_man"] >= 300,
+          f'{tb[0]["vol_man"]}만 주')
 check("과열주는 두 트랙 모두 제외",
       "333333" not in [x["code"] for x in ta + tb])
 check("과열주가 고점 위험 경고에 포착",
@@ -126,3 +144,40 @@ check("정상 종목 통과", ds.is_tradable(pd.Series(
 
 print("\n" + ("=" * 46))
 print("실패 " + str(len(FAIL)) + "건" + ((": " + ", ".join(FAIL)) if FAIL else " — 전체 통과"))
+
+# ------------------------------------------------------------------
+print("\n[6] 엔드투엔드 — GitHub Actions 가 실제로 실행하는 경로 그대로")
+# (스크리닝 함수만 테스트하면 main() 안의 오타·잔여 참조를 못 잡는다.
+#  실제로 daily_setup.py 를 프로세스로 띄워 JSON 이 만들어지는지 확인한다.)
+import subprocess, tempfile, shutil, os, json as _json
+
+_tmp = tempfile.mkdtemp()
+_cache = os.path.join(_tmp, "data", "ohlcv")
+os.makedirs(_cache, exist_ok=True)
+_df = df.copy()
+for _d, _g in _df.groupby(_df["date"].str[:6]):
+    _g.to_csv(os.path.join(_cache, f"{_d}.csv.gz"), index=False, compression="gzip")
+for _f in ("daily_setup.py", "dart_info.py"):
+    if os.path.exists(_f):
+        shutil.copy(_f, _tmp)
+
+_env = dict(os.environ); _env.pop("DART_API_KEY", None)   # 키 없이도 돌아야 한다
+_r = subprocess.run(["python3", "daily_setup.py", "--no-fetch"],
+                    cwd=_tmp, capture_output=True, text=True, env=_env)
+check("daily_setup.py --no-fetch 정상 종료", _r.returncode == 0,
+      (_r.stderr or _r.stdout).strip().splitlines()[-1] if _r.returncode else "")
+_out = os.path.join(_tmp, "data", "daily.json")
+check("daily.json 생성됨", os.path.exists(_out))
+if os.path.exists(_out):
+    _p = _json.load(open(_out, encoding="utf-8"))
+    for _k in ("generated_at", "base_date", "universe", "regime",
+               "track_a", "track_b", "track_c", "near", "warnings", "config"):
+        check(f"payload 키 '{_k}'", _k in _p)
+    check("config 에 트랙C 수치 포함",
+          "C_MAX_UP_FROM_LOW_pct" in _p.get("config", {}))
+    check("JSON 에 NaN 없음", "NaN" not in open(_out, encoding="utf-8").read())
+    print("      실행 로그:", [l for l in _r.stdout.splitlines() if "트랙" in l])
+shutil.rmtree(_tmp, ignore_errors=True)
+
+print("\n" + ("=" * 46))
+print("최종: 실패 " + str(len(FAIL)) + "건" + ((": " + ", ".join(FAIL)) if FAIL else " — 전체 통과"))
