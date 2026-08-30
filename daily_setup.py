@@ -295,10 +295,10 @@ def market_regime(df: pd.DataFrame, market: str) -> dict:
         "market": market,
         "state": state,
         "action": action,
-        "day_chg": round(float(day_chg), 2),
-        "pos_pct": round(float(pos) * 100, 1),
-        "vs_ma20": round(float(last["cap"] / ma20 - 1) * 100, 2) if pd.notna(ma20) else None,
-        "vs_ma60": round(float(last["cap"] / ma60 - 1) * 100, 2) if ma60 else None,
+        "day_chg": num(day_chg, 2),
+        "pos_pct": num(pos * 100, 1),
+        "vs_ma20": num((last["cap"] / ma20 - 1) * 100, 2) if pd.notna(ma20) else None,
+        "vs_ma60": num((last["cap"] / ma60 - 1) * 100, 2) if ma60 else None,
     }
 
 
@@ -306,9 +306,41 @@ def market_regime(df: pd.DataFrame, market: str) -> dict:
 # 5. 지표 계산
 # ============================================================
 
+def _safe_div(num, den):
+    """0 으로 나눌 때 예외 대신 NaN. float dtype 을 유지해 pd.NA 오염을 막는다."""
+    num = pd.to_numeric(num, errors="coerce").astype("float64")
+    den = pd.to_numeric(den, errors="coerce").astype("float64")
+    return num.div(den.where(den != 0))
+
+
+def num(v, nd: int = 2):
+    """NaN·NA 를 None 으로. JSON 에 NaN 토큰이 새어 나가면 대시보드가 파싱에 실패한다."""
+    try:
+        f = float(v)
+    except (TypeError, ValueError):
+        return None
+    if f != f or f in (float("inf"), float("-inf")):
+        return None
+    return int(round(f)) if nd == 0 else round(f, nd)
+
+
+def ok(v) -> bool:
+    """NaN·NA·None 을 안전하게 False 로 변환. (NA 를 bool() 하면 TypeError)"""
+    try:
+        if v is None or v is pd.NA:
+            return False
+        if isinstance(v, float) and (v != v):     # NaN
+            return False
+        return bool(v)
+    except (TypeError, ValueError):
+        return False
+
+
 def build_features(df: pd.DataFrame, today: str) -> pd.DataFrame:
-    g = df.groupby("code", sort=False)
     df = df.copy()
+    for c in ("open", "high", "low", "close", "volume", "value", "mktcap", "chg"):
+        df[c] = pd.to_numeric(df[c], errors="coerce").astype("float64")
+    g = df.groupby("code", sort=False)
     df["v_avg20"] = g["value"].transform(lambda s: s.shift(1).rolling(20, min_periods=10).mean())
     df["vol_avg60"] = g["volume"].transform(lambda s: s.shift(1).rolling(60, min_periods=30).mean())
     df["vol_prev"] = g["volume"].shift(1)
@@ -320,30 +352,34 @@ def build_features(df: pd.DataFrame, today: str) -> pd.DataFrame:
     df["days"] = g.cumcount() + 1
 
     t = df[df["date"] == today].copy()
-    rng = (t["high"] - t["low"]).replace(0, pd.NA)
-    t["body_pct"] = (t["close"] - t["open"]) / t["open"] * 100
-    t["body_ratio"] = (t["close"] - t["open"]).abs() / rng
-    t["uptail_ratio"] = (t["high"] - t[["open", "close"]].max(axis=1)) / rng
-    t["pos_52w"] = (t["close"] - t["lo250"]) / (t["hi250"] - t["lo250"]).replace(0, pd.NA)
-    t["runup"] = t["close"] / t["lo250"]
-    t["box_width"] = (t["box_hi60"] / t["box_lo60"]) - 1
-    t["value_surge"] = t["value"] / t["v_avg20"]
-    t["vol_vs_prev"] = t["volume"] / t["vol_prev"].replace(0, pd.NA)
-    t["vol_vs_avg60"] = t["volume"] / t["vol_avg60"]
+    rng = t["high"] - t["low"]
+    # 봉 자체가 성립하지 않는 행(거래정지 등: 시가·고가·저가가 0) 은 지표를 계산하지 않는다
+    t["valid_bar"] = (t["open"] > 0) & (t["low"] > 0) & (t["high"] >= t["low"])
+    t["body_pct"] = _safe_div(t["close"] - t["open"], t["open"]) * 100
+    t["body_ratio"] = _safe_div((t["close"] - t["open"]).abs(), rng)
+    t["uptail_ratio"] = _safe_div(t["high"] - t[["open", "close"]].max(axis=1), rng)
+    t["pos_52w"] = _safe_div(t["close"] - t["lo250"], t["hi250"] - t["lo250"])
+    t["runup"] = _safe_div(t["close"], t["lo250"])
+    t["box_width"] = _safe_div(t["box_hi60"], t["box_lo60"]) - 1
+    t["value_surge"] = _safe_div(t["value"], t["v_avg20"])
+    t["vol_vs_prev"] = _safe_div(t["volume"], t["vol_prev"])
+    t["vol_vs_avg60"] = _safe_div(t["volume"], t["vol_avg60"])
     return t
 
 
 def is_tradable(row) -> bool:
-    name = str(row["name"])
+    name = str(row.get("name", ""))
     if any(k in name for k in EXCLUDE_KEYWORDS):
         return False
     if name.endswith("우") or name.endswith("우B"):
         return False
-    if row["close"] < MIN_PRICE:
+    if "valid_bar" in row and not ok(row["valid_bar"]):   # 거래정지 등 봉 미성립
         return False
-    if row["mktcap"] < MIN_MKTCAP:
+    if not ok(row["close"] >= MIN_PRICE):
         return False
-    if row["days"] < 60:
+    if not ok(row["mktcap"] >= MIN_MKTCAP):
+        return False
+    if not ok(row["days"] >= 60):
         return False
     return True
 
@@ -412,15 +448,16 @@ def screen_track_a(t: pd.DataFrame, sectors: dict) -> list[dict]:
 
     out = []
     for _, r in t.iterrows():
+      try:
         if not is_tradable(r):
             continue
         checks = {
-            "거래대금 2,000억 이상": bool(r["value"] >= A_MIN_VALUE),
-            f"등락률 +{A_CHG_MIN:.0f}~+{A_CHG_MAX:.0f}%": bool(A_CHG_MIN <= r["chg"] <= A_CHG_MAX),
-            "장대양봉 실체 확보": bool(r["body_pct"] >= A_BODY_MIN * 100 and r["body_ratio"] >= A_BODY_RATIO),
-            "긴 윗꼬리 없음": bool(pd.notna(r["uptail_ratio"]) and r["uptail_ratio"] <= A_UPTAIL_MAX),
-            f"거래대금 20일 평균 {A_VALUE_SURGE:.0f}배↑": bool(pd.notna(r["value_surge"]) and r["value_surge"] >= A_VALUE_SURGE),
-            f"바닥 대비 {A_MAX_RUNUP:.0f}배 미만": bool(pd.notna(r["runup"]) and r["runup"] < A_MAX_RUNUP),
+            "거래대금 2,000억 이상": ok(r["value"] >= A_MIN_VALUE),
+            f"등락률 +{A_CHG_MIN:.0f}~+{A_CHG_MAX:.0f}%": ok(A_CHG_MIN <= r["chg"] <= A_CHG_MAX),
+            "장대양봉 실체 확보": ok(r["body_pct"] >= A_BODY_MIN * 100 and r["body_ratio"] >= A_BODY_RATIO),
+            "긴 윗꼬리 없음": ok(pd.notna(r["uptail_ratio"]) and r["uptail_ratio"] <= A_UPTAIL_MAX),
+            f"거래대금 20일 평균 {A_VALUE_SURGE:.0f}배↑": ok(pd.notna(r["value_surge"]) and r["value_surge"] >= A_VALUE_SURGE),
+            f"바닥 대비 {A_MAX_RUNUP:.0f}배 미만": ok(pd.notna(r["runup"]) and r["runup"] < A_MAX_RUNUP),
         }
         failed = [k for k, v in checks.items() if not v]
         if len(failed) > 1:
@@ -440,33 +477,38 @@ def screen_track_a(t: pd.DataFrame, sectors: dict) -> list[dict]:
             "missing": failed,
             "code": r["code"], "name": r["name"], "market": r["market"],
             "close": int(r["close"]), "chg": round(float(r["chg"]), 2),
-            "value_eok": int(r["value"] / 1e8),
-            "value_surge": round(float(r["value_surge"]), 1),
-            "pos_52w": round(float(r["pos_52w"]) * 100, 1) if pd.notna(r["pos_52w"]) else None,
-            "runup": round(float(r["runup"]), 2) if pd.notna(r["runup"]) else None,
-            "uptail": round(float(r["uptail_ratio"]) * 100, 1) if pd.notna(r["uptail_ratio"]) else None,
+            "value_eok": num(r["value"] / 1e8, 0),
+            "value_surge": num(r["value_surge"], 1),
+            "pos_52w": num(r["pos_52w"] * 100, 1),
+            "runup": num(r["runup"], 2),
+            "uptail": num(r["uptail_ratio"] * 100, 1),
             "sector": sec, "peers": peers[:5],
             "sector_confirmed": (len(peers) >= 1) if sec else None,
             "checks": checks, "plan": plan,
             "bar": {"open": int(r["open"]), "high": int(r["high"]), "low": int(r["low"]), "close": int(r["close"])},
         })
-    out.sort(key=lambda x: -x["value_eok"])
+      except Exception as e:      # 한 종목의 이상 데이터가 전체 스캔을 죽이지 않게
+        print(f"  ! 트랙A 판정 건너뜀 {r.get('code', '?')} {r.get('name', '?')}: "
+              f"{type(e).__name__} {e}", file=sys.stderr)
+        continue
+    out.sort(key=lambda x: -(x["value_eok"] or 0))
     return out
 
 
 def screen_track_b(t: pd.DataFrame, sectors: dict) -> list[dict]:
     out = []
     for _, r in t.iterrows():
+      try:
         if not is_tradable(r):
             continue
         checks = {
-            "52주 하위 40% 바닥권": bool(pd.notna(r["pos_52w"]) and r["pos_52w"] <= B_POS_MAX),
-            "60일 박스권 횡보": bool(pd.notna(r["box_width"]) and r["box_width"] <= B_BOX_MAX),
-            "전일 대비 거래량 300%↑": bool(pd.notna(r["vol_vs_prev"]) and r["vol_vs_prev"] >= B_VOL_VS_PREV),
-            f"60일 평균 거래량 {B_VOL_VS_AVG60:.0f}배↑": bool(pd.notna(r["vol_vs_avg60"]) and r["vol_vs_avg60"] >= B_VOL_VS_AVG60),
-            f"등락률 +{B_CHG_MIN:.0f}~+{B_CHG_MAX:.0f}% 양봉": bool(B_CHG_MIN <= r["chg"] <= B_CHG_MAX and r["close"] > r["open"]),
-            "긴 윗꼬리 없음": bool(pd.notna(r["uptail_ratio"]) and r["uptail_ratio"] <= B_UPTAIL_MAX),
-            "거래대금 100억 이상": bool(r["value"] >= B_MIN_VALUE),
+            "52주 하위 40% 바닥권": ok(pd.notna(r["pos_52w"]) and r["pos_52w"] <= B_POS_MAX),
+            "60일 박스권 횡보": ok(pd.notna(r["box_width"]) and r["box_width"] <= B_BOX_MAX),
+            "전일 대비 거래량 300%↑": ok(pd.notna(r["vol_vs_prev"]) and r["vol_vs_prev"] >= B_VOL_VS_PREV),
+            f"60일 평균 거래량 {B_VOL_VS_AVG60:.0f}배↑": ok(pd.notna(r["vol_vs_avg60"]) and r["vol_vs_avg60"] >= B_VOL_VS_AVG60),
+            f"등락률 +{B_CHG_MIN:.0f}~+{B_CHG_MAX:.0f}% 양봉": ok(B_CHG_MIN <= r["chg"] <= B_CHG_MAX and r["close"] > r["open"]),
+            "긴 윗꼬리 없음": ok(pd.notna(r["uptail_ratio"]) and r["uptail_ratio"] <= B_UPTAIL_MAX),
+            "거래대금 100억 이상": ok(r["value"] >= B_MIN_VALUE),
         }
         failed = [k for k, v in checks.items() if not v]
         if len(failed) > 1:
@@ -484,18 +526,22 @@ def screen_track_b(t: pd.DataFrame, sectors: dict) -> list[dict]:
             "missing": failed,
             "code": r["code"], "name": r["name"], "market": r["market"],
             "close": int(r["close"]), "chg": round(float(r["chg"]), 2),
-            "value_eok": int(r["value"] / 1e8),
-            "vol_vs_prev": round(float(r["vol_vs_prev"]), 1),
-            "vol_vs_avg60": round(float(r["vol_vs_avg60"]), 1),
-            "pos_52w": round(float(r["pos_52w"]) * 100, 1),
-            "box_width": round(float(r["box_width"]) * 100, 1),
-            "uptail": round(float(r["uptail_ratio"]) * 100, 1),
+            "value_eok": num(r["value"] / 1e8, 0),
+            "vol_vs_prev": num(r["vol_vs_prev"], 1),
+            "vol_vs_avg60": num(r["vol_vs_avg60"], 1),
+            "pos_52w": num(r["pos_52w"] * 100, 1),
+            "box_width": num(r["box_width"] * 100, 1),
+            "uptail": num(r["uptail_ratio"] * 100, 1),
             "sector": sectors.get(r["code"]), "peers": [],
             "sector_confirmed": None,
             "checks": checks, "plan": plan,
             "bar": {"open": int(r["open"]), "high": int(r["high"]), "low": int(r["low"]), "close": int(r["close"])},
         })
-    out.sort(key=lambda x: -x["vol_vs_avg60"])
+      except Exception as e:
+        print(f"  ! 트랙B 판정 건너뜀 {r.get('code', '?')} {r.get('name', '?')}: "
+              f"{type(e).__name__} {e}", file=sys.stderr)
+        continue
+    out.sort(key=lambda x: -(x["vol_vs_avg60"] or 0))
     return out
 
 
@@ -507,7 +553,8 @@ def screen_warnings(t: pd.DataFrame, codes: set[str]) -> list[dict]:
         sub = t[(t["value"] >= A_MIN_VALUE) | (t["chg"].abs() >= 10)]
     out = []
     for _, r in sub.iterrows():
-        if r["close"] < MIN_PRICE or pd.isna(r["runup"]):
+      try:
+        if not ok(r["close"] >= MIN_PRICE) or not ok(r.get("valid_bar", True)) or pd.isna(r["runup"]):
             continue
         flags = []
         if r["runup"] >= W_RUNUP:
@@ -522,12 +569,15 @@ def screen_warnings(t: pd.DataFrame, codes: set[str]) -> list[dict]:
         if flags:
             out.append({
                 "code": r["code"], "name": r["name"],
-                "close": int(r["close"]), "chg": round(float(r["chg"]), 2),
-                "runup": round(float(r["runup"]), 2),
-                "pos_52w": round(float(r["pos_52w"]) * 100, 1) if pd.notna(r["pos_52w"]) else None,
+                "close": int(r["close"]), "chg": num(r["chg"], 2),
+                "runup": num(r["runup"], 2),
+                "pos_52w": num(r["pos_52w"] * 100, 1),
                 "flags": flags,
             })
-    out.sort(key=lambda x: -x["runup"])
+      except Exception as e:
+        print(f"  ! 경고 판정 건너뜀 {r.get('code', '?')}: {type(e).__name__} {e}", file=sys.stderr)
+        continue
+    out.sort(key=lambda x: -(x["runup"] or 0))
     return out[:20]
 
 
@@ -596,13 +646,13 @@ def main() -> int:
             "TARGET2_PCT": TARGET2_PCT,
             "MAX_STOP_PCT": MAX_STOP_PCT,
             "MIN_RR": MIN_RR,
-            "sector_map": bool(sectors),
+            "sector_map": ok(sectors),
         },
     }
 
     print("[4/4] 저장")
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=1, allow_nan=False), encoding="utf-8")
     print(f"      트랙A {len(track_a)}종목 / 트랙B {len(track_b)}종목 / "
           f"1개조건 미달 {len(near)}종목 / 경고 {len(warnings)}건")
     print(f"      -> {OUT_JSON}")
