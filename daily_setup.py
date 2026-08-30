@@ -797,7 +797,6 @@ def main() -> int:
             "A_CHG": [A_CHG_MIN, A_CHG_MAX],
             "A_MAX_MKTCAP_jo": A_MAX_MKTCAP / 1e12,
             "RECENT_LOW_DAYS": RECENT_LOW_DAYS,
-            "A_MAX_UP_FROM_LOW_pct": round((A_MAX_RUNUP_RECENT - 1) * 100, 1),
             "B_FROM_HIGH_MAX": B_FROM_HIGH_MAX,
             "B_BOX_DAYS": B_BOX_DAYS,
             "B_VOL_ABS_man": int(B_VOL_ABS / 1e4),
