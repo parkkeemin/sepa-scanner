@@ -666,6 +666,17 @@ def main() -> int:
     track_b = [x for x in all_b if x["status"] == "pass"]
     near = [x for x in all_a + all_b if x["status"] == "near"]
 
+    # 선별 종목만 DART 기업 분석 (하루 0~5종목 → 몇 초)
+    try:
+        import dart_info
+        picked = dart_info.enrich(track_a + track_b)
+        if picked:
+            print(f"      DART 기업 분석 {picked}종목 완료")
+    except ImportError:
+        pass
+    except Exception as e:
+        print(f"  ! DART 분석 건너뜀: {type(e).__name__} {e}", file=sys.stderr)
+
     watch: set[str] = set()
     if WATCHLIST.exists():
         watch = {
