@@ -54,7 +54,9 @@ header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:fle
 .reg .act{font-size:12.5px;color:var(--tx2)}
 .reg .num{display:flex;gap:14px;margin-top:10px;font-size:12px;color:var(--tx2);flex-wrap:wrap}
 .reg .num b{display:block;font-size:14px;color:var(--tx);font-weight:600}
-.st.정상{color:var(--okc)} .st.혼조{color:var(--tx)} .st.주의{color:var(--warn)} .st.위험{color:var(--up)}
+.st.상승추세{color:var(--okc)} .st.중립{color:var(--tx)} .st.조정{color:var(--warn)} .st.하락추세{color:var(--dn)}
+.chip.strong{background:#fef3c7;color:#92400e;border-color:transparent;font-weight:700}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .chip.strong{background:#3a2c07;color:#fbbf24}}
 
 .banner{margin:14px 0 0;padding:10px 14px;border-radius:10px;background:var(--warnbg);
   border:1px solid var(--warnline);color:var(--warn);font-size:12.5px}
@@ -107,7 +109,7 @@ summary{cursor:pointer;font-size:12.5px;color:var(--tx2)}
 <header>
   <div>
     <h1>데일리 매매 기준</h1>
-    <div class="sub">주도주 트랙(A) · 바닥권 턴어라운드 트랙(B) — 규칙 기반 기계적 계산</div>
+    <div class="sub">김종봉 주도주 트랙(A) · 김정수 바닥권 턴어라운드 트랙(B) — 영상 원문 기준</div>
   </div>
   <div class="meta">
     기준일 <b id="basedate" class="mono">-</b><br>
@@ -117,7 +119,7 @@ summary{cursor:pointer;font-size:12.5px;color:var(--tx2)}
 
 <div id="banner"></div>
 
-<h2>시장 국면 <span class="n">지수가 먼저다 — 개별 종목 판단보다 우선</span></h2>
+<h2>시장 국면 <span class="n">지수는 진입 금지 신호가 아니라 맥락이다 — 내 수익이 실력인지 지수 덕인지 가리는 자</span></h2>
 <div class="row" id="regime"></div>
 
 <div class="card pad" style="margin-top:12px">
@@ -148,7 +150,7 @@ summary{cursor:pointer;font-size:12.5px;color:var(--tx2)}
 <h2>고점 위험 경고 <span class="n">보유·관심 종목의 진입 금지 신호</span></h2>
 <div id="warn"></div>
 
-<h2>매매 전 최종 확인 <span class="n">주문 넣기 직전 6가지</span></h2>
+<h2>매매 전 최종 확인 <span class="n">주문 넣기 직전 7가지</span></h2>
 <div class="card tbl">
   <table>
     <thead><tr><th style="width:34%">점검 항목</th><th>기준</th><th style="width:64px">확인</th></tr></thead>
@@ -178,18 +180,18 @@ const SAMPLE = {
  base_date:"2026-08-28",
  universe:2,
  regime:[
-  {market:"KOSPI",state:"정상",action:"기준 충족 시 정상 진입",day_chg:-1.79,pos_pct:79.5,vs_ma20:2.52,vs_ma60:3.31},
-  {market:"KOSDAQ",state:"주의",action:"신규 1종목까지만 · 비중 절반",day_chg:-0.6,pos_pct:62.0,vs_ma20:-0.4,vs_ma60:1.1}
+  {market:"KOSPI",state:"상승추세",action:"수익이 나도 실력인지 지수 덕인지 구분할 것",day_chg:-1.79,pos_pct:79.5,vs_ma20:2.52,vs_ma60:3.31},
+  {market:"KOSDAQ",state:"하락추세",action:"이 구간에서 조건 충족 종목은 시장보다 강한 종목",day_chg:0.09,pos_pct:34.5,vs_ma20:2.37,vs_ma60:-1.5}
  ],
  track_a:[], track_b:[], near:[], warnings:[],
- config:{A_MIN_VALUE_eok:2000,A_CHG:[5,15],B_POS_MAX:0.4,B_VOL_VS_PREV:3,
+ config:{A_MIN_VALUE_eok:2000,A_CHG:[5,10],A_MAX_MKTCAP_jo:10,B_FROM_HIGH_MAX:0.35,B_BOX_DAYS:150,B_VOL_ABS_man:300,B_VOL_VS_PREV:3,
          TARGET1_PCT:0.1,TARGET2_PCT:0.2,MAX_STOP_PCT:0.1,MIN_RR:1,sector_map:false},
  preview:[{
    track:"A",code:"000000",name:"예시종목",market:"KOSPI",close:10800,chg:8.0,
-   value_eok:2700,value_surge:9.1,pos_52w:88.0,runup:1.09,uptail:6.5,
-   sector:"건설",peers:["동반급등주1"],sector_confirmed:true,
-   checks:{"거래대금 2,000억 이상":true,"등락률 +5~+15%":true,"장대양봉 실체 확보":true,
-           "긴 윗꼬리 없음":true,"거래대금 20일 평균 3배↑":true,"바닥 대비 3배 미만":true},
+   value_eok:2700,value_surge:9.1,mktcap_jo:0.5,pos_52w:88.0,runup:1.09,uptail:6.5,strong_in_weak:true,
+   sector:null,peers:["동반급등주A","동반급등주B"],sector_confirmed:true,
+   checks:{"거래대금 2,000억 이상":true,"등락률 +5~+10% 장대양봉":true,"양봉 실체 확보":true,
+           "긴 윗꼬리 없음":true,"시총 10조 이하":true,"저점 대비 3배 미만 (시작점)":true},
    plan:{buy_break:10870,buy_pull:10420,stop:9900,stop_pct:-8.92,target1:11960,
          target2:13040,trail_pct:7,rr:1.12,bar_range_pct:8.5,ok:true,reject:[]},
    bar:{open:10050,high:10850,low:10000,close:10800}
@@ -233,11 +235,11 @@ function qty(plan){
 
 function stockCard(s){
   const p = s.plan, tail = s.track==="A"
-    ? [`거래대금 ${won(s.value_eok)}억`, `20일평균 ${s.value_surge}배`,
-       `1년 위치 ${s.pos_52w??"-"}%`, `바닥대비 ${s.runup??"-"}배`,
-       s.sector ? `섹터 ${s.sector}${s.sector_confirmed?" · 동반 "+s.peers.length+"종목":" · 동반 없음"}` : "섹터 매핑 없음 — 수동 확인"]
-    : [`거래대금 ${won(s.value_eok)}억`, `전일比 거래량 ${s.vol_vs_prev}배`,
-       `60일평균 ${s.vol_vs_avg60}배`, `1년 위치 ${s.pos_52w}%`, `60일 박스폭 ${s.box_width}%`];
+    ? [`거래대금 ${won(s.value_eok)}억`, `시총 ${s.mktcap_jo??"-"}조`,
+       `최근저점 대비 +${s.up_from_low??"-"}%`, `1년저점 대비 ${s.runup??"-"}배`]
+    : [`거래량 ${won(s.vol_man)}만주`, `전일比 ${s.vol_vs_prev}배`,
+       `고점대비 ${s.from_high_pct}%↓`, `최근저점 대비 +${s.up_from_low??"-"}%`,
+       `박스폭 ${s.box_width}%`, `거래대금 ${won(s.value_eok)}억`];
   const q = qty(p);
   const cards = [
     ["돌파 매수", p.buy_break, "기준봉 고가 돌파 시", "buy"],
@@ -266,11 +268,15 @@ function stockCard(s){
         </div>`).join("")}
     </div>
     <div class="facts">
+      ${s.strong_in_weak ? `<span class="chip strong">지수 하락일 · 시장보다 강한 종목</span>` : ""}
       <span class="chip">손익비 ${p.rr}</span>
       <span class="chip">기준봉 폭 ${p.bar_range_pct}%</span>
       ${q ? `<span class="chip">권장 수량 ${won(q.n)}주 · 투입 ${won(q.cost)}원 · 최대손실 ${won(q.loss)}원</span>` : ""}
       ${tail.map(x=>`<span class="chip">${x}</span>`).join("")}
     </div>
+    ${(s.track==="A" && s.peers && s.peers.length) ? `<div class="facts" style="border-top:0">
+      <span class="sub">같은 날 함께 터진 종목 — 같은 섹터인지 직접 확인하십시오:
+      <b>${s.peers.join(" · ")}</b></span></div>` : ""}
     <div class="checks">
       ${Object.entries(s.checks).map(([k,v])=>
         `<div class="ck ${v?"":"no"}"><i>${v?"✓":"·"}</i><span>${k}</span></div>`).join("")}
@@ -284,23 +290,44 @@ function renderList(id, items, emptyMsg){
   items.forEach(s=>box.appendChild(stockCard(s)));
 }
 
+const NEAR_TOP = 15;
+function nearRow(s){
+  return `<tr>
+      <td>${s.name} <span class="mono" style="color:var(--tx3);font-size:11px">${s.code}</span>
+        ${s.strong_in_weak ? `<span class="chip strong" style="margin-left:4px">강</span>` : ""}</td>
+      <td><span class="chip ${s.track.toLowerCase()}">${s.track}</span></td>
+      <td class="n mono">${won(s.close)}</td>
+      <td class="n mono ${cls(s.chg)}">${sgn(s.chg)}</td>
+      <td class="n mono">${won(s.value_eok)}억</td>
+      <td class="n mono">+${s.up_from_low??"-"}%</td>
+      <td style="color:var(--warn)">${(s.missing||[]).join(" · ")}</td>
+      <td class="n mono">${won(s.plan.buy_break)}</td>
+      <td class="n mono">${won(s.plan.stop)}</td></tr>`;
+}
 function renderNear(list){
   const box = document.getElementById("near"); box.innerHTML="";
   if(!list || !list.length){
     box.appendChild(el(`<div class="card empty">아깝게 걸린 종목 없음.</div>`)); return;
   }
-  box.appendChild(el(`<div class="card tbl"><table>
-    <thead><tr><th>종목</th><th style="width:52px">트랙</th><th class="n">종가</th><th class="n">등락</th>
-    <th>미달 조건 1개</th><th class="n">참고 매수가</th><th class="n">손절</th></tr></thead>
-    <tbody>${list.map(s=>`<tr>
-      <td>${s.name} <span class="mono" style="color:var(--tx3);font-size:11px">${s.code}</span></td>
-      <td><span class="chip ${s.track.toLowerCase()}">${s.track}</span></td>
-      <td class="n mono">${won(s.close)}</td>
-      <td class="n mono ${cls(s.chg)}">${sgn(s.chg)}</td>
-      <td style="color:var(--warn)">${(s.missing||[]).join(" · ")}</td>
-      <td class="n mono">${won(s.plan.buy_break)}</td>
-      <td class="n mono">${won(s.plan.stop)}</td></tr>`).join("")}</tbody></table>
-    <div class="pad sub">조건 하나가 모자란 종목입니다. <b>지금 사라는 뜻이 아니라</b>, 다음 거래일에 나머지 조건이 채워지는지 볼 관찰 대상입니다.</div>
+  // 미달 조건별 집계 — 무엇이 병목인지 한눈에
+  const tally = {};
+  list.forEach(s => (s.missing||[]).forEach(m => tally[m] = (tally[m]||0)+1));
+  const tallyRows = Object.entries(tally).sort((a,b)=>b[1]-a[1])
+    .map(([k,v])=>`<span class="chip">${k} · ${v}종목</span>`).join("");
+
+  const head = `<thead><tr><th>종목</th><th style="width:44px">트랙</th><th class="n">종가</th>
+    <th class="n">등락</th><th class="n">거래대금</th><th class="n">저점대비</th><th>미달 조건 1개</th>
+    <th class="n">참고 매수가</th><th class="n">손절</th></tr></thead>`;
+  const top = list.slice(0, NEAR_TOP), rest = list.slice(NEAR_TOP);
+  box.appendChild(el(`<div class="card">
+    <div class="facts">${tallyRows}</div>
+    <div class="tbl"><table>${head}<tbody>${top.map(nearRow).join("")}</tbody></table></div>
+    ${rest.length ? `<details style="margin:0"><summary style="padding:10px 16px">나머지 ${rest.length}종목 보기</summary>
+      <div class="tbl"><table>${head}<tbody>${rest.map(nearRow).join("")}</tbody></table></div></details>` : ""}
+    <div class="pad sub">조건 하나가 모자란 종목입니다. <b>지금 사라는 뜻이 아닙니다.</b>
+      다음 거래일에 나머지 조건이 채워지는지 볼 관찰 대상이고,
+      <b>어떤 조건이 병목인지</b>를 매일 확인하는 자료입니다.
+      <span class="chip strong">강</span> 은 지수가 빠진 날 조건을 채운 종목입니다.</div>
     </div>`));
 }
 
@@ -323,12 +350,13 @@ function renderWarn(list){
 }
 
 const FINAL = [
-  ["시장 국면 확인", "지수가 20일선 위인가? '위험'이면 신규 진입 없음"],
-  ["차트 위치 확인", "월봉상 고점권이 아닌가? 바닥 대비 3배 이상 오른 자리는 제외"],
-  ["기준봉 형태", "윗꼬리 짧은 장대양봉인가? 도지·긴 윗꼬리면 보류"],
-  ["자금 유입", "거래대금이 20일 평균을 크게 웃도는가?"],
-  ["출구 사전 설정", "주문 전에 손절·1차·2차 익절가를 감시주문으로 등록했는가?"],
-  ["금액 한도", "이 1건의 최대 손실이 계좌의 1%를 넘지 않는가?"]
+  ["지수 확인", "지수 위치와 추세를 봤는가? 지수가 빠지는데 조건을 채웠다면 오히려 강한 종목"],
+  ["차트 위치", "월봉상 고점이 아닌가? 이미 수배 오른 자리가 아니라 '시작점'인가?"],
+  ["기준봉 형태", "윗꼬리 짧은 장대양봉인가? 도지·긴 윗꼬리·갭상승 후 음봉이면 진입 금지"],
+  ["섹터 확인", "같은 날 함께 터진 종목들을 찾아봤는가? 같은 테마면 주도 섹터"],
+  ["기업 확인", "무엇을 하는 회사인지 찾아봤는가? 부실기업은 제외"],
+  ["출구 사전 설정", "주문 전에 손절·익절가를 HTS 자동 감시주문에 등록했는가?"],
+  ["금액 한도", "한 달 3종목 이내인가? 이 1건의 최대 손실이 계좌의 1%를 넘지 않는가?"]
 ];
 
 function renderStatic(cfg){
@@ -337,12 +365,16 @@ function renderStatic(cfg){
   const rows = [
     ["트랙A 최소 거래대금", won(cfg.A_MIN_VALUE_eok)+"억원"],
     ["트랙A 등락률 범위", `+${cfg.A_CHG[0]}% ~ +${cfg.A_CHG[1]}%`],
-    ["트랙B 52주 위치 상한", (cfg.B_POS_MAX*100)+"% 이하"],
+    ["트랙A 시총 상한", (cfg.A_MAX_MKTCAP_jo??"-")+"조원"],
+    ["트랙A 매수 초입 조건", `최근 ${cfg.RECENT_LOW_DAYS??"-"}일 저점 대비 +${cfg.A_MAX_UP_FROM_LOW_pct??"-"}% 미만`],
+    ["트랙B 바닥권", `창내 고점 대비 ${Math.round((1-(cfg.B_FROM_HIGH_MAX??0.35))*100)}% 이상 하락`],
+    ["트랙B 횡보 기간", (cfg.B_BOX_DAYS??"-")+"거래일"],
+    ["트랙B 절대 거래량", won(cfg.B_VOL_ABS_man)+"만 주 이상"],
     ["트랙B 전일 대비 거래량", cfg.B_VOL_VS_PREV+"배 이상"],
     ["1·2차 익절", `+${cfg.TARGET1_PCT*100}% / +${cfg.TARGET2_PCT*100}%`],
     ["손절 상한", `-${cfg.MAX_STOP_PCT*100}%`],
     ["최소 손익비", cfg.MIN_RR],
-    ["섹터 매핑 파일", cfg.sector_map ? "적용됨" : "없음 — 섹터 동반 확인은 수동"]
+    ["섹터 매핑 파일", cfg.sector_map ? "적용됨" : "없음 — 같은 날 동반 급등 종목만 표시"]
   ];
   document.getElementById("cfg").innerHTML =
     rows.map(([a,b])=>`<tr><td style="width:220px;color:var(--tx2)">${a}</td><td class="mono">${b}</td></tr>`).join("");
@@ -354,10 +386,10 @@ function render(d){
   document.getElementById("gen").textContent = d.generated_at || "-";
   document.getElementById("uni").textContent = won(d.universe);
   regimeCards(d.regime||[]);
-  document.getElementById("cntA").textContent = `${(d.track_a||[]).length}종목 · 거래대금 ${won(d.config.A_MIN_VALUE_eok)}억 이상 장대양봉`;
-  document.getElementById("cntB").textContent = `${(d.track_b||[]).length}종목 · 바닥권 대량거래 전환`;
-  renderList("trackA", d.track_a, "오늘 기준을 통과한 종목 없음 — 관망이 정답인 날입니다.");
-  renderList("trackB", d.track_b, "오늘 기준을 통과한 종목 없음 — 관망이 정답인 날입니다.");
+  document.getElementById("cntA").textContent = `${(d.track_a||[]).length}종목 · 거래대금 ${won(d.config.A_MIN_VALUE_eok)}억 이상 + 5~10% 장대양봉`;
+  document.getElementById("cntB").textContent = `${(d.track_b||[]).length}종목 · 고점 대비 대폭 하락 + 장기 횡보 후 대량거래`;
+  renderList("trackA", d.track_a, "오늘 기준을 통과한 종목 없음. 기준이 엄격하니 없는 날이 정상입니다.");
+  renderList("trackB", d.track_b, "오늘 기준을 통과한 종목 없음. 기준이 엄격하니 없는 날이 정상입니다.");
   document.getElementById("cntN").textContent = `${(d.near||[]).length}종목 · 내일 다시 볼 관찰 대상`;
   renderNear(d.near);
   renderWarn(d.warnings);
