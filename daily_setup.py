@@ -45,7 +45,9 @@ import pandas as pd
 
 BASE_DIR = Path(__file__).resolve().parent
 CACHE_DIR = BASE_DIR / "data" / "ohlcv"
-OUT_JSON = BASE_DIR / "docs" / "data" / "daily.json"
+# GitHub Pages 를 레포 루트(main /)에서 배포하므로 결과 JSON 도 루트의 data/ 아래에 둡니다.
+# daily.html 이 fetch("./data/daily.json") 로 읽습니다.
+OUT_JSON = BASE_DIR / "data" / "daily.json"
 WATCHLIST = BASE_DIR / "watchlist.txt"          # 보유/관심 종목 (한 줄에 6자리 코드)
 SECTOR_MAP = BASE_DIR / "data" / "sector_map.csv"
 
