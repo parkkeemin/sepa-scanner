@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-daily_setup.py — 데일리 매매 기준 시스템 v1.0
+daily_setup.py — 데일리 매매 기준 시스템 v2.0 (영상 원문 기준 복원)
 ------------------------------------------------------------------
 김종봉(주도주 시작점) / 김정수(바닥권 턴어라운드) 2트랙 기계적 스크리너.
 
 하는 일
   1) KRX OPEN API에서 코스피·코스닥 전종목 일별 시세를 받아 로컬 캐시에 누적
-  2) 자체 산출 시장지수(전종목 시가총액 합)로 시장 국면 판정
+  2) 자체 산출 시장지수(전종목 시가총액 합)로 시장 국면을 '맥락'으로 표시
+     — 진입을 막지 않는다. 지수가 빠지는데 조건을 채운 종목은 오히려 강한 종목
   3) 트랙 A / 트랙 B 조건으로 종목 선별
   4) 종목별 매수(돌파/눌림)·1·2차 익절·손절가를 호가단위로 반올림해 계산
   5) 보유·관심 종목의 고점 위험 캔들 경고
-  6) docs/data/daily.json 으로 출력 (대시보드가 읽음)
+  6) data/daily.json 으로 출력 (대시보드가 읽음)
 
 중요
   본 스크립트의 모든 가격은 규칙에 따른 '기계적 계산값'이며 예측이나
@@ -76,23 +77,30 @@ TARGET2_PCT     = _f("TARGET2_PCT", 0.20)   # 2차 익절 +20%
 TRAIL_PCT       = _f("TRAIL_PCT", 0.07)     # 잔여 물량 추적손절 (고점 대비)
 
 # ---- 트랙 A : 김종봉 · 주도주 시작점 ----
-A_MIN_VALUE     = _f("A_MIN_VALUE", 200_000_000_000)  # 거래대금 2,000억
-A_CHG_MIN       = _f("A_CHG_MIN", 5.0)      # 등락률 하한 %
-A_CHG_MAX       = _f("A_CHG_MAX", 15.0)     # 상한 (상한가·과열 제외)
-A_BODY_MIN      = _f("A_BODY_MIN", 0.03)    # (종가-시가)/시가 최소
-A_BODY_RATIO    = _f("A_BODY_RATIO", 0.50)  # 실체/전체범위 최소
-A_UPTAIL_MAX    = _f("A_UPTAIL_MAX", 0.35)  # 윗꼬리/전체범위 최대
-A_VALUE_SURGE   = _f("A_VALUE_SURGE", 3.0)  # 20일 평균 거래대금 대비 배수
-A_MAX_RUNUP     = _f("A_MAX_RUNUP", 3.0)    # 250일 저점 대비 3배 초과 상승 제외
+#  "최소 한 5%에서 10% 정도 사이에 장대 양봉이 터져야 되고요.
+#   거래 대금이 2,000억 이상이 나와야 돼요."
+#  "두산에너빌리티는 예를 들기에 아쉬운 종목. 시가총액이 커서 2,000억이 너무 쉽게 터져요."
+#  "주도주는 이미 여기까지 올라왔기 때문에 주도주. 개미들은 여기서 관심을 가져…
+#   그 시작점에서 2,000억이 터졌을 때 제일 처음이 언제였지, 요렇게 보는 거예요."
+A_MIN_VALUE     = _f("A_MIN_VALUE", 200_000_000_000)   # 거래대금 2,000억 (원문)
+A_CHG_MIN       = _f("A_CHG_MIN", 5.0)      # 원문: 5%
+A_CHG_MAX       = _f("A_CHG_MAX", 10.0)     # 원문: 10%
+A_MAX_MKTCAP    = _f("A_MAX_MKTCAP", 10_000_000_000_000)  # 시총 10조 초과 제외
+A_BODY_MIN      = _f("A_BODY_MIN", 0.03)    # 장대양봉 실체 (종가-시가)/시가
+A_BODY_RATIO    = _f("A_BODY_RATIO", 0.50)  # 실체/전체범위
+A_UPTAIL_MAX    = _f("A_UPTAIL_MAX", 0.35)  # 윗꼬리/전체범위
+A_MAX_RUNUP     = _f("A_MAX_RUNUP", 3.0)    # '시작점' — 저점 대비 3배 초과 제외
 
 # ---- 트랙 B : 김정수 · 바닥권 턴어라운드 ----
-B_MIN_VALUE     = _f("B_MIN_VALUE", 10_000_000_000)   # 최소 거래대금 100억
-B_POS_MAX       = _f("B_POS_MAX", 0.40)     # 52주 레인지 하위 40% 이내
-B_BOX_MAX       = _f("B_BOX_MAX", 0.40)     # 직전 60일 박스권 폭 40% 이하
-B_VOL_VS_PREV   = _f("B_VOL_VS_PREV", 3.0)  # 전일 대비 거래량 300%
-B_VOL_VS_AVG60  = _f("B_VOL_VS_AVG60", 4.0) # 60일 평균 거래량 대비 배수
-B_CHG_MIN       = _f("B_CHG_MIN", 5.0)
-B_CHG_MAX       = _f("B_CHG_MAX", 25.0)
+#  "최고가 대비 10분의 1 이상 떨어진 상황에서 바닥 치고 도는 종목"
+#  "7, 8개월을 그냥 바닥을 기면서"
+#  "300만 주 이상의 거래량이 발생했고 전일 대비 300% 이상의 거래량이 발생한 그런 종목만"
+B_FROM_HIGH_MAX = _f("B_FROM_HIGH_MAX", 0.35)   # 창내 고점 대비 35% 이하 (=65%↓ 하락)
+B_BOX_DAYS      = _i("B_BOX_DAYS", 150)         # 횡보 관찰 기간 (약 7~8개월)
+B_BOX_MAX       = _f("B_BOX_MAX", 0.40)         # 그 기간 종가 변동폭 상한
+B_VOL_ABS       = _f("B_VOL_ABS", 3_000_000)    # 절대 거래량 300만 주 (원문)
+B_VOL_VS_PREV   = _f("B_VOL_VS_PREV", 3.0)      # 전일 대비 300% (원문)
+B_CHG_MIN       = _f("B_CHG_MIN", 5.0)          # 장대양봉 (원문에 상한 없음)
 B_UPTAIL_MAX    = _f("B_UPTAIL_MAX", 0.35)
 
 # ---- 고점 위험 캔들 ----
@@ -276,25 +284,34 @@ def market_regime(df: pd.DataFrame, market: str) -> dict:
 
     ma20 = last["ma20"]
     ma60 = last["ma60"] if pd.notna(last["ma60"]) else None
-
-    if ma60 is not None and last["cap"] < ma60:
-        state, action = "위험", "신규 진입 중단 · 현금 비중 확대"
-    elif pd.notna(ma20) and last["cap"] < ma20:
-        state, action = "주의", "신규 1종목까지만 · 비중 절반"
-    elif ma60 is not None and ma20 > ma60:
-        state, action = "정상", "기준 충족 시 정상 진입"
-    else:
-        state, action = "혼조", "기준 충족 종목만 소량"
-
-    if pos > 0.90 and state in ("정상", "혼조"):
-        state = state + "(과열구간)"
-        action = "분할 진입 · 목표 도달 시 기계적 익절"
-
     day_chg = (last["cap"] / prev["cap"] - 1) * 100
+
+    # 지수는 '진입 금지 스위치'가 아니라 맥락이다.
+    #  "지수가 빠지는데 2,000억이 터지는 양봉이 나왔어요. 강한 종목이죠. 그 종목 하는 거예요."
+    #  "지수가 계속 오를 때 수익 나는 건 당연한 이야기. 지수가 빠졌음에도 수익을 보고 있으면
+    #   이 사람은 주식을 잘하는 거예요."
+    if ma60 is not None and last["cap"] < ma60:
+        state = "하락추세"
+        note = "지수 60일선 아래. 이 구간에서 조건을 충족한 종목은 시장보다 강한 종목입니다"
+    elif pd.notna(ma20) and last["cap"] < ma20:
+        state = "조정"
+        note = "지수 20일선 아래. 내 수익이 실력인지 지수 덕인지 가려지는 구간입니다"
+    elif ma60 is not None and ma20 > ma60:
+        state = "상승추세"
+        note = "지수 상승 구간. 수익이 나도 내 실력인지 지수 덕인지 구분하십시오"
+    else:
+        state = "중립"
+        note = "방향성 불분명"
+
+    if pos > 0.90:
+        state += "(고점권)"
+        note = "1년 범위 상위 10%. 지수 고점 여부를 먼저 확인하라는 구간입니다"
+
     return {
         "market": market,
         "state": state,
-        "action": action,
+        "action": note,
+        "falling": bool(day_chg < 0),
         "day_chg": num(day_chg, 2),
         "pos_pct": num(pos * 100, 1),
         "vs_ma20": num((last["cap"] / ma20 - 1) * 100, 2) if pd.notna(ma20) else None,
@@ -346,8 +363,11 @@ def build_features(df: pd.DataFrame, today: str) -> pd.DataFrame:
     df["vol_prev"] = g["volume"].shift(1)
     df["hi250"] = g["high"].transform(lambda s: s.rolling(250, min_periods=60).max())
     df["lo250"] = g["low"].transform(lambda s: s.rolling(250, min_periods=60).min())
-    df["box_hi60"] = g["close"].transform(lambda s: s.shift(1).rolling(60, min_periods=40).max())
-    df["box_lo60"] = g["close"].transform(lambda s: s.shift(1).rolling(60, min_periods=40).min())
+    _bd = max(60, B_BOX_DAYS)
+    df["box_hi"] = g["close"].transform(
+        lambda s: s.shift(1).rolling(_bd, min_periods=int(_bd * 0.6)).max())
+    df["box_lo"] = g["close"].transform(
+        lambda s: s.shift(1).rolling(_bd, min_periods=int(_bd * 0.6)).min())
     df["ma20"] = g["close"].transform(lambda s: s.rolling(20, min_periods=15).mean())
     df["days"] = g.cumcount() + 1
 
@@ -359,11 +379,12 @@ def build_features(df: pd.DataFrame, today: str) -> pd.DataFrame:
     t["body_ratio"] = _safe_div((t["close"] - t["open"]).abs(), rng)
     t["uptail_ratio"] = _safe_div(t["high"] - t[["open", "close"]].max(axis=1), rng)
     t["pos_52w"] = _safe_div(t["close"] - t["lo250"], t["hi250"] - t["lo250"])
+    t["from_high"] = _safe_div(t["close"], t["hi250"])      # 창내 고점 대비 현재 위치
     t["runup"] = _safe_div(t["close"], t["lo250"])
-    t["box_width"] = _safe_div(t["box_hi60"], t["box_lo60"]) - 1
-    t["value_surge"] = _safe_div(t["value"], t["v_avg20"])
+    t["box_width"] = _safe_div(t["box_hi"], t["box_lo"]) - 1
+    t["value_surge"] = _safe_div(t["value"], t["v_avg20"])  # 참고 표시용 (선별 조건 아님)
     t["vol_vs_prev"] = _safe_div(t["volume"], t["vol_prev"])
-    t["vol_vs_avg60"] = _safe_div(t["volume"], t["vol_avg60"])
+    t["vol_vs_avg60"] = _safe_div(t["volume"], t["vol_avg60"])  # 참고 표시용
     return t
 
 
@@ -438,8 +459,13 @@ def load_sector_map() -> dict:
 # 7. 스크리닝
 # ============================================================
 
-def screen_track_a(t: pd.DataFrame, sectors: dict) -> list[dict]:
-    hot = t[(t["value"] >= A_MIN_VALUE) & (t["chg"] >= 3.0)]
+def screen_track_a(t: pd.DataFrame, sectors: dict, falling: dict | None = None) -> list[dict]:
+    """김종봉 · 주도주 시작점."""
+    falling = falling or {}
+    # 같은 날 2,000억 이상 터진 양봉 종목 목록 — 섹터 매핑이 없어도
+    # "두산이 터지고 한전산업도 터지고… 찾아보니 다 원전주였다"를 눈으로 확인할 수 있게 한다.
+    hot = t[(t["value"] >= A_MIN_VALUE) & (t["chg"] >= A_CHG_MIN)]
+    hot_names = list(hot["name"])
     hot_sectors: dict[str, list[str]] = {}
     for _, r in hot.iterrows():
         s = sectors.get(r["code"])
@@ -452,12 +478,12 @@ def screen_track_a(t: pd.DataFrame, sectors: dict) -> list[dict]:
         if not is_tradable(r):
             continue
         checks = {
-            "거래대금 2,000억 이상": ok(r["value"] >= A_MIN_VALUE),
-            f"등락률 +{A_CHG_MIN:.0f}~+{A_CHG_MAX:.0f}%": ok(A_CHG_MIN <= r["chg"] <= A_CHG_MAX),
-            "장대양봉 실체 확보": ok(r["body_pct"] >= A_BODY_MIN * 100 and r["body_ratio"] >= A_BODY_RATIO),
+            f"거래대금 {A_MIN_VALUE/1e8:,.0f}억 이상": ok(r["value"] >= A_MIN_VALUE),
+            f"등락률 +{A_CHG_MIN:.0f}~+{A_CHG_MAX:.0f}% 장대양봉": ok(A_CHG_MIN <= r["chg"] <= A_CHG_MAX),
+            "양봉 실체 확보": ok(r["body_pct"] >= A_BODY_MIN * 100 and r["body_ratio"] >= A_BODY_RATIO),
             "긴 윗꼬리 없음": ok(pd.notna(r["uptail_ratio"]) and r["uptail_ratio"] <= A_UPTAIL_MAX),
-            f"거래대금 20일 평균 {A_VALUE_SURGE:.0f}배↑": ok(pd.notna(r["value_surge"]) and r["value_surge"] >= A_VALUE_SURGE),
-            f"바닥 대비 {A_MAX_RUNUP:.0f}배 미만": ok(pd.notna(r["runup"]) and r["runup"] < A_MAX_RUNUP),
+            f"시총 {A_MAX_MKTCAP/1e12:,.0f}조 이하": ok(r["mktcap"] <= A_MAX_MKTCAP),
+            f"저점 대비 {A_MAX_RUNUP:.0f}배 미만 (시작점)": ok(pd.notna(r["runup"]) and r["runup"] < A_MAX_RUNUP),
         }
         failed = [k for k, v in checks.items() if not v]
         if len(failed) > 1:
@@ -470,20 +496,23 @@ def screen_track_a(t: pd.DataFrame, sectors: dict) -> list[dict]:
         if len(failed) > 1:
             continue
         sec = sectors.get(r["code"])
-        peers = [n for n in hot_sectors.get(sec, []) if n != r["name"]] if sec else []
+        peers = ([n for n in hot_sectors.get(sec, []) if n != r["name"]] if sec
+                 else [n for n in hot_names if n != r["name"]])
         out.append({
             "track": "A",
             "status": "pass" if not failed else "near",
             "missing": failed,
+            "strong_in_weak": bool(falling.get(r["market"])),
             "code": r["code"], "name": r["name"], "market": r["market"],
             "close": int(r["close"]), "chg": round(float(r["chg"]), 2),
             "value_eok": num(r["value"] / 1e8, 0),
             "value_surge": num(r["value_surge"], 1),
+            "mktcap_jo": num(r["mktcap"] / 1e12, 2),
             "pos_52w": num(r["pos_52w"] * 100, 1),
             "runup": num(r["runup"], 2),
             "uptail": num(r["uptail_ratio"] * 100, 1),
-            "sector": sec, "peers": peers[:5],
-            "sector_confirmed": (len(peers) >= 1) if sec else None,
+            "sector": sec, "peers": peers[:6],
+            "sector_confirmed": (len(peers) >= 1) if peers else False,
             "checks": checks, "plan": plan,
             "bar": {"open": int(r["open"]), "high": int(r["high"]), "low": int(r["low"]), "close": int(r["close"])},
         })
@@ -495,20 +524,22 @@ def screen_track_a(t: pd.DataFrame, sectors: dict) -> list[dict]:
     return out
 
 
-def screen_track_b(t: pd.DataFrame, sectors: dict) -> list[dict]:
+def screen_track_b(t: pd.DataFrame, sectors: dict, falling: dict | None = None) -> list[dict]:
+    """김정수 · 바닥권 턴어라운드."""
+    falling = falling or {}
     out = []
     for _, r in t.iterrows():
       try:
         if not is_tradable(r):
             continue
         checks = {
-            "52주 하위 40% 바닥권": ok(pd.notna(r["pos_52w"]) and r["pos_52w"] <= B_POS_MAX),
-            "60일 박스권 횡보": ok(pd.notna(r["box_width"]) and r["box_width"] <= B_BOX_MAX),
+            f"고점 대비 {(1-B_FROM_HIGH_MAX)*100:.0f}%↓ 바닥권": ok(
+                pd.notna(r["from_high"]) and r["from_high"] <= B_FROM_HIGH_MAX),
+            f"{B_BOX_DAYS}일 박스권 횡보": ok(pd.notna(r["box_width"]) and r["box_width"] <= B_BOX_MAX),
+            f"거래량 {B_VOL_ABS/1e4:,.0f}만 주 이상": ok(r["volume"] >= B_VOL_ABS),
             "전일 대비 거래량 300%↑": ok(pd.notna(r["vol_vs_prev"]) and r["vol_vs_prev"] >= B_VOL_VS_PREV),
-            f"60일 평균 거래량 {B_VOL_VS_AVG60:.0f}배↑": ok(pd.notna(r["vol_vs_avg60"]) and r["vol_vs_avg60"] >= B_VOL_VS_AVG60),
-            f"등락률 +{B_CHG_MIN:.0f}~+{B_CHG_MAX:.0f}% 양봉": ok(B_CHG_MIN <= r["chg"] <= B_CHG_MAX and r["close"] > r["open"]),
+            f"장대양봉 +{B_CHG_MIN:.0f}%↑": ok(r["chg"] >= B_CHG_MIN and r["close"] > r["open"]),
             "긴 윗꼬리 없음": ok(pd.notna(r["uptail_ratio"]) and r["uptail_ratio"] <= B_UPTAIL_MAX),
-            "거래대금 100억 이상": ok(r["value"] >= B_MIN_VALUE),
         }
         failed = [k for k, v in checks.items() if not v]
         if len(failed) > 1:
@@ -524,11 +555,14 @@ def screen_track_b(t: pd.DataFrame, sectors: dict) -> list[dict]:
             "track": "B",
             "status": "pass" if not failed else "near",
             "missing": failed,
+            "strong_in_weak": bool(falling.get(r["market"])),
             "code": r["code"], "name": r["name"], "market": r["market"],
             "close": int(r["close"]), "chg": round(float(r["chg"]), 2),
             "value_eok": num(r["value"] / 1e8, 0),
             "vol_vs_prev": num(r["vol_vs_prev"], 1),
             "vol_vs_avg60": num(r["vol_vs_avg60"], 1),
+            "vol_man": num(r["volume"] / 1e4, 0),
+            "from_high_pct": num((1 - r["from_high"]) * 100, 1),
             "pos_52w": num(r["pos_52w"] * 100, 1),
             "box_width": num(r["box_width"] * 100, 1),
             "uptail": num(r["uptail_ratio"] * 100, 1),
@@ -613,8 +647,10 @@ def main() -> int:
     print("[3/4] 지표·스크리닝")
     t = build_features(df, today)
     sectors = load_sector_map()
-    all_a = screen_track_a(t, sectors)
-    all_b = screen_track_b(t, sectors)
+    regime = [market_regime(df, "KOSPI"), market_regime(df, "KOSDAQ")]
+    falling = {r["market"]: r.get("falling", False) for r in regime}
+    all_a = screen_track_a(t, sectors, falling)
+    all_b = screen_track_b(t, sectors, falling)
     track_a = [x for x in all_a if x["status"] == "pass"]
     track_b = [x for x in all_b if x["status"] == "pass"]
     near = [x for x in all_a + all_b if x["status"] == "near"]
@@ -632,7 +668,7 @@ def main() -> int:
         "generated_at": dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "base_date": f"{today[:4]}-{today[4:6]}-{today[6:]}",
         "universe": int(t.shape[0]),
-        "regime": [market_regime(df, "KOSPI"), market_regime(df, "KOSDAQ")],
+        "regime": regime,
         "track_a": track_a,
         "track_b": track_b,
         "near": near,
@@ -640,7 +676,10 @@ def main() -> int:
         "config": {
             "A_MIN_VALUE_eok": int(A_MIN_VALUE / 1e8),
             "A_CHG": [A_CHG_MIN, A_CHG_MAX],
-            "B_POS_MAX": B_POS_MAX,
+            "A_MAX_MKTCAP_jo": A_MAX_MKTCAP / 1e12,
+            "B_FROM_HIGH_MAX": B_FROM_HIGH_MAX,
+            "B_BOX_DAYS": B_BOX_DAYS,
+            "B_VOL_ABS_man": int(B_VOL_ABS / 1e4),
             "B_VOL_VS_PREV": B_VOL_VS_PREV,
             "TARGET1_PCT": TARGET1_PCT,
             "TARGET2_PCT": TARGET2_PCT,
