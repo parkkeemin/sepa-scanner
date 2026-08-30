@@ -1,30 +1,457 @@
 {
- "generated_at": "2026-08-30 05:03:44",
+ "generated_at": "2026-08-30 15:50:21",
  "base_date": "2026-08-28",
- "universe": 7,
+ "universe": 2767,
  "regime": [
   {
    "market": "KOSPI",
-   "state": "정상",
-   "action": "기준 충족 시 정상 진입",
-   "day_chg": -1.79,
-   "pos_pct": 79.5,
-   "vs_ma20": 2.52,
-   "vs_ma60": 3.31
+   "state": "위험",
+   "action": "신규 진입 중단 · 현금 비중 확대",
+   "day_chg": -1.85,
+   "pos_pct": 62.0,
+   "vs_ma20": 2.44,
+   "vs_ma60": -7.01
   },
   {
    "market": "KOSDAQ",
    "state": "위험",
    "action": "신규 진입 중단 · 현금 비중 확대",
-   "day_chg": 0.09,
-   "pos_pct": 36.7,
-   "vs_ma20": 2.37,
-   "vs_ma60": -1.79
+   "day_chg": 0.21,
+   "pos_pct": 34.5,
+   "vs_ma20": 3.58,
+   "vs_ma60": -1.5
   }
  ],
  "track_a": [],
  "track_b": [],
  "near": [
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 2,000억 이상"
+   ],
+   "code": "096530",
+   "name": "씨젠",
+   "market": "KOSDAQ",
+   "close": 35650,
+   "chg": 11.76,
+   "value_eok": 381,
+   "value_surge": 3.6,
+   "pos_52w": 99.3,
+   "runup": 1.64,
+   "uptail": 2.7,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "거래대금 2,000억 이상": false,
+    "등락률 +5~+15%": true,
+    "장대양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "거래대금 20일 평균 3배↑": true,
+    "바닥 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 35800,
+    "buy_pull": 34000,
+    "stop": 32250,
+    "stop_pct": -9.92,
+    "target1": 39400,
+    "target2": 42950,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 11.5,
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 32300,
+    "high": 35750,
+    "low": 32050,
+    "close": 35650
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 2,000억 이상"
+   ],
+   "code": "004490",
+   "name": "세방전지",
+   "market": "KOSPI",
+   "close": 66300,
+   "chg": 10.32,
+   "value_eok": 197,
+   "value_surge": 8.8,
+   "pos_52w": 63.0,
+   "runup": 1.41,
+   "uptail": 23.7,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "거래대금 2,000억 이상": false,
+    "등락률 +5~+15%": true,
+    "장대양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "거래대금 20일 평균 3배↑": true,
+    "바닥 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 68200,
+    "buy_pull": 63400,
+    "stop": 61400,
+    "stop_pct": -9.97,
+    "target1": 75000,
+    "target2": 81800,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 12.6,
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 60500,
+    "high": 68100,
+    "low": 60500,
+    "close": 66300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 2,000억 이상"
+   ],
+   "code": "000370",
+   "name": "한화손해보험",
+   "market": "KOSPI",
+   "close": 8450,
+   "chg": 9.31,
+   "value_eok": 156,
+   "value_surge": 3.2,
+   "pos_52w": 59.1,
+   "runup": 1.67,
+   "uptail": 5.4,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "거래대금 2,000억 이상": false,
+    "등락률 +5~+15%": true,
+    "장대양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "거래대금 20일 평균 3배↑": true,
+    "바닥 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8510,
+    "buy_pull": 8100,
+    "stop": 7660,
+    "stop_pct": -9.99,
+    "target1": 9360,
+    "target2": 10210,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 12.1,
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 7740,
+    "high": 8500,
+    "low": 7580,
+    "close": 8450
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 2,000억 이상"
+   ],
+   "code": "001530",
+   "name": "DI동일",
+   "market": "KOSPI",
+   "close": 28050,
+   "chg": 10.65,
+   "value_eok": 63,
+   "value_surge": 12.6,
+   "pos_52w": 47.3,
+   "runup": 1.78,
+   "uptail": 30.1,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "거래대금 2,000억 이상": false,
+    "등락률 +5~+15%": true,
+    "장대양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "거래대금 20일 평균 3배↑": true,
+    "바닥 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 29500,
+    "buy_pull": 26600,
+    "stop": 26550,
+    "stop_pct": -10.0,
+    "target1": 32450,
+    "target2": 35400,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 18.8,
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 25100,
+    "high": 29450,
+    "low": 24800,
+    "close": 28050
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 2,000억 이상"
+   ],
+   "code": "011560",
+   "name": "세보엠이씨",
+   "market": "KOSDAQ",
+   "close": 26500,
+   "chg": 13.49,
+   "value_eok": 61,
+   "value_surge": 6.3,
+   "pos_52w": 84.0,
+   "runup": 2.25,
+   "uptail": 23.3,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "거래대금 2,000억 이상": false,
+    "등락률 +5~+15%": true,
+    "장대양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "거래대금 20일 평균 3배↑": true,
+    "바닥 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 27550,
+    "buy_pull": 24950,
+    "stop": 24800,
+    "stop_pct": -9.98,
+    "target1": 30300,
+    "target2": 33050,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 18.5,
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 23400,
+    "high": 27500,
+    "low": 23200,
+    "close": 26500
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 2,000억 이상"
+   ],
+   "code": "478560",
+   "name": "블랙야크아이앤씨",
+   "market": "KOSDAQ",
+   "close": 3355,
+   "chg": 5.84,
+   "value_eok": 24,
+   "value_surge": 3.6,
+   "pos_52w": 62.9,
+   "runup": 1.67,
+   "uptail": 32.1,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "거래대금 2,000억 이상": false,
+    "등락률 +5~+15%": true,
+    "장대양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "거래대금 20일 평균 3배↑": true,
+    "바닥 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3490,
+    "buy_pull": 3250,
+    "stop": 3145,
+    "stop_pct": -9.89,
+    "target1": 3840,
+    "target2": 4190,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 13.1,
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3140,
+    "high": 3485,
+    "low": 3080,
+    "close": 3355
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 2,000억 이상"
+   ],
+   "code": "950190",
+   "name": "고스트스튜디오",
+   "market": "KOSDAQ",
+   "close": 9500,
+   "chg": 13.1,
+   "value_eok": 14,
+   "value_surge": 4.4,
+   "pos_52w": 73.5,
+   "runup": 1.37,
+   "uptail": 19.3,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "거래대금 2,000억 이상": false,
+    "등락률 +5~+15%": true,
+    "장대양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "거래대금 20일 평균 3배↑": true,
+    "바닥 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 9800,
+    "buy_pull": 8950,
+    "stop": 8820,
+    "stop_pct": -10.0,
+    "target1": 10780,
+    "target2": 11760,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 18.1,
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8400,
+    "high": 9790,
+    "low": 8290,
+    "close": 9500
+   }
+  },
+  {
+   "track": "B",
+   "status": "near",
+   "missing": [
+    "60일 박스권 횡보"
+   ],
+   "code": "234340",
+   "name": "헥토파이낸셜",
+   "market": "KOSDAQ",
+   "close": 23400,
+   "chg": 10.38,
+   "value_eok": 581,
+   "vol_vs_prev": 4.2,
+   "vol_vs_avg60": 7.7,
+   "pos_52w": 29.9,
+   "box_width": 67.8,
+   "uptail": 32.3,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "52주 하위 40% 바닥권": true,
+    "60일 박스권 횡보": false,
+    "전일 대비 거래량 300%↑": true,
+    "60일 평균 거래량 4배↑": true,
+    "등락률 +5~+25% 양봉": true,
+    "긴 윗꼬리 없음": true,
+    "거래대금 100억 이상": true
+   },
+   "plan": {
+    "buy_break": 24500,
+    "buy_pull": 22600,
+    "stop": 22050,
+    "stop_pct": -10.0,
+    "target1": 26950,
+    "target2": 29400,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 15.3,
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 21850,
+    "high": 24450,
+    "low": 21200,
+    "close": 23400
+   }
+  },
+  {
+   "track": "B",
+   "status": "near",
+   "missing": [
+    "52주 하위 40% 바닥권"
+   ],
+   "code": "004490",
+   "name": "세방전지",
+   "market": "KOSPI",
+   "close": 66300,
+   "chg": 10.32,
+   "value_eok": 197,
+   "vol_vs_prev": 4.5,
+   "vol_vs_avg60": 5.4,
+   "pos_52w": 63.0,
+   "box_width": 33.5,
+   "uptail": 23.7,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "52주 하위 40% 바닥권": false,
+    "60일 박스권 횡보": true,
+    "전일 대비 거래량 300%↑": true,
+    "60일 평균 거래량 4배↑": true,
+    "등락률 +5~+25% 양봉": true,
+    "긴 윗꼬리 없음": true,
+    "거래대금 100억 이상": true
+   },
+   "plan": {
+    "buy_break": 68200,
+    "buy_pull": 63400,
+    "stop": 61400,
+    "stop_pct": -9.97,
+    "target1": 75000,
+    "target2": 81800,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 12.6,
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 60500,
+    "high": 68100,
+    "low": 60500,
+    "close": 66300
+   }
+  },
   {
    "track": "B",
    "status": "near",
@@ -36,10 +463,10 @@
    "market": "KOSDAQ",
    "close": 5960,
    "chg": 15.28,
-   "value_eok": 266,
+   "value_eok": 260,
    "vol_vs_prev": 11.6,
    "vol_vs_avg60": 5.3,
-   "pos_52w": 77.6,
+   "pos_52w": 61.2,
    "box_width": 37.8,
    "uptail": 18.4,
    "sector": null,
@@ -82,13 +509,13 @@
    ],
    "code": "086450",
    "name": "동국제약",
-   "market": "KOSPI",
+   "market": "KOSDAQ",
    "close": 21500,
    "chg": 15.34,
-   "value_eok": 257,
+   "value_eok": 244,
    "vol_vs_prev": 3.6,
    "vol_vs_avg60": 3.1,
-   "pos_52w": 34.1,
+   "pos_52w": 35.0,
    "box_width": 30.6,
    "uptail": 8.1,
    "sector": null,
@@ -124,7 +551,19 @@
    }
   }
  ],
- "warnings": [],
+ "warnings": [
+  {
+   "code": "009150",
+   "name": "삼성전기",
+   "close": 1421000,
+   "chg": 2.6,
+   "runup": 9.24,
+   "pos_52w": 56.0,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  }
+ ],
  "config": {
   "A_MIN_VALUE_eok": 2000,
   "A_CHG": [
