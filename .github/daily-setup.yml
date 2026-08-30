@@ -36,13 +36,17 @@ jobs:
         run: pip install --quiet requests pandas
 
       - name: Run daily setup scan
+        id: scan
         env:
           KRX_AUTH_KEY: ${{ secrets.KRX_AUTH_KEY }}
           TZ: Asia/Seoul
         run: |
           python daily_setup.py --backfill "${{ github.event.inputs.backfill || 3 }}"
 
+      # 스크리닝이 실패해도 수집한 시세 캐시는 반드시 저장한다.
+      # (재실행 시 13분짜리 수집을 처음부터 다시 하지 않기 위해)
       - name: Commit results
+        if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -57,7 +61,7 @@ jobs:
 
       # 텔레그램 알림 (선택) — Secrets 가 없으면 자동으로 건너뜁니다
       - name: Notify Telegram
-        if: env.TELEGRAM_BOT_TOKEN != ''
+        if: steps.scan.outcome == 'success' && env.TELEGRAM_BOT_TOKEN != ''
         run: |
           python - <<'PY'
           import json, os, urllib.parse, urllib.request
