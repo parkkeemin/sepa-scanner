@@ -90,9 +90,19 @@ A_BODY_MIN      = _f("A_BODY_MIN", 0.03)    # 장대양봉 실체 (종가-시가
 A_BODY_RATIO    = _f("A_BODY_RATIO", 0.50)  # 실체/전체범위
 A_UPTAIL_MAX    = _f("A_UPTAIL_MAX", 0.35)  # 윗꼬리/전체범위
 A_MAX_RUNUP     = _f("A_MAX_RUNUP", 3.0)    # 1년 저점 대비 3배 초과 제외
-# '시작점'을 더 좁게 — 최근 저점을 찍고 갓 올라온 구간만 (사장님 요청, 2026-08-30)
-RECENT_LOW_DAYS   = _i("RECENT_LOW_DAYS", 60)     # '최근 저점'을 몇 거래일에서 찾을지
-A_MAX_RUNUP_RECENT = _f("A_MAX_RUNUP_RECENT", 1.20)  # 최근 저점 대비 +20% 미만
+RECENT_LOW_DAYS = _i("RECENT_LOW_DAYS", 60) # '최근 저점'을 몇 거래일에서 찾을지 (공통)
+
+# ---- 트랙 C : 저점 반등 초입 (사장님 기준 · 영상에 없는 트랙) ----
+#  거래대금이 크게 터진 종목은 이미 저점 대비 50~115% 올라 있고,
+#  저점 초입 종목은 거래대금이 작다 — 두 조건은 한 종목에서 동시에 성립하지 않는다.
+#  그래서 '자금 유입' 지표를 거래대금 대신 거래량 급증(김정수 방식)으로 바꿔 분리한다.
+C_MAX_UP_FROM_LOW = _f("C_MAX_UP_FROM_LOW", 1.20)   # 최근 저점 대비 +20% 미만
+C_MIN_VALUE       = _f("C_MIN_VALUE", 5_000_000_000)  # 최소 거래대금 50억 (허수 방지)
+C_VOL_VS_PREV     = _f("C_VOL_VS_PREV", 3.0)        # 전일 대비 거래량 300%
+C_CHG_MIN         = _f("C_CHG_MIN", 5.0)            # 장대양봉
+C_BODY_RATIO      = _f("C_BODY_RATIO", 0.50)        # 실체/전체범위 (도지 배제)
+C_UPTAIL_MAX      = _f("C_UPTAIL_MAX", 0.35)
+C_MAX_RUNUP       = _f("C_MAX_RUNUP", 3.0)          # 1년 저점 대비 3배 초과 제외
 
 # ---- 트랙 B : 김정수 · 바닥권 턴어라운드 ----
 #  "최고가 대비 10분의 1 이상 떨어진 상황에서 바닥 치고 도는 종목"
@@ -104,6 +114,7 @@ B_BOX_MAX       = _f("B_BOX_MAX", 0.40)         # 그 기간 종가 변동폭 �
 B_VOL_ABS       = _f("B_VOL_ABS", 3_000_000)    # 절대 거래량 300만 주 (원문)
 B_VOL_VS_PREV   = _f("B_VOL_VS_PREV", 3.0)      # 전일 대비 300% (원문)
 B_CHG_MIN       = _f("B_CHG_MIN", 5.0)          # 장대양봉 (원문에 상한 없음)
+B_BODY_RATIO    = _f("B_BODY_RATIO", 0.50)      # 실체/전체범위 — 도지 배제
 B_UPTAIL_MAX    = _f("B_UPTAIL_MAX", 0.35)
 
 # ---- 고점 위험 캔들 ----
@@ -416,7 +427,9 @@ def is_tradable(row) -> bool:
 # 6. 매매 계획 (기계적 계산값)
 # ============================================================
 
-def make_plan(row) -> dict | None:
+def make_plan(row, max_up_from_low: float | None = None) -> dict | None:
+    """max_up_from_low 를 주면 '최근 저점 대비 N배'를 넘지 않는 매수 상한가를 함께 계산한다.
+    매수는 종가가 아니라 돌파가에서 일어나므로, 매수 시점 기준으로 다시 따져야 한다."""
     high, low, op, cl = row["high"], row["low"], row["open"], row["close"]
     buy_break = round_tick(high * 1.001, "up")           # 돌파 매수: 기준봉 고가 위
     buy_pull = round_tick(op + (cl - op) * 0.5, "near")  # 눌림 매수: 실체 50% 되돌림
@@ -431,6 +444,22 @@ def make_plan(row) -> dict | None:
     rr = (t1 - buy_break) / (buy_break - stop)
     bar_range = (high - low) / low if low > 0 else 9.99
     reasons = []
+
+    # ── 매수 유효 상한 ──────────────────────────────────────
+    # "저점 찍고 20% 오르기 전에 산다"는 기준은 매수하는 그 가격에서 성립해야 한다.
+    max_buy, entry = None, "돌파"
+    lo_rec = row.get("lo_recent")
+    if max_up_from_low and lo_rec and lo_rec == lo_rec and lo_rec > 0:
+        max_buy = round_tick(lo_rec * max_up_from_low, "down")
+        if buy_break > max_buy:
+            # 돌파가에서는 이미 초입이 아님 → 눌림 매수만 유효
+            if buy_pull <= max_buy:
+                entry = "눌림만"
+            else:
+                entry = "무효"
+                reasons.append(
+                    f"매수가가 저점 대비 +{(max_up_from_low-1)*100:.0f}% 상한({max_buy:,}원) 초과")
+
     if bar_range > MAX_BAR_RANGE:
         reasons.append(f"기준봉 고저 폭 {bar_range*100:.0f}% — 변동성 과대")
     if rr < MIN_RR:
@@ -447,6 +476,8 @@ def make_plan(row) -> dict | None:
         "trail_pct": round(TRAIL_PCT * 100, 1),
         "rr": round(float(rr), 2),
         "bar_range_pct": round(float(bar_range) * 100, 1),
+        "max_buy": max_buy,          # 이 가격을 넘으면 사지 않는다
+        "entry": entry,              # 돌파 / 눌림만 / 무효
         "ok": not reasons,
         "reject": reasons,
     }
@@ -491,8 +522,6 @@ def screen_track_a(t: pd.DataFrame, sectors: dict, falling: dict | None = None) 
             "긴 윗꼬리 없음": ok(pd.notna(r["uptail_ratio"]) and r["uptail_ratio"] <= A_UPTAIL_MAX),
             f"시총 {A_MAX_MKTCAP/1e12:,.0f}조 이하": ok(r["mktcap"] <= A_MAX_MKTCAP),
             f"저점 대비 {A_MAX_RUNUP:.0f}배 미만": ok(pd.notna(r["runup"]) and r["runup"] < A_MAX_RUNUP),
-            f"최근 {RECENT_LOW_DAYS}일 저점 대비 +{(A_MAX_RUNUP_RECENT-1)*100:.0f}% 미만 (매수 초입)": ok(
-                pd.notna(r["runup_recent"]) and r["runup_recent"] < A_MAX_RUNUP_RECENT),
         }
         failed = [k for k, v in checks.items() if not v]
         if len(failed) > 1:
@@ -549,6 +578,9 @@ def screen_track_b(t: pd.DataFrame, sectors: dict, falling: dict | None = None) 
             f"거래량 {B_VOL_ABS/1e4:,.0f}만 주 이상": ok(r["volume"] >= B_VOL_ABS),
             "전일 대비 거래량 300%↑": ok(pd.notna(r["vol_vs_prev"]) and r["vol_vs_prev"] >= B_VOL_VS_PREV),
             f"장대양봉 +{B_CHG_MIN:.0f}%↑": ok(r["chg"] >= B_CHG_MIN and r["close"] > r["open"]),
+            # 김정수: "도지형이 생겼는지" — 실체가 얇으면 장대양봉이 아니다
+            "양봉 실체 확보 (도지 배제)": ok(
+                pd.notna(r["body_ratio"]) and r["body_ratio"] >= B_BODY_RATIO),
             "긴 윗꼬리 없음": ok(pd.notna(r["uptail_ratio"]) and r["uptail_ratio"] <= B_UPTAIL_MAX),
         }
         failed = [k for k, v in checks.items() if not v]
@@ -587,6 +619,68 @@ def screen_track_b(t: pd.DataFrame, sectors: dict, falling: dict | None = None) 
               f"{type(e).__name__} {e}", file=sys.stderr)
         continue
     out.sort(key=lambda x: -(x["vol_vs_avg60"] or 0))
+    return out
+
+
+def screen_track_c(t: pd.DataFrame, sectors: dict, falling: dict | None = None) -> list[dict]:
+    """저점 반등 초입 — 매수 시점에 아직 싼 자리인 종목만.
+    자금 유입은 거래대금이 아니라 '전일 대비 거래량 급증'으로 본다."""
+    falling = falling or {}
+    out = []
+    for _, r in t.iterrows():
+      try:
+        if not is_tradable(r):
+            continue
+        checks = {
+            f"최근 {RECENT_LOW_DAYS}일 저점 대비 +{(C_MAX_UP_FROM_LOW-1)*100:.0f}% 미만": ok(
+                pd.notna(r["runup_recent"]) and r["runup_recent"] < C_MAX_UP_FROM_LOW),
+            f"장대양봉 +{C_CHG_MIN:.0f}%↑": ok(r["chg"] >= C_CHG_MIN and r["close"] > r["open"]),
+            "양봉 실체 확보 (도지 배제)": ok(
+                pd.notna(r["body_ratio"]) and r["body_ratio"] >= C_BODY_RATIO),
+            "긴 윗꼬리 없음": ok(pd.notna(r["uptail_ratio"]) and r["uptail_ratio"] <= C_UPTAIL_MAX),
+            f"전일 대비 거래량 {C_VOL_VS_PREV*100:.0f}%↑": ok(
+                pd.notna(r["vol_vs_prev"]) and r["vol_vs_prev"] >= C_VOL_VS_PREV),
+            f"거래대금 {C_MIN_VALUE/1e8:,.0f}억 이상": ok(r["value"] >= C_MIN_VALUE),
+            f"1년 저점 대비 {C_MAX_RUNUP:.0f}배 미만": ok(
+                pd.notna(r["runup"]) and r["runup"] < C_MAX_RUNUP),
+        }
+        failed = [k for k, v in checks.items() if not v]
+        if len(failed) > 1:
+            continue
+        # 매수 상한을 함께 계산 — 돌파가가 상한을 넘으면 눌림 매수만 유효
+        plan = make_plan(r, max_up_from_low=C_MAX_UP_FROM_LOW)
+        if not plan:
+            continue
+        if plan["reject"]:
+            failed = failed + plan["reject"]
+        if len(failed) > 1:
+            continue
+        out.append({
+            "track": "C",
+            "status": "pass" if not failed else "near",
+            "missing": failed,
+            "strong_in_weak": bool(falling.get(r["market"])),
+            "code": r["code"], "name": r["name"], "market": r["market"],
+            "close": int(r["close"]), "chg": num(r["chg"], 2),
+            "value_eok": num(r["value"] / 1e8, 0),
+            "vol_man": num(r["volume"] / 1e4, 0),
+            "vol_vs_prev": num(r["vol_vs_prev"], 1),
+            "up_from_low": num((r["runup_recent"] - 1) * 100, 1),
+            "low_recent": num(r["lo_recent"], 0),
+            "runup": num(r["runup"], 2),
+            "uptail": num(r["uptail_ratio"] * 100, 1),
+            "mktcap_jo": num(r["mktcap"] / 1e12, 2),
+            "sector": sectors.get(r["code"]), "peers": [],
+            "sector_confirmed": None,
+            "checks": checks, "plan": plan,
+            "bar": {"open": int(r["open"]), "high": int(r["high"]),
+                    "low": int(r["low"]), "close": int(r["close"])},
+        })
+      except Exception as e:
+        print(f"  ! 트랙C 판정 건너뜀 {r.get('code', '?')} {r.get('name', '?')}: "
+              f"{type(e).__name__} {e}", file=sys.stderr)
+        continue
+    out.sort(key=lambda x: (x["up_from_low"] or 99))     # 저점에 가까운 순
     return out
 
 
@@ -662,14 +756,16 @@ def main() -> int:
     falling = {r["market"]: r.get("falling", False) for r in regime}
     all_a = screen_track_a(t, sectors, falling)
     all_b = screen_track_b(t, sectors, falling)
+    all_c = screen_track_c(t, sectors, falling)
     track_a = [x for x in all_a if x["status"] == "pass"]
     track_b = [x for x in all_b if x["status"] == "pass"]
-    near = [x for x in all_a + all_b if x["status"] == "near"]
+    track_c = [x for x in all_c if x["status"] == "pass"]
+    near = [x for x in all_a + all_b + all_c if x["status"] == "near"]
 
     # 선별 종목만 DART 기업 분석 (하루 0~5종목 → 몇 초)
     try:
         import dart_info
-        picked = dart_info.enrich(track_a + track_b)
+        picked = dart_info.enrich(track_a + track_b + track_c)
         if picked:
             print(f"      DART 기업 분석 {picked}종목 완료")
     except ImportError:
@@ -693,6 +789,7 @@ def main() -> int:
         "regime": regime,
         "track_a": track_a,
         "track_b": track_b,
+        "track_c": track_c,
         "near": near,
         "warnings": warnings,
         "config": {
@@ -704,6 +801,9 @@ def main() -> int:
             "B_FROM_HIGH_MAX": B_FROM_HIGH_MAX,
             "B_BOX_DAYS": B_BOX_DAYS,
             "B_VOL_ABS_man": int(B_VOL_ABS / 1e4),
+            "C_MAX_UP_FROM_LOW_pct": round((C_MAX_UP_FROM_LOW - 1) * 100, 1),
+            "C_MIN_VALUE_eok": int(C_MIN_VALUE / 1e8),
+            "C_VOL_VS_PREV": C_VOL_VS_PREV,
             "B_VOL_VS_PREV": B_VOL_VS_PREV,
             "TARGET1_PCT": TARGET1_PCT,
             "TARGET2_PCT": TARGET2_PCT,
@@ -716,7 +816,7 @@ def main() -> int:
     print("[4/4] 저장")
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
     OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=1, allow_nan=False), encoding="utf-8")
-    print(f"      트랙A {len(track_a)}종목 / 트랙B {len(track_b)}종목 / "
+    print(f"      트랙A {len(track_a)} / 트랙B {len(track_b)} / 트랙C {len(track_c)}종목 / "
           f"1개조건 미달 {len(near)}종목 / 경고 {len(warnings)}건")
     print(f"      -> {OUT_JSON}")
     return 0
