@@ -1,0 +1,142 @@
+{
+ "generated_at": "2026-08-30 05:03:44",
+ "base_date": "2026-08-28",
+ "universe": 7,
+ "regime": [
+  {
+   "market": "KOSPI",
+   "state": "정상",
+   "action": "기준 충족 시 정상 진입",
+   "day_chg": -1.79,
+   "pos_pct": 79.5,
+   "vs_ma20": 2.52,
+   "vs_ma60": 3.31
+  },
+  {
+   "market": "KOSDAQ",
+   "state": "위험",
+   "action": "신규 진입 중단 · 현금 비중 확대",
+   "day_chg": 0.09,
+   "pos_pct": 36.7,
+   "vs_ma20": 2.37,
+   "vs_ma60": -1.79
+  }
+ ],
+ "track_a": [],
+ "track_b": [],
+ "near": [
+  {
+   "track": "B",
+   "status": "near",
+   "missing": [
+    "52주 하위 40% 바닥권"
+   ],
+   "code": "204620",
+   "name": "글로벌텍스프리",
+   "market": "KOSDAQ",
+   "close": 5960,
+   "chg": 15.28,
+   "value_eok": 266,
+   "vol_vs_prev": 11.6,
+   "vol_vs_avg60": 5.3,
+   "pos_52w": 77.6,
+   "box_width": 37.8,
+   "uptail": 18.4,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "52주 하위 40% 바닥권": false,
+    "60일 박스권 횡보": true,
+    "전일 대비 거래량 300%↑": true,
+    "60일 평균 거래량 4배↑": true,
+    "등락률 +5~+25% 양봉": true,
+    "긴 윗꼬리 없음": true,
+    "거래대금 100억 이상": true
+   },
+   "plan": {
+    "buy_break": 6150,
+    "buy_pull": 5560,
+    "stop": 5540,
+    "stop_pct": -9.92,
+    "target1": 6770,
+    "target2": 7380,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 19.0,
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 5170,
+    "high": 6140,
+    "low": 5160,
+    "close": 5960
+   }
+  },
+  {
+   "track": "B",
+   "status": "near",
+   "missing": [
+    "60일 평균 거래량 4배↑"
+   ],
+   "code": "086450",
+   "name": "동국제약",
+   "market": "KOSPI",
+   "close": 21500,
+   "chg": 15.34,
+   "value_eok": 257,
+   "vol_vs_prev": 3.6,
+   "vol_vs_avg60": 3.1,
+   "pos_52w": 34.1,
+   "box_width": 30.6,
+   "uptail": 8.1,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "52주 하위 40% 바닥권": true,
+    "60일 박스권 횡보": true,
+    "전일 대비 거래량 300%↑": true,
+    "60일 평균 거래량 4배↑": false,
+    "등락률 +5~+25% 양봉": true,
+    "긴 윗꼬리 없음": true,
+    "거래대금 100억 이상": true
+   },
+   "plan": {
+    "buy_break": 21800,
+    "buy_pull": 20100,
+    "stop": 19620,
+    "stop_pct": -10.0,
+    "target1": 24000,
+    "target2": 26150,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 16.6,
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 18700,
+    "high": 21750,
+    "low": 18650,
+    "close": 21500
+   }
+  }
+ ],
+ "warnings": [],
+ "config": {
+  "A_MIN_VALUE_eok": 2000,
+  "A_CHG": [
+   5.0,
+   15.0
+  ],
+  "B_POS_MAX": 0.4,
+  "B_VOL_VS_PREV": 3.0,
+  "TARGET1_PCT": 0.1,
+  "TARGET2_PCT": 0.2,
+  "MAX_STOP_PCT": 0.1,
+  "MIN_RR": 1.0,
+  "sector_map": false
+ }
+}
