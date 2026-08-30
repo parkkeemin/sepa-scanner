@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>데일리 매매 기준</title>
+<style>
+:root{
+  --bg:#f6f7f9; --panel:#ffffff; --panel2:#fbfcfd; --line:#e3e6ea;
+  --tx:#1b1f24; --tx2:#5b6572; --tx3:#8a95a3;
+  --up:#d92d20; --dn:#1570ef; --accent:#0f172a;
+  --okc:#0f9d58; --warn:#b54708; --warnbg:#fffaeb; --warnline:#fedf89;
+  --chipA:#eef2ff; --chipAtx:#3538cd; --chipB:#ecfdf3; --chipBtx:#027a48;
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.04);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e1116; --panel:#161b22; --panel2:#1b212a; --line:#2a323d;
+    --tx:#e6edf3; --tx2:#9aa7b4; --tx3:#6e7b8a;
+    --up:#ff6b5e; --dn:#5aa9ff; --accent:#e6edf3;
+    --okc:#3fb950; --warn:#e3a008; --warnbg:#2a2007; --warnline:#5c4813;
+    --chipA:#1e2547; --chipAtx:#a5b4fc; --chipB:#0d2b1e; --chipBtx:#6ee7a8;
+    --shadow:none;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);
+  font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",system-ui,sans-serif;
+  font-size:14px;line-height:1.55;-webkit-text-size-adjust:100%}
+.wrap{max-width:1120px;margin:0 auto;padding:20px 16px 64px}
+h1{font-size:20px;margin:0;letter-spacing:-.3px}
+h2{font-size:15px;margin:28px 0 10px;display:flex;align-items:center;gap:8px;letter-spacing:-.2px}
+h2 .n{font-weight:400;color:var(--tx3);font-size:13px}
+.sub{color:var(--tx2);font-size:12.5px;margin-top:4px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+.pad{padding:14px 16px}
+.row{display:flex;flex-wrap:wrap;gap:12px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.chip{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;
+  padding:2px 8px;border-radius:999px;background:var(--panel2);border:1px solid var(--line);color:var(--tx2)}
+.chip.a{background:var(--chipA);color:var(--chipAtx);border-color:transparent}
+.chip.b{background:var(--chipB);color:var(--chipBtx);border-color:transparent}
+.up{color:var(--up)} .dn{color:var(--dn)}
+.mono{font-variant-numeric:tabular-nums;font-feature-settings:"tnum"}
+
+/* header */
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px;
+  padding-bottom:14px;border-bottom:1px solid var(--line)}
+.meta{font-size:12px;color:var(--tx3);text-align:right}
+
+/* regime */
+.reg{flex:1;min-width:240px}
+.reg .st{font-size:22px;font-weight:700;letter-spacing:-.5px;margin:2px 0 2px}
+.reg .act{font-size:12.5px;color:var(--tx2)}
+.reg .num{display:flex;gap:14px;margin-top:10px;font-size:12px;color:var(--tx2);flex-wrap:wrap}
+.reg .num b{display:block;font-size:14px;color:var(--tx);font-weight:600}
+.st.정상{color:var(--okc)} .st.혼조{color:var(--tx)} .st.주의{color:var(--warn)} .st.위험{color:var(--up)}
+
+.banner{margin:14px 0 0;padding:10px 14px;border-radius:10px;background:var(--warnbg);
+  border:1px solid var(--warnline);color:var(--warn);font-size:12.5px}
+
+/* calculator */
+.calc{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end}
+.calc label{font-size:12px;color:var(--tx2);display:block;margin-bottom:4px}
+.calc input{width:150px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;
+  background:var(--panel2);color:var(--tx);font-size:14px;font-variant-numeric:tabular-nums}
+
+/* stock card */
+.stock{margin-bottom:12px;overflow:hidden}
+.sh{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;align-items:baseline;
+  padding:13px 16px;border-bottom:1px dashed var(--line)}
+.sh .nm{font-size:17px;font-weight:700;letter-spacing:-.3px}
+.sh .cd{font-size:12px;color:var(--tx3);margin-left:6px;font-weight:400}
+.sh .px{font-size:16px;font-weight:700}
+.prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(115px,1fr));gap:1px;
+  background:var(--line);border-bottom:1px solid var(--line)}
+.pr{background:var(--panel);padding:11px 12px}
+.pr .k{font-size:11px;color:var(--tx3);margin-bottom:3px;white-space:nowrap}
+.pr .v{font-size:17px;font-weight:700;letter-spacing:-.4px}
+.pr .s{font-size:11px;color:var(--tx3);margin-top:2px}
+.pr.buy .v{color:var(--tx)} .pr.stop .v{color:var(--dn)} .pr.tgt .v{color:var(--up)}
+.facts{display:flex;flex-wrap:wrap;gap:6px;padding:10px 16px;border-bottom:1px dashed var(--line)}
+.checks{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:4px 16px;padding:11px 16px 13px}
+.ck{font-size:12.5px;display:flex;gap:7px;align-items:flex-start;color:var(--tx2)}
+.ck i{font-style:normal;font-weight:700;color:var(--okc);width:12px;flex:none}
+.ck.no i{color:var(--tx3)}
+
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+th{font-size:11.5px;color:var(--tx3);font-weight:600;background:var(--panel2)}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+.tbl{overflow-x:auto}
+.empty{padding:26px 16px;text-align:center;color:var(--tx3);font-size:13px}
+.foot{margin-top:32px;padding-top:14px;border-top:1px solid var(--line);
+  font-size:11.5px;color:var(--tx3);line-height:1.7}
+details{margin-top:10px}
+summary{cursor:pointer;font-size:12.5px;color:var(--tx2)}
+@media print{
+  body{background:#fff} .calc,details,.banner{display:none}
+  .card{break-inside:avoid;box-shadow:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div>
+    <h1>데일리 매매 기준</h1>
+    <div class="sub">주도주 트랙(A) · 바닥권 턴어라운드 트랙(B) — 규칙 기반 기계적 계산</div>
+  </div>
+  <div class="meta">
+    기준일 <b id="basedate" class="mono">-</b><br>
+    갱신 <span id="gen" class="mono">-</span> · 스캔 <span id="uni" class="mono">-</span>종목
+  </div>
+</header>
+
+<div id="banner"></div>
+
+<h2>시장 국면 <span class="n">지수가 먼저다 — 개별 종목 판단보다 우선</span></h2>
+<div class="row" id="regime"></div>
+
+<div class="card pad" style="margin-top:12px">
+  <div class="calc">
+    <div>
+      <label>계좌 금액 (원)</label>
+      <input id="acct" type="number" value="1000000" step="100000" min="0">
+    </div>
+    <div>
+      <label>1회 감수 리스크 (%)</label>
+      <input id="risk" type="number" value="1" step="0.5" min="0.1" max="5">
+    </div>
+    <div class="sub" style="flex:1;min-width:200px">
+      손절까지의 손실이 계좌의 이 비율을 넘지 않는 수량을 각 종목 카드에 표시합니다.
+    </div>
+  </div>
+</div>
+
+<h2>트랙 A · 주도주 시작점 <span class="n" id="cntA"></span></h2>
+<div id="trackA"></div>
+
+<h2>트랙 B · 바닥권 턴어라운드 <span class="n" id="cntB"></span></h2>
+<div id="trackB"></div>
+
+<h2>1개 조건 미달 <span class="n" id="cntN">내일 다시 볼 종목</span></h2>
+<div id="near"></div>
+
+<h2>고점 위험 경고 <span class="n">보유·관심 종목의 진입 금지 신호</span></h2>
+<div id="warn"></div>
+
+<h2>매매 전 최종 확인 <span class="n">주문 넣기 직전 6가지</span></h2>
+<div class="card tbl">
+  <table>
+    <thead><tr><th style="width:34%">점검 항목</th><th>기준</th><th style="width:64px">확인</th></tr></thead>
+    <tbody id="finalck"></tbody>
+  </table>
+</div>
+
+<details>
+  <summary>적용 중인 필터 수치 보기</summary>
+  <div class="card tbl" style="margin-top:8px"><table><tbody id="cfg"></tbody></table></div>
+</details>
+
+<div class="foot">
+  이 페이지의 모든 가격은 정해진 규칙에 따라 계산된 <b>기계적 산출값</b>이며, 미래 주가에 대한 예측이나 투자 권유가 아닙니다.
+  종목 선정·매매 판단·결과에 대한 책임은 전적으로 사용자에게 있습니다.<br>
+  호가단위는 2023-01-25 개정 기준(유가증권·코스닥 공통)으로 계산했습니다. 확인일 2026-08-30.
+  거래정지·관리종목·시장경보 지정 여부는 반드시 HTS/MTS에서 직접 확인하십시오.
+</div>
+
+</div>
+
+<script>
+/* ---------- 샘플 데이터 (data/daily.json 이 없을 때만 사용) ---------- */
+const SAMPLE = {
+ sample:true,
+ generated_at:"2026-08-30 13:20:00",
+ base_date:"2026-08-28",
+ universe:2,
+ regime:[
+  {market:"KOSPI",state:"정상",action:"기준 충족 시 정상 진입",day_chg:-1.79,pos_pct:79.5,vs_ma20:2.52,vs_ma60:3.31},
+  {market:"KOSDAQ",state:"주의",action:"신규 1종목까지만 · 비중 절반",day_chg:-0.6,pos_pct:62.0,vs_ma20:-0.4,vs_ma60:1.1}
+ ],
+ track_a:[], track_b:[], near:[], warnings:[],
+ config:{A_MIN_VALUE_eok:2000,A_CHG:[5,15],B_POS_MAX:0.4,B_VOL_VS_PREV:3,
+         TARGET1_PCT:0.1,TARGET2_PCT:0.2,MAX_STOP_PCT:0.1,MIN_RR:1,sector_map:false},
+ preview:[{
+   track:"A",code:"000000",name:"예시종목",market:"KOSPI",close:10800,chg:8.0,
+   value_eok:2700,value_surge:9.1,pos_52w:88.0,runup:1.09,uptail:6.5,
+   sector:"건설",peers:["동반급등주1"],sector_confirmed:true,
+   checks:{"거래대금 2,000억 이상":true,"등락률 +5~+15%":true,"장대양봉 실체 확보":true,
+           "긴 윗꼬리 없음":true,"거래대금 20일 평균 3배↑":true,"바닥 대비 3배 미만":true},
+   plan:{buy_break:10870,buy_pull:10420,stop:9900,stop_pct:-8.92,target1:11960,
+         target2:13040,trail_pct:7,rr:1.12,bar_range_pct:8.5,ok:true,reject:[]},
+   bar:{open:10050,high:10850,low:10000,close:10800}
+ }]
+};
+
+const won = n => (n==null||isNaN(n)) ? "-" : Number(n).toLocaleString("ko-KR");
+const sgn = n => (n>0?"+":"") + Number(n).toFixed(2) + "%";
+const cls = n => n>0 ? "up" : (n<0 ? "dn" : "");
+const el  = (h) => { const d=document.createElement("div"); d.innerHTML=h.trim(); return d.firstElementChild; };
+
+let DATA = null;
+
+function regimeCards(list){
+  const box = document.getElementById("regime"); box.innerHTML="";
+  list.forEach(r=>{
+    const base = (r.state||"").replace(/\(.*\)/,"");
+    box.appendChild(el(`
+      <div class="card pad reg">
+        <div class="chip">${r.market}</div>
+        <div class="st ${base}">${r.state||"-"}</div>
+        <div class="act">${r.action||""}</div>
+        <div class="num">
+          <span>당일<b class="mono ${cls(r.day_chg)}">${r.day_chg==null?"-":sgn(r.day_chg)}</b></span>
+          <span>20일선 대비<b class="mono ${cls(r.vs_ma20)}">${r.vs_ma20==null?"-":sgn(r.vs_ma20)}</b></span>
+          <span>60일선 대비<b class="mono ${cls(r.vs_ma60)}">${r.vs_ma60==null?"-":sgn(r.vs_ma60)}</b></span>
+          <span>1년 범위 위치<b class="mono">${r.pos_pct==null?"-":r.pos_pct+"%"}</b></span>
+        </div>
+      </div>`));
+  });
+}
+
+function qty(plan){
+  const acct = +document.getElementById("acct").value || 0;
+  const rp   = (+document.getElementById("risk").value || 0)/100;
+  const per  = plan.buy_break - plan.stop;
+  if(per<=0 || acct<=0) return null;
+  const n = Math.floor(acct*rp/per);
+  return {n, cost:n*plan.buy_break, loss:n*per};
+}
+
+function stockCard(s){
+  const p = s.plan, tail = s.track==="A"
+    ? [`거래대금 ${won(s.value_eok)}억`, `20일평균 ${s.value_surge}배`,
+       `1년 위치 ${s.pos_52w??"-"}%`, `바닥대비 ${s.runup??"-"}배`,
+       s.sector ? `섹터 ${s.sector}${s.sector_confirmed?" · 동반 "+s.peers.length+"종목":" · 동반 없음"}` : "섹터 매핑 없음 — 수동 확인"]
+    : [`거래대금 ${won(s.value_eok)}억`, `전일比 거래량 ${s.vol_vs_prev}배`,
+       `60일평균 ${s.vol_vs_avg60}배`, `1년 위치 ${s.pos_52w}%`, `60일 박스폭 ${s.box_width}%`];
+  const q = qty(p);
+  const cards = [
+    ["돌파 매수", p.buy_break, "기준봉 고가 돌파 시", "buy"],
+    ["눌림 매수", p.buy_pull, "실체 50% 되돌림", "buy"],
+    ["손절", p.stop, `${p.stop_pct}%`, "stop"],
+    ["1차 익절", p.target1, "물량 50%", "tgt"],
+    ["2차 익절", p.target2, "물량 30%", "tgt"],
+    ["잔여 관리", null, `고점 대비 -${p.trail_pct}% 추적손절`, ""]
+  ];
+  return el(`
+  <div class="card stock">
+    <div class="sh">
+      <div>
+        <span class="chip ${s.track.toLowerCase()}">트랙 ${s.track}</span>
+        <span class="nm" style="margin-left:8px">${s.name}</span>
+        <span class="cd mono">${s.code} · ${s.market}</span>
+      </div>
+      <div class="px mono">${won(s.close)}원 <span class="${cls(s.chg)}">${sgn(s.chg)}</span></div>
+    </div>
+    <div class="prices">
+      ${cards.map(([k,v,sfx,c])=>`
+        <div class="pr ${c}">
+          <div class="k">${k}</div>
+          <div class="v mono">${v==null?"—":won(v)}</div>
+          <div class="s">${sfx}</div>
+        </div>`).join("")}
+    </div>
+    <div class="facts">
+      <span class="chip">손익비 ${p.rr}</span>
+      <span class="chip">기준봉 폭 ${p.bar_range_pct}%</span>
+      ${q ? `<span class="chip">권장 수량 ${won(q.n)}주 · 투입 ${won(q.cost)}원 · 최대손실 ${won(q.loss)}원</span>` : ""}
+      ${tail.map(x=>`<span class="chip">${x}</span>`).join("")}
+    </div>
+    <div class="checks">
+      ${Object.entries(s.checks).map(([k,v])=>
+        `<div class="ck ${v?"":"no"}"><i>${v?"✓":"·"}</i><span>${k}</span></div>`).join("")}
+    </div>
+  </div>`);
+}
+
+function renderList(id, items, emptyMsg){
+  const box = document.getElementById(id); box.innerHTML="";
+  if(!items || !items.length){ box.appendChild(el(`<div class="card empty">${emptyMsg}</div>`)); return; }
+  items.forEach(s=>box.appendChild(stockCard(s)));
+}
+
+function renderNear(list){
+  const box = document.getElementById("near"); box.innerHTML="";
+  if(!list || !list.length){
+    box.appendChild(el(`<div class="card empty">아깝게 걸린 종목 없음.</div>`)); return;
+  }
+  box.appendChild(el(`<div class="card tbl"><table>
+    <thead><tr><th>종목</th><th style="width:52px">트랙</th><th class="n">종가</th><th class="n">등락</th>
+    <th>미달 조건 1개</th><th class="n">참고 매수가</th><th class="n">손절</th></tr></thead>
+    <tbody>${list.map(s=>`<tr>
+      <td>${s.name} <span class="mono" style="color:var(--tx3);font-size:11px">${s.code}</span></td>
+      <td><span class="chip ${s.track.toLowerCase()}">${s.track}</span></td>
+      <td class="n mono">${won(s.close)}</td>
+      <td class="n mono ${cls(s.chg)}">${sgn(s.chg)}</td>
+      <td style="color:var(--warn)">${(s.missing||[]).join(" · ")}</td>
+      <td class="n mono">${won(s.plan.buy_break)}</td>
+      <td class="n mono">${won(s.plan.stop)}</td></tr>`).join("")}</tbody></table>
+    <div class="pad sub">조건 하나가 모자란 종목입니다. <b>지금 사라는 뜻이 아니라</b>, 다음 거래일에 나머지 조건이 채워지는지 볼 관찰 대상입니다.</div>
+    </div>`));
+}
+
+function renderWarn(list){
+  const box = document.getElementById("warn"); box.innerHTML="";
+  if(!list || !list.length){
+    box.appendChild(el(`<div class="card empty">고점 위험 신호 없음. <code>watchlist.txt</code>에 보유 종목 코드를 넣으면 매일 함께 점검합니다.</div>`));
+    return;
+  }
+  box.appendChild(el(`<div class="card tbl"><table>
+    <thead><tr><th>종목</th><th class="n">종가</th><th class="n">등락</th>
+    <th class="n">바닥대비</th><th class="n">1년 위치</th><th>위험 신호</th></tr></thead>
+    <tbody>${list.map(w=>`<tr>
+      <td>${w.name} <span class="cd mono" style="color:var(--tx3)">${w.code}</span></td>
+      <td class="n mono">${won(w.close)}</td>
+      <td class="n mono ${cls(w.chg)}">${sgn(w.chg)}</td>
+      <td class="n mono">${w.runup}배</td>
+      <td class="n mono">${w.pos_52w??"-"}%</td>
+      <td>${w.flags.join(" · ")}</td></tr>`).join("")}</tbody></table></div>`));
+}
+
+const FINAL = [
+  ["시장 국면 확인", "지수가 20일선 위인가? '위험'이면 신규 진입 없음"],
+  ["차트 위치 확인", "월봉상 고점권이 아닌가? 바닥 대비 3배 이상 오른 자리는 제외"],
+  ["기준봉 형태", "윗꼬리 짧은 장대양봉인가? 도지·긴 윗꼬리면 보류"],
+  ["자금 유입", "거래대금이 20일 평균을 크게 웃도는가?"],
+  ["출구 사전 설정", "주문 전에 손절·1차·2차 익절가를 감시주문으로 등록했는가?"],
+  ["금액 한도", "이 1건의 최대 손실이 계좌의 1%를 넘지 않는가?"]
+];
+
+function renderStatic(cfg){
+  document.getElementById("finalck").innerHTML =
+    FINAL.map(([a,b])=>`<tr><td><b>${a}</b></td><td>${b}</td><td style="text-align:center">☐</td></tr>`).join("");
+  const rows = [
+    ["트랙A 최소 거래대금", won(cfg.A_MIN_VALUE_eok)+"억원"],
+    ["트랙A 등락률 범위", `+${cfg.A_CHG[0]}% ~ +${cfg.A_CHG[1]}%`],
+    ["트랙B 52주 위치 상한", (cfg.B_POS_MAX*100)+"% 이하"],
+    ["트랙B 전일 대비 거래량", cfg.B_VOL_VS_PREV+"배 이상"],
+    ["1·2차 익절", `+${cfg.TARGET1_PCT*100}% / +${cfg.TARGET2_PCT*100}%`],
+    ["손절 상한", `-${cfg.MAX_STOP_PCT*100}%`],
+    ["최소 손익비", cfg.MIN_RR],
+    ["섹터 매핑 파일", cfg.sector_map ? "적용됨" : "없음 — 섹터 동반 확인은 수동"]
+  ];
+  document.getElementById("cfg").innerHTML =
+    rows.map(([a,b])=>`<tr><td style="width:220px;color:var(--tx2)">${a}</td><td class="mono">${b}</td></tr>`).join("");
+}
+
+function render(d){
+  DATA = d;
+  document.getElementById("basedate").textContent = d.base_date || "-";
+  document.getElementById("gen").textContent = d.generated_at || "-";
+  document.getElementById("uni").textContent = won(d.universe);
+  regimeCards(d.regime||[]);
+  document.getElementById("cntA").textContent = `${(d.track_a||[]).length}종목 · 거래대금 ${won(d.config.A_MIN_VALUE_eok)}억 이상 장대양봉`;
+  document.getElementById("cntB").textContent = `${(d.track_b||[]).length}종목 · 바닥권 대량거래 전환`;
+  renderList("trackA", d.track_a, "오늘 기준을 통과한 종목 없음 — 관망이 정답인 날입니다.");
+  renderList("trackB", d.track_b, "오늘 기준을 통과한 종목 없음 — 관망이 정답인 날입니다.");
+  document.getElementById("cntN").textContent = `${(d.near||[]).length}종목 · 내일 다시 볼 관찰 대상`;
+  renderNear(d.near);
+  renderWarn(d.warnings);
+  renderStatic(d.config);
+
+  const b = document.getElementById("banner");
+  if(d.sample){
+    b.innerHTML = `<div class="banner"><b>샘플 화면입니다.</b> <code>data/daily.json</code>이 아직 없어
+      2026-08-28 실제 지수 수치 + 표시 형식 예시로 그렸습니다. 스캐너를 1회 실행하면 실제 결과로 바뀝니다.</div>`;
+    if(d.preview){
+      const box = document.getElementById("trackA"); box.innerHTML="";
+      box.appendChild(el(`<div class="card pad sub" style="margin-bottom:10px">
+        아래는 <b>표시 형식 예시 카드</b>입니다. 실재하는 종목이 아닙니다.</div>`));
+      d.preview.forEach(s=>box.appendChild(stockCard(s)));
+    }
+  } else b.innerHTML="";
+}
+
+["acct","risk"].forEach(id =>
+  document.getElementById(id).addEventListener("input", ()=>{ if(DATA) render(DATA); }));
+
+fetch("./data/daily.json?t="+Date.now())
+  .then(r => r.ok ? r.json() : Promise.reject())
+  .then(render)
+  .catch(()=>render(SAMPLE));
+</script>
+</body>
+</html>
