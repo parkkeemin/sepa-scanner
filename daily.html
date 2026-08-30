@@ -40,6 +40,14 @@ h2 .n{font-weight:400;color:var(--tx3);font-size:13px}
   padding:2px 8px;border-radius:999px;background:var(--panel2);border:1px solid var(--line);color:var(--tx2)}
 .chip.a{background:var(--chipA);color:var(--chipAtx);border-color:transparent}
 .chip.b{background:var(--chipB);color:var(--chipBtx);border-color:transparent}
+.chip.c{background:#fff1e6;color:#9a3412;border-color:transparent}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .chip.c{background:#3a220d;color:#fdba74}}
+.pr.dead{opacity:.38}
+.pr.dead .v{text-decoration:line-through}
+.pr.cap{background:#fffaeb}
+.pr.cap .v{color:#b54708}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .pr.cap{background:#2a2007}
+  :root:not([data-theme="light"]) .pr.cap .v{color:#fbbf24}}
 .up{color:var(--up)} .dn{color:var(--dn)}
 .mono{font-variant-numeric:tabular-nums;font-feature-settings:"tnum"}
 
@@ -122,7 +130,7 @@ summary{cursor:pointer;font-size:12.5px;color:var(--tx2)}
 <header>
   <div>
     <h1>데일리 매매 기준</h1>
-    <div class="sub">김종봉 주도주 트랙(A) · 김정수 바닥권 턴어라운드 트랙(B) — 영상 원문 기준</div>
+    <div class="sub">김종봉 주도주(A) · 김정수 바닥권 턴어라운드(B) · 저점 반등 초입(C) — 매수 직전 판단용</div>
   </div>
   <div class="meta">
     기준일 <b id="basedate" class="mono">-</b><br>
@@ -156,6 +164,9 @@ summary{cursor:pointer;font-size:12.5px;color:var(--tx2)}
 
 <h2>트랙 B · 바닥권 턴어라운드 <span class="n" id="cntB"></span></h2>
 <div id="trackB"></div>
+
+<h2>트랙 C · 저점 반등 초입 <span class="n" id="cntC"></span></h2>
+<div id="trackC"></div>
 
 <h2>1개 조건 미달 <span class="n" id="cntN">내일 다시 볼 종목</span></h2>
 <div id="near"></div>
@@ -196,7 +207,7 @@ const SAMPLE = {
   {market:"KOSPI",state:"상승추세",action:"수익이 나도 실력인지 지수 덕인지 구분할 것",day_chg:-1.79,pos_pct:79.5,vs_ma20:2.52,vs_ma60:3.31},
   {market:"KOSDAQ",state:"하락추세",action:"이 구간에서 조건 충족 종목은 시장보다 강한 종목",day_chg:0.09,pos_pct:34.5,vs_ma20:2.37,vs_ma60:-1.5}
  ],
- track_a:[], track_b:[], near:[], warnings:[],
+ track_a:[], track_b:[], track_c:[], near:[], warnings:[],
  config:{A_MIN_VALUE_eok:2000,A_CHG:[5,10],A_MAX_MKTCAP_jo:10,B_FROM_HIGH_MAX:0.35,B_BOX_DAYS:150,B_VOL_ABS_man:300,B_VOL_VS_PREV:3,
          TARGET1_PCT:0.1,TARGET2_PCT:0.2,MAX_STOP_PCT:0.1,MIN_RR:1,sector_map:false},
  preview:[{
@@ -250,13 +261,20 @@ function stockCard(s){
   const p = s.plan, tail = s.track==="A"
     ? [`거래대금 ${won(s.value_eok)}억`, `시총 ${s.mktcap_jo??"-"}조`,
        `최근저점 대비 +${s.up_from_low??"-"}%`, `1년저점 대비 ${s.runup??"-"}배`]
+    : s.track==="C"
+    ? [`최근저점 ${won(s.low_recent)}원`, `저점대비 +${s.up_from_low}%`,
+       `전일比 거래량 ${s.vol_vs_prev}배`, `거래량 ${won(s.vol_man)}만주`,
+       `거래대금 ${won(s.value_eok)}억`, `시총 ${s.mktcap_jo??"-"}조`]
     : [`거래량 ${won(s.vol_man)}만주`, `전일比 ${s.vol_vs_prev}배`,
        `고점대비 ${s.from_high_pct}%↓`, `최근저점 대비 +${s.up_from_low??"-"}%`,
        `박스폭 ${s.box_width}%`, `거래대금 ${won(s.value_eok)}억`];
   const q = qty(p);
+  const pullOnly = p.entry === "눌림만";
   const cards = [
-    ["돌파 매수", p.buy_break, "기준봉 고가 돌파 시", "buy"],
+    ["돌파 매수", p.buy_break, pullOnly ? "상한 초과 — 쓰지 않음" : "기준봉 고가 돌파 시",
+      pullOnly ? "buy dead" : "buy"],
     ["눌림 매수", p.buy_pull, "실체 50% 되돌림", "buy"],
+    ...(p.max_buy ? [["매수 상한", p.max_buy, "이 가격 넘으면 매수 안 함", "cap"]] : []),
     ["손절", p.stop, `${p.stop_pct}%`, "stop"],
     ["1차 익절", p.target1, "물량 50%", "tgt"],
     ["2차 익절", p.target2, "물량 30%", "tgt"],
@@ -421,6 +439,8 @@ function renderStatic(cfg){
     ["트랙B 횡보 기간", (cfg.B_BOX_DAYS??"-")+"거래일"],
     ["트랙B 절대 거래량", won(cfg.B_VOL_ABS_man)+"만 주 이상"],
     ["트랙B 전일 대비 거래량", cfg.B_VOL_VS_PREV+"배 이상"],
+    ["트랙C 저점 대비 상한", `최근 ${cfg.RECENT_LOW_DAYS??"-"}일 저점 +${cfg.C_MAX_UP_FROM_LOW_pct??"-"}% 미만`],
+    ["트랙C 거래량·거래대금", `전일比 ${cfg.C_VOL_VS_PREV??"-"}배 이상 · ${won(cfg.C_MIN_VALUE_eok)}억 이상`],
     ["1·2차 익절", `+${cfg.TARGET1_PCT*100}% / +${cfg.TARGET2_PCT*100}%`],
     ["손절 상한", `-${cfg.MAX_STOP_PCT*100}%`],
     ["최소 손익비", cfg.MIN_RR],
@@ -440,6 +460,9 @@ function render(d){
   document.getElementById("cntB").textContent = `${(d.track_b||[]).length}종목 · 고점 대비 대폭 하락 + 장기 횡보 후 대량거래`;
   renderList("trackA", d.track_a, "오늘 기준을 통과한 종목 없음. 기준이 엄격하니 없는 날이 정상입니다.");
   renderList("trackB", d.track_b, "오늘 기준을 통과한 종목 없음. 기준이 엄격하니 없는 날이 정상입니다.");
+  document.getElementById("cntC").textContent =
+    `${(d.track_c||[]).length}종목 · 최근 ${d.config.RECENT_LOW_DAYS??60}일 저점 대비 +${d.config.C_MAX_UP_FROM_LOW_pct??20}% 미만 + 거래량 급증`;
+  renderList("trackC", d.track_c, "오늘 저점 초입 조건을 채운 종목 없음.");
   document.getElementById("cntN").textContent = `${(d.near||[]).length}종목 · 내일 다시 볼 관찰 대상`;
   renderNear(d.near);
   renderWarn(d.warnings);
