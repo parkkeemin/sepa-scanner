@@ -89,7 +89,10 @@ A_MAX_MKTCAP    = _f("A_MAX_MKTCAP", 10_000_000_000_000)  # 시총 10조 초과 
 A_BODY_MIN      = _f("A_BODY_MIN", 0.03)    # 장대양봉 실체 (종가-시가)/시가
 A_BODY_RATIO    = _f("A_BODY_RATIO", 0.50)  # 실체/전체범위
 A_UPTAIL_MAX    = _f("A_UPTAIL_MAX", 0.35)  # 윗꼬리/전체범위
-A_MAX_RUNUP     = _f("A_MAX_RUNUP", 3.0)    # '시작점' — 저점 대비 3배 초과 제외
+A_MAX_RUNUP     = _f("A_MAX_RUNUP", 3.0)    # 1년 저점 대비 3배 초과 제외
+# '시작점'을 더 좁게 — 최근 저점을 찍고 갓 올라온 구간만 (사장님 요청, 2026-08-30)
+RECENT_LOW_DAYS   = _i("RECENT_LOW_DAYS", 60)     # '최근 저점'을 몇 거래일에서 찾을지
+A_MAX_RUNUP_RECENT = _f("A_MAX_RUNUP_RECENT", 1.20)  # 최근 저점 대비 +20% 미만
 
 # ---- 트랙 B : 김정수 · 바닥권 턴어라운드 ----
 #  "최고가 대비 10분의 1 이상 떨어진 상황에서 바닥 치고 도는 종목"
@@ -363,6 +366,9 @@ def build_features(df: pd.DataFrame, today: str) -> pd.DataFrame:
     df["vol_prev"] = g["volume"].shift(1)
     df["hi250"] = g["high"].transform(lambda s: s.rolling(250, min_periods=60).max())
     df["lo250"] = g["low"].transform(lambda s: s.rolling(250, min_periods=60).min())
+    _rl = max(20, RECENT_LOW_DAYS)
+    df["lo_recent"] = g["low"].transform(
+        lambda s: s.rolling(_rl, min_periods=int(_rl * 0.5)).min())
     _bd = max(60, B_BOX_DAYS)
     df["box_hi"] = g["close"].transform(
         lambda s: s.shift(1).rolling(_bd, min_periods=int(_bd * 0.6)).max())
@@ -381,6 +387,7 @@ def build_features(df: pd.DataFrame, today: str) -> pd.DataFrame:
     t["pos_52w"] = _safe_div(t["close"] - t["lo250"], t["hi250"] - t["lo250"])
     t["from_high"] = _safe_div(t["close"], t["hi250"])      # 창내 고점 대비 현재 위치
     t["runup"] = _safe_div(t["close"], t["lo250"])
+    t["runup_recent"] = _safe_div(t["close"], t["lo_recent"])   # 최근 저점 대비 상승 배수
     t["box_width"] = _safe_div(t["box_hi"], t["box_lo"]) - 1
     t["value_surge"] = _safe_div(t["value"], t["v_avg20"])  # 참고 표시용 (선별 조건 아님)
     t["vol_vs_prev"] = _safe_div(t["volume"], t["vol_prev"])
@@ -483,7 +490,9 @@ def screen_track_a(t: pd.DataFrame, sectors: dict, falling: dict | None = None) 
             "양봉 실체 확보": ok(r["body_pct"] >= A_BODY_MIN * 100 and r["body_ratio"] >= A_BODY_RATIO),
             "긴 윗꼬리 없음": ok(pd.notna(r["uptail_ratio"]) and r["uptail_ratio"] <= A_UPTAIL_MAX),
             f"시총 {A_MAX_MKTCAP/1e12:,.0f}조 이하": ok(r["mktcap"] <= A_MAX_MKTCAP),
-            f"저점 대비 {A_MAX_RUNUP:.0f}배 미만 (시작점)": ok(pd.notna(r["runup"]) and r["runup"] < A_MAX_RUNUP),
+            f"저점 대비 {A_MAX_RUNUP:.0f}배 미만": ok(pd.notna(r["runup"]) and r["runup"] < A_MAX_RUNUP),
+            f"최근 {RECENT_LOW_DAYS}일 저점 대비 +{(A_MAX_RUNUP_RECENT-1)*100:.0f}% 미만 (매수 초입)": ok(
+                pd.notna(r["runup_recent"]) and r["runup_recent"] < A_MAX_RUNUP_RECENT),
         }
         failed = [k for k, v in checks.items() if not v]
         if len(failed) > 1:
@@ -510,6 +519,7 @@ def screen_track_a(t: pd.DataFrame, sectors: dict, falling: dict | None = None) 
             "mktcap_jo": num(r["mktcap"] / 1e12, 2),
             "pos_52w": num(r["pos_52w"] * 100, 1),
             "runup": num(r["runup"], 2),
+            "up_from_low": num((r["runup_recent"] - 1) * 100, 1),
             "uptail": num(r["uptail_ratio"] * 100, 1),
             "sector": sec, "peers": peers[:6],
             "sector_confirmed": (len(peers) >= 1) if peers else False,
@@ -564,6 +574,7 @@ def screen_track_b(t: pd.DataFrame, sectors: dict, falling: dict | None = None) 
             "vol_man": num(r["volume"] / 1e4, 0),
             "from_high_pct": num((1 - r["from_high"]) * 100, 1),
             "pos_52w": num(r["pos_52w"] * 100, 1),
+            "up_from_low": num((r["runup_recent"] - 1) * 100, 1),
             "box_width": num(r["box_width"] * 100, 1),
             "uptail": num(r["uptail_ratio"] * 100, 1),
             "sector": sectors.get(r["code"]), "peers": [],
@@ -677,6 +688,8 @@ def main() -> int:
             "A_MIN_VALUE_eok": int(A_MIN_VALUE / 1e8),
             "A_CHG": [A_CHG_MIN, A_CHG_MAX],
             "A_MAX_MKTCAP_jo": A_MAX_MKTCAP / 1e12,
+            "RECENT_LOW_DAYS": RECENT_LOW_DAYS,
+            "A_MAX_UP_FROM_LOW_pct": round((A_MAX_RUNUP_RECENT - 1) * 100, 1),
             "B_FROM_HIGH_MAX": B_FROM_HIGH_MAX,
             "B_BOX_DAYS": B_BOX_DAYS,
             "B_VOL_ABS_man": int(B_VOL_ABS / 1e4),
