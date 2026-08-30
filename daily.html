@@ -56,6 +56,19 @@ header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:fle
 .reg .num b{display:block;font-size:14px;color:var(--tx);font-weight:600}
 .st.상승추세{color:var(--okc)} .st.중립{color:var(--tx)} .st.조정{color:var(--warn)} .st.하락추세{color:var(--dn)}
 .chip.strong{background:#fef3c7;color:#92400e;border-color:transparent;font-weight:700}
+.chip.심각{background:#fee4e2;color:#b42318;border-color:transparent;font-weight:700}
+.chip.주의{background:#fef0c7;color:#b54708;border-color:transparent;font-weight:700}
+.chip.양호{background:#dcfae6;color:#067647;border-color:transparent}
+.corp{padding:12px 16px;border-top:1px solid var(--line);background:var(--panel2)}
+.corp h4{margin:0 0 6px;font-size:12.5px;color:var(--tx2);font-weight:600}
+.corp .fin{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:8px;margin:8px 0}
+.corp .fin div{font-size:11px;color:var(--tx3)}
+.corp .fin b{display:block;font-size:13.5px;color:var(--tx);font-weight:600;
+  font-variant-numeric:tabular-nums;margin-top:2px}
+.corp a{color:var(--dn);text-decoration:none}
+.corp a:hover{text-decoration:underline}
+.fil{font-size:12px;color:var(--tx2);padding:2px 0;display:flex;gap:8px}
+.fil .d{color:var(--tx3);font-variant-numeric:tabular-nums;flex:none;width:62px}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .chip.strong{background:#3a2c07;color:#fbbf24}}
 
 .banner{margin:14px 0 0;padding:10px 14px;border-radius:10px;background:var(--warnbg);
@@ -281,7 +294,44 @@ function stockCard(s){
       ${Object.entries(s.checks).map(([k,v])=>
         `<div class="ck ${v?"":"no"}"><i>${v?"✓":"·"}</i><span>${k}</span></div>`).join("")}
     </div>
+    ${corpBlock(s.company)}
   </div>`);
+}
+
+const 억 = n => (n==null) ? "-" : (Math.abs(n)>=1e12
+  ? (n/1e12).toFixed(2)+"조" : Math.round(n/1e8).toLocaleString("ko-KR")+"억");
+
+function corpBlock(c){
+  if(!c) return "";
+  if(!c.ok) return `<div class="corp"><h4>기업 확인</h4>
+    <span class="chip">${c.reason||"조회 불가"}</span>
+    <span class="sub" style="margin-left:6px">DART에서 직접 확인하십시오.</span></div>`;
+  const f = c.fin || {};
+  const fin = f.year ? `<div class="fin">
+      <div>매출액 (${f.year})<b>${억(f.revenue)}</b></div>
+      <div>영업이익<b class="${f.operating_income<0?"dn":""}">${억(f.operating_income)}</b></div>
+      <div>순이익<b class="${f.net_income<0?"dn":""}">${억(f.net_income)}</b></div>
+      <div>영업이익률<b>${f.op_margin==null?"-":f.op_margin+"%"}</b></div>
+      <div>부채비율<b>${f.debt_ratio==null?"-":f.debt_ratio+"%"}</b></div>
+    </div>` : "";
+  const fils = (c.filings||[]).filter(x=>x.risk).slice(0,4);
+  const filHtml = fils.length ? `<div style="margin-top:8px">
+      ${fils.map(x=>`<div class="fil"><span class="d">${x.date.slice(4,6)}/${x.date.slice(6)}</span>
+        <a href="${x.url}" target="_blank" rel="noopener">${x.title}</a></div>`).join("")}
+    </div>` : "";
+  return `<div class="corp">
+    <h4>기업 확인 · ${c.name||""} ${c.ceo?`· 대표 ${c.ceo}`:""} ${c.established?`· 설립 ${c.established.slice(0,4)}`:""}</h4>
+    <div style="display:flex;flex-wrap:wrap;gap:6px">
+      ${(c.flags||[]).map(x=>`<span class="chip ${x.level}">${x.level} · ${x.text}</span>`).join("")}
+    </div>
+    ${fin}
+    ${filHtml}
+    <div class="sub" style="margin-top:8px">
+      ${c.homepage?`<a href="${/^https?:/.test(c.homepage)?c.homepage:"http://"+c.homepage}" target="_blank" rel="noopener">회사 홈페이지</a> · `:""}
+      <a href="${c.dart_url}" target="_blank" rel="noopener">DART 전자공시 전체 보기</a>
+      · 관리종목·거래정지 지정 여부는 HTS에서 직접 확인하십시오.
+    </div>
+  </div>`;
 }
 
 function renderList(id, items, emptyMsg){
