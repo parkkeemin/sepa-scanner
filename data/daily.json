@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-30 19:05:08",
+ "generated_at": "2026-09-01 02:05:51",
  "base_date": "2026-08-28",
  "universe": 2767,
  "regime": [
@@ -664,9 +664,16 @@
     ],
     "filings": [
      {
-      "date": "20260813",
-      "title": "반기보고서 (2026.06)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001536",
+      "date": "20260831",
+      "title": "[기재정정]반기보고서 (2026.06)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001232",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20260831",
+      "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000736",
       "risk": null,
       "why": null
      },
@@ -709,13 +716,6 @@
       "date": "20260714",
       "title": "계열금융회사의약관에의한금융거래-[유가증권-채권]",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000224",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260714",
-      "title": "계열금융회사의약관에의한금융거래-[보험]",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000190",
       "risk": null,
       "why": null
      }
