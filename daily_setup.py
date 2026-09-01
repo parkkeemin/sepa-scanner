@@ -237,9 +237,33 @@ def save_day(basdd: str, rows: list[dict]) -> None:
     new.sort_values(["date", "code"]).to_csv(p, index=False, compression="gzip")
 
 
+FETCH_LOG: list[dict] = []
+
+
+def staleness(today: str) -> dict:
+    """기준일이 '마지막 평일' 대비 며칠 뒤처졌는지.
+
+    KRX 가 그날 데이터를 아직 안 올렸거나 수집이 실패하면 기준일이 그대로 멈춘다.
+    화면에 아무 표시가 없으면 '프로그램이 안 돌았나' 하고 헷갈리므로 숫자로 남긴다.
+    (공휴일 달력은 없으므로 평일 수만 센다. 그 사이가 휴장일이면 0이 아니어도 정상.)
+    """
+    base = dt.datetime.strptime(today, "%Y%m%d").date()
+    now = dt.datetime.now()
+    cutoff = now.date()
+    if now.hour < 16:                    # 장 마감 전이면 오늘 데이터는 원래 없다
+        cutoff -= dt.timedelta(days=1)
+    n, d = 0, base + dt.timedelta(days=1)
+    while d <= cutoff:
+        if d.weekday() < 5:
+            n += 1
+        d += dt.timedelta(days=1)
+    return {"weekdays_behind": n, "checked_until": cutoff.strftime("%Y-%m-%d")}
+
+
 def collect(target: str, backfill: int) -> str:
     """target 기준일부터 과거로 backfill 거래일만큼 캐시를 채우고, 실제 최근 거래일 반환."""
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    FETCH_LOG.clear()
     have = cached_dates()
     d = dt.datetime.strptime(target, "%Y%m%d").date()
     got, tried, latest = 0, 0, None
@@ -252,6 +276,7 @@ def collect(target: str, backfill: int) -> str:
         if basdd in have:
             got += 1
             latest = latest or basdd
+            FETCH_LOG.append({"date": basdd, "result": "캐시에 있음"})
             d -= dt.timedelta(days=1)
             continue
         rows = krx_fetch_day(basdd, "KOSPI") + krx_fetch_day(basdd, "KOSDAQ")
@@ -259,8 +284,10 @@ def collect(target: str, backfill: int) -> str:
             save_day(basdd, rows)
             got += 1
             latest = latest or basdd
+            FETCH_LOG.append({"date": basdd, "result": f"수집 {len(rows):,}종목"})
             print(f"  + {basdd} {len(rows):,}종목")
         else:
+            FETCH_LOG.append({"date": basdd, "result": "KRX 응답 비어 있음(휴장 또는 미반영)"})
             print(f"  . {basdd} 휴장 또는 데이터 없음")
         d -= dt.timedelta(days=1)
         time.sleep(0.2)
@@ -748,6 +775,11 @@ def main() -> int:
     df = load_cache()
     today = sorted(df["date"].unique())[-1]
     print(f"      기준 거래일 {today} / 종목 {df[df['date'] == today].shape[0]:,}개")
+    _st = staleness(today)
+    if _st["weekdays_behind"] > 0:
+        print(f"  ！기준일이 마지막 평일({_st['checked_until']})보다 "
+              f"{_st['weekdays_behind']}일 뒤처져 있습니다. "
+              f"휴장일이 아니라면 KRX 수집이 비어 온 것입니다.", file=sys.stderr)
 
     print("[3/4] 지표·스크리닝")
     t = build_features(df, today)
@@ -785,6 +817,8 @@ def main() -> int:
     payload = {
         "generated_at": dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "base_date": f"{today[:4]}-{today[4:6]}-{today[6:]}",
+        "stale": staleness(today),
+        "fetch_log": FETCH_LOG[:8],
         "universe": int(t.shape[0]),
         "regime": regime,
         "track_a": track_a,

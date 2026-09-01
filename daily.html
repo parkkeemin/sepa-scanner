@@ -478,6 +478,14 @@ function render(d){
         아래는 <b>표시 형식 예시 카드</b>입니다. 실재하는 종목이 아닙니다.</div>`));
       d.preview.forEach(s=>box.appendChild(stockCard(s)));
     }
+  } else if((d.stale && d.stale.weekdays_behind > 0)){
+    const n = d.stale.weekdays_behind;
+    const log = (d.fetch_log||[]).map(x=>`${x.date} → ${x.result}`).join("  ·  ");
+    b.innerHTML = `<div class="banner"><b>기준일이 최신 거래일이 아닙니다.</b>
+      기준일 <b class="mono">${d.base_date}</b> 이후 평일이 <b>${n}일</b> 지났습니다
+      (${d.stale.checked_until} 기준). 그 사이가 휴장일이면 정상이고,
+      아니라면 KRX 수집이 빈 채로 돌아온 것입니다 — 아래 로그를 보십시오.<br>
+      <span class="mono" style="font-size:11px;opacity:.8">수집 로그  ${log||"기록 없음"}</span></div>`;
   } else b.innerHTML="";
 }
 
