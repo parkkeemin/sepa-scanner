@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-09-04 22:34:17",
- "base_date": "2026-09-03",
+ "generated_at": "2026-09-07 09:59:56",
+ "base_date": "2026-09-04",
  "stale": {
-  "weekdays_behind": 1,
-  "checked_until": "2026-09-04"
+  "weekdays_behind": 0,
+  "checked_until": "2026-09-06"
  },
  "fetch_log": [
   {
-   "date": "20260904",
+   "date": "20260907",
    "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+  },
+  {
+   "date": "20260904",
+   "result": "수집 2,765종목"
   },
   {
    "date": "20260903",
@@ -25,321 +29,171 @@
   {
    "date": "20260831",
    "result": "캐시에 있음"
-  },
-  {
-   "date": "20260828",
-   "result": "캐시에 있음"
   }
  ],
- "universe": 2764,
+ "universe": 2765,
  "regime": [
   {
    "market": "KOSPI",
    "state": "하락추세",
    "action": "지수 60일선 아래. 이 구간에서 조건을 충족한 종목은 시장보다 강한 종목입니다",
    "falling": false,
-   "day_chg": 0.23,
-   "pos_pct": 58.5,
-   "vs_ma20": -1.41,
-   "vs_ma60": -8.73
+   "day_chg": 1.7,
+   "pos_pct": 60.4,
+   "vs_ma20": -0.03,
+   "vs_ma60": -6.97
   },
   {
    "market": "KOSDAQ",
    "state": "하락추세",
    "action": "지수 60일선 아래. 이 구간에서 조건을 충족한 종목은 시장보다 강한 종목입니다",
-   "falling": true,
-   "day_chg": -1.78,
-   "pos_pct": 26.0,
-   "vs_ma20": -3.84,
-   "vs_ma60": -5.95
+   "falling": false,
+   "day_chg": 3.3,
+   "pos_pct": 30.6,
+   "vs_ma20": -0.85,
+   "vs_ma60": -2.58
   }
  ],
- "track_a": [
+ "track_a": [],
+ "track_b": [],
+ "track_c": [
   {
-   "track": "A",
+   "track": "C",
    "status": "pass",
    "missing": [],
    "strong_in_weak": false,
-   "code": "028050",
-   "name": "삼성E&A",
-   "market": "KOSPI",
-   "close": 46100,
-   "chg": 5.49,
-   "value_eok": 677,
-   "value_surge": 0.9,
-   "mktcap_jo": 9.04,
-   "pos_52w": 52.0,
-   "runup": 1.99,
-   "up_from_low": 20.4,
-   "uptail": 28.1,
+   "code": "263750",
+   "name": "펄어비스",
+   "market": "KOSDAQ",
+   "close": 34500,
+   "chg": 11.47,
+   "value_eok": 362,
+   "vol_man": 106,
+   "vol_vs_prev": 4.6,
+   "up_from_low": 17.1,
+   "low_recent": 29450,
+   "runup": 1.17,
+   "uptail": 27.3,
+   "mktcap_jo": 2.17,
    "sector": null,
-   "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "원익",
-    "한화오션"
-   ],
-   "sector_confirmed": true,
+   "peers": [],
+   "sector_confirmed": null,
    "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
     "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": true,
+    "1년 저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 47050,
-    "buy_pull": 45100,
-    "stop": 43350,
-    "stop_pct": -7.86,
-    "target1": 51800,
-    "target2": 56500,
+    "buy_break": 35300,
+    "buy_pull": 33700,
+    "stop": 32150,
+    "stop_pct": -8.92,
+    "target1": 38850,
+    "target2": 42350,
     "trail_pct": 7.0,
-    "rr": 1.28,
-    "bar_range_pct": 7.3,
-    "max_buy": null,
+    "rr": 1.13,
+    "bar_range_pct": 8.5,
+    "max_buy": 35300,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 44050,
-    "high": 47000,
-    "low": 43800,
-    "close": 46100
+    "open": 32950,
+    "high": 35250,
+    "low": 32500,
+    "close": 34500
    },
    "company": {
     "ok": true,
-    "name": "삼성이앤에이(주)",
-    "ceo": "남궁홍",
-    "industry_code": "72129",
-    "established": "19781019",
-    "homepage": "www.samsungena.com",
-    "market": "Y",
+    "name": "주식회사 펄어비스",
+    "ceo": "허진영",
+    "industry_code": "58211",
+    "established": "20100910",
+    "homepage": "www.pearlabyss.com",
+    "market": "K",
     "fin": {
      "year": "2025",
-     "revenue": 9028769083650.0,
-     "operating_income": 792078846892.0,
+     "revenue": 365564943738.0,
+     "operating_income": -14807541404.0,
      "net_income": null,
-     "total_equity": 4446187475181.0,
-     "total_liabilities": 5593370097294.0,
-     "op_margin": 8.8,
-     "debt_ratio": 125.8
+     "total_equity": 799102814399.0,
+     "total_liabilities": 349996486912.0,
+     "op_margin": -4.1,
+     "debt_ratio": 43.8
     },
     "flags": [
      {
-      "level": "참고",
-      "text": "최대주주 변경 관련 (09/01)"
+      "level": "심각",
+      "text": "2025년 영업적자"
      }
     ],
     "filings": [
      {
-      "date": "20260901",
-      "title": "최대주주등소유주식변동신고서",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901800464",
-      "risk": "참고",
-      "why": "최대주주 변경 관련"
-     },
-     {
-      "date": "20260831",
-      "title": "[기재정정]단일판매ㆍ공급계약체결",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831800593",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260831",
-      "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000407",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260828",
-      "title": "기업설명회(IR)개최(안내공시)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828800535",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260819",
-      "title": "[기재정정]단일판매ㆍ공급계약체결",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819800380",
-      "risk": null,
-      "why": null
-     },
-     {
       "date": "20260814",
       "title": "반기보고서 (2026.06)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003428",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260814",
-      "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003248",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260813",
-      "title": "[기재정정]단일판매ㆍ공급계약체결",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813801416",
-      "risk": null,
-      "why": null
-     }
-    ],
-    "dart_url": "https://dart.fss.or.kr/dsab001/main.do?option=corp&textCrpNm=삼성이앤에이(주)"
-   }
-  },
-  {
-   "track": "A",
-   "status": "pass",
-   "missing": [],
-   "strong_in_weak": false,
-   "code": "267270",
-   "name": "HD건설기계",
-   "market": "KOSPI",
-   "close": 135300,
-   "chg": 8.5,
-   "value_eok": 507,
-   "value_surge": 1.6,
-   "mktcap_jo": 6.48,
-   "pos_52w": 38.0,
-   "runup": 1.59,
-   "up_from_low": 29.1,
-   "uptail": 27.7,
-   "sector": null,
-   "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 139600,
-    "buy_pull": 130900,
-    "stop": 125700,
-    "stop_pct": -9.96,
-    "target1": 153600,
-    "target2": 167500,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 11.9,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 126500,
-    "high": 139400,
-    "low": 124600,
-    "close": 135300
-   },
-   "company": {
-    "ok": true,
-    "name": "에이치디건설기계(주)",
-    "ceo": "문재영",
-    "industry_code": "29241",
-    "established": "20170403",
-    "homepage": "www.hd-hyundaice.com",
-    "market": "Y",
-    "fin": {
-     "year": "2025",
-     "revenue": 3776524012000.0,
-     "operating_income": 170883006000.0,
-     "net_income": null,
-     "total_equity": 1930295930000.0,
-     "total_liabilities": 1672399462000.0,
-     "op_margin": 4.5,
-     "debt_ratio": 86.6
-    },
-    "flags": [
-     {
-      "level": "주의",
-      "text": "유상증자 — 주식 수 증가로 지분 희석 (08/31)"
-     }
-    ],
-    "filings": [
-     {
-      "date": "20260831",
-      "title": "유상증자결정(종속회사의주요경영사항)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831800675",
-      "risk": "주의",
-      "why": "유상증자 — 주식 수 증가로 지분 희석"
-     },
-     {
-      "date": "20260828",
-      "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828000797",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260814",
-      "title": "반기보고서 (2026.06)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004300",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260813",
-      "title": "동일인등출자계열회사와의상품ㆍ용역거래변경",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001129",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260813",
-      "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001098",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003642",
       "risk": null,
       "why": null
      },
      {
       "date": "20260811",
-      "title": "신탁계약해지결과보고서",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000492",
+      "title": "연결재무제표기준영업실적등에대한전망(공정공시)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811900977",
       "risk": null,
       "why": null
      },
      {
-      "date": "20260810",
-      "title": "주요사항보고서(자기주식취득신탁계약해지결정)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000659",
+      "date": "20260811",
+      "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811900974",
       "risk": null,
       "why": null
      },
      {
-      "date": "20260729",
-      "title": "[기재정정]주식소각결정",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729800852",
+      "date": "20260716",
+      "title": "결산실적공시예고",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716900703",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20260630",
+      "title": "지속가능경영보고서등관련사항(자율공시)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630901312",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20260630",
+      "title": "주식등의대량보유상황보고서(일반)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630000989",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20260625",
+      "title": "기업설명회(IR)개최",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625900858",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20260625",
+      "title": "해산사유발생(종속회사의주요경영사항)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625900739",
       "risk": null,
       "why": null
      }
     ],
-    "dart_url": "https://dart.fss.or.kr/dsab001/main.do?option=corp&textCrpNm=에이치디건설기계(주)"
+    "dart_url": "https://dart.fss.or.kr/dsab001/main.do?option=corp&textCrpNm=주식회사 펄어비스"
    }
   }
  ],
- "track_b": [],
- "track_c": [],
  "near": [
   {
    "track": "A",
@@ -348,26 +202,26 @@
     "시총 10조 이하"
    ],
    "strong_in_weak": false,
-   "code": "105560",
-   "name": "KB금융",
+   "code": "042700",
+   "name": "한미반도체",
    "market": "KOSPI",
-   "close": 177900,
-   "chg": 5.2,
-   "value_eok": 2705,
-   "value_surge": 1.5,
-   "mktcap_jo": 63.1,
-   "pos_52w": 81.3,
-   "runup": 1.68,
-   "up_from_low": 22.7,
-   "uptail": 24.8,
+   "close": 230000,
+   "chg": 9.26,
+   "value_eok": 2179,
+   "value_surge": 1.9,
+   "mktcap_jo": 21.92,
+   "pos_52w": 43.1,
+   "runup": 2.83,
+   "up_from_low": 54.5,
+   "uptail": 0.0,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -379,25 +233,25 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 180900,
-    "buy_pull": 174800,
-    "stop": 167700,
-    "stop_pct": -7.3,
-    "target1": 199000,
-    "target2": 217000,
+    "buy_break": 230500,
+    "buy_pull": 222000,
+    "stop": 210000,
+    "stop_pct": -8.89,
+    "target1": 253500,
+    "target2": 276500,
     "trail_pct": 7.0,
-    "rr": 1.37,
-    "bar_range_pct": 6.7,
+    "rr": 1.12,
+    "bar_range_pct": 8.2,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 171600,
-    "high": 180700,
-    "low": 169400,
-    "close": 177900
+    "open": 213500,
+    "high": 230000,
+    "low": 212500,
+    "close": 230000
    }
   },
   {
@@ -407,26 +261,26 @@
     "시총 10조 이하"
    ],
    "strong_in_weak": false,
-   "code": "000810",
-   "name": "삼성화재",
+   "code": "096770",
+   "name": "SK이노베이션",
    "market": "KOSPI",
-   "close": 702000,
-   "chg": 6.85,
-   "value_eok": 1646,
-   "value_surge": 2.5,
-   "mktcap_jo": 31.34,
-   "pos_52w": 83.7,
-   "runup": 1.68,
-   "up_from_low": 22.9,
-   "uptail": 6.2,
+   "close": 138300,
+   "chg": 5.73,
+   "value_eok": 1764,
+   "value_surge": 1.3,
+   "mktcap_jo": 23.38,
+   "pos_52w": 74.7,
+   "runup": 1.58,
+   "up_from_low": 57.7,
+   "uptail": 14.6,
    "sector": null,
    "peers": [
-    "현대건설",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
     "원익",
-    "한화오션"
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -438,12 +292,661 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 706000,
-    "buy_pull": 681000,
-    "stop": 650000,
-    "stop_pct": -7.93,
-    "target1": 777000,
-    "target2": 847000,
+    "buy_break": 139800,
+    "buy_pull": 134500,
+    "stop": 129300,
+    "stop_pct": -7.51,
+    "target1": 153800,
+    "target2": 167800,
+    "trail_pct": 7.0,
+    "rr": 1.33,
+    "bar_range_pct": 6.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 130700,
+    "high": 139600,
+    "low": 130700,
+    "close": 138300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "저점 대비 3배 미만"
+   ],
+   "strong_in_weak": false,
+   "code": "036930",
+   "name": "주성엔지니어링",
+   "market": "KOSDAQ",
+   "close": 178300,
+   "chg": 6.13,
+   "value_eok": 1537,
+   "value_surge": 0.8,
+   "mktcap_jo": 8.29,
+   "pos_52w": 59.2,
+   "runup": 6.81,
+   "up_from_low": 84.2,
+   "uptail": 15.7,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": false
+   },
+   "plan": {
+    "buy_break": 180100,
+    "buy_pull": 174200,
+    "stop": 168000,
+    "stop_pct": -6.72,
+    "target1": 198100,
+    "target2": 216000,
+    "trail_pct": 7.0,
+    "rr": 1.49,
+    "bar_range_pct": 6.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 170100,
+    "high": 179900,
+    "low": 169700,
+    "close": 178300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "저점 대비 3배 미만"
+   ],
+   "strong_in_weak": false,
+   "code": "240810",
+   "name": "원익IPS",
+   "market": "KOSDAQ",
+   "close": 114800,
+   "chg": 9.33,
+   "value_eok": 1022,
+   "value_surge": 1.2,
+   "mktcap_jo": 5.63,
+   "pos_52w": 51.5,
+   "runup": 3.09,
+   "up_from_low": 54.9,
+   "uptail": 19.5,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": false
+   },
+   "plan": {
+    "buy_break": 117200,
+    "buy_pull": 110400,
+    "stop": 105500,
+    "stop_pct": -9.98,
+    "target1": 128900,
+    "target2": 140600,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.7,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 106000,
+    "high": 117000,
+    "low": 105700,
+    "close": 114800
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "저점 대비 3배 미만"
+   ],
+   "strong_in_weak": false,
+   "code": "095610",
+   "name": "테스",
+   "market": "KOSDAQ",
+   "close": 146800,
+   "chg": 9.63,
+   "value_eok": 693,
+   "value_surge": 1.5,
+   "mktcap_jo": 2.84,
+   "pos_52w": 57.0,
+   "runup": 5.25,
+   "up_from_low": 49.9,
+   "uptail": 14.5,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": false
+   },
+   "plan": {
+    "buy_break": 149000,
+    "buy_pull": 140900,
+    "stop": 134100,
+    "stop_pct": -10.0,
+    "target1": 163900,
+    "target2": 178800,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 135000,
+    "high": 148800,
+    "low": 135000,
+    "close": 146800
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "등락률 +5~+10% 장대양봉"
+   ],
+   "strong_in_weak": false,
+   "code": "090460",
+   "name": "비에이치",
+   "market": "KOSPI",
+   "close": 21850,
+   "chg": 10.75,
+   "value_eok": 626,
+   "value_surge": 2.3,
+   "mktcap_jo": 0.74,
+   "pos_52w": 30.4,
+   "runup": 1.76,
+   "up_from_low": 75.6,
+   "uptail": 15.4,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 22250,
+    "buy_pull": 20900,
+    "stop": 20050,
+    "stop_pct": -9.89,
+    "target1": 24500,
+    "target2": 26700,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 11.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 19980,
+    "high": 22200,
+    "low": 19920,
+    "close": 21850
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "등락률 +5~+10% 장대양봉"
+   ],
+   "strong_in_weak": false,
+   "code": "336260",
+   "name": "두산퓨얼셀",
+   "market": "KOSPI",
+   "close": 43850,
+   "chg": 12.44,
+   "value_eok": 605,
+   "value_surge": 1.5,
+   "mktcap_jo": 2.87,
+   "pos_52w": 28.3,
+   "runup": 2.41,
+   "up_from_low": 140.5,
+   "uptail": 18.6,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 44950,
+    "buy_pull": 42150,
+    "stop": 40500,
+    "stop_pct": -9.9,
+    "target1": 49450,
+    "target2": 53900,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 14.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 40450,
+    "high": 44900,
+    "low": 39250,
+    "close": 43850
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "등락률 +5~+10% 장대양봉"
+   ],
+   "strong_in_weak": false,
+   "code": "033790",
+   "name": "피노",
+   "market": "KOSDAQ",
+   "close": 10200,
+   "chg": 15.52,
+   "value_eok": 587,
+   "value_surge": 4.8,
+   "mktcap_jo": 0.85,
+   "pos_52w": 43.0,
+   "runup": 2.96,
+   "up_from_low": 139.2,
+   "uptail": 15.6,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "주성엔지니어링"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10490,
+    "buy_pull": 9570,
+    "stop": 9450,
+    "stop_pct": -9.91,
+    "target1": 11540,
+    "target2": 12590,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 19.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8940,
+    "high": 10470,
+    "low": 8740,
+    "close": 10200
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "시총 10조 이하"
+   ],
+   "strong_in_weak": false,
+   "code": "018260",
+   "name": "삼성에스디에스",
+   "market": "KOSPI",
+   "close": 238000,
+   "chg": 5.31,
+   "value_eok": 505,
+   "value_surge": 0.9,
+   "mktcap_jo": 18.42,
+   "pos_52w": 38.5,
+   "runup": 1.66,
+   "up_from_low": 30.8,
+   "uptail": 13.6,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "원익홀딩스",
+    "원익",
+    "피노",
+    "주성엔지니어링"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": false,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 240000,
+    "buy_pull": 234000,
+    "stop": 226000,
+    "stop_pct": -5.83,
+    "target1": 264000,
+    "target2": 288000,
+    "trail_pct": 7.0,
+    "rr": 1.71,
+    "bar_range_pct": 4.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 229500,
+    "high": 239500,
+    "low": 228500,
+    "close": 238000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "025980",
+   "name": "아난티",
+   "market": "KOSDAQ",
+   "close": 5710,
+   "chg": 5.74,
+   "value_eok": 392,
+   "value_surge": 1.0,
+   "mktcap_jo": 0.56,
+   "pos_52w": 34.9,
+   "runup": 1.81,
+   "up_from_low": 81.3,
+   "uptail": 19.0,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 5800,
+    "buy_pull": 5560,
+    "stop": 5310,
+    "stop_pct": -8.45,
+    "target1": 6380,
+    "target2": 6960,
+    "trail_pct": 7.0,
+    "rr": 1.18,
+    "bar_range_pct": 7.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 5420,
+    "high": 5790,
+    "low": 5370,
+    "close": 5710
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "100090",
+   "name": "SK오션플랜트",
+   "market": "KOSPI",
+   "close": 13860,
+   "chg": 7.44,
+   "value_eok": 340,
+   "value_surge": 2.1,
+   "mktcap_jo": 0.87,
+   "pos_52w": 13.8,
+   "runup": 1.26,
+   "up_from_low": 25.9,
+   "uptail": 16.7,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 14120,
+    "buy_pull": 13380,
+    "stop": 12710,
+    "stop_pct": -9.99,
+    "target1": 15530,
+    "target2": 16940,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 12900,
+    "high": 14100,
+    "low": 12660,
+    "close": 13860
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "087010",
+   "name": "펩트론",
+   "market": "KOSDAQ",
+   "close": 157300,
+   "chg": 7.3,
+   "value_eok": 201,
+   "value_surge": 0.8,
+   "mktcap_jo": 3.67,
+   "pos_52w": 20.1,
+   "runup": 1.61,
+   "up_from_low": 60.5,
+   "uptail": 34.0,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 162600,
+    "buy_pull": 152600,
+    "stop": 146400,
+    "stop_pct": -9.96,
+    "target1": 178900,
+    "target2": 195100,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 10.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 148000,
+    "high": 162400,
+    "low": 147400,
+    "close": 157300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "119850",
+   "name": "지엔씨에너지",
+   "market": "KOSDAQ",
+   "close": 44900,
+   "chg": 7.29,
+   "value_eok": 182,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.74,
+   "pos_52w": 67.0,
+   "runup": 2.45,
+   "up_from_low": 140.2,
+   "uptail": 3.3,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 45050,
+    "buy_pull": 43400,
+    "stop": 41500,
+    "stop_pct": -7.88,
+    "target1": 49550,
+    "target2": 54100,
     "trail_pct": 7.0,
     "rr": 1.27,
     "bar_range_pct": 7.3,
@@ -453,275 +956,334 @@
     "reject": []
    },
    "bar": {
-    "open": 660000,
-    "high": 705000,
-    "low": 657000,
-    "close": 702000
+    "open": 41950,
+    "high": 45000,
+    "low": 41950,
+    "close": 44900
    }
   },
   {
    "track": "A",
    "status": "near",
    "missing": [
-    "시총 10조 이하"
+    "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "373220",
-   "name": "LG에너지솔루션",
+   "code": "180640",
+   "name": "한진칼",
    "market": "KOSPI",
-   "close": 365500,
-   "chg": 5.18,
-   "value_eok": 1550,
+   "close": 146000,
+   "chg": 9.12,
+   "value_eok": 177,
    "value_surge": 1.4,
-   "mktcap_jo": 85.53,
-   "pos_52w": 31.7,
-   "runup": 1.26,
-   "up_from_low": 25.8,
-   "uptail": 26.1,
+   "mktcap_jo": 9.75,
+   "pos_52w": 63.9,
+   "runup": 1.57,
+   "up_from_low": 44.7,
+   "uptail": 9.2,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": false,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 372000,
-    "buy_pull": 360000,
-    "stop": 345000,
-    "stop_pct": -7.26,
-    "target1": 409000,
-    "target2": 446500,
-    "trail_pct": 7.0,
-    "rr": 1.37,
-    "bar_range_pct": 6.6,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 354000,
-    "high": 371500,
-    "low": 348500,
-    "close": 365500
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "시총 10조 이하"
-   ],
-   "strong_in_weak": false,
-   "code": "010140",
-   "name": "삼성중공업",
-   "market": "KOSPI",
-   "close": 21650,
-   "chg": 8.58,
-   "value_eok": 1516,
-   "value_surge": 2.9,
-   "mktcap_jo": 19.05,
-   "pos_52w": 19.0,
-   "runup": 1.17,
-   "up_from_low": 17.4,
-   "uptail": 12.5,
-   "sector": null,
-   "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성E&A",
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
     "원익",
-    "한화오션"
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
-    "거래대금 500억 이상": true,
+    "거래대금 500억 이상": false,
     "등락률 +5~+10% 장대양봉": true,
     "양봉 실체 확보": true,
     "긴 윗꼬리 없음": true,
-    "시총 10조 이하": false,
+    "시총 10조 이하": true,
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 21950,
-    "buy_pull": 20900,
-    "stop": 19760,
-    "stop_pct": -9.98,
-    "target1": 24150,
-    "target2": 26350,
+    "buy_break": 147100,
+    "buy_pull": 142000,
+    "stop": 135700,
+    "stop_pct": -7.75,
+    "target1": 161800,
+    "target2": 176500,
     "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 10.1,
+    "rr": 1.29,
+    "bar_range_pct": 7.1,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 20200,
-    "high": 21900,
-    "low": 19900,
-    "close": 21650
+    "open": 138100,
+    "high": 146900,
+    "low": 137100,
+    "close": 146000
    }
   },
   {
    "track": "A",
    "status": "near",
    "missing": [
-    "시총 10조 이하"
+    "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "051910",
-   "name": "LG화학",
+   "code": "281820",
+   "name": "케이씨텍",
    "market": "KOSPI",
-   "close": 287000,
-   "chg": 6.69,
-   "value_eok": 869,
-   "value_surge": 2.0,
-   "mktcap_jo": 20.26,
-   "pos_52w": 29.5,
-   "runup": 1.28,
-   "up_from_low": 28.1,
-   "uptail": 28.8,
+   "close": 68100,
+   "chg": 9.13,
+   "value_eok": 146,
+   "value_surge": 1.3,
+   "mktcap_jo": 1.35,
+   "pos_52w": 39.6,
+   "runup": 2.21,
+   "up_from_low": 27.3,
+   "uptail": 7.8,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
-    "거래대금 500억 이상": true,
+    "거래대금 500억 이상": false,
     "등락률 +5~+10% 장대양봉": true,
     "양봉 실체 확보": true,
     "긴 윗꼬리 없음": true,
-    "시총 10조 이하": false,
+    "시총 10조 이하": true,
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 296000,
-    "buy_pull": 279500,
-    "stop": 266500,
-    "stop_pct": -9.97,
-    "target1": 325500,
-    "target2": 355000,
+    "buy_break": 68600,
+    "buy_pull": 65800,
+    "stop": 62700,
+    "stop_pct": -8.6,
+    "target1": 75500,
+    "target2": 82300,
     "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 11.1,
+    "rr": 1.17,
+    "bar_range_pct": 8.0,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 272000,
-    "high": 295500,
-    "low": 266000,
-    "close": 287000
+    "open": 63400,
+    "high": 68500,
+    "low": 63400,
+    "close": 68100
    }
   },
   {
    "track": "A",
    "status": "near",
    "missing": [
-    "시총 10조 이하"
+    "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "005830",
-   "name": "DB손해보험",
+   "code": "466100",
+   "name": "클로봇",
+   "market": "KOSDAQ",
+   "close": 24650,
+   "chg": 8.83,
+   "value_eok": 124,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.63,
+   "pos_52w": 9.6,
+   "runup": 1.33,
+   "up_from_low": 22.9,
+   "uptail": 33.3,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 25350,
+    "buy_pull": 24000,
+    "stop": 23100,
+    "stop_pct": -8.88,
+    "target1": 27900,
+    "target2": 30400,
+    "trail_pct": 7.0,
+    "rr": 1.13,
+    "bar_range_pct": 8.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 23350,
+    "high": 25300,
+    "low": 23350,
+    "close": 24650
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "181710",
+   "name": "NHN",
    "market": "KOSPI",
-   "close": 203000,
-   "chg": 6.34,
-   "value_eok": 624,
-   "value_surge": 1.6,
-   "mktcap_jo": 13.3,
-   "pos_52w": 88.5,
-   "runup": 1.72,
-   "up_from_low": 60.0,
+   "close": 71500,
+   "chg": 8.5,
+   "value_eok": 121,
+   "value_surge": 0.5,
+   "mktcap_jo": 2.34,
+   "pos_52w": 87.5,
+   "runup": 2.9,
+   "up_from_low": 127.0,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 71600,
+    "buy_pull": 69200,
+    "stop": 65400,
+    "stop_pct": -8.66,
+    "target1": 78800,
+    "target2": 85900,
+    "trail_pct": 7.0,
+    "rr": 1.16,
+    "bar_range_pct": 8.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 66900,
+    "high": 71500,
+    "low": 66100,
+    "close": 71500
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "298380",
+   "name": "에이비엘바이오",
+   "market": "KOSDAQ",
+   "close": 71400,
+   "chg": 5.62,
+   "value_eok": 119,
+   "value_surge": 0.5,
+   "mktcap_jo": 4.0,
+   "pos_52w": 5.9,
+   "runup": 1.19,
+   "up_from_low": 19.4,
+   "uptail": 14.3,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 72000,
+    "buy_pull": 70000,
+    "stop": 67700,
+    "stop_pct": -5.97,
+    "target1": 79200,
+    "target2": 86400,
+    "trail_pct": 7.0,
+    "rr": 1.67,
+    "bar_range_pct": 5.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 68500,
+    "high": 71900,
+    "low": 68400,
+    "close": 71400
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "053690",
+   "name": "한미글로벌",
+   "market": "KOSPI",
+   "close": 22800,
+   "chg": 5.07,
+   "value_eok": 90,
+   "value_surge": 1.1,
+   "mktcap_jo": 0.25,
+   "pos_52w": 43.1,
+   "runup": 1.66,
+   "up_from_low": 65.9,
    "uptail": 28.6,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "삼성중공업",
-    "삼성E&A",
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
     "원익",
-    "한화오션"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": false,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 208500,
-    "buy_pull": 196800,
-    "stop": 188500,
-    "stop_pct": -9.59,
-    "target1": 229500,
-    "target2": 250000,
-    "trail_pct": 7.0,
-    "rr": 1.05,
-    "bar_range_pct": 9.2,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 190500,
-    "high": 208000,
-    "low": 190500,
-    "close": 203000
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "028670",
-   "name": "팬오션",
-   "market": "KOSPI",
-   "close": 5940,
-   "chg": 7.8,
-   "value_eok": 456,
-   "value_surge": 1.9,
-   "mktcap_jo": 3.18,
-   "pos_52w": 78.8,
-   "runup": 1.7,
-   "up_from_low": 35.0,
-   "uptail": 32.0,
-   "sector": null,
-   "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -733,25 +1295,25 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 6110,
-    "buy_pull": 5780,
-    "stop": 5540,
-    "stop_pct": -9.33,
-    "target1": 6720,
-    "target2": 7330,
+    "buy_break": 23450,
+    "buy_pull": 22300,
+    "stop": 21150,
+    "stop_pct": -9.81,
+    "target1": 25800,
+    "target2": 28150,
     "trail_pct": 7.0,
-    "rr": 1.07,
-    "bar_range_pct": 8.9,
+    "rr": 1.02,
+    "bar_range_pct": 9.9,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 5630,
-    "high": 6100,
-    "low": 5600,
-    "close": 5940
+    "open": 21750,
+    "high": 23400,
+    "low": 21300,
+    "close": 22800
    }
   },
   {
@@ -761,26 +1323,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "011170",
-   "name": "롯데케미칼",
-   "market": "KOSPI",
-   "close": 61000,
-   "chg": 6.46,
-   "value_eok": 178,
-   "value_surge": 2.3,
-   "mktcap_jo": 2.61,
-   "pos_52w": 12.7,
-   "runup": 1.16,
-   "up_from_low": 16.2,
-   "uptail": 23.1,
+   "code": "019210",
+   "name": "와이지-원",
+   "market": "KOSDAQ",
+   "close": 14260,
+   "chg": 5.71,
+   "value_eok": 81,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.53,
+   "pos_52w": 39.7,
+   "runup": 2.91,
+   "up_from_low": 11.3,
+   "uptail": 19.1,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -792,12 +1354,130 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 62300,
-    "buy_pull": 59200,
-    "stop": 56400,
-    "stop_pct": -9.47,
-    "target1": 68500,
-    "target2": 74800,
+    "buy_break": 14460,
+    "buy_pull": 13940,
+    "stop": 13360,
+    "stop_pct": -7.61,
+    "target1": 15910,
+    "target2": 17350,
+    "trail_pct": 7.0,
+    "rr": 1.32,
+    "bar_range_pct": 7.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 13610,
+    "high": 14440,
+    "low": 13500,
+    "close": 14260
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "100790",
+   "name": "미래에셋벤처투자",
+   "market": "KOSDAQ",
+   "close": 14980,
+   "chg": 8.0,
+   "value_eok": 80,
+   "value_surge": 0.4,
+   "mktcap_jo": 0.8,
+   "pos_52w": 14.0,
+   "runup": 2.54,
+   "up_from_low": 49.8,
+   "uptail": 19.4,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 15200,
+    "buy_pull": 14610,
+    "stop": 14000,
+    "stop_pct": -7.89,
+    "target1": 16720,
+    "target2": 18240,
+    "trail_pct": 7.0,
+    "rr": 1.27,
+    "bar_range_pct": 7.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 14240,
+    "high": 15180,
+    "low": 14150,
+    "close": 14980
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "476830",
+   "name": "알지노믹스",
+   "market": "KOSDAQ",
+   "close": 28200,
+   "chg": 6.82,
+   "value_eok": 64,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.79,
+   "pos_52w": 3.6,
+   "runup": 1.41,
+   "up_from_low": 41.1,
+   "uptail": 27.1,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 28900,
+    "buy_pull": 27500,
+    "stop": 26150,
+    "stop_pct": -9.52,
+    "target1": 31800,
+    "target2": 34700,
     "trail_pct": 7.0,
     "rr": 1.05,
     "bar_range_pct": 9.1,
@@ -807,10 +1487,10 @@
     "reject": []
    },
    "bar": {
-    "open": 57300,
-    "high": 62200,
-    "low": 57000,
-    "close": 61000
+    "open": 26850,
+    "high": 28850,
+    "low": 26450,
+    "close": 28200
    }
   },
   {
@@ -820,26 +1500,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "000210",
-   "name": "DL",
-   "market": "KOSPI",
-   "close": 55000,
-   "chg": 7.42,
-   "value_eok": 118,
-   "value_surge": 3.9,
-   "mktcap_jo": 1.15,
-   "pos_52w": 48.2,
-   "runup": 1.62,
-   "up_from_low": 41.0,
-   "uptail": 20.8,
+   "code": "388210",
+   "name": "씨엠티엑스",
+   "market": "KOSDAQ",
+   "close": 74800,
+   "chg": 9.04,
+   "value_eok": 54,
+   "value_surge": 1.7,
+   "mktcap_jo": 0.72,
+   "pos_52w": 16.1,
+   "runup": 1.32,
+   "up_from_low": 32.4,
+   "uptail": 18.9,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -851,14 +1531,781 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 56200,
-    "buy_pull": 53100,
-    "stop": 50600,
+    "buy_break": 76300,
+    "buy_pull": 71800,
+    "stop": 68700,
     "stop_pct": -9.96,
-    "target1": 61800,
-    "target2": 67400,
+    "target1": 83900,
+    "target2": 91600,
     "trail_pct": 7.0,
     "rr": 1.0,
+    "bar_range_pct": 10.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 68800,
+    "high": 76200,
+    "low": 68800,
+    "close": 74800
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "005950",
+   "name": "이수화학",
+   "market": "KOSPI",
+   "close": 11780,
+   "chg": 5.56,
+   "value_eok": 49,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.31,
+   "pos_52w": 52.0,
+   "runup": 2.33,
+   "up_from_low": 14.7,
+   "uptail": 6.1,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 11840,
+    "buy_pull": 11500,
+    "stop": 11040,
+    "stop_pct": -6.76,
+    "target1": 13020,
+    "target2": 14210,
+    "trail_pct": 7.0,
+    "rr": 1.48,
+    "bar_range_pct": 5.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 11210,
+    "high": 11820,
+    "low": 11160,
+    "close": 11780
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "452260",
+   "name": "한화갤러리아",
+   "market": "KOSPI",
+   "close": 2300,
+   "chg": 6.73,
+   "value_eok": 45,
+   "value_surge": 2.0,
+   "mktcap_jo": 0.45,
+   "pos_52w": 41.7,
+   "runup": 2.3,
+   "up_from_low": 46.1,
+   "uptail": 19.6,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 2350,
+    "buy_pull": 2230,
+    "stop": 2115,
+    "stop_pct": -10.0,
+    "target1": 2585,
+    "target2": 2820,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2165,
+    "high": 2345,
+    "low": 2115,
+    "close": 2300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "158430",
+   "name": "아톤",
+   "market": "KOSDAQ",
+   "close": 4850,
+   "chg": 8.26,
+   "value_eok": 39,
+   "value_surge": 4.8,
+   "mktcap_jo": 0.12,
+   "pos_52w": 19.2,
+   "runup": 1.47,
+   "up_from_low": 47.0,
+   "uptail": 33.3,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 4985,
+    "buy_pull": 4720,
+    "stop": 4540,
+    "stop_pct": -8.93,
+    "target1": 5480,
+    "target2": 5980,
+    "trail_pct": 7.0,
+    "rr": 1.11,
+    "bar_range_pct": 8.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 4590,
+    "high": 4980,
+    "low": 4590,
+    "close": 4850
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "397030",
+   "name": "에이프릴바이오",
+   "market": "KOSDAQ",
+   "close": 17800,
+   "chg": 6.14,
+   "value_eok": 37,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.49,
+   "pos_52w": 2.0,
+   "runup": 1.07,
+   "up_from_low": 7.2,
+   "uptail": 20.7,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 17990,
+    "buy_pull": 17540,
+    "stop": 16970,
+    "stop_pct": -5.67,
+    "target1": 19790,
+    "target2": 21600,
+    "trail_pct": 7.0,
+    "rr": 1.76,
+    "bar_range_pct": 4.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 17270,
+    "high": 17970,
+    "low": 17150,
+    "close": 17800
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "065350",
+   "name": "신성델타테크",
+   "market": "KOSDAQ",
+   "close": 30900,
+   "chg": 5.64,
+   "value_eok": 36,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.85,
+   "pos_52w": 13.7,
+   "runup": 1.37,
+   "up_from_low": 36.7,
+   "uptail": 15.6,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 31200,
+    "buy_pull": 30200,
+    "stop": 29250,
+    "stop_pct": -6.25,
+    "target1": 34300,
+    "target2": 37450,
+    "trail_pct": 7.0,
+    "rr": 1.59,
+    "bar_range_pct": 5.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 29550,
+    "high": 31150,
+    "low": 29550,
+    "close": 30900
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "356680",
+   "name": "엑스게이트",
+   "market": "KOSDAQ",
+   "close": 11430,
+   "chg": 6.23,
+   "value_eok": 32,
+   "value_surge": 0.3,
+   "mktcap_jo": 0.33,
+   "pos_52w": 21.8,
+   "runup": 1.87,
+   "up_from_low": 39.6,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 11450,
+    "buy_pull": 11160,
+    "stop": 10790,
+    "stop_pct": -5.76,
+    "target1": 12600,
+    "target2": 13740,
+    "trail_pct": 7.0,
+    "rr": 1.74,
+    "bar_range_pct": 4.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 10900,
+    "high": 11430,
+    "low": 10900,
+    "close": 11430
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "419050",
+   "name": "삼기에너지솔루션즈",
+   "market": "KOSDAQ",
+   "close": 1689,
+   "chg": 5.5,
+   "value_eok": 31,
+   "value_surge": 0.4,
+   "mktcap_jo": 0.1,
+   "pos_52w": 51.5,
+   "runup": 1.95,
+   "up_from_low": 95.3,
+   "uptail": 25.3,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 1716,
+    "buy_pull": 1662,
+    "stop": 1598,
+    "stop_pct": -6.88,
+    "target1": 1888,
+    "target2": 2060,
+    "trail_pct": 7.0,
+    "rr": 1.46,
+    "bar_range_pct": 6.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 1634,
+    "high": 1714,
+    "low": 1615,
+    "close": 1689
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "264850",
+   "name": "이랜시스",
+   "market": "KOSDAQ",
+   "close": 5630,
+   "chg": 6.03,
+   "value_eok": 28,
+   "value_surge": 0.2,
+   "mktcap_jo": 0.17,
+   "pos_52w": 35.1,
+   "runup": 1.6,
+   "up_from_low": 59.7,
+   "uptail": 34.4,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 5750,
+    "buy_pull": 5530,
+    "stop": 5360,
+    "stop_pct": -6.78,
+    "target1": 6330,
+    "target2": 6900,
+    "trail_pct": 7.0,
+    "rr": 1.49,
+    "bar_range_pct": 5.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 5430,
+    "high": 5740,
+    "low": 5420,
+    "close": 5630
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "456160",
+   "name": "지투지바이오",
+   "market": "KOSDAQ",
+   "close": 37950,
+   "chg": 5.71,
+   "value_eok": 28,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.63,
+   "pos_52w": 6.9,
+   "runup": 1.69,
+   "up_from_low": 69.4,
+   "uptail": 15.4,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 38400,
+    "buy_pull": 37000,
+    "stop": 35350,
+    "stop_pct": -7.94,
+    "target1": 42250,
+    "target2": 46100,
+    "trail_pct": 7.0,
+    "rr": 1.26,
+    "bar_range_pct": 7.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 36050,
+    "high": 38350,
+    "low": 35750,
+    "close": 37950
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "042510",
+   "name": "라온시큐어",
+   "market": "KOSDAQ",
+   "close": 9030,
+   "chg": 5.99,
+   "value_eok": 27,
+   "value_surge": 1.4,
+   "mktcap_jo": 0.1,
+   "pos_52w": 25.5,
+   "runup": 1.43,
+   "up_from_low": 42.9,
+   "uptail": 18.2,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 9140,
+    "buy_pull": 8830,
+    "stop": 8490,
+    "stop_pct": -7.11,
+    "target1": 10050,
+    "target2": 10970,
+    "trail_pct": 7.0,
+    "rr": 1.4,
+    "bar_range_pct": 6.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8630,
+    "high": 9130,
+    "low": 8580,
+    "close": 9030
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "358570",
+   "name": "지아이이노베이션",
+   "market": "KOSDAQ",
+   "close": 8090,
+   "chg": 6.17,
+   "value_eok": 26,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.52,
+   "pos_52w": 11.1,
+   "runup": 1.25,
+   "up_from_low": 25.0,
+   "uptail": 6.5,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8140,
+    "buy_pull": 7920,
+    "stop": 7430,
+    "stop_pct": -8.72,
+    "target1": 8950,
+    "target2": 9770,
+    "trail_pct": 7.0,
+    "rr": 1.14,
+    "bar_range_pct": 8.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 7740,
+    "high": 8130,
+    "low": 7510,
+    "close": 8090
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "452280",
+   "name": "한선엔지니어링",
+   "market": "KOSDAQ",
+   "close": 10180,
+   "chg": 5.06,
+   "value_eok": 26,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.2,
+   "pos_52w": 9.9,
+   "runup": 1.42,
+   "up_from_low": 18.2,
+   "uptail": 19.2,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10300,
+    "buy_pull": 10000,
+    "stop": 9660,
+    "stop_pct": -6.21,
+    "target1": 11330,
+    "target2": 12360,
+    "trail_pct": 7.0,
+    "rr": 1.61,
+    "bar_range_pct": 5.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 9810,
+    "high": 10280,
+    "low": 9760,
+    "close": 10180
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "049430",
+   "name": "코메론",
+   "market": "KOSDAQ",
+   "close": 22450,
+   "chg": 6.4,
+   "value_eok": 24,
+   "value_surge": 4.4,
+   "mktcap_jo": 0.2,
+   "pos_52w": 91.1,
+   "runup": 2.21,
+   "up_from_low": 28.4,
+   "uptail": 16.3,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 22850,
+    "buy_pull": 21700,
+    "stop": 20600,
+    "stop_pct": -9.85,
+    "target1": 25150,
+    "target2": 27400,
+    "trail_pct": 7.0,
+    "rr": 1.02,
     "bar_range_pct": 10.4,
     "max_buy": null,
     "entry": "돌파",
@@ -866,10 +2313,10 @@
     "reject": []
    },
    "bar": {
-    "open": 51200,
-    "high": 56100,
-    "low": 50800,
-    "close": 55000
+    "open": 20950,
+    "high": 22800,
+    "low": 20650,
+    "close": 22450
    }
   },
   {
@@ -879,26 +2326,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "136490",
-   "name": "선진",
-   "market": "KOSPI",
-   "close": 10950,
-   "chg": 7.88,
-   "value_eok": 38,
-   "value_surge": 4.2,
-   "mktcap_jo": 0.26,
-   "pos_52w": 46.2,
-   "runup": 1.31,
-   "up_from_low": 30.8,
-   "uptail": 16.7,
+   "code": "405100",
+   "name": "큐알티",
+   "market": "KOSDAQ",
+   "close": 13960,
+   "chg": 9.66,
+   "value_eok": 23,
+   "value_surge": 2.4,
+   "mktcap_jo": 0.17,
+   "pos_52w": 36.6,
+   "runup": 1.73,
+   "up_from_low": 73.2,
+   "uptail": 25.5,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -910,24 +2357,555 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 11120,
-    "buy_pull": 10580,
-    "stop": 10090,
-    "stop_pct": -9.26,
-    "target1": 12230,
-    "target2": 13340,
+    "buy_break": 14400,
+    "buy_pull": 13340,
+    "stop": 12960,
+    "stop_pct": -10.0,
+    "target1": 15840,
+    "target2": 17280,
     "trail_pct": 7.0,
-    "rr": 1.08,
-    "bar_range_pct": 8.8,
+    "rr": 1.0,
+    "bar_range_pct": 13.0,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 10200,
-    "high": 11100,
-    "low": 10200,
+    "open": 12730,
+    "high": 14380,
+    "low": 12730,
+    "close": 13960
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "328130",
+   "name": "루닛",
+   "market": "KOSDAQ",
+   "close": 9000,
+   "chg": 5.14,
+   "value_eok": 22,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.67,
+   "pos_52w": 1.6,
+   "runup": 1.08,
+   "up_from_low": 7.8,
+   "uptail": 33.9,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 9220,
+    "buy_pull": 8820,
+    "stop": 8500,
+    "stop_pct": -7.81,
+    "target1": 10140,
+    "target2": 11060,
+    "trail_pct": 7.0,
+    "rr": 1.28,
+    "bar_range_pct": 7.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8650,
+    "high": 9210,
+    "low": 8590,
+    "close": 9000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "214180",
+   "name": "헥토이노베이션",
+   "market": "KOSDAQ",
+   "close": 15030,
+   "chg": 5.55,
+   "value_eok": 20,
+   "value_surge": 1.7,
+   "mktcap_jo": 0.2,
+   "pos_52w": 20.9,
+   "runup": 1.23,
+   "up_from_low": 23.1,
+   "uptail": 23.1,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 15200,
+    "buy_pull": 14780,
+    "stop": 14380,
+    "stop_pct": -5.39,
+    "target1": 16720,
+    "target2": 18240,
+    "trail_pct": 7.0,
+    "rr": 1.85,
+    "bar_range_pct": 4.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 14540,
+    "high": 15180,
+    "low": 14530,
+    "close": 15030
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "382800",
+   "name": "지앤비에스 에코",
+   "market": "KOSDAQ",
+   "close": 4990,
+   "chg": 5.27,
+   "value_eok": 20,
+   "value_surge": 0.4,
+   "mktcap_jo": 0.16,
+   "pos_52w": 32.1,
+   "runup": 1.96,
+   "up_from_low": 47.9,
+   "uptail": 21.8,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 5060,
+    "buy_pull": 4895,
+    "stop": 4725,
+    "stop_pct": -6.62,
+    "target1": 5570,
+    "target2": 6070,
+    "trail_pct": 7.0,
+    "rr": 1.52,
+    "bar_range_pct": 5.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 4800,
+    "high": 5050,
+    "low": 4775,
+    "close": 4990
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "089590",
+   "name": "제주항공",
+   "market": "KOSPI",
+   "close": 4715,
+   "chg": 5.72,
+   "value_eok": 17,
+   "value_surge": 2.9,
+   "mktcap_jo": 0.38,
+   "pos_52w": 26.0,
+   "runup": 1.18,
+   "up_from_low": 18.3,
+   "uptail": 20.5,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 4800,
+    "buy_pull": 4590,
+    "stop": 4360,
+    "stop_pct": -9.17,
+    "target1": 5280,
+    "target2": 5760,
+    "trail_pct": 7.0,
+    "rr": 1.09,
+    "bar_range_pct": 8.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 4460,
+    "high": 4795,
+    "low": 4405,
+    "close": 4715
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "052460",
+   "name": "아이크래프트",
+   "market": "KOSDAQ",
+   "close": 4890,
+   "chg": 7.47,
+   "value_eok": 16,
+   "value_surge": 0.4,
+   "mktcap_jo": 0.07,
+   "pos_52w": 41.5,
+   "runup": 2.17,
+   "up_from_low": 117.3,
+   "uptail": 20.0,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 4980,
+    "buy_pull": 4720,
+    "stop": 4500,
+    "stop_pct": -9.64,
+    "target1": 5480,
+    "target2": 5980,
+    "trail_pct": 7.0,
+    "rr": 1.04,
+    "bar_range_pct": 9.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 4550,
+    "high": 4975,
+    "low": 4550,
+    "close": 4890
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "004100",
+   "name": "태양금속",
+   "market": "KOSPI",
+   "close": 2690,
+   "chg": 6.53,
+   "value_eok": 13,
+   "value_surge": 2.4,
+   "mktcap_jo": 0.1,
+   "pos_52w": 40.2,
+   "runup": 1.38,
+   "up_from_low": 25.1,
+   "uptail": 17.1,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 2725,
+    "buy_pull": 2625,
+    "stop": 2515,
+    "stop_pct": -7.71,
+    "target1": 3000,
+    "target2": 3270,
+    "trail_pct": 7.0,
+    "rr": 1.31,
+    "bar_range_pct": 6.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2560,
+    "high": 2720,
+    "low": 2545,
+    "close": 2690
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "464080",
+   "name": "에스오에스랩",
+   "market": "KOSDAQ",
+   "close": 10160,
+   "chg": 8.43,
+   "value_eok": 12,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.18,
+   "pos_52w": 16.3,
+   "runup": 1.55,
+   "up_from_low": 55.1,
+   "uptail": 8.9,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10230,
+    "buy_pull": 9980,
+    "stop": 9550,
+    "stop_pct": -6.65,
+    "target1": 11250,
+    "target2": 12280,
+    "trail_pct": 7.0,
+    "rr": 1.5,
+    "bar_range_pct": 5.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 9790,
+    "high": 10210,
+    "low": 9650,
+    "close": 10160
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "469610",
+   "name": "이노테크",
+   "market": "KOSDAQ",
+   "close": 15430,
+   "chg": 6.71,
+   "value_eok": 12,
+   "value_surge": 0.3,
+   "mktcap_jo": 0.14,
+   "pos_52w": 8.7,
+   "runup": 1.76,
+   "up_from_low": 76.1,
+   "uptail": 7.1,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 15520,
+    "buy_pull": 14980,
+    "stop": 14370,
+    "stop_pct": -7.41,
+    "target1": 17070,
+    "target2": 18620,
+    "trail_pct": 7.0,
+    "rr": 1.35,
+    "bar_range_pct": 6.7,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 14520,
+    "high": 15500,
+    "low": 14520,
+    "close": 15430
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "094360",
+   "name": "칩스앤미디어",
+   "market": "KOSDAQ",
+   "close": 10950,
+   "chg": 6.83,
+   "value_eok": 11,
+   "value_surge": 2.2,
+   "mktcap_jo": 0.23,
+   "pos_52w": 23.9,
+   "runup": 1.41,
+   "up_from_low": 41.5,
+   "uptail": 22.1,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 11160,
+    "buy_pull": 10680,
+    "stop": 10170,
+    "stop_pct": -8.87,
+    "target1": 12280,
+    "target2": 13390,
+    "trail_pct": 7.0,
+    "rr": 1.13,
+    "bar_range_pct": 8.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 10400,
+    "high": 11140,
+    "low": 10280,
     "close": 10950
    }
   },
@@ -938,26 +2916,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "306200",
-   "name": "세아제강",
-   "market": "KOSPI",
-   "close": 147500,
-   "chg": 6.5,
-   "value_eok": 33,
-   "value_surge": 3.6,
-   "mktcap_jo": 0.42,
-   "pos_52w": 46.1,
-   "runup": 1.32,
-   "up_from_low": 31.7,
-   "uptail": 17.0,
+   "code": "214430",
+   "name": "아이쓰리시스템",
+   "market": "KOSDAQ",
+   "close": 59800,
+   "chg": 5.47,
+   "value_eok": 11,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.44,
+   "pos_52w": 11.9,
+   "runup": 1.21,
+   "up_from_low": 21.4,
+   "uptail": 18.2,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -969,14 +2947,427 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 149200,
-    "buy_pull": 144600,
-    "stop": 138700,
-    "stop_pct": -7.04,
-    "target1": 164100,
-    "target2": 179000,
+    "buy_break": 60500,
+    "buy_pull": 58600,
+    "stop": 56500,
+    "stop_pct": -6.61,
+    "target1": 66600,
+    "target2": 72600,
     "trail_pct": 7.0,
-    "rr": 1.42,
+    "rr": 1.52,
+    "bar_range_pct": 5.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 57300,
+    "high": 60400,
+    "low": 57100,
+    "close": 59800
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "272450",
+   "name": "진에어",
+   "market": "KOSPI",
+   "close": 6140,
+   "chg": 5.5,
+   "value_eok": 11,
+   "value_surge": 2.4,
+   "mktcap_jo": 0.32,
+   "pos_52w": 36.7,
+   "runup": 1.3,
+   "up_from_low": 30.4,
+   "uptail": 13.9,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6200,
+    "buy_pull": 5980,
+    "stop": 5770,
+    "stop_pct": -6.94,
+    "target1": 6820,
+    "target2": 7440,
+    "trail_pct": 7.0,
+    "rr": 1.44,
+    "bar_range_pct": 6.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 5830,
+    "high": 6190,
+    "low": 5830,
+    "close": 6140
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "394420",
+   "name": "리센스메디컬",
+   "market": "KOSDAQ",
+   "close": 10250,
+   "chg": 5.02,
+   "value_eok": 11,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.11,
+   "pos_52w": 6.9,
+   "runup": 1.27,
+   "up_from_low": 27.2,
+   "uptail": 19.1,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10400,
+    "buy_pull": 10000,
+    "stop": 9600,
+    "stop_pct": -7.69,
+    "target1": 11440,
+    "target2": 12480,
+    "trail_pct": 7.0,
+    "rr": 1.3,
+    "bar_range_pct": 7.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 9760,
+    "high": 10380,
+    "low": 9700,
+    "close": 10250
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "452450",
+   "name": "피아이이",
+   "market": "KOSDAQ",
+   "close": 3845,
+   "chg": 9.86,
+   "value_eok": 11,
+   "value_surge": 4.3,
+   "mktcap_jo": 0.14,
+   "pos_52w": 25.3,
+   "runup": 2.12,
+   "up_from_low": 111.8,
+   "uptail": 27.8,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3975,
+    "buy_pull": 3680,
+    "stop": 3580,
+    "stop_pct": -9.94,
+    "target1": 4370,
+    "target2": 4770,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 12.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3520,
+    "high": 3970,
+    "low": 3520,
+    "close": 3845
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "061090",
+   "name": "세나테크놀로지",
+   "market": "KOSDAQ",
+   "close": 40400,
+   "chg": 5.62,
+   "value_eok": 10,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.22,
+   "pos_52w": 9.0,
+   "runup": 1.5,
+   "up_from_low": 49.6,
+   "uptail": 24.1,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 41100,
+    "buy_pull": 39600,
+    "stop": 37950,
+    "stop_pct": -7.66,
+    "target1": 45200,
+    "target2": 49300,
+    "trail_pct": 7.0,
+    "rr": 1.3,
+    "bar_range_pct": 7.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 38750,
+    "high": 41050,
+    "low": 38350,
+    "close": 40400
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "270660",
+   "name": "에브리봇",
+   "market": "KOSDAQ",
+   "close": 14210,
+   "chg": 5.65,
+   "value_eok": 9,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.18,
+   "pos_52w": 21.1,
+   "runup": 1.5,
+   "up_from_low": 50.1,
+   "uptail": 29.0,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 14410,
+    "buy_pull": 13990,
+    "stop": 13630,
+    "stop_pct": -5.41,
+    "target1": 15850,
+    "target2": 17290,
+    "trail_pct": 7.0,
+    "rr": 1.85,
+    "bar_range_pct": 4.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 13770,
+    "high": 14390,
+    "low": 13770,
+    "close": 14210
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "446540",
+   "name": "메가터치",
+   "market": "KOSDAQ",
+   "close": 7110,
+   "chg": 5.02,
+   "value_eok": 9,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.21,
+   "pos_52w": 49.9,
+   "runup": 2.19,
+   "up_from_low": 51.3,
+   "uptail": 32.5,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 7250,
+    "buy_pull": 7000,
+    "stop": 6770,
+    "stop_pct": -6.62,
+    "target1": 7980,
+    "target2": 8700,
+    "trail_pct": 7.0,
+    "rr": 1.52,
+    "bar_range_pct": 5.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 6880,
+    "high": 7240,
+    "low": 6840,
+    "close": 7110
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "082800",
+   "name": "비보존 제약",
+   "market": "KOSDAQ",
+   "close": 3100,
+   "chg": 5.08,
+   "value_eok": 8,
+   "value_surge": 0.3,
+   "mktcap_jo": 0.19,
+   "pos_52w": 16.1,
+   "runup": 1.5,
+   "up_from_low": 49.8,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3105,
+    "buy_pull": 3030,
+    "stop": 2885,
+    "stop_pct": -7.09,
+    "target1": 3415,
+    "target2": 3725,
+    "trail_pct": 7.0,
+    "rr": 1.41,
     "bar_range_pct": 6.3,
     "max_buy": null,
     "entry": "돌파",
@@ -984,69 +3375,10 @@
     "reject": []
    },
    "bar": {
-    "open": 141600,
-    "high": 149000,
-    "low": 140200,
-    "close": 147500
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "041960",
-   "name": "코미팜",
-   "market": "KOSDAQ",
-   "close": 9380,
-   "chg": 8.06,
-   "value_eok": 28,
-   "value_surge": 1.0,
-   "mktcap_jo": 0.69,
-   "pos_52w": 73.2,
-   "runup": 1.7,
-   "up_from_low": 46.3,
-   "uptail": 1.6,
-   "sector": null,
-   "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 9400,
-    "buy_pull": 9140,
-    "stop": 8660,
-    "stop_pct": -7.87,
-    "target1": 10340,
-    "target2": 11280,
-    "trail_pct": 7.0,
-    "rr": 1.27,
-    "bar_range_pct": 7.3,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 8900,
-    "high": 9390,
-    "low": 8750,
-    "close": 9380
+    "open": 2955,
+    "high": 3100,
+    "low": 2915,
+    "close": 3100
    }
   },
   {
@@ -1056,85 +3388,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "000540",
-   "name": "흥국화재",
-   "market": "KOSPI",
-   "close": 3960,
-   "chg": 9.7,
-   "value_eok": 23,
-   "value_surge": 15.5,
-   "mktcap_jo": 0.25,
-   "pos_52w": 23.6,
-   "runup": 1.38,
-   "up_from_low": 38.0,
-   "uptail": 5.4,
-   "sector": null,
-   "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 3985,
-    "buy_pull": 3790,
-    "stop": 3590,
-    "stop_pct": -9.91,
-    "target1": 4385,
-    "target2": 4780,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 10.2,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 3620,
-    "high": 3980,
-    "low": 3610,
-    "close": 3960
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "144510",
-   "name": "지씨셀",
+   "code": "030960",
+   "name": "양지사",
    "market": "KOSDAQ",
-   "close": 14760,
-   "chg": 7.74,
-   "value_eok": 23,
-   "value_surge": 3.1,
-   "mktcap_jo": 0.23,
-   "pos_52w": 18.7,
-   "runup": 1.27,
-   "up_from_low": 27.1,
-   "uptail": 33.3,
+   "close": 4790,
+   "chg": 5.27,
+   "value_eok": 7,
+   "value_surge": 2.0,
+   "mktcap_jo": 0.08,
+   "pos_52w": 13.6,
+   "runup": 1.2,
+   "up_from_low": 19.8,
+   "uptail": 31.6,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -1146,25 +3419,25 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 15310,
-    "buy_pull": 14270,
-    "stop": 13780,
-    "stop_pct": -9.99,
-    "target1": 16840,
-    "target2": 18370,
+    "buy_break": 4920,
+    "buy_pull": 4685,
+    "stop": 4470,
+    "stop_pct": -9.15,
+    "target1": 5410,
+    "target2": 5900,
     "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 11.6,
+    "rr": 1.09,
+    "bar_range_pct": 8.7,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 13780,
-    "high": 15290,
-    "low": 13700,
-    "close": 14760
+    "open": 4580,
+    "high": 4915,
+    "low": 4520,
+    "close": 4790
    }
   },
   {
@@ -1174,262 +3447,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "015230",
-   "name": "대창단조",
-   "market": "KOSPI",
-   "close": 6500,
-   "chg": 6.04,
-   "value_eok": 17,
-   "value_surge": 3.5,
-   "mktcap_jo": 0.18,
-   "pos_52w": 57.3,
-   "runup": 1.26,
-   "up_from_low": 25.7,
+   "code": "039010",
+   "name": "현대에이치티",
+   "market": "KOSDAQ",
+   "close": 7930,
+   "chg": 5.17,
+   "value_eok": 7,
+   "value_surge": 1.3,
+   "mktcap_jo": 0.07,
+   "pos_52w": 34.5,
+   "runup": 1.43,
+   "up_from_low": 42.9,
    "uptail": 23.6,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 6640,
-    "buy_pull": 6290,
-    "stop": 6010,
-    "stop_pct": -9.49,
-    "target1": 7300,
-    "target2": 7970,
-    "trail_pct": 7.0,
-    "rr": 1.05,
-    "bar_range_pct": 9.0,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 6080,
-    "high": 6630,
-    "low": 6080,
-    "close": 6500
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "452430",
-   "name": "사피엔반도체",
-   "market": "KOSDAQ",
-   "close": 30850,
-   "chg": 5.65,
-   "value_eok": 15,
-   "value_surge": 2.2,
-   "mktcap_jo": 0.25,
-   "pos_52w": 32.0,
-   "runup": 1.62,
-   "up_from_low": 62.4,
-   "uptail": 24.6,
-   "sector": null,
-   "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 31600,
-    "buy_pull": 30050,
-    "stop": 28450,
-    "stop_pct": -9.97,
-    "target1": 34750,
-    "target2": 37900,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 9.9,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 29250,
-    "high": 31550,
-    "low": 28700,
-    "close": 30850
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "0008Z0",
-   "name": "에스엔시스",
-   "market": "KOSDAQ",
-   "close": 25050,
-   "chg": 6.37,
-   "value_eok": 12,
-   "value_surge": 2.8,
-   "mktcap_jo": 0.24,
-   "pos_52w": 15.7,
-   "runup": 1.32,
-   "up_from_low": 31.8,
-   "uptail": 25.7,
-   "sector": null,
-   "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 25550,
-    "buy_pull": 24550,
-    "stop": 23500,
-    "stop_pct": -8.02,
-    "target1": 28100,
-    "target2": 30650,
-    "trail_pct": 7.0,
-    "rr": 1.24,
-    "bar_range_pct": 7.4,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 24050,
-    "high": 25500,
-    "low": 23750,
-    "close": 25050
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "067170",
-   "name": "오텍",
-   "market": "KOSDAQ",
-   "close": 2655,
-   "chg": 6.41,
-   "value_eok": 8,
-   "value_surge": 0.6,
-   "mktcap_jo": 0.07,
-   "pos_52w": 28.3,
-   "runup": 1.61,
-   "up_from_low": 56.2,
-   "uptail": 34.1,
-   "sector": null,
-   "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 2735,
-    "buy_pull": 2580,
-    "stop": 2480,
-    "stop_pct": -9.32,
-    "target1": 3010,
-    "target2": 3280,
-    "trail_pct": 7.0,
-    "rr": 1.08,
-    "bar_range_pct": 8.8,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 2510,
-    "high": 2730,
-    "low": 2510,
-    "close": 2655
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "006840",
-   "name": "AK홀딩스",
-   "market": "KOSPI",
-   "close": 8000,
-   "chg": 5.96,
-   "value_eok": 3,
-   "value_surge": 4.9,
-   "mktcap_jo": 0.11,
-   "pos_52w": 35.6,
-   "runup": 1.47,
-   "up_from_low": 47.1,
-   "uptail": 10.7,
-   "sector": null,
-   "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -1442,24 +3479,24 @@
    },
    "plan": {
     "buy_break": 8070,
-    "buy_pull": 7780,
-    "stop": 7420,
-    "stop_pct": -8.05,
+    "buy_pull": 7720,
+    "stop": 7430,
+    "stop_pct": -7.93,
     "target1": 8880,
     "target2": 9680,
     "trail_pct": 7.0,
-    "rr": 1.25,
-    "bar_range_pct": 7.5,
+    "rr": 1.27,
+    "bar_range_pct": 7.3,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 7550,
+    "open": 7510,
     "high": 8060,
-    "low": 7500,
-    "close": 8000
+    "low": 7510,
+    "close": 7930
    }
   },
   {
@@ -1469,26 +3506,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "036580",
-   "name": "팜스코",
-   "market": "KOSPI",
-   "close": 2625,
-   "chg": 5.63,
-   "value_eok": 3,
-   "value_surge": 2.3,
-   "mktcap_jo": 0.1,
-   "pos_52w": 16.4,
-   "runup": 1.2,
-   "up_from_low": 20.1,
-   "uptail": 16.7,
+   "code": "311320",
+   "name": "지오엘리먼트",
+   "market": "KOSDAQ",
+   "close": 9060,
+   "chg": 7.47,
+   "value_eok": 7,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.11,
+   "pos_52w": 58.0,
+   "runup": 1.77,
+   "up_from_low": 77.3,
+   "uptail": 1.5,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -1500,25 +3537,25 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 2665,
-    "buy_pull": 2560,
-    "stop": 2425,
-    "stop_pct": -9.01,
-    "target1": 2930,
-    "target2": 3200,
+    "buy_break": 9080,
+    "buy_pull": 8740,
+    "stop": 8330,
+    "stop_pct": -8.26,
+    "target1": 9990,
+    "target2": 10900,
     "trail_pct": 7.0,
-    "rr": 1.1,
-    "bar_range_pct": 8.6,
+    "rr": 1.21,
+    "bar_range_pct": 7.7,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 2500,
-    "high": 2660,
-    "low": 2450,
-    "close": 2625
+    "open": 8430,
+    "high": 9070,
+    "low": 8420,
+    "close": 9060
    }
   },
   {
@@ -1528,26 +3565,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "000950",
-   "name": "전방",
-   "market": "KOSPI",
-   "close": 33800,
-   "chg": 5.13,
-   "value_eok": 1,
-   "value_surge": 0.6,
-   "mktcap_jo": 0.06,
-   "pos_52w": 48.6,
-   "runup": 1.49,
-   "up_from_low": 48.6,
-   "uptail": 15.9,
+   "code": "318060",
+   "name": "그래피",
+   "market": "KOSDAQ",
+   "close": 18150,
+   "chg": 6.33,
+   "value_eok": 7,
+   "value_surge": 0.4,
+   "mktcap_jo": 0.2,
+   "pos_52w": 16.4,
+   "runup": 2.21,
+   "up_from_low": 27.3,
+   "uptail": 5.6,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -1559,14 +3596,132 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 34200,
-    "buy_pull": 33000,
-    "stop": 31600,
-    "stop_pct": -7.6,
-    "target1": 37600,
-    "target2": 41050,
+    "buy_break": 18240,
+    "buy_pull": 17580,
+    "stop": 16810,
+    "stop_pct": -7.84,
+    "target1": 20050,
+    "target2": 21900,
     "trail_pct": 7.0,
-    "rr": 1.31,
+    "rr": 1.27,
+    "bar_range_pct": 7.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 17000,
+    "high": 18220,
+    "low": 16980,
+    "close": 18150
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "475400",
+   "name": "씨메스로보틱스",
+   "market": "KOSDAQ",
+   "close": 17920,
+   "chg": 5.79,
+   "value_eok": 7,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.21,
+   "pos_52w": 13.4,
+   "runup": 1.34,
+   "up_from_low": 33.5,
+   "uptail": 18.2,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 18120,
+    "buy_pull": 17520,
+    "stop": 16930,
+    "stop_pct": -6.57,
+    "target1": 19930,
+    "target2": 21750,
+    "trail_pct": 7.0,
+    "rr": 1.52,
+    "bar_range_pct": 5.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 17110,
+    "high": 18100,
+    "low": 17110,
+    "close": 17920
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "010660",
+   "name": "화천기계",
+   "market": "KOSPI",
+   "close": 3040,
+   "chg": 5.19,
+   "value_eok": 6,
+   "value_surge": 2.5,
+   "mktcap_jo": 0.07,
+   "pos_52w": 13.7,
+   "runup": 1.24,
+   "up_from_low": 24.1,
+   "uptail": 27.5,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3100,
+    "buy_pull": 2970,
+    "stop": 2865,
+    "stop_pct": -7.58,
+    "target1": 3410,
+    "target2": 3720,
+    "trail_pct": 7.0,
+    "rr": 1.32,
     "bar_range_pct": 6.9,
     "max_buy": null,
     "entry": "돌파",
@@ -1574,10 +3729,10 @@
     "reject": []
    },
    "bar": {
-    "open": 32150,
-    "high": 34150,
-    "low": 31950,
-    "close": 33800
+    "open": 2895,
+    "high": 3095,
+    "low": 2895,
+    "close": 3040
    }
   },
   {
@@ -1586,27 +3741,204 @@
    "missing": [
     "거래대금 500억 이상"
    ],
-   "strong_in_weak": true,
-   "code": "032540",
-   "name": "TJ미디어",
+   "strong_in_weak": false,
+   "code": "190510",
+   "name": "나무가",
    "market": "KOSDAQ",
-   "close": 3490,
-   "chg": 6.08,
-   "value_eok": 1,
-   "value_surge": 3.4,
-   "mktcap_jo": 0.07,
-   "pos_52w": 13.3,
-   "runup": 1.17,
-   "up_from_low": 16.3,
+   "close": 13880,
+   "chg": 5.15,
+   "value_eok": 6,
+   "value_surge": 1.3,
+   "mktcap_jo": 0.2,
+   "pos_52w": 16.1,
+   "runup": 1.26,
+   "up_from_low": 25.6,
+   "uptail": 2.9,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 13920,
+    "buy_pull": 13560,
+    "stop": 13060,
+    "stop_pct": -6.18,
+    "target1": 15310,
+    "target2": 16700,
+    "trail_pct": 7.0,
+    "rr": 1.62,
+    "bar_range_pct": 5.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 13240,
+    "high": 13900,
+    "low": 13200,
+    "close": 13880
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "250060",
+   "name": "모비스",
+   "market": "KOSDAQ",
+   "close": 3000,
+   "chg": 6.57,
+   "value_eok": 6,
+   "value_surge": 1.2,
+   "mktcap_jo": 0.1,
+   "pos_52w": 11.9,
+   "runup": 1.41,
+   "up_from_low": 40.8,
+   "uptail": 32.1,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3090,
+    "buy_pull": 2925,
+    "stop": 2790,
+    "stop_pct": -9.71,
+    "target1": 3400,
+    "target2": 3710,
+    "trail_pct": 7.0,
+    "rr": 1.03,
+    "bar_range_pct": 9.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2850,
+    "high": 3085,
+    "low": 2820,
+    "close": 3000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "473980",
+   "name": "노머스",
+   "market": "KOSDAQ",
+   "close": 11880,
+   "chg": 6.64,
+   "value_eok": 6,
+   "value_surge": 2.2,
+   "mktcap_jo": 0.13,
+   "pos_52w": 11.1,
+   "runup": 1.36,
+   "up_from_low": 35.9,
+   "uptail": 18.6,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 12090,
+    "buy_pull": 11460,
+    "stop": 10930,
+    "stop_pct": -9.59,
+    "target1": 13300,
+    "target2": 14510,
+    "trail_pct": 7.0,
+    "rr": 1.04,
+    "bar_range_pct": 9.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 11050,
+    "high": 12070,
+    "low": 11050,
+    "close": 11880
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "058970",
+   "name": "엠로",
+   "market": "KOSDAQ",
+   "close": 16130,
+   "chg": 5.42,
+   "value_eok": 5,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.2,
+   "pos_52w": 11.5,
+   "runup": 1.36,
+   "up_from_low": 35.5,
    "uptail": 0.0,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -1618,25 +3950,25 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 3495,
-    "buy_pull": 3385,
-    "stop": 3215,
-    "stop_pct": -8.01,
-    "target1": 3845,
-    "target2": 4195,
+    "buy_break": 16150,
+    "buy_pull": 15820,
+    "stop": 15170,
+    "stop_pct": -6.07,
+    "target1": 17760,
+    "target2": 19380,
     "trail_pct": 7.0,
-    "rr": 1.25,
-    "bar_range_pct": 7.4,
+    "rr": 1.64,
+    "bar_range_pct": 5.2,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 3280,
-    "high": 3490,
-    "low": 3250,
-    "close": 3490
+    "open": 15510,
+    "high": 16130,
+    "low": 15330,
+    "close": 16130
    }
   },
   {
@@ -1645,27 +3977,27 @@
    "missing": [
     "거래대금 500억 이상"
    ],
-   "strong_in_weak": true,
-   "code": "352910",
-   "name": "오비고",
+   "strong_in_weak": false,
+   "code": "101170",
+   "name": "우림피티에스",
    "market": "KOSDAQ",
-   "close": 4770,
-   "chg": 6.0,
-   "value_eok": 1,
-   "value_surge": 1.8,
-   "mktcap_jo": 0.06,
-   "pos_52w": 39.5,
-   "runup": 1.53,
-   "up_from_low": 53.1,
-   "uptail": 20.8,
+   "close": 7950,
+   "chg": 6.71,
+   "value_eok": 5,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.11,
+   "pos_52w": 15.8,
+   "runup": 1.61,
+   "up_from_low": 38.0,
+   "uptail": 16.7,
    "sector": null,
    "peers": [
-    "현대건설",
-    "삼성화재",
-    "DB손해보험",
-    "삼성중공업",
-    "삼성E&A",
-    "원익"
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -1677,79 +4009,792 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 4855,
-    "buy_pull": 4640,
-    "stop": 4420,
-    "stop_pct": -8.96,
-    "target1": 5340,
-    "target2": 5830,
+    "buy_break": 8050,
+    "buy_pull": 7780,
+    "stop": 7420,
+    "stop_pct": -7.83,
+    "target1": 8860,
+    "target2": 9660,
     "trail_pct": 7.0,
-    "rr": 1.11,
-    "bar_range_pct": 8.6,
+    "rr": 1.29,
+    "bar_range_pct": 7.2,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 4505,
-    "high": 4850,
-    "low": 4465,
-    "close": 4770
+    "open": 7600,
+    "high": 8040,
+    "low": 7500,
+    "close": 7950
    }
   },
   {
-   "track": "C",
+   "track": "A",
    "status": "near",
    "missing": [
-    "전일 대비 거래량 300%↑"
+    "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "011170",
-   "name": "롯데케미칼",
-   "market": "KOSPI",
-   "close": 61000,
-   "chg": 6.46,
-   "value_eok": 178,
-   "vol_man": 29,
-   "vol_vs_prev": 2.4,
-   "up_from_low": 16.2,
-   "low_recent": 52500,
-   "runup": 1.16,
-   "uptail": 23.1,
-   "mktcap_jo": 2.61,
+   "code": "156100",
+   "name": "엘앤케이바이오",
+   "market": "KOSDAQ",
+   "close": 4240,
+   "chg": 9.84,
+   "value_eok": 5,
+   "value_surge": 1.2,
+   "mktcap_jo": 0.09,
+   "pos_52w": 11.0,
+   "runup": 1.55,
+   "up_from_low": 55.3,
+   "uptail": 17.4,
    "sector": null,
-   "peers": [],
-   "sector_confirmed": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
    "checks": {
-    "최근 60일 저점 대비 +20% 미만": true,
-    "장대양봉 +5%↑": true,
-    "양봉 실체 확보 (도지 배제)": true,
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
     "긴 윗꼬리 없음": true,
-    "전일 대비 거래량 300%↑": false,
-    "거래대금 50억 이상": true,
-    "1년 저점 대비 3배 미만": true
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 62300,
-    "buy_pull": 59200,
-    "stop": 56400,
-    "stop_pct": -9.47,
-    "target1": 68500,
-    "target2": 74800,
+    "buy_break": 4325,
+    "buy_pull": 4050,
+    "stop": 3895,
+    "stop_pct": -9.94,
+    "target1": 4760,
+    "target2": 5190,
     "trail_pct": 7.0,
-    "rr": 1.05,
+    "rr": 1.01,
+    "bar_range_pct": 11.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3860,
+    "high": 4320,
+    "low": 3860,
+    "close": 4240
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "199550",
+   "name": "레이저옵텍",
+   "market": "KOSDAQ",
+   "close": 3555,
+   "chg": 9.55,
+   "value_eok": 5,
+   "value_surge": 2.0,
+   "mktcap_jo": 0.05,
+   "pos_52w": 24.7,
+   "runup": 1.87,
+   "up_from_low": 87.1,
+   "uptail": 34.7,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3730,
+    "buy_pull": 3400,
+    "stop": 3360,
+    "stop_pct": -9.92,
+    "target1": 4105,
+    "target2": 4475,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 15.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3245,
+    "high": 3725,
+    "low": 3235,
+    "close": 3555
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "199800",
+   "name": "툴젠",
+   "market": "KOSDAQ",
+   "close": 35600,
+   "chg": 6.59,
+   "value_eok": 5,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.32,
+   "pos_52w": 5.3,
+   "runup": 1.2,
+   "up_from_low": 8.4,
+   "uptail": 9.8,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 35850,
+    "buy_pull": 34700,
+    "stop": 33400,
+    "stop_pct": -6.83,
+    "target1": 39450,
+    "target2": 43000,
+    "trail_pct": 7.0,
+    "rr": 1.47,
+    "bar_range_pct": 6.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 33750,
+    "high": 35800,
+    "low": 33750,
+    "close": 35600
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "187790",
+   "name": "나노",
+   "market": "KOSDAQ",
+   "close": 3060,
+   "chg": 6.99,
+   "value_eok": 4,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.09,
+   "pos_52w": 23.4,
+   "runup": 1.82,
+   "up_from_low": 41.7,
+   "uptail": 7.8,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3085,
+    "buy_pull": 2940,
+    "stop": 2795,
+    "stop_pct": -9.4,
+    "target1": 3395,
+    "target2": 3700,
+    "trail_pct": 7.0,
+    "rr": 1.07,
+    "bar_range_pct": 9.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2825,
+    "high": 3080,
+    "low": 2825,
+    "close": 3060
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "357580",
+   "name": "아모센스",
+   "market": "KOSDAQ",
+   "close": 4955,
+   "chg": 5.43,
+   "value_eok": 4,
+   "value_surge": 1.2,
+   "mktcap_jo": 0.06,
+   "pos_52w": 3.4,
+   "runup": 1.21,
+   "up_from_low": 21.1,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 4960,
+    "buy_pull": 4850,
+    "stop": 4590,
+    "stop_pct": -7.46,
+    "target1": 5460,
+    "target2": 5950,
+    "trail_pct": 7.0,
+    "rr": 1.35,
+    "bar_range_pct": 6.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 4745,
+    "high": 4955,
+    "low": 4640,
+    "close": 4955
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "289930",
+   "name": "웨이비스",
+   "market": "KOSDAQ",
+   "close": 6860,
+   "chg": 7.52,
+   "value_eok": 3,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.09,
+   "pos_52w": 6.5,
+   "runup": 1.22,
+   "up_from_low": 21.8,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6870,
+    "buy_pull": 6680,
+    "stop": 6310,
+    "stop_pct": -8.15,
+    "target1": 7560,
+    "target2": 8240,
+    "trail_pct": 7.0,
+    "rr": 1.23,
+    "bar_range_pct": 7.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 6490,
+    "high": 6860,
+    "low": 6380,
+    "close": 6860
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "381620",
+   "name": "제닉스로보틱스",
+   "market": "KOSDAQ",
+   "close": 5980,
+   "chg": 5.28,
+   "value_eok": 3,
+   "value_surge": 0.4,
+   "mktcap_jo": 0.08,
+   "pos_52w": 9.2,
+   "runup": 1.31,
+   "up_from_low": 31.1,
+   "uptail": 26.3,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6090,
+    "buy_pull": 5840,
+    "stop": 5640,
+    "stop_pct": -7.39,
+    "target1": 6700,
+    "target2": 7310,
+    "trail_pct": 7.0,
+    "rr": 1.36,
+    "bar_range_pct": 6.7,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 5700,
+    "high": 6080,
+    "low": 5700,
+    "close": 5980
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "396270",
+   "name": "넥스트칩",
+   "market": "KOSDAQ",
+   "close": 2045,
+   "chg": 7.63,
+   "value_eok": 3,
+   "value_surge": 1.3,
+   "mktcap_jo": 0.07,
+   "pos_52w": 7.8,
+   "runup": 1.3,
+   "up_from_low": 29.8,
+   "uptail": 11.6,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 2070,
+    "buy_pull": 1975,
+    "stop": 1873,
+    "stop_pct": -9.52,
+    "target1": 2275,
+    "target2": 2485,
+    "trail_pct": 7.0,
+    "rr": 1.04,
     "bar_range_pct": 9.1,
-    "max_buy": 63000,
+    "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 57300,
-    "high": 62200,
-    "low": 57000,
-    "close": 61000
+    "open": 1905,
+    "high": 2065,
+    "low": 1892,
+    "close": 2045
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "209640",
+   "name": "와이제이링크",
+   "market": "KOSDAQ",
+   "close": 3070,
+   "chg": 5.14,
+   "value_eok": 2,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.09,
+   "pos_52w": 8.5,
+   "runup": 1.28,
+   "up_from_low": 26.9,
+   "uptail": 20.0,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3105,
+    "buy_pull": 3010,
+    "stop": 2920,
+    "stop_pct": -5.96,
+    "target1": 3415,
+    "target2": 3725,
+    "trail_pct": 7.0,
+    "rr": 1.68,
+    "bar_range_pct": 5.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2950,
+    "high": 3100,
+    "low": 2950,
+    "close": 3070
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "308430",
+   "name": "셀비온",
+   "market": "KOSDAQ",
+   "close": 12750,
+   "chg": 6.16,
+   "value_eok": 2,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.16,
+   "pos_52w": 8.7,
+   "runup": 1.28,
+   "up_from_low": 28.4,
+   "uptail": 19.7,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 12920,
+    "buy_pull": 12520,
+    "stop": 12010,
+    "stop_pct": -7.04,
+    "target1": 14210,
+    "target2": 15500,
+    "trail_pct": 7.0,
+    "rr": 1.42,
+    "bar_range_pct": 6.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 12290,
+    "high": 12900,
+    "low": 12140,
+    "close": 12750
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "109860",
+   "name": "동일금속",
+   "market": "KOSDAQ",
+   "close": 7870,
+   "chg": 7.81,
+   "value_eok": 0,
+   "value_surge": 1.0,
+   "mktcap_jo": 0.07,
+   "pos_52w": 48.7,
+   "runup": 1.14,
+   "up_from_low": 13.9,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 7880,
+    "buy_pull": 7580,
+    "stop": 7190,
+    "stop_pct": -8.76,
+    "target1": 8670,
+    "target2": 9460,
+    "trail_pct": 7.0,
+    "rr": 1.14,
+    "bar_range_pct": 8.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 7300,
+    "high": 7870,
+    "low": 7270,
+    "close": 7870
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "168330",
+   "name": "내츄럴엔도텍",
+   "market": "KOSDAQ",
+   "close": 2190,
+   "chg": 5.29,
+   "value_eok": 0,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.07,
+   "pos_52w": 21.5,
+   "runup": 1.31,
+   "up_from_low": 31.3,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 2195,
+    "buy_pull": 2135,
+    "stop": 2030,
+    "stop_pct": -7.52,
+    "target1": 2415,
+    "target2": 2635,
+    "trail_pct": 7.0,
+    "rr": 1.33,
+    "bar_range_pct": 6.6,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2080,
+    "high": 2190,
+    "low": 2055,
+    "close": 2190
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "317530",
+   "name": "에피소드컴퍼니",
+   "market": "KOSDAQ",
+   "close": 2980,
+   "chg": 5.11,
+   "value_eok": 0,
+   "value_surge": 1.5,
+   "mktcap_jo": 0.05,
+   "pos_52w": 25.1,
+   "runup": 1.52,
+   "up_from_low": 52.0,
+   "uptail": 6.5,
+   "sector": null,
+   "peers": [
+    "S-Oil",
+    "삼익제약",
+    "삼성에스디에스",
+    "원익홀딩스",
+    "원익",
+    "피노"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 2995,
+    "buy_pull": 2910,
+    "stop": 2805,
+    "stop_pct": -6.34,
+    "target1": 3295,
+    "target2": 3595,
+    "trail_pct": 7.0,
+    "rr": 1.58,
+    "bar_range_pct": 5.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2835,
+    "high": 2990,
+    "low": 2835,
+    "close": 2980
    }
   },
   {
@@ -1759,19 +4804,19 @@
     "전일 대비 거래량 300%↑"
    ],
    "strong_in_weak": false,
-   "code": "010140",
-   "name": "삼성중공업",
-   "market": "KOSPI",
-   "close": 21650,
-   "chg": 8.58,
-   "value_eok": 1516,
-   "vol_man": 713,
-   "vol_vs_prev": 2.6,
-   "up_from_low": 17.4,
-   "low_recent": 18440,
-   "runup": 1.17,
-   "uptail": 12.5,
-   "mktcap_jo": 19.05,
+   "code": "019210",
+   "name": "와이지-원",
+   "market": "KOSDAQ",
+   "close": 14260,
+   "chg": 5.71,
+   "value_eok": 81,
+   "vol_man": 58,
+   "vol_vs_prev": 0.6,
+   "up_from_low": 11.3,
+   "low_recent": 12810,
+   "runup": 2.91,
+   "uptail": 19.1,
+   "mktcap_jo": 0.53,
    "sector": null,
    "peers": [],
    "sector_confirmed": null,
@@ -1785,102 +4830,211 @@
     "1년 저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 21950,
-    "buy_pull": 20900,
-    "stop": 19760,
-    "stop_pct": -9.98,
-    "target1": 24150,
-    "target2": 26350,
+    "buy_break": 14460,
+    "buy_pull": 13940,
+    "stop": 13360,
+    "stop_pct": -7.61,
+    "target1": 15910,
+    "target2": 17350,
     "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 10.1,
-    "max_buy": 22100,
+    "rr": 1.32,
+    "bar_range_pct": 7.0,
+    "max_buy": 15370,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 20200,
-    "high": 21900,
-    "low": 19900,
-    "close": 21650
+    "open": 13610,
+    "high": 14440,
+    "low": 13500,
+    "close": 14260
    }
   },
   {
    "track": "C",
    "status": "near",
    "missing": [
-    "최근 60일 저점 대비 +20% 미만"
+    "긴 윗꼬리 없음"
    ],
    "strong_in_weak": false,
-   "code": "000810",
-   "name": "삼성화재",
-   "market": "KOSPI",
-   "close": 702000,
-   "chg": 6.85,
-   "value_eok": 1646,
-   "vol_man": 24,
-   "vol_vs_prev": 3.4,
-   "up_from_low": 22.9,
-   "low_recent": 571000,
-   "runup": 1.68,
-   "uptail": 6.2,
-   "mktcap_jo": 31.34,
+   "code": "052710",
+   "name": "아모텍",
+   "market": "KOSDAQ",
+   "close": 11290,
+   "chg": 8.25,
+   "value_eok": 58,
+   "vol_man": 52,
+   "vol_vs_prev": 3.5,
+   "up_from_low": 16.3,
+   "low_recent": 9710,
+   "runup": 1.37,
+   "uptail": 36.9,
+   "mktcap_jo": 0.21,
    "sector": null,
    "peers": [],
    "sector_confirmed": null,
    "checks": {
-    "최근 60일 저점 대비 +20% 미만": false,
+    "최근 60일 저점 대비 +20% 미만": true,
     "장대양봉 +5%↑": true,
     "양봉 실체 확보 (도지 배제)": true,
-    "긴 윗꼬리 없음": true,
+    "긴 윗꼬리 없음": false,
     "전일 대비 거래량 300%↑": true,
     "거래대금 50억 이상": true,
     "1년 저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 706000,
-    "buy_pull": 681000,
-    "stop": 650000,
-    "stop_pct": -7.93,
-    "target1": 777000,
-    "target2": 847000,
+    "buy_break": 11830,
+    "buy_pull": 10920,
+    "stop": 10650,
+    "stop_pct": -9.97,
+    "target1": 13010,
+    "target2": 14200,
     "trail_pct": 7.0,
-    "rr": 1.27,
-    "bar_range_pct": 7.3,
-    "max_buy": 685000,
+    "rr": 1.0,
+    "bar_range_pct": 13.6,
+    "max_buy": 11650,
     "entry": "눌림만",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 660000,
-    "high": 705000,
-    "low": 657000,
-    "close": 702000
+    "open": 10540,
+    "high": 11810,
+    "low": 10400,
+    "close": 11290
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "전일 대비 거래량 300%↑"
+   ],
+   "strong_in_weak": false,
+   "code": "298380",
+   "name": "에이비엘바이오",
+   "market": "KOSDAQ",
+   "close": 71400,
+   "chg": 5.62,
+   "value_eok": 119,
+   "vol_man": 17,
+   "vol_vs_prev": 0.7,
+   "up_from_low": 19.4,
+   "low_recent": 59800,
+   "runup": 1.19,
+   "uptail": 14.3,
+   "mktcap_jo": 4.0,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": false,
+    "거래대금 50억 이상": true,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 72000,
+    "buy_pull": 70000,
+    "stop": 67700,
+    "stop_pct": -5.97,
+    "target1": 79200,
+    "target2": 86400,
+    "trail_pct": 7.0,
+    "rr": 1.67,
+    "bar_range_pct": 5.1,
+    "max_buy": 71700,
+    "entry": "눌림만",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 68500,
+    "high": 71900,
+    "low": 68400,
+    "close": 71400
    }
   }
  ],
  "warnings": [
   {
-   "code": "108490",
-   "name": "로보티즈",
-   "close": 248500,
-   "chg": 0.61,
-   "runup": 2.88,
-   "pos_52w": 42.9,
+   "code": "000660",
+   "name": "SK하이닉스",
+   "close": 1647000,
+   "chg": 3.2,
+   "runup": 6.51,
+   "pos_52w": 51.0,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "047040",
+   "name": "대우건설",
+   "close": 16850,
+   "chg": 0.6,
+   "runup": 5.08,
+   "pos_52w": 36.5,
    "flags": [
     "긴 윗꼬리",
     "도지형"
    ]
   },
   {
-   "code": "067290",
-   "name": "JW신약",
-   "close": 3430,
-   "chg": 10.65,
-   "runup": 2.75,
-   "pos_52w": 84.8,
+   "code": "222800",
+   "name": "심텍",
+   "close": 117900,
+   "chg": 0.34,
+   "runup": 4.91,
+   "pos_52w": 67.0,
+   "flags": [
+    "도지형"
+   ]
+  },
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "close": 255500,
+   "chg": 2.2,
+   "runup": 3.79,
+   "pos_52w": 61.2,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "078930",
+   "name": "GS",
+   "close": 123900,
+   "chg": 4.21,
+   "runup": 2.84,
+   "pos_52w": 89.6,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "006400",
+   "name": "삼성SDI",
+   "close": 548000,
+   "chg": 1.67,
+   "runup": 2.78,
+   "pos_52w": 66.7,
+   "flags": [
+    "도지형"
+   ]
+  },
+  {
+   "code": "010060",
+   "name": "OCI홀딩스",
+   "close": 227500,
+   "chg": 0.0,
+   "runup": 2.73,
+   "pos_52w": 43.6,
    "flags": [
     "긴 윗꼬리"
    ]
@@ -1888,78 +5042,23 @@
   {
    "code": "010950",
    "name": "S-Oil",
-   "close": 147900,
-   "chg": -1.99,
-   "runup": 2.57,
-   "pos_52w": 75.6,
+   "close": 157300,
+   "chg": 6.36,
+   "runup": 2.73,
+   "pos_52w": 83.4,
    "flags": [
     "긴 윗꼬리"
    ]
   },
   {
-   "code": "039030",
-   "name": "이오테크닉스",
-   "close": 418000,
-   "chg": 3.98,
-   "runup": 2.22,
-   "pos_52w": 52.8,
-   "flags": [
-    "긴 윗꼬리"
-   ]
-  },
-  {
-   "code": "032830",
-   "name": "삼성생명",
-   "close": 303000,
-   "chg": 3.06,
-   "runup": 2.21,
-   "pos_52w": 43.7,
-   "flags": [
-    "긴 윗꼬리"
-   ]
-  },
-  {
-   "code": "004310",
-   "name": "현대약품",
-   "close": 7680,
-   "chg": 1.45,
-   "runup": 2.19,
-   "pos_52w": 33.5,
+   "code": "294570",
+   "name": "쿠콘",
+   "close": 30550,
+   "chg": 14.21,
+   "runup": 2.35,
+   "pos_52w": 51.0,
    "flags": [
     "긴 윗꼬리",
-    "갭상승 후 음봉"
-   ]
-  },
-  {
-   "code": "336260",
-   "name": "두산퓨얼셀",
-   "close": 39000,
-   "chg": 0.78,
-   "runup": 2.14,
-   "pos_52w": 22.9,
-   "flags": [
-    "갭상승 후 음봉"
-   ]
-  },
-  {
-   "code": "088350",
-   "name": "한화생명",
-   "close": 6110,
-   "chg": 5.89,
-   "runup": 2.09,
-   "pos_52w": 68.7,
-   "flags": [
-    "긴 윗꼬리"
-   ]
-  },
-  {
-   "code": "066970",
-   "name": "엘앤에프",
-   "close": 120900,
-   "chg": -3.05,
-   "runup": 2.04,
-   "pos_52w": 37.2,
-   "flags": [
     "갭상승 후 음봉"
    ]
   }
