@@ -1,18 +1,22 @@
 {
- "generated_at": "2026-09-07 09:59:56",
+ "generated_at": "2026-09-08 00:05:22",
  "base_date": "2026-09-04",
  "stale": {
-  "weekdays_behind": 0,
-  "checked_until": "2026-09-06"
+  "weekdays_behind": 1,
+  "checked_until": "2026-09-07"
  },
  "fetch_log": [
+  {
+   "date": "20260908",
+   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+  },
   {
    "date": "20260907",
    "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
   },
   {
    "date": "20260904",
-   "result": "수집 2,765종목"
+   "result": "캐시에 있음"
   },
   {
    "date": "20260903",
