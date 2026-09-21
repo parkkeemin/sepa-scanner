@@ -1,18 +1,22 @@
 {
- "generated_at": "2026-09-21 10:03:25",
+ "generated_at": "2026-09-22 00:55:15",
  "base_date": "2026-09-18",
  "stale": {
-  "weekdays_behind": 0,
-  "checked_until": "2026-09-20"
+  "weekdays_behind": 1,
+  "checked_until": "2026-09-21"
  },
  "fetch_log": [
+  {
+   "date": "20260922",
+   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+  },
   {
    "date": "20260921",
    "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
   },
   {
    "date": "20260918",
-   "result": "수집 2,762종목"
+   "result": "캐시에 있음"
   },
   {
    "date": "20260917",
@@ -408,20 +412,6 @@
       "date": "20260701",
       "title": "기업설명회(IR)개최(안내공시)",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701800696",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260623",
-      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000295",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260623",
-      "title": "주식등의대량보유상황보고서(약식)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000293",
       "risk": null,
       "why": null
      }
