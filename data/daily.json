@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-09-29 02:41:21",
- "base_date": "2026-09-23",
+ "generated_at": "2026-09-29 11:34:21",
+ "base_date": "2026-09-28",
  "stale": {
-  "weekdays_behind": 3,
+  "weekdays_behind": 0,
   "checked_until": "2026-09-28"
  },
  "fetch_log": [
@@ -12,7 +12,7 @@
   },
   {
    "date": "20260928",
-   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+   "result": "수집 2,763종목"
   },
   {
    "date": "20260925",
@@ -45,445 +45,44 @@
    "market": "KOSPI",
    "state": "상승추세",
    "action": "지수 상승 구간. 수익이 나도 내 실력인지 지수 덕인지 구분하십시오",
-   "falling": false,
-   "day_chg": 0.99,
-   "pos_pct": 67.2,
-   "vs_ma20": 3.67,
-   "vs_ma60": 3.73
+   "falling": true,
+   "day_chg": -2.78,
+   "pos_pct": 63.9,
+   "vs_ma20": 0.8,
+   "vs_ma60": 1.22
   },
   {
    "market": "KOSDAQ",
    "state": "상승추세",
    "action": "지수 상승 구간. 수익이 나도 내 실력인지 지수 덕인지 구분하십시오",
    "falling": false,
-   "day_chg": 1.3,
-   "pos_pct": 36.1,
-   "vs_ma20": 2.84,
-   "vs_ma60": 4.95
+   "day_chg": 0.24,
+   "pos_pct": 36.4,
+   "vs_ma20": 3.01,
+   "vs_ma60": 5.35
   }
  ],
- "track_a": [
-  {
-   "track": "A",
-   "status": "pass",
-   "missing": [],
-   "strong_in_weak": false,
-   "code": "009830",
-   "name": "한화솔루션",
-   "market": "KOSPI",
-   "close": 29200,
-   "chg": 6.38,
-   "value_eok": 1133,
-   "value_surge": 2.2,
-   "mktcap_jo": 6.57,
-   "pos_52w": 19.3,
-   "runup": 1.33,
-   "up_from_low": 32.7,
-   "uptail": 26.2,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자",
-    "브이엠"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 29800,
-    "buy_pull": 28600,
-    "stop": 27350,
-    "stop_pct": -8.22,
-    "target1": 32800,
-    "target2": 35750,
-    "trail_pct": 7.0,
-    "rr": 1.22,
-    "bar_range_pct": 7.6,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 28050,
-    "high": 29750,
-    "low": 27650,
-    "close": 29200
-   },
-   "company": {
-    "ok": true,
-    "name": "한화솔루션(주)",
-    "ceo": "박승덕, 남정운, 김동관",
-    "industry_code": "20111",
-    "established": "19740427",
-    "homepage": "hcc.hanwha.co.kr",
-    "market": "Y",
-    "fin": {
-     "year": "2025",
-     "revenue": 13333055000000.0,
-     "operating_income": -364759000000.0,
-     "net_income": null,
-     "total_equity": 11185039000000.0,
-     "total_liabilities": 21958972000000.0,
-     "op_margin": -2.7,
-     "debt_ratio": 196.3
-    },
-    "flags": [
-     {
-      "level": "심각",
-      "text": "2025년 영업적자"
-     },
-     {
-      "level": "참고",
-      "text": "최대주주 변경 관련 (08/03)"
-     },
-     {
-      "level": "주의",
-      "text": "유상증자 — 주식 수 증가로 지분 희석 (07/30)"
-     }
-    ],
-    "filings": [
-     {
-      "date": "20260916",
-      "title": "[기재정정]타법인주식및출자증권처분결정(자율공시)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916800377",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260911",
-      "title": "약관에의한금융거래시계열금융회사의거래상대방의공시",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000014",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260910",
-      "title": "기업설명회(IR)개최(안내공시)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910800347",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260909",
-      "title": "[기재정정]중대재해발생",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909800610",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260908",
-      "title": "타인에대한채무보증결정",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908800375",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260831",
-      "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000572",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260828",
-      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828001432",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260821",
-      "title": "풍문또는보도에대한해명(미확정)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800542",
-      "risk": null,
-      "why": null
-     }
-    ],
-    "dart_url": "https://dart.fss.or.kr/dsab001/main.do?option=corp&textCrpNm=한화솔루션(주)"
-   }
-  },
-  {
-   "track": "A",
-   "status": "pass",
-   "missing": [],
-   "strong_in_weak": false,
-   "code": "010060",
-   "name": "OCI홀딩스",
-   "market": "KOSPI",
-   "close": 206000,
-   "chg": 9.57,
-   "value_eok": 883,
-   "value_surge": 1.7,
-   "mktcap_jo": 3.85,
-   "pos_52w": 37.1,
-   "runup": 2.47,
-   "up_from_low": 26.3,
-   "uptail": 12.7,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "원익홀딩스",
-    "빛샘전자",
-    "브이엠"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 208500,
-    "buy_pull": 200500,
-    "stop": 190200,
-    "stop_pct": -8.78,
-    "target1": 229500,
-    "target2": 250000,
-    "trail_pct": 7.0,
-    "rr": 1.15,
-    "bar_range_pct": 8.2,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 194900,
-    "high": 208000,
-    "low": 192200,
-    "close": 206000
-   },
-   "company": {
-    "ok": true,
-    "name": "오씨아이홀딩스 주식회사",
-    "ceo": "이우현, 이수미(2인, 각자 대표이사)",
-    "industry_code": "64992",
-    "established": "19740701",
-    "homepage": "www.oci-holdings.co.kr",
-    "market": "Y",
-    "fin": {
-     "year": "2025",
-     "revenue": 3380060390000.0,
-     "operating_income": -57627064000.0,
-     "net_income": null,
-     "total_equity": 4731526377000.0,
-     "total_liabilities": 3139344072000.0,
-     "op_margin": -1.7,
-     "debt_ratio": 66.3
-    },
-    "flags": [
-     {
-      "level": "심각",
-      "text": "2025년 영업적자"
-     },
-     {
-      "level": "참고",
-      "text": "최대주주 변경 관련 (07/28)"
-     }
-    ],
-    "filings": [
-     {
-      "date": "20260828",
-      "title": "대규모기업집단현황공시[분기별공시(대표회사용)]",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828000369",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260813",
-      "title": "반기보고서 (2026.06)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813000901",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260811",
-      "title": "신탁계약해지결과보고서",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000330",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260810",
-      "title": "주요사항보고서(자기주식취득신탁계약해지결정)(자회사의 주요경영사항)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810800314",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260810",
-      "title": "주요사항보고서(자기주식취득신탁계약해지결정)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000268",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260728",
-      "title": "최대주주등소유주식변동신고서",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800832",
-      "risk": "참고",
-      "why": "최대주주 변경 관련"
-     },
-     {
-      "date": "20260723",
-      "title": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000497",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260723",
-      "title": "연결재무제표기준영업(잠정)실적(공정공시)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800356",
-      "risk": null,
-      "why": null
-     }
-    ],
-    "dart_url": "https://dart.fss.or.kr/dsab001/main.do?option=corp&textCrpNm=오씨아이홀딩스 주식회사"
-   }
-  },
-  {
-   "track": "A",
-   "status": "pass",
-   "missing": [],
-   "strong_in_weak": false,
-   "code": "103590",
-   "name": "일진전기",
-   "market": "KOSPI",
-   "close": 81700,
-   "chg": 6.8,
-   "value_eok": 809,
-   "value_surge": 3.7,
-   "mktcap_jo": 3.9,
-   "pos_52w": 42.1,
-   "runup": 2.44,
-   "up_from_low": 81.6,
-   "uptail": 27.8,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 83800,
-    "buy_pull": 79800,
-    "stop": 75700,
-    "stop_pct": -9.67,
-    "target1": 92200,
-    "target2": 100600,
-    "trail_pct": 7.0,
-    "rr": 1.04,
-    "bar_range_pct": 9.4,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 77900,
-    "high": 83700,
-    "low": 76500,
-    "close": 81700
-   },
-   "company": {
-    "ok": true,
-    "name": "일진전기(주)",
-    "ceo": "유상석(단독 대표이사)",
-    "industry_code": "2830",
-    "established": "20080702",
-    "homepage": "-",
-    "market": "Y",
-    "fin": {
-     "year": "2025",
-     "revenue": 2044552052000.0,
-     "operating_income": 151226606000.0,
-     "net_income": null,
-     "total_equity": 588671403000.0,
-     "total_liabilities": 937325117000.0,
-     "op_margin": 7.4,
-     "debt_ratio": 159.2
-    },
-    "flags": [
-     {
-      "level": "양호",
-      "text": "흑자 · 재무 양호 · 최근 90일 위험 공시 없음"
-     }
-    ],
-    "filings": [
-     {
-      "date": "20260811",
-      "title": "반기보고서 (2026.06)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000431",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260730",
-      "title": "[기재정정]단일판매ㆍ공급계약체결",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800338",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260701",
-      "title": "주식등의대량보유상황보고서(약식)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000232",
-      "risk": null,
-      "why": null
-     }
-    ],
-    "dart_url": "https://dart.fss.or.kr/dsab001/main.do?option=corp&textCrpNm=일진전기(주)"
-   }
-  }
- ],
+ "track_a": [],
  "track_b": [],
  "track_c": [
   {
    "track": "C",
    "status": "pass",
    "missing": [],
-   "strong_in_weak": false,
-   "code": "255220",
-   "name": "SG",
-   "market": "KOSDAQ",
-   "close": 1196,
-   "chg": 6.31,
-   "value_eok": 112,
-   "vol_man": 972,
-   "vol_vs_prev": 6.9,
-   "up_from_low": 15.6,
-   "low_recent": 1035,
-   "runup": 1.16,
-   "uptail": 15.9,
-   "mktcap_jo": 0.13,
+   "strong_in_weak": true,
+   "code": "003570",
+   "name": "SNT다이내믹스",
+   "market": "KOSPI",
+   "close": 29800,
+   "chg": 14.4,
+   "value_eok": 57,
+   "vol_man": 20,
+   "vol_vs_prev": 3.1,
+   "up_from_low": 15.1,
+   "low_recent": 25900,
+   "runup": 1.15,
+   "uptail": 17.9,
+   "mktcap_jo": 0.99,
    "sector": null,
    "peers": [],
    "sector_confirmed": null,
@@ -497,109 +96,95 @@
     "1년 저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 1225,
-    "buy_pull": 1129,
-    "stop": 1103,
-    "stop_pct": -9.96,
-    "target1": 1348,
-    "target2": 1470,
+    "buy_break": 30700,
+    "buy_pull": 28050,
+    "stop": 27650,
+    "stop_pct": -9.93,
+    "target1": 33750,
+    "target2": 36850,
     "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 16.1,
-    "max_buy": 1242,
+    "rr": 1.0,
+    "bar_range_pct": 18.3,
+    "max_buy": 31050,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 1062,
-    "high": 1223,
-    "low": 1053,
-    "close": 1196
+    "open": 26300,
+    "high": 30650,
+    "low": 25900,
+    "close": 29800
    },
    "company": {
     "ok": true,
-    "name": "에스지이(주)",
-    "ceo": "박창호",
-    "industry_code": "23991",
-    "established": "20091211",
-    "homepage": "www.sgholdings.co.kr",
-    "market": "K",
+    "name": "SNT다이내믹스(주)",
+    "ceo": "박재석",
+    "industry_code": "30331",
+    "established": "19590401",
+    "homepage": "www.hisntd.com",
+    "market": "Y",
     "fin": {
      "year": "2025",
-     "revenue": 102246199563.0,
-     "operating_income": 752259599.0,
+     "revenue": 712021619474.0,
+     "operating_income": 85457001419.0,
      "net_income": null,
-     "total_equity": 102177350973.0,
-     "total_liabilities": 122215490678.0,
-     "op_margin": 0.7,
-     "debt_ratio": 119.6
+     "total_equity": 866792976548.0,
+     "total_liabilities": 361814934487.0,
+     "op_margin": 12.0,
+     "debt_ratio": 41.7
     },
     "flags": [
      {
-      "level": "주의",
-      "text": "유상증자 — 주식 수 증가로 지분 희석 (09/10)"
+      "level": "양호",
+      "text": "흑자 · 재무 양호 · 최근 90일 위험 공시 없음"
      }
     ],
     "filings": [
      {
-      "date": "20260923",
-      "title": "주식등의대량보유상황보고서(일반)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923000544",
+      "date": "20260929",
+      "title": "주식소각결정",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929800131",
       "risk": null,
       "why": null
      },
      {
-      "date": "20260916",
-      "title": "[기재정정]주식매수선택권부여에관한신고",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000447",
+      "date": "20260929",
+      "title": "매매거래정지및정지해제(중요내용공시)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929800141",
       "risk": null,
       "why": null
      },
      {
-      "date": "20260911",
-      "title": "증권발행실적보고서",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000516",
+      "date": "20260914",
+      "title": "주주명부폐쇄기간또는기준일설정",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914800071",
       "risk": null,
       "why": null
      },
      {
-      "date": "20260911",
-      "title": "증권발행결과(자율공시)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911900520",
+      "date": "20260812",
+      "title": "반기보고서 (2026.06)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000083",
       "risk": null,
       "why": null
      },
      {
-      "date": "20260910",
-      "title": "유상증자또는주식관련사채등의청약결과(자율공시)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910900185",
-      "risk": "주의",
-      "why": "유상증자 — 주식 수 증가로 지분 희석"
-     },
-     {
-      "date": "20260909",
-      "title": "[기재정정]단일판매ㆍ공급계약체결",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909900661",
+      "date": "20260812",
+      "title": "현금ㆍ현물배당결정",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812800072",
       "risk": null,
       "why": null
      },
      {
-      "date": "20260907",
-      "title": "유상증자또는주식관련사채등의청약결과(자율공시)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907900070",
-      "risk": "주의",
-      "why": "유상증자 — 주식 수 증가로 지분 희석"
-     },
-     {
-      "date": "20260901",
-      "title": "[기재정정]투자설명서",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000280",
+      "date": "20260731",
+      "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731800083",
       "risk": null,
       "why": null
      }
     ],
-    "dart_url": "https://dart.fss.or.kr/dsab001/main.do?option=corp&textCrpNm=에스지이(주)"
+    "dart_url": "https://dart.fss.or.kr/dsab001/main.do?option=corp&textCrpNm=SNT다이내믹스(주)"
    }
   }
  ],
@@ -608,206 +193,29 @@
    "track": "A",
    "status": "near",
    "missing": [
-    "저점 대비 3배 미만"
-   ],
-   "strong_in_weak": false,
-   "code": "353200",
-   "name": "대덕전자",
-   "market": "KOSPI",
-   "close": 119400,
-   "chg": 6.32,
-   "value_eok": 1840,
-   "value_surge": 2.0,
-   "mktcap_jo": 5.9,
-   "pos_52w": 54.2,
-   "runup": 4.56,
-   "up_from_low": 66.3,
-   "uptail": 9.7,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": false
-   },
-   "plan": {
-    "buy_break": 120500,
-    "buy_pull": 116500,
-    "stop": 109800,
-    "stop_pct": -8.88,
-    "target1": 132600,
-    "target2": 144600,
-    "trail_pct": 7.0,
-    "rr": 1.13,
-    "bar_range_pct": 8.4,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 113600,
-    "high": 120300,
-    "low": 111000,
-    "close": 119400
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "시총 10조 이하"
-   ],
-   "strong_in_weak": false,
-   "code": "096770",
-   "name": "SK이노베이션",
-   "market": "KOSPI",
-   "close": 149200,
-   "chg": 5.82,
-   "value_eok": 1487,
-   "value_surge": 0.8,
-   "mktcap_jo": 25.22,
-   "pos_52w": 79.9,
-   "runup": 1.7,
-   "up_from_low": 64.0,
-   "uptail": 21.1,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": false,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 151300,
-    "buy_pull": 146100,
-    "stop": 140600,
-    "stop_pct": -7.07,
-    "target1": 166400,
-    "target2": 181600,
-    "trail_pct": 7.0,
-    "rr": 1.41,
-    "bar_range_pct": 6.3,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 143000,
-    "high": 151100,
-    "low": 142100,
-    "close": 149200
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "양봉 실체 확보"
-   ],
-   "strong_in_weak": false,
-   "code": "007660",
-   "name": "이수페타시스",
-   "market": "KOSPI",
-   "close": 118900,
-   "chg": 5.31,
-   "value_eok": 1095,
-   "value_surge": 1.6,
-   "mktcap_jo": 8.73,
-   "pos_52w": 57.3,
-   "runup": 2.05,
-   "up_from_low": 105.4,
-   "uptail": 14.0,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자",
-    "브이엠"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": false,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 119900,
-    "buy_pull": 118000,
-    "stop": 112800,
-    "stop_pct": -5.92,
-    "target1": 131900,
-    "target2": 143900,
-    "trail_pct": 7.0,
-    "rr": 1.69,
-    "bar_range_pct": 5.0,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 117100,
-    "high": 119700,
-    "low": 114000,
-    "close": 118900
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
     "등락률 +5~+10% 장대양봉"
    ],
-   "strong_in_weak": false,
-   "code": "115440",
-   "name": "우리넷",
-   "market": "KOSDAQ",
-   "close": 12120,
-   "chg": 29.9,
-   "value_eok": 796,
-   "value_surge": 5.4,
-   "mktcap_jo": 0.13,
-   "pos_52w": 42.5,
-   "runup": 2.29,
-   "up_from_low": 129.1,
-   "uptail": 0.0,
+   "strong_in_weak": true,
+   "code": "009830",
+   "name": "한화솔루션",
+   "market": "KOSPI",
+   "close": 33350,
+   "chg": 14.21,
+   "value_eok": 3795,
+   "value_surge": 6.9,
+   "mktcap_jo": 7.5,
+   "pos_52w": 30.4,
+   "runup": 1.52,
+   "up_from_low": 51.6,
+   "uptail": 11.8,
    "sector": null,
    "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
+    "매드업",
+    "코리아써키트",
     "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
+    "LG이노텍",
+    "삼익제약",
+    "대우건설"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -819,25 +227,25 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 12140,
-    "buy_pull": 11320,
-    "stop": 10930,
-    "stop_pct": -9.97,
-    "target1": 13350,
-    "target2": 14570,
+    "buy_break": 33800,
+    "buy_pull": 31900,
+    "stop": 30450,
+    "stop_pct": -9.91,
+    "target1": 37200,
+    "target2": 40550,
     "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 19.6,
+    "rr": 1.01,
+    "bar_range_pct": 11.2,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 10510,
-    "high": 12120,
-    "low": 10130,
-    "close": 12120
+    "open": 30400,
+    "high": 33750,
+    "low": 30350,
+    "close": 33350
    }
   },
   {
@@ -846,27 +254,27 @@
    "missing": [
     "저점 대비 3배 미만"
    ],
-   "strong_in_weak": false,
-   "code": "095610",
-   "name": "테스",
-   "market": "KOSDAQ",
-   "close": 161900,
-   "chg": 8.95,
-   "value_eok": 565,
-   "value_surge": 1.0,
-   "mktcap_jo": 3.13,
-   "pos_52w": 62.9,
-   "runup": 4.57,
-   "up_from_low": 65.4,
-   "uptail": 0.0,
+   "strong_in_weak": true,
+   "code": "047040",
+   "name": "대우건설",
+   "market": "KOSPI",
+   "close": 18680,
+   "chg": 7.11,
+   "value_eok": 2424,
+   "value_surge": 1.5,
+   "mktcap_jo": 7.68,
+   "pos_52w": 41.5,
+   "runup": 5.63,
+   "up_from_low": 68.6,
+   "uptail": 29.6,
    "sector": null,
    "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
+    "매드업",
+    "코리아써키트",
     "한화솔루션",
     "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
+    "LG이노텍",
+    "삼익제약"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -878,1902 +286,14 @@
     "저점 대비 3배 미만": false
    },
    "plan": {
-    "buy_break": 162100,
-    "buy_pull": 157000,
-    "stop": 148600,
-    "stop_pct": -8.33,
-    "target1": 178300,
-    "target2": 194500,
-    "trail_pct": 7.0,
-    "rr": 1.2,
-    "bar_range_pct": 7.8,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 152000,
-    "high": 161900,
-    "low": 150200,
-    "close": 161900
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "005290",
-   "name": "동진쎄미켐",
-   "market": "KOSDAQ",
-   "close": 46800,
-   "chg": 8.96,
-   "value_eok": 449,
-   "value_surge": 4.5,
-   "mktcap_jo": 2.39,
-   "pos_52w": 37.6,
-   "runup": 1.49,
-   "up_from_low": 45.3,
-   "uptail": 7.9,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 47150,
-    "buy_pull": 45400,
-    "stop": 42850,
-    "stop_pct": -9.12,
-    "target1": 51900,
-    "target2": 56600,
-    "trail_pct": 7.0,
-    "rr": 1.1,
-    "bar_range_pct": 8.8,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 44000,
-    "high": 47100,
-    "low": 43300,
-    "close": 46800
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "084370",
-   "name": "유진테크",
-   "market": "KOSDAQ",
-   "close": 163600,
-   "chg": 9.5,
-   "value_eok": 430,
-   "value_surge": 2.2,
-   "mktcap_jo": 3.75,
-   "pos_52w": 61.5,
-   "runup": 2.97,
-   "up_from_low": 90.0,
-   "uptail": 4.5,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 164400,
-    "buy_pull": 157800,
-    "stop": 149400,
-    "stop_pct": -9.12,
-    "target1": 180800,
-    "target2": 197300,
-    "trail_pct": 7.0,
-    "rr": 1.09,
-    "bar_range_pct": 8.7,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 152100,
-    "high": 164200,
-    "low": 151000,
-    "close": 163600
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "003160",
-   "name": "디아이",
-   "market": "KOSPI",
-   "close": 36750,
-   "chg": 5.6,
-   "value_eok": 282,
-   "value_surge": 1.5,
-   "mktcap_jo": 1.04,
-   "pos_52w": 81.8,
-   "runup": 2.54,
-   "up_from_low": 136.3,
-   "uptail": 5.3,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 36900,
-    "buy_pull": 36000,
-    "stop": 34600,
-    "stop_pct": -6.23,
-    "target1": 40600,
-    "target2": 44300,
-    "trail_pct": 7.0,
-    "rr": 1.61,
-    "bar_range_pct": 5.4,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 35250,
-    "high": 36850,
-    "low": 34950,
-    "close": 36750
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "281820",
-   "name": "케이씨텍",
-   "market": "KOSPI",
-   "close": 86800,
-   "chg": 7.69,
-   "value_eok": 256,
-   "value_surge": 2.0,
-   "mktcap_jo": 1.72,
-   "pos_52w": 57.6,
-   "runup": 2.47,
-   "up_from_low": 62.2,
-   "uptail": 16.7,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 87900,
-    "buy_pull": 84700,
-    "stop": 80900,
-    "stop_pct": -7.96,
-    "target1": 96700,
-    "target2": 105500,
-    "trail_pct": 7.0,
-    "rr": 1.26,
-    "bar_range_pct": 7.3,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 82600,
-    "high": 87800,
-    "low": 81800,
-    "close": 86800
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "357780",
-   "name": "솔브레인",
-   "market": "KOSDAQ",
-   "close": 370000,
-   "chg": 9.79,
-   "value_eok": 211,
-   "value_surge": 2.8,
-   "mktcap_jo": 2.88,
-   "pos_52w": 49.1,
-   "runup": 1.72,
-   "up_from_low": 71.7,
-   "uptail": 8.8,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 373500,
-    "buy_pull": 356000,
-    "stop": 336500,
-    "stop_pct": -9.91,
-    "target1": 411000,
-    "target2": 448000,
+    "buy_break": 19260,
+    "buy_pull": 18160,
+    "stop": 17340,
+    "stop_pct": -9.97,
+    "target1": 21200,
+    "target2": 23100,
     "trail_pct": 7.0,
     "rr": 1.01,
-    "bar_range_pct": 10.0,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 342000,
-    "high": 373000,
-    "low": 339000,
-    "close": 370000
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "295310",
-   "name": "에이치브이엠",
-   "market": "KOSDAQ",
-   "close": 63100,
-   "chg": 8.42,
-   "value_eok": 192,
-   "value_surge": 2.8,
-   "mktcap_jo": 0.78,
-   "pos_52w": 33.7,
-   "runup": 2.87,
-   "up_from_low": 117.6,
-   "uptail": 14.5,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 64100,
-    "buy_pull": 61000,
-    "stop": 57700,
-    "stop_pct": -9.98,
-    "target1": 70500,
-    "target2": 76900,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 10.7,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 58900,
-    "high": 64000,
-    "low": 57800,
-    "close": 63100
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "126340",
-   "name": "비나텍",
-   "market": "KOSDAQ",
-   "close": 86800,
-   "chg": 5.98,
-   "value_eok": 139,
-   "value_surge": 1.4,
-   "mktcap_jo": 0.62,
-   "pos_52w": 27.0,
-   "runup": 2.01,
-   "up_from_low": 100.9,
-   "uptail": 11.3,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 87600,
-    "buy_pull": 84900,
-    "stop": 80400,
-    "stop_pct": -8.22,
-    "target1": 96400,
-    "target2": 105100,
-    "trail_pct": 7.0,
-    "rr": 1.22,
-    "bar_range_pct": 7.6,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 83000,
-    "high": 87500,
-    "low": 81300,
-    "close": 86800
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "170920",
-   "name": "엘티씨",
-   "market": "KOSDAQ",
-   "close": 38700,
-   "chg": 9.63,
-   "value_eok": 126,
-   "value_surge": 1.9,
-   "mktcap_jo": 0.41,
-   "pos_52w": 52.3,
-   "runup": 2.65,
-   "up_from_low": 48.6,
-   "uptail": 29.3,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 39850,
-    "buy_pull": 37500,
-    "stop": 35900,
-    "stop_pct": -9.91,
-    "target1": 43850,
-    "target2": 47800,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 10.4,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 36300,
-    "high": 39800,
-    "low": 36050,
-    "close": 38700
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "014680",
-   "name": "한솔케미칼",
-   "market": "KOSPI",
-   "close": 236500,
-   "chg": 5.11,
-   "value_eok": 123,
-   "value_surge": 1.4,
-   "mktcap_jo": 2.55,
-   "pos_52w": 35.9,
-   "runup": 1.35,
-   "up_from_low": 35.1,
-   "uptail": 19.4,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 240500,
-    "buy_pull": 231000,
-    "stop": 219500,
-    "stop_pct": -8.73,
-    "target1": 264500,
-    "target2": 288500,
-    "trail_pct": 7.0,
-    "rr": 1.14,
-    "bar_range_pct": 8.1,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 226000,
-    "high": 240000,
-    "low": 222000,
-    "close": 236500
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "255220",
-   "name": "SG",
-   "market": "KOSDAQ",
-   "close": 1196,
-   "chg": 6.31,
-   "value_eok": 112,
-   "value_surge": 4.7,
-   "mktcap_jo": 0.13,
-   "pos_52w": 6.2,
-   "runup": 1.16,
-   "up_from_low": 15.6,
-   "uptail": 15.9,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 1225,
-    "buy_pull": 1129,
-    "stop": 1103,
-    "stop_pct": -9.96,
-    "target1": 1348,
-    "target2": 1470,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 16.1,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 1062,
-    "high": 1223,
-    "low": 1053,
-    "close": 1196
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "361610",
-   "name": "SK아이이테크놀로지",
-   "market": "KOSPI",
-   "close": 17170,
-   "chg": 6.18,
-   "value_eok": 104,
-   "value_surge": 0.6,
-   "mktcap_jo": 1.4,
-   "pos_52w": 22.9,
-   "runup": 1.45,
-   "up_from_low": 45.0,
-   "uptail": 25.9,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 17480,
-    "buy_pull": 16780,
-    "stop": 16170,
-    "stop_pct": -7.49,
-    "target1": 19230,
-    "target2": 21000,
-    "trail_pct": 7.0,
-    "rr": 1.34,
-    "bar_range_pct": 6.9,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 16400,
-    "high": 17460,
-    "low": 16340,
-    "close": 17170
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "234340",
-   "name": "헥토파이낸셜",
-   "market": "KOSDAQ",
-   "close": 22550,
-   "chg": 5.37,
-   "value_eok": 98,
-   "value_surge": 0.5,
-   "mktcap_jo": 0.32,
-   "pos_52w": 27.2,
-   "runup": 1.59,
-   "up_from_low": 59.0,
-   "uptail": 22.5,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 23050,
-    "buy_pull": 21900,
-    "stop": 20750,
-    "stop_pct": -9.98,
-    "target1": 25350,
-    "target2": 27650,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 9.5,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 21250,
-    "high": 23000,
-    "low": 21000,
-    "close": 22550
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "077500",
-   "name": "유니퀘스트",
-   "market": "KOSPI",
-   "close": 9190,
-   "chg": 7.61,
-   "value_eok": 72,
-   "value_surge": 4.5,
-   "mktcap_jo": 0.2,
-   "pos_52w": 93.9,
-   "runup": 2.26,
-   "up_from_low": 125.5,
-   "uptail": 1.6,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 9210,
-    "buy_pull": 8880,
-    "stop": 8470,
-    "stop_pct": -8.03,
-    "target1": 10130,
-    "target2": 11050,
-    "trail_pct": 7.0,
-    "rr": 1.24,
-    "bar_range_pct": 7.5,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 8580,
-    "high": 9200,
-    "low": 8560,
-    "close": 9190
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "114810",
-   "name": "한솔아이원스",
-   "market": "KOSDAQ",
-   "close": 14770,
-   "chg": 9.16,
-   "value_eok": 69,
-   "value_surge": 2.8,
-   "mktcap_jo": 0.42,
-   "pos_52w": 60.1,
-   "runup": 2.1,
-   "up_from_low": 109.5,
-   "uptail": 6.8,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 14880,
-    "buy_pull": 14280,
-    "stop": 13400,
-    "stop_pct": -9.95,
-    "target1": 16370,
-    "target2": 17860,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 9.7,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 13780,
-    "high": 14860,
-    "low": 13540,
-    "close": 14770
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "264450",
-   "name": "유비쿼스",
-   "market": "KOSDAQ",
-   "close": 11340,
-   "chg": 6.48,
-   "value_eok": 57,
-   "value_surge": 16.2,
-   "mktcap_jo": 0.17,
-   "pos_52w": 26.3,
-   "runup": 1.32,
-   "up_from_low": 30.3,
-   "uptail": 34.8,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 11820,
-    "buy_pull": 10970,
-    "stop": 10640,
-    "stop_pct": -9.98,
-    "target1": 13000,
-    "target2": 14180,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 12.6,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 10600,
-    "high": 11800,
-    "low": 10480,
-    "close": 11340
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "330860",
-   "name": "네패스아크",
-   "market": "KOSDAQ",
-   "close": 29250,
-   "chg": 5.6,
-   "value_eok": 56,
-   "value_surge": 1.3,
-   "mktcap_jo": 0.36,
-   "pos_52w": 29.6,
-   "runup": 1.97,
-   "up_from_low": 62.5,
-   "uptail": 13.6,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 29450,
-    "buy_pull": 28800,
-    "stop": 28000,
-    "stop_pct": -4.92,
-    "target1": 32400,
-    "target2": 35350,
-    "trail_pct": 7.0,
-    "rr": 2.03,
-    "bar_range_pct": 3.9,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 28350,
-    "high": 29400,
-    "low": 28300,
-    "close": 29250
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "089890",
-   "name": "코세스",
-   "market": "KOSDAQ",
-   "close": 29050,
-   "chg": 7.2,
-   "value_eok": 52,
-   "value_surge": 1.4,
-   "mktcap_jo": 0.48,
-   "pos_52w": 42.8,
-   "runup": 2.36,
-   "up_from_low": 83.5,
-   "uptail": 7.1,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 29250,
-    "buy_pull": 28300,
-    "stop": 26800,
-    "stop_pct": -8.38,
-    "target1": 32200,
-    "target2": 35100,
-    "trail_pct": 7.0,
-    "rr": 1.2,
-    "bar_range_pct": 7.7,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 27600,
-    "high": 29200,
-    "low": 27100,
-    "close": 29050
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "294570",
-   "name": "쿠콘",
-   "market": "KOSDAQ",
-   "close": 27400,
-   "chg": 5.18,
-   "value_eok": 48,
-   "value_surge": 0.6,
-   "mktcap_jo": 0.28,
-   "pos_52w": 41.9,
-   "runup": 2.11,
-   "up_from_low": 110.8,
-   "uptail": 22.7,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 27950,
-    "buy_pull": 26700,
-    "stop": 25400,
-    "stop_pct": -9.12,
-    "target1": 30750,
-    "target2": 33550,
-    "trail_pct": 7.0,
-    "rr": 1.1,
-    "bar_range_pct": 8.6,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 26050,
-    "high": 27900,
-    "low": 25700,
-    "close": 27400
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "036710",
-   "name": "심텍홀딩스",
-   "market": "KOSDAQ",
-   "close": 4485,
-   "chg": 7.81,
-   "value_eok": 45,
-   "value_surge": 4.6,
-   "mktcap_jo": 0.24,
-   "pos_52w": 57.7,
-   "runup": 2.59,
-   "up_from_low": 81.2,
-   "uptail": 21.0,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 4575,
-    "buy_pull": 4355,
-    "stop": 4120,
-    "stop_pct": -9.95,
-    "target1": 5030,
-    "target2": 5490,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 9.7,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 4225,
-    "high": 4570,
-    "low": 4165,
-    "close": 4485
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "086390",
-   "name": "유니테스트",
-   "market": "KOSDAQ",
-   "close": 13300,
-   "chg": 8.22,
-   "value_eok": 39,
-   "value_surge": 2.0,
-   "mktcap_jo": 0.28,
-   "pos_52w": 41.1,
-   "runup": 2.21,
-   "up_from_low": 120.6,
-   "uptail": 14.2,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 13470,
-    "buy_pull": 12920,
-    "stop": 12260,
-    "stop_pct": -8.98,
-    "target1": 14820,
-    "target2": 16160,
-    "trail_pct": 7.0,
-    "rr": 1.12,
-    "bar_range_pct": 8.6,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 12540,
-    "high": 13450,
-    "low": 12390,
-    "close": 13300
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "102710",
-   "name": "이엔에프테크놀로지",
-   "market": "KOSDAQ",
-   "close": 46100,
-   "chg": 7.08,
-   "value_eok": 39,
-   "value_surge": 1.5,
-   "mktcap_jo": 0.66,
-   "pos_52w": 40.4,
-   "runup": 1.38,
-   "up_from_low": 38.4,
-   "uptail": 18.3,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 46800,
-    "buy_pull": 45100,
-    "stop": 42750,
-    "stop_pct": -8.65,
-    "target1": 51500,
-    "target2": 56200,
-    "trail_pct": 7.0,
-    "rr": 1.16,
-    "bar_range_pct": 8.2,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 44100,
-    "high": 46750,
-    "low": 43200,
-    "close": 46100
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "017890",
-   "name": "한국알콜",
-   "market": "KOSDAQ",
-   "close": 15390,
-   "chg": 6.88,
-   "value_eok": 38,
-   "value_surge": 6.4,
-   "mktcap_jo": 0.32,
-   "pos_52w": 88.2,
-   "runup": 1.74,
-   "up_from_low": 33.7,
-   "uptail": 24.4,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 15740,
-    "buy_pull": 14900,
-    "stop": 14220,
-    "stop_pct": -9.66,
-    "target1": 17310,
-    "target2": 18890,
-    "trail_pct": 7.0,
-    "rr": 1.03,
-    "bar_range_pct": 9.4,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 14400,
-    "high": 15720,
-    "low": 14370,
-    "close": 15390
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "393890",
-   "name": "더블유씨피",
-   "market": "KOSDAQ",
-   "close": 10530,
-   "chg": 6.26,
-   "value_eok": 36,
-   "value_surge": 1.1,
-   "mktcap_jo": 0.36,
-   "pos_52w": 31.6,
-   "runup": 1.91,
-   "up_from_low": 90.8,
-   "uptail": 30.9,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 10840,
-    "buy_pull": 10290,
-    "stop": 9780,
-    "stop_pct": -9.78,
-    "target1": 11920,
-    "target2": 13010,
-    "trail_pct": 7.0,
-    "rr": 1.02,
-    "bar_range_pct": 9.5,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 10050,
-    "high": 10820,
-    "low": 9880,
-    "close": 10530
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "0088M0",
-   "name": "메쥬",
-   "market": "KOSDAQ",
-   "close": 13740,
-   "chg": 5.45,
-   "value_eok": 35,
-   "value_surge": 4.2,
-   "mktcap_jo": 0.14,
-   "pos_52w": 5.3,
-   "runup": 1.32,
-   "up_from_low": 32.5,
-   "uptail": 32.6,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 14200,
-    "buy_pull": 13380,
-    "stop": 12780,
-    "stop_pct": -10.0,
-    "target1": 15620,
-    "target2": 17040,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 10.5,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 13030,
-    "high": 14180,
-    "low": 12830,
-    "close": 13740
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "104830",
-   "name": "원익머트리얼즈",
-   "market": "KOSDAQ",
-   "close": 36800,
-   "chg": 7.45,
-   "value_eok": 33,
-   "value_surge": 2.4,
-   "mktcap_jo": 0.46,
-   "pos_52w": 36.9,
-   "runup": 1.44,
-   "up_from_low": 44.3,
-   "uptail": 23.3,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 37350,
-    "buy_pull": 36000,
-    "stop": 34750,
-    "stop_pct": -6.96,
-    "target1": 41100,
-    "target2": 44800,
-    "trail_pct": 7.0,
-    "rr": 1.44,
-    "bar_range_pct": 6.1,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 35200,
-    "high": 37300,
-    "low": 35150,
-    "close": 36800
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "036830",
-   "name": "솔브레인홀딩스",
-   "market": "KOSDAQ",
-   "close": 41500,
-   "chg": 5.87,
-   "value_eok": 26,
-   "value_surge": 1.1,
-   "mktcap_jo": 0.85,
-   "pos_52w": 28.6,
-   "runup": 1.61,
-   "up_from_low": 61.2,
-   "uptail": 14.1,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 42000,
-    "buy_pull": 40450,
-    "stop": 38350,
-    "stop_pct": -8.69,
-    "target1": 46200,
-    "target2": 50400,
-    "trail_pct": 7.0,
-    "rr": 1.15,
-    "bar_range_pct": 8.3,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 39400,
-    "high": 41950,
-    "low": 38750,
-    "close": 41500
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "056360",
-   "name": "코위버",
-   "market": "KOSDAQ",
-   "close": 6370,
-   "chg": 9.26,
-   "value_eok": 26,
-   "value_surge": 3.5,
-   "mktcap_jo": 0.06,
-   "pos_52w": 21.9,
-   "runup": 1.56,
-   "up_from_low": 56.3,
-   "uptail": 6.2,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 6410,
-    "buy_pull": 6140,
-    "stop": 5860,
-    "stop_pct": -8.58,
-    "target1": 7050,
-    "target2": 7690,
-    "trail_pct": 7.0,
-    "rr": 1.16,
-    "bar_range_pct": 8.1,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 5920,
-    "high": 6400,
-    "low": 5920,
-    "close": 6370
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "445680",
-   "name": "큐리옥스바이오시스템즈",
-   "market": "KOSDAQ",
-   "close": 49600,
-   "chg": 5.08,
-   "value_eok": 24,
-   "value_surge": 0.6,
-   "mktcap_jo": 0.85,
-   "pos_52w": 15.3,
-   "runup": 1.57,
-   "up_from_low": 56.7,
-   "uptail": 18.5,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 50200,
-    "buy_pull": 48850,
-    "stop": 46900,
-    "stop_pct": -6.57,
-    "target1": 55200,
-    "target2": 60200,
-    "trail_pct": 7.0,
-    "rr": 1.52,
-    "bar_range_pct": 5.7,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 48100,
-    "high": 50100,
-    "low": 47400,
-    "close": 49600
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "187870",
-   "name": "디바이스",
-   "market": "KOSDAQ",
-   "close": 11940,
-   "chg": 6.51,
-   "value_eok": 19,
-   "value_surge": 2.8,
-   "mktcap_jo": 0.17,
-   "pos_52w": 10.9,
-   "runup": 1.43,
-   "up_from_low": 42.7,
-   "uptail": 21.2,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 12180,
-    "buy_pull": 11640,
-    "stop": 11000,
-    "stop_pct": -9.69,
-    "target1": 13400,
-    "target2": 14620,
-    "trail_pct": 7.0,
-    "rr": 1.03,
-    "bar_range_pct": 9.4,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 11330,
-    "high": 12160,
-    "low": 11120,
-    "close": 11940
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "236200",
-   "name": "슈프리마",
-   "market": "KOSDAQ",
-   "close": 55200,
-   "chg": 6.56,
-   "value_eok": 19,
-   "value_surge": 1.6,
-   "mktcap_jo": 0.38,
-   "pos_52w": 71.8,
-   "runup": 1.83,
-   "up_from_low": 30.5,
-   "uptail": 17.1,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 56000,
-    "buy_pull": 53700,
-    "stop": 51200,
-    "stop_pct": -8.57,
-    "target1": 61600,
-    "target2": 67200,
-    "trail_pct": 7.0,
-    "rr": 1.17,
-    "bar_range_pct": 7.9,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 52200,
-    "high": 55900,
-    "low": 51800,
-    "close": 55200
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "004770",
-   "name": "써니전자",
-   "market": "KOSPI",
-   "close": 2005,
-   "chg": 5.92,
-   "value_eok": 17,
-   "value_surge": 0.2,
-   "mktcap_jo": 0.07,
-   "pos_52w": 45.6,
-   "runup": 1.41,
-   "up_from_low": 34.6,
-   "uptail": 26.8,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 2050,
-    "buy_pull": 1950,
-    "stop": 1877,
-    "stop_pct": -8.44,
-    "target1": 2255,
-    "target2": 2460,
-    "trail_pct": 7.0,
-    "rr": 1.18,
-    "bar_range_pct": 7.9,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 1896,
-    "high": 2045,
-    "low": 1896,
-    "close": 2005
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": false,
-   "code": "065680",
-   "name": "우주일렉트로",
-   "market": "KOSDAQ",
-   "close": 27550,
-   "chg": 6.99,
-   "value_eok": 15,
-   "value_surge": 2.9,
-   "mktcap_jo": 0.25,
-   "pos_52w": 26.6,
-   "runup": 1.47,
-   "up_from_low": 46.5,
-   "uptail": 32.1,
-   "sector": null,
-   "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
-    "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 28500,
-    "buy_pull": 26700,
-    "stop": 25650,
-    "stop_pct": -10.0,
-    "target1": 31350,
-    "target2": 34200,
-    "trail_pct": 7.0,
-    "rr": 1.0,
     "bar_range_pct": 10.9,
     "max_buy": null,
     "entry": "돌파",
@@ -2781,117 +301,117 @@
     "reject": []
    },
    "bar": {
-    "open": 25900,
-    "high": 28450,
-    "low": 25650,
-    "close": 27550
+    "open": 17640,
+    "high": 19240,
+    "low": 17350,
+    "close": 18680
    }
   },
   {
    "track": "A",
    "status": "near",
    "missing": [
-    "거래대금 500억 이상"
+    "시총 10조 이하"
    ],
-   "strong_in_weak": false,
-   "code": "323350",
-   "name": "다원넥스뷰",
-   "market": "KOSDAQ",
-   "close": 9970,
-   "chg": 5.06,
-   "value_eok": 11,
-   "value_surge": 3.4,
-   "mktcap_jo": 0.08,
-   "pos_52w": 21.7,
-   "runup": 2.01,
-   "up_from_low": 88.5,
-   "uptail": 0.0,
+   "strong_in_weak": true,
+   "code": "096770",
+   "name": "SK이노베이션",
+   "market": "KOSPI",
+   "close": 158200,
+   "chg": 6.03,
+   "value_eok": 1805,
+   "value_surge": 1.1,
+   "mktcap_jo": 26.74,
+   "pos_52w": 91.6,
+   "runup": 1.8,
+   "up_from_low": 73.8,
+   "uptail": 22.1,
    "sector": null,
    "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
+    "매드업",
+    "코리아써키트",
     "한화솔루션",
     "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
+    "LG이노텍",
+    "삼익제약"
    ],
    "sector_confirmed": true,
    "checks": {
-    "거래대금 500억 이상": false,
+    "거래대금 500억 이상": true,
     "등락률 +5~+10% 장대양봉": true,
     "양봉 실체 확보": true,
     "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
+    "시총 10조 이하": false,
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 9980,
-    "buy_pull": 9680,
-    "stop": 8990,
-    "stop_pct": -9.92,
-    "target1": 10980,
-    "target2": 11980,
+    "buy_break": 161400,
+    "buy_pull": 153400,
+    "stop": 146100,
+    "stop_pct": -9.48,
+    "target1": 177500,
+    "target2": 193700,
     "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 11.8,
+    "rr": 1.05,
+    "bar_range_pct": 9.2,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 9380,
-    "high": 9970,
-    "low": 8920,
-    "close": 9970
+    "open": 148500,
+    "high": 161200,
+    "low": 147600,
+    "close": 158200
    }
   },
   {
    "track": "A",
    "status": "near",
    "missing": [
-    "거래대금 500억 이상"
+    "등락률 +5~+10% 장대양봉"
    ],
-   "strong_in_weak": false,
-   "code": "064850",
-   "name": "에프앤가이드",
-   "market": "KOSDAQ",
-   "close": 19880,
-   "chg": 6.71,
-   "value_eok": 10,
-   "value_surge": 2.2,
-   "mktcap_jo": 0.23,
-   "pos_52w": 40.7,
-   "runup": 2.44,
-   "up_from_low": 38.8,
-   "uptail": 21.2,
+   "strong_in_weak": true,
+   "code": "010060",
+   "name": "OCI홀딩스",
+   "market": "KOSPI",
+   "close": 228500,
+   "chg": 10.92,
+   "value_eok": 1276,
+   "value_surge": 2.3,
+   "mktcap_jo": 4.27,
+   "pos_52w": 43.9,
+   "runup": 2.74,
+   "up_from_low": 40.1,
+   "uptail": 31.4,
    "sector": null,
    "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
+    "매드업",
+    "코리아써키트",
     "한화솔루션",
-    "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
+    "LG이노텍",
+    "삼익제약",
+    "대우건설"
    ],
    "sector_confirmed": true,
    "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
     "양봉 실체 확보": true,
     "긴 윗꼬리 없음": true,
     "시총 10조 이하": true,
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 20250,
-    "buy_pull": 19280,
-    "stop": 18500,
-    "stop_pct": -8.64,
-    "target1": 22300,
-    "target2": 24300,
+    "buy_break": 234500,
+    "buy_pull": 222500,
+    "stop": 214000,
+    "stop_pct": -8.74,
+    "target1": 258000,
+    "target2": 281500,
     "trail_pct": 7.0,
-    "rr": 1.17,
+    "rr": 1.15,
     "bar_range_pct": 8.1,
     "max_buy": null,
     "entry": "돌파",
@@ -2899,10 +419,128 @@
     "reject": []
    },
    "bar": {
-    "open": 18690,
-    "high": 20200,
-    "low": 18690,
-    "close": 19880
+    "open": 216500,
+    "high": 234000,
+    "low": 216500,
+    "close": 228500
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "등락률 +5~+10% 장대양봉"
+   ],
+   "strong_in_weak": false,
+   "code": "014950",
+   "name": "삼익제약",
+   "market": "KOSDAQ",
+   "close": 10440,
+   "chg": 15.49,
+   "value_eok": 1200,
+   "value_surge": 2.8,
+   "mktcap_jo": 0.11,
+   "pos_52w": 31.6,
+   "runup": 2.82,
+   "up_from_low": 181.8,
+   "uptail": 29.5,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "대우건설"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10970,
+    "buy_pull": 9880,
+    "stop": 9880,
+    "stop_pct": -9.94,
+    "target1": 12070,
+    "target2": 13160,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 18.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 9310,
+    "high": 10955,
+    "low": 9210,
+    "close": 10440
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "시총 10조 이하"
+   ],
+   "strong_in_weak": false,
+   "code": "247540",
+   "name": "에코프로비엠",
+   "market": "KOSDAQ",
+   "close": 111300,
+   "chg": 6.0,
+   "value_eok": 639,
+   "value_surge": 1.6,
+   "mktcap_jo": 10.89,
+   "pos_52w": 13.4,
+   "runup": 1.26,
+   "up_from_low": 26.0,
+   "uptail": 20.8,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": false,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 113700,
+    "buy_pull": 107900,
+    "stop": 102400,
+    "stop_pct": -9.94,
+    "target1": 125100,
+    "target2": 136400,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 10.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 104500,
+    "high": 113500,
+    "low": 102900,
+    "close": 111300
    }
   },
   {
@@ -2912,26 +550,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "048910",
-   "name": "대원미디어",
+   "code": "078600",
+   "name": "대주전자재료",
    "market": "KOSDAQ",
-   "close": 7090,
-   "chg": 6.46,
-   "value_eok": 9,
-   "value_surge": 3.1,
-   "mktcap_jo": 0.09,
-   "pos_52w": 56.3,
-   "runup": 1.87,
-   "up_from_low": 86.6,
-   "uptail": 12.5,
+   "close": 92800,
+   "chg": 7.66,
+   "value_eok": 285,
+   "value_surge": 2.9,
+   "mktcap_jo": 1.46,
+   "pos_52w": 27.3,
+   "runup": 1.58,
+   "up_from_low": 57.0,
+   "uptail": 23.5,
    "sector": null,
    "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
+    "매드업",
+    "코리아써키트",
     "한화솔루션",
     "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
+    "LG이노텍",
+    "삼익제약"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -2943,12 +581,12 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 7180,
-    "buy_pull": 6900,
-    "stop": 6470,
-    "stop_pct": -9.89,
-    "target1": 7900,
-    "target2": 8620,
+    "buy_break": 94900,
+    "buy_pull": 89600,
+    "stop": 85500,
+    "stop_pct": -9.91,
+    "target1": 104400,
+    "target2": 113900,
     "trail_pct": 7.0,
     "rr": 1.01,
     "bar_range_pct": 9.8,
@@ -2958,10 +596,10 @@
     "reject": []
    },
    "bar": {
-    "open": 6700,
-    "high": 7170,
-    "low": 6530,
-    "close": 7090
+    "open": 86300,
+    "high": 94800,
+    "low": 86300,
+    "close": 92800
    }
   },
   {
@@ -2971,26 +609,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "307870",
-   "name": "비투엔",
+   "code": "477850",
+   "name": "마키나락스",
    "market": "KOSDAQ",
-   "close": 1279,
-   "chg": 7.57,
-   "value_eok": 9,
-   "value_surge": 0.7,
-   "mktcap_jo": 0.1,
-   "pos_52w": 64.7,
-   "runup": 2.45,
-   "up_from_low": 73.3,
-   "uptail": 7.1,
+   "close": 23100,
+   "chg": 9.48,
+   "value_eok": 248,
+   "value_surge": 2.0,
+   "mktcap_jo": 0.41,
+   "pos_52w": 13.8,
+   "runup": 1.72,
+   "up_from_low": 49.9,
+   "uptail": 25.0,
    "sector": null,
    "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
+    "매드업",
+    "코리아써키트",
     "한화솔루션",
     "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
+    "LG이노텍",
+    "삼익제약"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -3002,25 +640,84 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 1290,
-    "buy_pull": 1242,
-    "stop": 1161,
-    "stop_pct": -10.0,
-    "target1": 1419,
-    "target2": 1548,
+    "buy_break": 23900,
+    "buy_pull": 22250,
+    "stop": 21550,
+    "stop_pct": -9.83,
+    "target1": 26300,
+    "target2": 28700,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 14.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 21400,
+    "high": 23850,
+    "low": 20850,
+    "close": 23100
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "112610",
+   "name": "씨에스윈드",
+   "market": "KOSPI",
+   "close": 52900,
+   "chg": 5.59,
+   "value_eok": 239,
+   "value_surge": 1.6,
+   "mktcap_jo": 2.23,
+   "pos_52w": 41.0,
+   "runup": 1.53,
+   "up_from_low": 53.3,
+   "uptail": 26.0,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 54300,
+    "buy_pull": 51500,
+    "stop": 48900,
+    "stop_pct": -9.94,
+    "target1": 59700,
+    "target2": 65200,
     "trail_pct": 7.0,
     "rr": 1.0,
-    "bar_range_pct": 10.9,
+    "bar_range_pct": 10.2,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 1206,
-    "high": 1288,
-    "low": 1161,
-    "close": 1279
+    "open": 50100,
+    "high": 54200,
+    "low": 49200,
+    "close": 52900
    }
   },
   {
@@ -3030,26 +727,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "489460",
-   "name": "바이오비쥬",
+   "code": "042510",
+   "name": "라온시큐어",
    "market": "KOSDAQ",
-   "close": 11960,
-   "chg": 5.75,
-   "value_eok": 9,
-   "value_surge": 0.8,
-   "mktcap_jo": 0.18,
-   "pos_52w": 50.9,
-   "runup": 2.29,
-   "up_from_low": 111.3,
-   "uptail": 12.2,
+   "close": 11860,
+   "chg": 8.31,
+   "value_eok": 151,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.13,
+   "pos_52w": 52.1,
+   "runup": 1.88,
+   "up_from_low": 87.7,
+   "uptail": 25.0,
    "sector": null,
    "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
+    "매드업",
+    "코리아써키트",
     "한화솔루션",
     "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
+    "LG이노텍",
+    "삼익제약"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -3061,25 +758,84 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 12070,
-    "buy_pull": 11640,
-    "stop": 11190,
-    "stop_pct": -7.29,
-    "target1": 13280,
-    "target2": 14480,
+    "buy_break": 12200,
+    "buy_pull": 11470,
+    "stop": 10980,
+    "stop_pct": -10.0,
+    "target1": 13420,
+    "target2": 14640,
     "trail_pct": 7.0,
-    "rr": 1.38,
-    "bar_range_pct": 6.5,
+    "rr": 1.0,
+    "bar_range_pct": 11.7,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 11310,
-    "high": 12050,
-    "low": 11310,
-    "close": 11960
+    "open": 11080,
+    "high": 12180,
+    "low": 10900,
+    "close": 11860
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "007340",
+   "name": "DN오토모티브",
+   "market": "KOSPI",
+   "close": 50700,
+   "chg": 5.85,
+   "value_eok": 91,
+   "value_surge": 1.7,
+   "mktcap_jo": 2.97,
+   "pos_52w": 63.4,
+   "runup": 2.35,
+   "up_from_low": 57.5,
+   "uptail": 12.3,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 51300,
+    "buy_pull": 49300,
+    "stop": 46650,
+    "stop_pct": -9.06,
+    "target1": 56400,
+    "target2": 61600,
+    "trail_pct": 7.0,
+    "rr": 1.1,
+    "bar_range_pct": 8.6,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 47900,
+    "high": 51200,
+    "low": 47150,
+    "close": 50700
    }
   },
   {
@@ -3089,26 +845,498 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "255440",
-   "name": "야스",
+   "code": "340450",
+   "name": "지씨지놈",
    "market": "KOSDAQ",
-   "close": 7460,
-   "chg": 5.67,
-   "value_eok": 7,
-   "value_surge": 1.5,
-   "mktcap_jo": 0.1,
-   "pos_52w": 38.9,
-   "runup": 2.04,
-   "up_from_low": 104.4,
+   "close": 8670,
+   "chg": 5.99,
+   "value_eok": 89,
+   "value_surge": 5.8,
+   "mktcap_jo": 0.21,
+   "pos_52w": 84.3,
+   "runup": 2.11,
+   "up_from_low": 111.5,
+   "uptail": 31.3,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8890,
+    "buy_pull": 8440,
+    "stop": 8120,
+    "stop_pct": -8.66,
+    "target1": 9780,
+    "target2": 10670,
+    "trail_pct": 7.0,
+    "rr": 1.16,
+    "bar_range_pct": 8.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8210,
+    "high": 8880,
+    "low": 8210,
+    "close": 8670
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "139130",
+   "name": "iM금융지주",
+   "market": "KOSPI",
+   "close": 18880,
+   "chg": 6.01,
+   "value_eok": 85,
+   "value_surge": 1.2,
+   "mktcap_jo": 2.99,
+   "pos_52w": 65.1,
+   "runup": 1.45,
+   "up_from_low": 25.4,
+   "uptail": 3.6,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 18940,
+    "buy_pull": 18350,
+    "stop": 17630,
+    "stop_pct": -6.92,
+    "target1": 20850,
+    "target2": 22750,
+    "trail_pct": 7.0,
+    "rr": 1.46,
+    "bar_range_pct": 6.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 17820,
+    "high": 18920,
+    "low": 17810,
+    "close": 18880
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "121600",
+   "name": "나노신소재",
+   "market": "KOSDAQ",
+   "close": 55800,
+   "chg": 7.51,
+   "value_eok": 72,
+   "value_surge": 2.4,
+   "mktcap_jo": 0.68,
+   "pos_52w": 36.4,
+   "runup": 1.68,
+   "up_from_low": 68.1,
+   "uptail": 11.3,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 56500,
+    "buy_pull": 53800,
+    "stop": 50900,
+    "stop_pct": -9.91,
+    "target1": 62200,
+    "target2": 67800,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 10.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 51700,
+    "high": 56400,
+    "low": 51100,
+    "close": 55800
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "251970",
+   "name": "펌텍코리아",
+   "market": "KOSDAQ",
+   "close": 61500,
+   "chg": 6.96,
+   "value_eok": 72,
+   "value_surge": 1.3,
+   "mktcap_jo": 0.76,
+   "pos_52w": 77.6,
+   "runup": 1.96,
+   "up_from_low": 72.8,
+   "uptail": 30.9,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 63300,
+    "buy_pull": 59600,
+    "stop": 57100,
+    "stop_pct": -9.79,
+    "target1": 69600,
+    "target2": 76000,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 9.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 57700,
+    "high": 63200,
+    "low": 57700,
+    "close": 61500
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "051160",
+   "name": "지어소프트",
+   "market": "KOSDAQ",
+   "close": 12980,
+   "chg": 7.81,
+   "value_eok": 66,
+   "value_surge": 1.6,
+   "mktcap_jo": 0.18,
+   "pos_52w": 94.2,
+   "runup": 2.07,
+   "up_from_low": 88.4,
+   "uptail": 24.1,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 13410,
+    "buy_pull": 12500,
+    "stop": 12070,
+    "stop_pct": -9.99,
+    "target1": 14750,
+    "target2": 16090,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 14.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 12030,
+    "high": 13390,
+    "low": 11690,
+    "close": 12980
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "078340",
+   "name": "컴투스",
+   "market": "KOSDAQ",
+   "close": 37450,
+   "chg": 7.15,
+   "value_eok": 59,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.45,
+   "pos_52w": 75.9,
+   "runup": 1.67,
+   "up_from_low": 56.0,
+   "uptail": 13.6,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 37950,
+    "buy_pull": 36000,
+    "stop": 34250,
+    "stop_pct": -9.75,
+    "target1": 41750,
+    "target2": 45550,
+    "trail_pct": 7.0,
+    "rr": 1.03,
+    "bar_range_pct": 9.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 34600,
+    "high": 37900,
+    "low": 34600,
+    "close": 37450
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "263860",
+   "name": "지니언스",
+   "market": "KOSDAQ",
+   "close": 19300,
+   "chg": 5.06,
+   "value_eok": 58,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.18,
+   "pos_52w": 43.7,
+   "runup": 1.75,
+   "up_from_low": 75.5,
+   "uptail": 13.5,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 19510,
+    "buy_pull": 18840,
+    "stop": 17890,
+    "stop_pct": -8.3,
+    "target1": 21450,
+    "target2": 23400,
+    "trail_pct": 7.0,
+    "rr": 1.2,
+    "bar_range_pct": 7.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 18380,
+    "high": 19490,
+    "low": 18080,
+    "close": 19300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "006120",
+   "name": "SK디스커버리",
+   "market": "KOSPI",
+   "close": 64300,
+   "chg": 6.63,
+   "value_eok": 42,
+   "value_surge": 3.0,
+   "mktcap_jo": 1.12,
+   "pos_52w": 84.3,
+   "runup": 1.5,
+   "up_from_low": 49.4,
+   "uptail": 14.6,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 65100,
+    "buy_pull": 62600,
+    "stop": 59500,
+    "stop_pct": -8.6,
+    "target1": 71600,
+    "target2": 78100,
+    "trail_pct": 7.0,
+    "rr": 1.16,
+    "bar_range_pct": 8.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 60900,
+    "high": 65000,
+    "low": 60200,
+    "close": 64300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "293490",
+   "name": "카카오게임즈",
+   "market": "KOSDAQ",
+   "close": 9610,
+   "chg": 6.54,
+   "value_eok": 40,
+   "value_surge": 0.8,
+   "mktcap_jo": 1.03,
+   "pos_52w": 24.3,
+   "runup": 1.42,
+   "up_from_low": 37.3,
    "uptail": 18.6,
    "sector": null,
    "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
+    "매드업",
+    "코리아써키트",
     "한화솔루션",
     "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
+    "LG이노텍",
+    "삼익제약"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -3120,14 +1348,958 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 7550,
-    "buy_pull": 7280,
-    "stop": 7030,
-    "stop_pct": -6.89,
-    "target1": 8300,
-    "target2": 9060,
+    "buy_break": 9780,
+    "buy_pull": 9300,
+    "stop": 8820,
+    "stop_pct": -9.82,
+    "target1": 10760,
+    "target2": 11740,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 9.7,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 9000,
+    "high": 9770,
+    "low": 8910,
+    "close": 9610
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "383310",
+   "name": "에코프로에이치엔",
+   "market": "KOSDAQ",
+   "close": 22750,
+   "chg": 5.08,
+   "value_eok": 39,
+   "value_surge": 1.2,
+   "mktcap_jo": 0.48,
+   "pos_52w": 10.2,
+   "runup": 1.14,
+   "up_from_low": 13.7,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 22800,
+    "buy_pull": 22150,
+    "stop": 21100,
+    "stop_pct": -7.46,
+    "target1": 25100,
+    "target2": 27350,
+    "trail_pct": 7.0,
+    "rr": 1.35,
+    "bar_range_pct": 6.6,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 21550,
+    "high": 22750,
+    "low": 21350,
+    "close": 22750
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "499790",
+   "name": "GS피앤엘",
+   "market": "KOSPI",
+   "close": 39400,
+   "chg": 7.36,
+   "value_eok": 32,
+   "value_surge": 1.7,
+   "mktcap_jo": 0.78,
+   "pos_52w": 20.6,
+   "runup": 1.22,
+   "up_from_low": 22.2,
+   "uptail": 28.8,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 40400,
+    "buy_pull": 38200,
+    "stop": 36650,
+    "stop_pct": -9.28,
+    "target1": 44450,
+    "target2": 48500,
+    "trail_pct": 7.0,
+    "rr": 1.08,
+    "bar_range_pct": 8.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 37050,
+    "high": 40350,
+    "low": 37050,
+    "close": 39400
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "083500",
+   "name": "에프엔에스테크",
+   "market": "KOSDAQ",
+   "close": 13180,
+   "chg": 8.03,
+   "value_eok": 30,
+   "value_surge": 5.3,
+   "mktcap_jo": 0.11,
+   "pos_52w": 24.9,
+   "runup": 1.38,
+   "up_from_low": 38.0,
+   "uptail": 24.5,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 13540,
+    "buy_pull": 12700,
+    "stop": 12190,
+    "stop_pct": -9.97,
+    "target1": 14890,
+    "target2": 16250,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 12230,
+    "high": 13520,
+    "low": 12130,
+    "close": 13180
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "020120",
+   "name": "키다리스튜디오",
+   "market": "KOSPI",
+   "close": 8390,
+   "chg": 5.53,
+   "value_eok": 29,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.31,
+   "pos_52w": 84.1,
+   "runup": 3.0,
+   "up_from_low": 165.5,
+   "uptail": 31.3,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8760,
+    "buy_pull": 8000,
+    "stop": 7890,
+    "stop_pct": -9.93,
+    "target1": 9640,
+    "target2": 10510,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 15.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 7620,
+    "high": 8750,
+    "low": 7600,
+    "close": 8390
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "003030",
+   "name": "세아제강지주",
+   "market": "KOSPI",
+   "close": 107500,
+   "chg": 6.44,
+   "value_eok": 24,
+   "value_surge": 1.5,
+   "mktcap_jo": 0.45,
+   "pos_52w": 8.0,
+   "runup": 1.14,
+   "up_from_low": 14.1,
+   "uptail": 9.3,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 108400,
+    "buy_pull": 104300,
+    "stop": 99600,
+    "stop_pct": -8.12,
+    "target1": 119200,
+    "target2": 130100,
+    "trail_pct": 7.0,
+    "rr": 1.23,
+    "bar_range_pct": 7.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 101100,
+    "high": 108200,
+    "low": 100700,
+    "close": 107500
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "234690",
+   "name": "녹십자웰빙",
+   "market": "KOSDAQ",
+   "close": 9490,
+   "chg": 5.8,
+   "value_eok": 20,
+   "value_surge": 0.2,
+   "mktcap_jo": 0.17,
+   "pos_52w": 30.5,
+   "runup": 1.42,
+   "up_from_low": 42.1,
+   "uptail": 23.4,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 9650,
+    "buy_pull": 9240,
+    "stop": 8910,
+    "stop_pct": -7.67,
+    "target1": 10620,
+    "target2": 11580,
+    "trail_pct": 7.0,
+    "rr": 1.31,
+    "bar_range_pct": 7.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 9000,
+    "high": 9640,
+    "low": 9000,
+    "close": 9490
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "036530",
+   "name": "SNT홀딩스",
+   "market": "KOSPI",
+   "close": 48450,
+   "chg": 6.48,
+   "value_eok": 19,
+   "value_surge": 4.4,
+   "mktcap_jo": 0.79,
+   "pos_52w": 11.2,
+   "runup": 1.1,
+   "up_from_low": 9.6,
+   "uptail": 25.6,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 49600,
+    "buy_pull": 47000,
+    "stop": 44750,
+    "stop_pct": -9.78,
+    "target1": 54600,
+    "target2": 59500,
+    "trail_pct": 7.0,
+    "rr": 1.03,
+    "bar_range_pct": 9.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 45600,
+    "high": 49550,
+    "low": 45250,
+    "close": 48450
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "418420",
+   "name": "라온텍",
+   "market": "KOSDAQ",
+   "close": 4395,
+   "chg": 6.42,
+   "value_eok": 15,
+   "value_surge": 1.3,
+   "mktcap_jo": 0.14,
+   "pos_52w": 17.8,
+   "runup": 1.67,
+   "up_from_low": 66.8,
+   "uptail": 20.5,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 4485,
+    "buy_pull": 4260,
+    "stop": 4040,
+    "stop_pct": -9.92,
+    "target1": 4935,
+    "target2": 5380,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 10.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 4130,
+    "high": 4480,
+    "low": 4065,
+    "close": 4395
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "306200",
+   "name": "세아제강",
+   "market": "KOSPI",
+   "close": 147500,
+   "chg": 6.73,
+   "value_eok": 14,
+   "value_surge": 1.1,
+   "mktcap_jo": 0.42,
+   "pos_52w": 46.1,
+   "runup": 1.32,
+   "up_from_low": 25.9,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 147700,
+    "buy_pull": 143400,
+    "stop": 136200,
+    "stop_pct": -7.79,
+    "target1": 162500,
+    "target2": 177200,
+    "trail_pct": 7.0,
+    "rr": 1.29,
+    "bar_range_pct": 7.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 139300,
+    "high": 147500,
+    "low": 137600,
+    "close": 147500
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "041920",
+   "name": "메디아나",
+   "market": "KOSDAQ",
+   "close": 9500,
+   "chg": 6.62,
+   "value_eok": 13,
+   "value_surge": 3.1,
+   "mktcap_jo": 0.18,
+   "pos_52w": 18.8,
+   "runup": 1.96,
+   "up_from_low": 44.2,
+   "uptail": 15.0,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 9600,
+    "buy_pull": 9260,
+    "stop": 8900,
+    "stop_pct": -7.29,
+    "target1": 10560,
+    "target2": 11520,
+    "trail_pct": 7.0,
+    "rr": 1.37,
+    "bar_range_pct": 6.7,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 9010,
+    "high": 9590,
+    "low": 8990,
+    "close": 9500
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "086820",
+   "name": "바이오솔루션",
+   "market": "KOSDAQ",
+   "close": 6790,
+   "chg": 6.26,
+   "value_eok": 10,
+   "value_surge": 2.8,
+   "mktcap_jo": 0.18,
+   "pos_52w": 18.9,
+   "runup": 1.3,
+   "up_from_low": 29.6,
+   "uptail": 25.7,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6980,
+    "buy_pull": 6560,
+    "stop": 6290,
+    "stop_pct": -9.89,
+    "target1": 7680,
+    "target2": 8380,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 11.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 6340,
+    "high": 6970,
+    "low": 6270,
+    "close": 6790
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "053030",
+   "name": "바이넥스",
+   "market": "KOSDAQ",
+   "close": 6380,
+   "chg": 5.28,
+   "value_eok": 7,
+   "value_surge": 1.9,
+   "mktcap_jo": 0.21,
+   "pos_52w": 6.6,
+   "runup": 1.16,
+   "up_from_low": 16.0,
+   "uptail": 11.4,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6430,
+    "buy_pull": 6260,
+    "stop": 6000,
+    "stop_pct": -6.69,
+    "target1": 7070,
+    "target2": 7720,
+    "trail_pct": 7.0,
+    "rr": 1.49,
+    "bar_range_pct": 5.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 6150,
+    "high": 6420,
+    "low": 6070,
+    "close": 6380
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "081180",
+   "name": "쎄크",
+   "market": "KOSDAQ",
+   "close": 6420,
+   "chg": 7.72,
+   "value_eok": 7,
+   "value_surge": 1.3,
+   "mktcap_jo": 0.06,
+   "pos_52w": 15.5,
+   "runup": 1.6,
+   "up_from_low": 59.9,
+   "uptail": 15.7,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6540,
+    "buy_pull": 6160,
+    "stop": 5890,
+    "stop_pct": -9.94,
+    "target1": 7190,
+    "target2": 7850,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 12.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 5900,
+    "high": 6530,
+    "low": 5830,
+    "close": 6420
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "084990",
+   "name": "헬릭스미스",
+   "market": "KOSDAQ",
+   "close": 3195,
+   "chg": 6.68,
+   "value_eok": 7,
+   "value_surge": 3.4,
+   "mktcap_jo": 0.15,
+   "pos_52w": 6.5,
+   "runup": 1.17,
+   "up_from_low": 17.2,
+   "uptail": 31.2,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3275,
+    "buy_pull": 3120,
+    "stop": 2995,
+    "stop_pct": -8.55,
+    "target1": 3605,
+    "target2": 3930,
+    "trail_pct": 7.0,
+    "rr": 1.18,
+    "bar_range_pct": 7.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3050,
+    "high": 3270,
+    "low": 3030,
+    "close": 3195
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "377450",
+   "name": "리파인",
+   "market": "KOSDAQ",
+   "close": 15000,
+   "chg": 5.26,
+   "value_eok": 7,
+   "value_surge": 0.2,
+   "mktcap_jo": 0.26,
+   "pos_52w": 74.6,
+   "runup": 1.78,
+   "up_from_low": 73.0,
+   "uptail": 8.0,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 15090,
+    "buy_pull": 14760,
+    "stop": 14040,
+    "stop_pct": -6.96,
+    "target1": 16600,
+    "target2": 18110,
     "trail_pct": 7.0,
     "rr": 1.44,
+    "bar_range_pct": 6.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 14530,
+    "high": 15070,
+    "low": 14190,
+    "close": 15000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "014790",
+   "name": "HL D&I",
+   "market": "KOSPI",
+   "close": 2590,
+   "chg": 5.71,
+   "value_eok": 4,
+   "value_surge": 4.1,
+   "mktcap_jo": 0.1,
+   "pos_52w": 23.9,
+   "runup": 1.23,
+   "up_from_low": 22.7,
+   "uptail": 26.7,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 2635,
+    "buy_pull": 2535,
+    "stop": 2455,
+    "stop_pct": -6.83,
+    "target1": 2900,
+    "target2": 3160,
+    "trail_pct": 7.0,
+    "rr": 1.47,
     "bar_range_pct": 6.0,
     "max_buy": null,
     "entry": "돌파",
@@ -3135,10 +2307,10 @@
     "reject": []
    },
    "bar": {
-    "open": 7110,
-    "high": 7540,
-    "low": 7110,
-    "close": 7460
+    "open": 2480,
+    "high": 2630,
+    "low": 2480,
+    "close": 2590
    }
   },
   {
@@ -3148,26 +2320,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": false,
-   "code": "366030",
-   "name": "나인앤컴퍼니",
+   "code": "053350",
+   "name": "이니텍",
    "market": "KOSDAQ",
-   "close": 4685,
-   "chg": 5.4,
+   "close": 4800,
+   "chg": 5.26,
    "value_eok": 4,
-   "value_surge": 1.6,
+   "value_surge": 0.8,
    "mktcap_jo": 0.11,
-   "pos_52w": 24.5,
-   "runup": 1.2,
-   "up_from_low": 20.1,
-   "uptail": 15.8,
+   "pos_52w": 33.7,
+   "runup": 2.22,
+   "up_from_low": 85.3,
+   "uptail": 4.3,
    "sector": null,
    "peers": [
-    "와이즈플래닛컴퍼니",
-    "이수페타시스",
+    "매드업",
+    "코리아써키트",
     "한화솔루션",
     "OCI홀딩스",
-    "원익홀딩스",
-    "빛샘전자"
+    "LG이노텍",
+    "삼익제약"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -3179,25 +2351,202 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 4750,
-    "buy_pull": 4550,
-    "stop": 4320,
-    "stop_pct": -9.05,
-    "target1": 5220,
-    "target2": 5700,
+    "buy_break": 4820,
+    "buy_pull": 4700,
+    "stop": 4425,
+    "stop_pct": -8.2,
+    "target1": 5300,
+    "target2": 5780,
     "trail_pct": 7.0,
-    "rr": 1.09,
-    "bar_range_pct": 8.7,
+    "rr": 1.22,
+    "bar_range_pct": 7.7,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 4410,
-    "high": 4745,
-    "low": 4365,
-    "close": 4685
+    "open": 4600,
+    "high": 4815,
+    "low": 4470,
+    "close": 4800
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "063080",
+   "name": "컴투스홀딩스",
+   "market": "KOSDAQ",
+   "close": 12560,
+   "chg": 5.63,
+   "value_eok": 4,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.08,
+   "pos_52w": 13.5,
+   "runup": 1.24,
+   "up_from_low": 24.4,
+   "uptail": 22.8,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 12790,
+    "buy_pull": 12220,
+    "stop": 11730,
+    "stop_pct": -8.29,
+    "target1": 14070,
+    "target2": 15350,
+    "trail_pct": 7.0,
+    "rr": 1.21,
+    "bar_range_pct": 7.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 11890,
+    "high": 12770,
+    "low": 11850,
+    "close": 12560
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "493330",
+   "name": "지에프아이",
+   "market": "KOSDAQ",
+   "close": 11920,
+   "chg": 5.67,
+   "value_eok": 4,
+   "value_surge": 0.3,
+   "mktcap_jo": 0.1,
+   "pos_52w": 23.1,
+   "runup": 1.43,
+   "up_from_low": 42.8,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 11940,
+    "buy_pull": 11660,
+    "stop": 11100,
+    "stop_pct": -7.04,
+    "target1": 13130,
+    "target2": 14330,
+    "trail_pct": 7.0,
+    "rr": 1.42,
+    "bar_range_pct": 6.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 11410,
+    "high": 11920,
+    "low": 11220,
+    "close": 11920
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "217330",
+   "name": "싸이토젠",
+   "market": "KOSDAQ",
+   "close": 3185,
+   "chg": 5.29,
+   "value_eok": 3,
+   "value_surge": 1.8,
+   "mktcap_jo": 0.07,
+   "pos_52w": 10.3,
+   "runup": 1.41,
+   "up_from_low": 15.4,
+   "uptail": 20.5,
+   "sector": null,
+   "peers": [
+    "매드업",
+    "코리아써키트",
+    "한화솔루션",
+    "OCI홀딩스",
+    "LG이노텍",
+    "삼익제약"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3235,
+    "buy_pull": 3105,
+    "stop": 2975,
+    "stop_pct": -8.04,
+    "target1": 3560,
+    "target2": 3880,
+    "trail_pct": 7.0,
+    "rr": 1.25,
+    "bar_range_pct": 7.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3025,
+    "high": 3230,
+    "low": 3010,
+    "close": 3185
    }
   },
   {
@@ -3207,20 +2556,20 @@
     "150일 박스권 횡보"
    ],
    "strong_in_weak": false,
-   "code": "255220",
-   "name": "SG",
+   "code": "424870",
+   "name": "이뮨온시아",
    "market": "KOSDAQ",
-   "close": 1196,
-   "chg": 6.31,
-   "value_eok": 112,
-   "vol_vs_prev": 6.9,
-   "vol_vs_avg60": 5.6,
-   "vol_man": 972,
-   "from_high_pct": 67.1,
-   "pos_52w": 6.2,
-   "up_from_low": 15.6,
-   "box_width": 210.4,
-   "uptail": 15.9,
+   "close": 3650,
+   "chg": 18.51,
+   "value_eok": 363,
+   "vol_vs_prev": 21.6,
+   "vol_vs_avg60": 23.7,
+   "vol_man": 1005,
+   "from_high_pct": 77.3,
+   "pos_52w": 9.8,
+   "up_from_low": 58.7,
+   "box_width": 299.2,
+   "uptail": 34.0,
    "sector": null,
    "peers": [],
    "sector_confirmed": null,
@@ -3234,25 +2583,25 @@
     "긴 윗꼬리 없음": true
    },
    "plan": {
-    "buy_break": 1225,
-    "buy_pull": 1129,
-    "stop": 1103,
-    "stop_pct": -9.96,
-    "target1": 1348,
-    "target2": 1470,
+    "buy_break": 3820,
+    "buy_pull": 3490,
+    "stop": 3440,
+    "stop_pct": -9.95,
+    "target1": 4200,
+    "target2": 4585,
     "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 16.1,
+    "rr": 1.0,
+    "bar_range_pct": 14.6,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 1062,
-    "high": 1223,
-    "low": 1053,
-    "close": 1196
+    "open": 3330,
+    "high": 3815,
+    "low": 3330,
+    "close": 3650
    }
   },
   {
@@ -3261,20 +2610,20 @@
    "missing": [
     "거래대금 50억 이상"
    ],
-   "strong_in_weak": false,
-   "code": "389650",
-   "name": "넥스트바이오메디컬",
-   "market": "KOSDAQ",
-   "close": 32400,
-   "chg": 14.49,
-   "value_eok": 24,
-   "vol_man": 8,
-   "vol_vs_prev": 3.0,
-   "up_from_low": 15.1,
-   "low_recent": 28150,
-   "runup": 1.15,
-   "uptail": 19.8,
-   "mktcap_jo": 0.27,
+   "strong_in_weak": true,
+   "code": "036530",
+   "name": "SNT홀딩스",
+   "market": "KOSPI",
+   "close": 48450,
+   "chg": 6.48,
+   "value_eok": 19,
+   "vol_man": 4,
+   "vol_vs_prev": 3.3,
+   "up_from_low": 9.6,
+   "low_recent": 44200,
+   "runup": 1.1,
+   "uptail": 25.6,
+   "mktcap_jo": 0.79,
    "sector": null,
    "peers": [],
    "sector_confirmed": null,
@@ -3288,136 +2637,366 @@
     "1년 저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 33500,
-    "buy_pull": 30400,
-    "stop": 30150,
-    "stop_pct": -10.0,
-    "target1": 36850,
-    "target2": 40200,
+    "buy_break": 49600,
+    "buy_pull": 47000,
+    "stop": 44750,
+    "stop_pct": -9.78,
+    "target1": 54600,
+    "target2": 59500,
     "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 18.8,
-    "max_buy": 33750,
+    "rr": 1.03,
+    "bar_range_pct": 9.5,
+    "max_buy": 53000,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 28450,
-    "high": 33450,
-    "low": 28150,
-    "close": 32400
+    "open": 45600,
+    "high": 49550,
+    "low": 45250,
+    "close": 48450
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "긴 윗꼬리 없음"
+   ],
+   "strong_in_weak": true,
+   "code": "064960",
+   "name": "SNT모티브",
+   "market": "KOSPI",
+   "close": 27400,
+   "chg": 7.45,
+   "value_eok": 73,
+   "vol_man": 26,
+   "vol_vs_prev": 11.4,
+   "up_from_low": 13.7,
+   "low_recent": 24100,
+   "runup": 1.14,
+   "uptail": 36.8,
+   "mktcap_jo": 0.73,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": false,
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": true,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 28500,
+    "buy_pull": 26500,
+    "stop": 25650,
+    "stop_pct": -10.0,
+    "target1": 31350,
+    "target2": 34200,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.1,
+    "max_buy": 28900,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 25650,
+    "high": 28450,
+    "low": 25600,
+    "close": 27400
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "거래대금 50억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "217330",
+   "name": "싸이토젠",
+   "market": "KOSDAQ",
+   "close": 3185,
+   "chg": 5.29,
+   "value_eok": 3,
+   "vol_man": 9,
+   "vol_vs_prev": 3.1,
+   "up_from_low": 15.4,
+   "low_recent": 2760,
+   "runup": 1.41,
+   "uptail": 20.5,
+   "mktcap_jo": 0.07,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": false,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3235,
+    "buy_pull": 3105,
+    "stop": 2975,
+    "stop_pct": -8.04,
+    "target1": 3560,
+    "target2": 3880,
+    "trail_pct": 7.0,
+    "rr": 1.25,
+    "bar_range_pct": 7.3,
+    "max_buy": 3310,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3025,
+    "high": 3230,
+    "low": 3010,
+    "close": 3185
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "거래대금 50억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "053030",
+   "name": "바이넥스",
+   "market": "KOSDAQ",
+   "close": 6380,
+   "chg": 5.28,
+   "value_eok": 7,
+   "vol_man": 11,
+   "vol_vs_prev": 3.3,
+   "up_from_low": 16.0,
+   "low_recent": 5500,
+   "runup": 1.16,
+   "uptail": 11.4,
+   "mktcap_jo": 0.21,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": false,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6430,
+    "buy_pull": 6260,
+    "stop": 6000,
+    "stop_pct": -6.69,
+    "target1": 7070,
+    "target2": 7720,
+    "trail_pct": 7.0,
+    "rr": 1.49,
+    "bar_range_pct": 5.8,
+    "max_buy": 6600,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 6150,
+    "high": 6420,
+    "low": 6070,
+    "close": 6380
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "거래대금 50억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "084990",
+   "name": "헬릭스미스",
+   "market": "KOSDAQ",
+   "close": 3195,
+   "chg": 6.68,
+   "value_eok": 7,
+   "vol_man": 22,
+   "vol_vs_prev": 5.4,
+   "up_from_low": 17.2,
+   "low_recent": 2725,
+   "runup": 1.17,
+   "uptail": 31.2,
+   "mktcap_jo": 0.15,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": false,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3275,
+    "buy_pull": 3120,
+    "stop": 2995,
+    "stop_pct": -8.55,
+    "target1": 3605,
+    "target2": 3930,
+    "trail_pct": 7.0,
+    "rr": 1.18,
+    "bar_range_pct": 7.9,
+    "max_buy": 3270,
+    "entry": "눌림만",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3050,
+    "high": 3270,
+    "low": 3030,
+    "close": 3195
    }
   }
  ],
  "warnings": [
   {
-   "code": "009150",
-   "name": "삼성전기",
-   "close": 1507000,
-   "chg": 1.41,
-   "runup": 8.06,
-   "pos_52w": 59.2,
-   "flags": [
-    "갭상승 후 음봉"
-   ]
-  },
-  {
-   "code": "000660",
-   "name": "SK하이닉스",
-   "close": 1862000,
-   "chg": 1.2,
-   "runup": 5.73,
-   "pos_52w": 57.7,
-   "flags": [
-    "갭상승 후 음봉"
-   ]
-  },
-  {
-   "code": "080220",
-   "name": "제주반도체",
-   "close": 77600,
-   "chg": 2.65,
-   "runup": 4.44,
-   "pos_52w": 49.9,
-   "flags": [
-    "도지형"
-   ]
-  },
-  {
-   "code": "109670",
-   "name": "씨싸이트",
-   "close": 9900,
-   "chg": 12.88,
-   "runup": 3.74,
-   "pos_52w": 83.0,
-   "flags": [
-    "갭상승 후 음봉"
-   ]
-  },
-  {
-   "code": "072950",
-   "name": "빛샘전자",
-   "close": 14200,
-   "chg": 9.23,
-   "runup": 3.09,
-   "pos_52w": 45.5,
+   "code": "010170",
+   "name": "대한광통신",
+   "close": 17280,
+   "chg": -2.37,
+   "runup": 13.58,
+   "pos_52w": 53.0,
    "flags": [
     "긴 윗꼬리"
    ]
   },
   {
-   "code": "240810",
-   "name": "원익IPS",
-   "close": 133700,
-   "chg": 2.61,
-   "runup": 3.09,
-   "pos_52w": 62.6,
+   "code": "036930",
+   "name": "주성엔지니어링",
+   "close": 209000,
+   "chg": -0.24,
+   "runup": 7.93,
+   "pos_52w": 71.2,
    "flags": [
     "긴 윗꼬리",
     "도지형"
    ]
   },
   {
-   "code": "108490",
-   "name": "로보티즈",
-   "close": 301000,
-   "chg": 0.33,
-   "runup": 3.02,
-   "pos_52w": 55.3,
-   "flags": [
-    "갭상승 후 음봉"
-   ]
-  },
-  {
-   "code": "356680",
-   "name": "엑스게이트",
-   "close": 18220,
-   "chg": 10.16,
-   "runup": 2.99,
-   "pos_52w": 49.6,
+   "code": "222800",
+   "name": "심텍",
+   "close": 147200,
+   "chg": -1.54,
+   "runup": 4.73,
+   "pos_52w": 87.2,
    "flags": [
     "긴 윗꼬리"
    ]
   },
   {
-   "code": "042700",
-   "name": "한미반도체",
-   "close": 243500,
-   "chg": 1.46,
-   "runup": 2.72,
-   "pos_52w": 45.8,
+   "code": "353200",
+   "name": "대덕전자",
+   "close": 123300,
+   "chg": 3.27,
+   "runup": 4.71,
+   "pos_52w": 56.5,
    "flags": [
+    "긴 윗꼬리",
+    "갭상승 후 음봉"
+   ]
+  },
+  {
+   "code": "327260",
+   "name": "RF머트리얼즈",
+   "close": 46100,
+   "chg": -2.02,
+   "runup": 3.87,
+   "pos_52w": 29.8,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "011070",
+   "name": "LG이노텍",
+   "close": 578000,
+   "chg": 8.04,
+   "runup": 3.44,
+   "pos_52w": 25.3,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "012210",
+   "name": "삼미금속",
+   "close": 12420,
+   "chg": -0.16,
+   "runup": 3.09,
+   "pos_52w": 49.9,
+   "flags": [
+    "긴 윗꼬리",
     "도지형"
    ]
   },
   {
-   "code": "010950",
-   "name": "S-Oil",
-   "close": 155600,
-   "chg": 0.84,
-   "runup": 2.7,
-   "pos_52w": 82.0,
+   "code": "356680",
+   "name": "엑스게이트",
+   "close": 18510,
+   "chg": 1.59,
+   "runup": 3.03,
+   "pos_52w": 50.8,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "066570",
+   "name": "LG전자",
+   "close": 214500,
+   "chg": 2.63,
+   "runup": 2.86,
+   "pos_52w": 38.4,
+   "flags": [
+    "긴 윗꼬리",
+    "도지형"
+   ]
+  },
+  {
+   "code": "322000",
+   "name": "HD현대에너지솔루션",
+   "close": 125100,
+   "chg": 4.16,
+   "runup": 2.83,
+   "pos_52w": 38.2,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "396300",
+   "name": "HT로보틱스",
+   "close": 5930,
+   "chg": -1.33,
+   "runup": 2.61,
+   "pos_52w": 72.2,
    "flags": [
     "긴 윗꼬리"
    ]
@@ -3425,35 +3004,58 @@
   {
    "code": "067310",
    "name": "하나마이크론",
-   "close": 46200,
-   "chg": 1.2,
-   "runup": 2.6,
-   "pos_52w": 69.8,
+   "close": 45950,
+   "chg": -0.54,
+   "runup": 2.59,
+   "pos_52w": 69.2,
    "flags": [
+    "긴 윗꼬리",
     "도지형"
    ]
   },
   {
-   "code": "093370",
-   "name": "후성",
-   "close": 13950,
-   "chg": 2.57,
-   "runup": 2.45,
-   "pos_52w": 46.2,
+   "code": "393210",
+   "name": "토마토시스템",
+   "close": 4255,
+   "chg": 4.8,
+   "runup": 2.35,
+   "pos_52w": 47.6,
    "flags": [
     "긴 윗꼬리"
    ]
   },
   {
-   "code": "201490",
-   "name": "미투온",
-   "close": 3705,
-   "chg": -0.54,
-   "runup": 2.13,
-   "pos_52w": 38.1,
+   "code": "115440",
+   "name": "우리넷",
+   "close": 12110,
+   "chg": -0.08,
+   "runup": 2.29,
+   "pos_52w": 42.5,
    "flags": [
     "긴 윗꼬리",
     "도지형"
+   ]
+  },
+  {
+   "code": "032830",
+   "name": "삼성생명",
+   "close": 296000,
+   "chg": 0.51,
+   "runup": 2.06,
+   "pos_52w": 40.8,
+   "flags": [
+    "도지형"
+   ]
+  },
+  {
+   "code": "403870",
+   "name": "HPSP",
+   "close": 56000,
+   "chg": 0.9,
+   "runup": 2.04,
+   "pos_52w": 44.2,
+   "flags": [
+    "긴 윗꼬리"
    ]
   }
  ],
