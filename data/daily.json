@@ -1,18 +1,22 @@
 {
- "generated_at": "2026-09-30 11:05:37",
+ "generated_at": "2026-10-01 00:57:14",
  "base_date": "2026-09-29",
  "stale": {
-  "weekdays_behind": 0,
-  "checked_until": "2026-09-29"
+  "weekdays_behind": 1,
+  "checked_until": "2026-09-30"
  },
  "fetch_log": [
+  {
+   "date": "20261001",
+   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+  },
   {
    "date": "20260930",
    "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
   },
   {
    "date": "20260929",
-   "result": "수집 2,765종목"
+   "result": "캐시에 있음"
   },
   {
    "date": "20260928",
@@ -32,10 +36,6 @@
   },
   {
    "date": "20260922",
-   "result": "캐시에 있음"
-  },
-  {
-   "date": "20260921",
    "result": "캐시에 있음"
   }
  ],
@@ -427,6 +427,13 @@
     ],
     "filings": [
      {
+      "date": "20260930",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000461",
+      "risk": null,
+      "why": null
+     },
+     {
       "date": "20260907",
       "title": "기업설명회(IR)개최(안내공시)",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907800463",
@@ -472,13 +479,6 @@
       "date": "20260715",
       "title": "주식등의대량보유상황보고서(약식)",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260715000319",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260707",
-      "title": "주식등의대량보유상황보고서(약식)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707000373",
       "risk": null,
       "why": null
      }
@@ -568,6 +568,13 @@
     ],
     "filings": [
      {
+      "date": "20260814",
+      "title": "[첨부추가]반기보고서 (2026.06)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003639",
+      "risk": null,
+      "why": null
+     },
+     {
       "date": "20260930",
       "title": "[기재정정]주요사항보고서(자기주식처분결정)",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000686",
@@ -613,13 +620,6 @@
       "date": "20260908",
       "title": "주식등의대량보유상황보고서(약식)",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000138",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260821",
-      "title": "기업설명회(IR)개최",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821900470",
       "risk": null,
       "why": null
      }
