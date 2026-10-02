@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-02 11:12:51",
+ "generated_at": "2026-10-03 00:52:27",
  "base_date": "2026-10-01",
  "stale": {
-  "weekdays_behind": 0,
-  "checked_until": "2026-10-01"
+  "weekdays_behind": 1,
+  "checked_until": "2026-10-02"
  },
  "fetch_log": [
   {
@@ -12,7 +12,7 @@
   },
   {
    "date": "20261001",
-   "result": "수집 2,766종목"
+   "result": "캐시에 있음"
   },
   {
    "date": "20260930",
@@ -786,6 +786,13 @@
      }
     ],
     "filings": [
+     {
+      "date": "20261002",
+      "title": "기업설명회(IR)개최",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002900497",
+      "risk": null,
+      "why": null
+     },
      {
       "date": "20260826",
       "title": "기업설명회(IR)개최",
