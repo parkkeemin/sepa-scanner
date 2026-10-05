@@ -1,18 +1,22 @@
 {
- "generated_at": "2026-10-05 10:57:56",
+ "generated_at": "2026-10-06 03:32:01",
  "base_date": "2026-10-02",
  "stale": {
-  "weekdays_behind": 0,
-  "checked_until": "2026-10-04"
+  "weekdays_behind": 1,
+  "checked_until": "2026-10-05"
  },
  "fetch_log": [
+  {
+   "date": "20261006",
+   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+  },
   {
    "date": "20261005",
    "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
   },
   {
    "date": "20261002",
-   "result": "수집 1,824종목"
+   "result": "캐시에 있음"
   },
   {
    "date": "20261001",
@@ -168,13 +172,6 @@
       "date": "20260721",
       "title": "기업설명회(IR)개최",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721900107",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260707",
-      "title": "기업설명회(IR)개최",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707900105",
       "risk": null,
       "why": null
      }
