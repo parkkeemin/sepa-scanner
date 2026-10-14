@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-14 01:59:26",
- "base_date": "2026-10-12",
+ "generated_at": "2026-10-14 10:53:34",
+ "base_date": "2026-10-13",
  "stale": {
-  "weekdays_behind": 1,
+  "weekdays_behind": 0,
   "checked_until": "2026-10-13"
  },
  "fetch_log": [
@@ -12,7 +12,7 @@
   },
   {
    "date": "20261013",
-   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+   "result": "수집 1,820종목"
   },
   {
    "date": "20261012",
@@ -33,13 +33,9 @@
   {
    "date": "20261006",
    "result": "캐시에 있음"
-  },
-  {
-   "date": "20261005",
-   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
   }
  ],
- "universe": 1821,
+ "universe": 1820,
  "regime": [
   {
    "market": "KOSPI",
@@ -53,13 +49,13 @@
   },
   {
    "market": "KOSDAQ",
-   "state": "상승추세",
-   "action": "지수 상승 구간. 수익이 나도 내 실력인지 지수 덕인지 구분하십시오",
+   "state": "조정",
+   "action": "지수 20일선 아래. 내 수익이 실력인지 지수 덕인지 가려지는 구간입니다",
    "falling": true,
-   "day_chg": -4.8,
-   "pos_pct": 37.4,
-   "vs_ma20": 0.3,
-   "vs_ma60": 5.35
+   "day_chg": -1.45,
+   "pos_pct": 35.2,
+   "vs_ma20": -1.21,
+   "vs_ma60": 3.74
   }
  ],
  "track_a": [],
@@ -70,26 +66,497 @@
    "track": "A",
    "status": "near",
    "missing": [
-    "거래대금 500억 이상"
+    "등락률 +5~+10% 장대양봉"
    ],
    "strong_in_weak": true,
-   "code": "117670",
-   "name": "알파칩스",
+   "code": "240810",
+   "name": "원익IPS",
    "market": "KOSDAQ",
-   "close": 13800,
-   "chg": 6.15,
-   "value_eok": 24,
-   "value_surge": 1.0,
-   "mktcap_jo": 0.09,
-   "pos_52w": 50.1,
-   "runup": 2.2,
-   "up_from_low": 81.8,
-   "uptail": 31.6,
+   "close": 130400,
+   "chg": -0.38,
+   "value_eok": 1486,
+   "value_surge": 0.9,
+   "mktcap_jo": 6.4,
+   "pos_52w": 60.1,
+   "runup": 2.97,
+   "up_from_low": 76.0,
+   "uptail": 24.2,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 133000,
+    "buy_pull": 127900,
+    "stop": 121600,
+    "stop_pct": -8.57,
+    "target1": 146300,
+    "target2": 159600,
+    "trail_pct": 7.0,
+    "rr": 1.17,
+    "bar_range_pct": 8.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 125400,
+    "high": 132800,
+    "low": 122900,
+    "close": 130400
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "저점 대비 3배 미만"
+   ],
+   "strong_in_weak": true,
+   "code": "131970",
+   "name": "두산테스나",
+   "market": "KOSDAQ",
+   "close": 133000,
+   "chg": 7.43,
+   "value_eok": 1289,
+   "value_surge": 3.0,
+   "mktcap_jo": 2.57,
+   "pos_52w": 59.4,
+   "runup": 3.37,
+   "up_from_low": 162.8,
+   "uptail": 25.3,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": false
+   },
+   "plan": {
+    "buy_break": 137900,
+    "buy_pull": 126300,
+    "stop": 124200,
+    "stop_pct": -9.93,
+    "target1": 151700,
+    "target2": 165500,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 15.6,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 119600,
+    "high": 137700,
+    "low": 119100,
+    "close": 133000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "등락률 +5~+10% 장대양봉"
+   ],
+   "strong_in_weak": true,
+   "code": "067310",
+   "name": "하나마이크론",
+   "market": "KOSDAQ",
+   "close": 49350,
+   "chg": 1.75,
+   "value_eok": 1030,
+   "value_surge": 1.1,
+   "mktcap_jo": 3.28,
+   "pos_52w": 75.0,
+   "runup": 2.25,
+   "up_from_low": 100.6,
+   "uptail": 18.1,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 50300,
+    "buy_pull": 47800,
+    "stop": 45300,
+    "stop_pct": -9.94,
+    "target1": 55300,
+    "target2": 60400,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 46250,
+    "high": 50200,
+    "low": 45500,
+    "close": 49350
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "등락률 +5~+10% 장대양봉"
+   ],
+   "strong_in_weak": true,
+   "code": "058470",
+   "name": "리노공업",
+   "market": "KOSDAQ",
+   "close": 79600,
+   "chg": 1.92,
+   "value_eok": 1006,
+   "value_surge": 1.2,
+   "mktcap_jo": 6.07,
+   "pos_52w": 36.8,
+   "runup": 1.57,
+   "up_from_low": 47.4,
+   "uptail": 20.0,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 80800,
+    "buy_pull": 78000,
+    "stop": 74400,
+    "stop_pct": -7.92,
+    "target1": 88900,
+    "target2": 97000,
+    "trail_pct": 7.0,
+    "rr": 1.27,
+    "bar_range_pct": 7.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 76400,
+    "high": 80700,
+    "low": 75200,
+    "close": 79600
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "저점 대비 3배 미만"
+   ],
+   "strong_in_weak": true,
+   "code": "319660",
+   "name": "피에스케이",
+   "market": "KOSDAQ",
+   "close": 149100,
+   "chg": 6.5,
+   "value_eok": 744,
+   "value_surge": 1.4,
+   "mktcap_jo": 4.32,
+   "pos_52w": 63.1,
+   "runup": 5.17,
+   "up_from_low": 52.1,
+   "uptail": 11.4,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": false
+   },
+   "plan": {
+    "buy_break": 151300,
+    "buy_pull": 142800,
+    "stop": 136200,
+    "stop_pct": -9.98,
+    "target1": 166400,
+    "target2": 181600,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 13.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 136400,
+    "high": 151100,
+    "low": 133600,
+    "close": 149100
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "등락률 +5~+10% 장대양봉"
+   ],
+   "strong_in_weak": true,
+   "code": "098460",
+   "name": "고영",
+   "market": "KOSDAQ",
+   "close": 37150,
+   "chg": 1.36,
+   "value_eok": 704,
+   "value_surge": 1.4,
+   "mktcap_jo": 2.53,
+   "pos_52w": 74.3,
+   "runup": 2.57,
+   "up_from_low": 76.1,
+   "uptail": 4.8,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 37350,
+    "buy_pull": 36250,
+    "stop": 33800,
+    "stop_pct": -9.5,
+    "target1": 41100,
+    "target2": 44800,
+    "trail_pct": 7.0,
+    "rr": 1.06,
+    "bar_range_pct": 9.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 35350,
+    "high": 37300,
+    "low": 34150,
+    "close": 37150
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "저점 대비 3배 미만"
+   ],
+   "strong_in_weak": true,
+   "code": "131290",
+   "name": "티에스이",
+   "market": "KOSDAQ",
+   "close": 329500,
+   "chg": 6.98,
+   "value_eok": 597,
+   "value_surge": 1.4,
+   "mktcap_jo": 3.64,
+   "pos_52w": 97.8,
+   "runup": 7.19,
+   "up_from_low": 129.5,
+   "uptail": 4.4,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": false
+   },
+   "plan": {
+    "buy_break": 332000,
+    "buy_pull": 311000,
+    "stop": 299000,
+    "stop_pct": -9.94,
+    "target1": 365000,
+    "target2": 398500,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 15.7,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 293000,
+    "high": 331500,
+    "low": 286500,
+    "close": 329500
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "저점 대비 3배 미만"
+   ],
+   "strong_in_weak": true,
+   "code": "031980",
+   "name": "피에스케이홀딩스",
+   "market": "KOSDAQ",
+   "close": 216000,
+   "chg": 7.2,
+   "value_eok": 544,
+   "value_surge": 1.6,
+   "mktcap_jo": 4.66,
+   "pos_52w": 98.3,
+   "runup": 5.33,
+   "up_from_low": 187.6,
+   "uptail": 13.7,
    "sector": null,
    "peers": [
     "라온시큐어",
-    "나인테크",
-    "리메드"
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": false
+   },
+   "plan": {
+    "buy_break": 219500,
+    "buy_pull": 207000,
+    "stop": 197600,
+    "stop_pct": -9.98,
+    "target1": 241500,
+    "target2": 263500,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 198100,
+    "high": 219000,
+    "low": 197100,
+    "close": 216000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "425040",
+   "name": "티이엠씨",
+   "market": "KOSDAQ",
+   "close": 14690,
+   "chg": 5.08,
+   "value_eok": 129,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.32,
+   "pos_52w": 35.0,
+   "runup": 2.33,
+   "up_from_low": 133.2,
+   "uptail": 13.6,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -101,139 +568,526 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 14190,
-    "buy_pull": 13400,
-    "stop": 12870,
-    "stop_pct": -9.3,
-    "target1": 15610,
-    "target2": 17030,
+    "buy_break": 14960,
+    "buy_pull": 14040,
+    "stop": 13470,
+    "stop_pct": -9.96,
+    "target1": 16460,
+    "target2": 17950,
     "trail_pct": 7.0,
-    "rr": 1.08,
-    "bar_range_pct": 9.0,
+    "rr": 1.01,
+    "bar_range_pct": 14.0,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 13000,
-    "high": 14170,
-    "low": 13000,
-    "close": 13800
+    "open": 13400,
+    "high": 14940,
+    "low": 13100,
+    "close": 14690
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "039440",
+   "name": "에스티아이",
+   "market": "KOSDAQ",
+   "close": 27350,
+   "chg": 9.84,
+   "value_eok": 128,
+   "value_surge": 4.6,
+   "mktcap_jo": 0.42,
+   "pos_52w": 38.8,
+   "runup": 1.58,
+   "up_from_low": 57.9,
+   "uptail": 6.2,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 27650,
+    "buy_pull": 25500,
+    "stop": 24900,
+    "stop_pct": -9.95,
+    "target1": 30400,
+    "target2": 33200,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 17.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 23600,
+    "high": 27600,
+    "low": 23550,
+    "close": 27350
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "468530",
+   "name": "프로티나",
+   "market": "KOSDAQ",
+   "close": 44550,
+   "chg": 5.57,
+   "value_eok": 76,
+   "value_surge": 1.1,
+   "mktcap_jo": 0.49,
+   "pos_52w": 27.8,
+   "runup": 2.87,
+   "up_from_low": 187.4,
+   "uptail": 13.3,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 45300,
+    "buy_pull": 42800,
+    "stop": 40800,
+    "stop_pct": -9.93,
+    "target1": 49850,
+    "target2": 54400,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 13.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 41000,
+    "high": 45250,
+    "low": 40000,
+    "close": 44550
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "0017J0",
+   "name": "세미티에스",
+   "market": "KOSDAQ",
+   "close": 3615,
+   "chg": 8.07,
+   "value_eok": 64,
+   "value_surge": 2.4,
+   "mktcap_jo": 0.11,
+   "pos_52w": 22.0,
+   "runup": 1.6,
+   "up_from_low": 60.0,
+   "uptail": 8.3,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3665,
+    "buy_pull": 3420,
+    "stop": 3300,
+    "stop_pct": -9.96,
+    "target1": 4030,
+    "target2": 4400,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 17.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3230,
+    "high": 3660,
+    "low": 3115,
+    "close": 3615
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "489460",
+   "name": "바이오비쥬",
+   "market": "KOSDAQ",
+   "close": 12380,
+   "chg": 5.63,
+   "value_eok": 29,
+   "value_surge": 3.6,
+   "mktcap_jo": 0.18,
+   "pos_52w": 54.1,
+   "runup": 2.37,
+   "up_from_low": 113.1,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 12400,
+    "buy_pull": 12040,
+    "stop": 11280,
+    "stop_pct": -9.03,
+    "target1": 13640,
+    "target2": 14880,
+    "trail_pct": 7.0,
+    "rr": 1.11,
+    "bar_range_pct": 8.6,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 11710,
+    "high": 12380,
+    "low": 11400,
+    "close": 12380
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "048910",
+   "name": "대원미디어",
+   "market": "KOSDAQ",
+   "close": 8640,
+   "chg": 6.01,
+   "value_eok": 19,
+   "value_surge": 3.1,
+   "mktcap_jo": 0.11,
+   "pos_52w": 82.9,
+   "runup": 2.27,
+   "up_from_low": 127.4,
+   "uptail": 9.8,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8730,
+    "buy_pull": 8300,
+    "stop": 7860,
+    "stop_pct": -9.97,
+    "target1": 9600,
+    "target2": 10480,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 7950,
+    "high": 8720,
+    "low": 7900,
+    "close": 8640
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "093520",
+   "name": "매커스",
+   "market": "KOSDAQ",
+   "close": 28150,
+   "chg": 7.44,
+   "value_eok": 9,
+   "value_surge": 1.8,
+   "mktcap_jo": 0.34,
+   "pos_52w": 68.1,
+   "runup": 1.76,
+   "up_from_low": 68.5,
+   "uptail": 4.5,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 28350,
+    "buy_pull": 27100,
+    "stop": 25550,
+    "stop_pct": -9.88,
+    "target1": 31200,
+    "target2": 34000,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 13.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 26100,
+    "high": 28300,
+    "low": 25000,
+    "close": 28150
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "372170",
+   "name": "윤성에프앤씨",
+   "market": "KOSDAQ",
+   "close": 24150,
+   "chg": 7.1,
+   "value_eok": 7,
+   "value_surge": 1.9,
+   "mktcap_jo": 0.19,
+   "pos_52w": 39.5,
+   "runup": 2.15,
+   "up_from_low": 115.0,
+   "uptail": 9.7,
+   "sector": null,
+   "peers": [
+    "피에스케이홀딩스",
+    "라온시큐어",
+    "서산",
+    "티에스이",
+    "두산테스나",
+    "피에스케이"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 24500,
+    "buy_pull": 23000,
+    "stop": 22050,
+    "stop_pct": -10.0,
+    "target1": 26950,
+    "target2": 29400,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 14.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 21900,
+    "high": 24450,
+    "low": 21350,
+    "close": 24150
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "장대양봉 +5%↑"
+   ],
+   "strong_in_weak": true,
+   "code": "214450",
+   "name": "파마리서치",
+   "market": "KOSDAQ",
+   "close": 273000,
+   "chg": -8.08,
+   "value_eok": 631,
+   "vol_man": 23,
+   "vol_vs_prev": 3.4,
+   "up_from_low": 3.8,
+   "low_recent": 263000,
+   "runup": 1.07,
+   "uptail": 5.7,
+   "mktcap_jo": 2.84,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": false,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": true,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 290000,
+    "buy_pull": 280500,
+    "stop": 261000,
+    "stop_pct": -10.0,
+    "target1": 319000,
+    "target2": 348000,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.1,
+    "max_buy": 315500,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 288000,
+    "high": 289500,
+    "low": 263000,
+    "close": 273000
    }
   }
  ],
  "warnings": [
   {
-   "code": "131290",
-   "name": "티에스이",
-   "close": 308000,
-   "chg": -0.96,
-   "runup": 6.72,
-   "pos_52w": 90.4,
+   "code": "222800",
+   "name": "심텍",
+   "close": 150500,
+   "chg": -2.84,
+   "runup": 3.78,
+   "pos_52w": 77.5,
+   "flags": [
+    "도지형"
+   ]
+  },
+  {
+   "code": "356680",
+   "name": "엑스게이트",
+   "close": 17740,
+   "chg": -4.37,
+   "runup": 2.91,
+   "pos_52w": 47.6,
    "flags": [
     "긴 윗꼬리",
     "도지형"
    ]
   },
   {
-   "code": "031980",
-   "name": "피에스케이홀딩스",
-   "close": 201500,
-   "chg": -3.82,
-   "runup": 4.98,
-   "pos_52w": 90.2,
-   "flags": [
-    "긴 윗꼬리"
-   ]
-  },
-  {
-   "code": "319660",
-   "name": "피에스케이",
-   "close": 140000,
-   "chg": -3.51,
-   "runup": 4.85,
-   "pos_52w": 58.3,
-   "flags": [
-    "긴 윗꼬리"
-   ]
-  },
-  {
-   "code": "095610",
-   "name": "테스",
-   "close": 161800,
-   "chg": -1.46,
-   "runup": 4.56,
-   "pos_52w": 62.8,
-   "flags": [
-    "긴 윗꼬리"
-   ]
-  },
-  {
-   "code": "089970",
-   "name": "브이엠",
-   "close": 62100,
-   "chg": -7.45,
-   "runup": 3.74,
-   "pos_52w": 43.1,
-   "flags": [
-    "긴 윗꼬리"
-   ]
-  },
-  {
-   "code": "131970",
-   "name": "두산테스나",
-   "close": 123800,
-   "chg": -1.2,
-   "runup": 3.15,
-   "pos_52w": 53.6,
-   "flags": [
-    "긴 윗꼬리",
-    "도지형"
-   ]
-  },
-  {
-   "code": "240810",
-   "name": "원익IPS",
-   "close": 130900,
-   "chg": -2.09,
-   "runup": 3.03,
-   "pos_52w": 60.7,
-   "flags": [
-    "긴 윗꼬리",
-    "도지형"
-   ]
-  },
-  {
-   "code": "267320",
-   "name": "나인테크",
-   "close": 3070,
-   "chg": 9.06,
-   "runup": 2.41,
-   "pos_52w": 52.1,
-   "flags": [
-    "긴 윗꼬리"
-   ]
-  },
-  {
-   "code": "039030",
-   "name": "이오테크닉스",
-   "close": 511000,
-   "chg": -2.48,
-   "runup": 2.33,
-   "pos_52w": 72.3,
-   "flags": [
-    "긴 윗꼬리",
-    "도지형"
-   ]
-  },
-  {
-   "code": "067310",
-   "name": "하나마이크론",
-   "close": 48500,
-   "chg": -5.27,
-   "runup": 2.32,
-   "pos_52w": 73.4,
+   "code": "042510",
+   "name": "라온시큐어",
+   "close": 17340,
+   "chg": 6.06,
+   "runup": 2.74,
+   "pos_52w": 81.0,
    "flags": [
     "긴 윗꼬리"
    ]
