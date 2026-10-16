@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-15 23:11:58",
- "base_date": "2026-10-14",
+ "generated_at": "2026-10-16 10:19:02",
+ "base_date": "2026-10-15",
  "stale": {
-  "weekdays_behind": 1,
+  "weekdays_behind": 0,
   "checked_until": "2026-10-15"
  },
  "fetch_log": [
   {
-   "date": "20261015",
+   "date": "20261016",
    "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+  },
+  {
+   "date": "20261015",
+   "result": "수집 1,822종목"
   },
   {
    "date": "20261014",
@@ -29,13 +33,9 @@
   {
    "date": "20261008",
    "result": "캐시에 있음"
-  },
-  {
-   "date": "20261007",
-   "result": "캐시에 있음"
   }
  ],
- "universe": 1820,
+ "universe": 1822,
  "regime": [
   {
    "market": "KOSPI",
@@ -49,13 +49,13 @@
   },
   {
    "market": "KOSDAQ",
-   "state": "조정",
-   "action": "지수 20일선 아래. 내 수익이 실력인지 지수 덕인지 가려지는 구간입니다",
+   "state": "하락추세",
+   "action": "지수 60일선 아래. 이 구간에서 조건을 충족한 종목은 시장보다 강한 종목입니다",
    "falling": true,
-   "day_chg": -1.57,
-   "pos_pct": 32.9,
-   "vs_ma20": -2.71,
-   "vs_ma60": 2.02
+   "day_chg": -7.53,
+   "pos_pct": 22.0,
+   "vs_ma20": -9.75,
+   "vs_ma60": -5.53
   }
  ],
  "track_a": [],
@@ -66,88 +66,25 @@
    "track": "A",
    "status": "near",
    "missing": [
-    "저점 대비 3배 미만"
-   ],
-   "strong_in_weak": true,
-   "code": "396300",
-   "name": "HT로보틱스",
-   "market": "KOSDAQ",
-   "close": 6870,
-   "chg": 9.39,
-   "value_eok": 1358,
-   "value_surge": 5.6,
-   "mktcap_jo": 0.18,
-   "pos_52w": 90.7,
-   "runup": 3.03,
-   "up_from_low": 159.2,
-   "uptail": 15.3,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "LS머트리얼즈",
-    "한선엔지니어링",
-    "글로벌테크놀로지"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": false
-   },
-   "plan": {
-    "buy_break": 7010,
-    "buy_pull": 6590,
-    "stop": 6310,
-    "stop_pct": -9.99,
-    "target1": 7710,
-    "target2": 8410,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 13.8,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 6310,
-    "high": 7000,
-    "low": 6150,
-    "close": 6870
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
     "거래대금 500억 이상"
    ],
    "strong_in_weak": true,
-   "code": "119850",
-   "name": "지엔씨에너지",
+   "code": "035760",
+   "name": "CJ ENM",
    "market": "KOSDAQ",
-   "close": 44600,
-   "chg": 5.94,
-   "value_eok": 289,
-   "value_surge": 1.0,
-   "mktcap_jo": 0.73,
-   "pos_52w": 64.6,
-   "runup": 2.43,
-   "up_from_low": 62.2,
-   "uptail": 34.9,
+   "close": 40550,
+   "chg": 6.85,
+   "value_eok": 88,
+   "value_surge": 3.0,
+   "mktcap_jo": 0.89,
+   "pos_52w": 24.0,
+   "runup": 1.44,
+   "up_from_low": 44.3,
+   "uptail": 19.0,
    "sector": null,
    "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
+    "라온시큐어",
+    "멜콘"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -159,84 +96,25 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 46150,
-    "buy_pull": 43350,
-    "stop": 41550,
-    "stop_pct": -9.97,
-    "target1": 50800,
-    "target2": 55400,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 10.3,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 42100,
-    "high": 46100,
-    "low": 41800,
-    "close": 44600
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "126340",
-   "name": "비나텍",
-   "market": "KOSDAQ",
-   "close": 86000,
-   "chg": 9.41,
-   "value_eok": 162,
-   "value_surge": 1.3,
-   "mktcap_jo": 0.62,
-   "pos_52w": 26.5,
-   "runup": 1.99,
-   "up_from_low": 99.1,
-   "uptail": 30.5,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 89700,
-    "buy_pull": 82200,
-    "stop": 80800,
+    "buy_break": 41350,
+    "buy_pull": 39050,
+    "stop": 37250,
     "stop_pct": -9.92,
-    "target1": 98700,
-    "target2": 107600,
+    "target1": 45500,
+    "target2": 49600,
     "trail_pct": 7.0,
     "rr": 1.01,
-    "bar_range_pct": 15.2,
+    "bar_range_pct": 10.6,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 78500,
-    "high": 89600,
-    "low": 77800,
-    "close": 86000
+    "open": 37550,
+    "high": 41300,
+    "low": 37350,
+    "close": 40550
    }
   },
   {
@@ -246,26 +124,22 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": true,
-   "code": "107640",
-   "name": "한중엔시에스",
+   "code": "024830",
+   "name": "세원물산",
    "market": "KOSDAQ",
-   "close": 48050,
-   "chg": 9.7,
-   "value_eok": 117,
-   "value_surge": 2.6,
-   "mktcap_jo": 0.44,
-   "pos_52w": 49.9,
-   "runup": 2.07,
-   "up_from_low": 107.1,
-   "uptail": 21.4,
+   "close": 8600,
+   "chg": 7.23,
+   "value_eok": 0,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.07,
+   "pos_52w": 11.3,
+   "runup": 1.09,
+   "up_from_low": 8.7,
+   "uptail": 0.0,
    "sector": null,
    "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
+    "라온시큐어",
+    "멜콘"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -277,309 +151,14 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 49300,
-    "buy_pull": 45950,
-    "stop": 44400,
-    "stop_pct": -9.94,
-    "target1": 54200,
-    "target2": 59200,
+    "buy_break": 8610,
+    "buy_pull": 8300,
+    "stop": 7830,
+    "stop_pct": -9.06,
+    "target1": 9470,
+    "target2": 10330,
     "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 12.8,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 43850,
-    "high": 49250,
-    "low": 43650,
-    "close": 48050
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "441270",
-   "name": "파인엠텍",
-   "market": "KOSDAQ",
-   "close": 9630,
-   "chg": 9.18,
-   "value_eok": 89,
-   "value_surge": 0.9,
-   "mktcap_jo": 0.41,
-   "pos_52w": 60.6,
-   "runup": 1.8,
-   "up_from_low": 68.9,
-   "uptail": 13.6,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 9780,
-    "buy_pull": 9200,
-    "stop": 8810,
-    "stop_pct": -9.92,
-    "target1": 10760,
-    "target2": 11740,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 11.8,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 8780,
-    "high": 9770,
-    "low": 8740,
-    "close": 9630
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "393890",
-   "name": "더블유씨피",
-   "market": "KOSDAQ",
-   "close": 11440,
-   "chg": 8.44,
-   "value_eok": 70,
-   "value_surge": 2.1,
-   "mktcap_jo": 0.39,
-   "pos_52w": 37.4,
-   "runup": 2.07,
-   "up_from_low": 107.2,
-   "uptail": 12.4,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 11580,
-    "buy_pull": 11050,
-    "stop": 10480,
-    "stop_pct": -9.5,
-    "target1": 12740,
-    "target2": 13900,
-    "trail_pct": 7.0,
-    "rr": 1.05,
-    "bar_range_pct": 9.2,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 10660,
-    "high": 11560,
-    "low": 10590,
-    "close": 11440
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "023160",
-   "name": "태광",
-   "market": "KOSDAQ",
-   "close": 27250,
-   "chg": 5.21,
-   "value_eok": 69,
-   "value_surge": 1.2,
-   "mktcap_jo": 0.69,
-   "pos_52w": 24.6,
-   "runup": 1.4,
-   "up_from_low": 40.3,
-   "uptail": 29.0,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 27750,
-    "buy_pull": 26750,
-    "stop": 25850,
-    "stop_pct": -6.85,
-    "target1": 30550,
-    "target2": 33300,
-    "trail_pct": 7.0,
-    "rr": 1.47,
-    "bar_range_pct": 5.9,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 26250,
-    "high": 27700,
-    "low": 26150,
-    "close": 27250
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "014620",
-   "name": "성광벤드",
-   "market": "KOSDAQ",
-   "close": 28800,
-   "chg": 5.11,
-   "value_eok": 52,
-   "value_surge": 0.9,
-   "mktcap_jo": 0.76,
-   "pos_52w": 20.3,
-   "runup": 1.28,
-   "up_from_low": 27.7,
-   "uptail": 31.0,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 29500,
-    "buy_pull": 28100,
-    "stop": 27050,
-    "stop_pct": -8.31,
-    "target1": 32450,
-    "target2": 35400,
-    "trail_pct": 7.0,
-    "rr": 1.2,
-    "bar_range_pct": 7.7,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 27350,
-    "high": 29450,
-    "low": 27350,
-    "close": 28800
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "348370",
-   "name": "엔켐",
-   "market": "KOSDAQ",
-   "close": 21950,
-   "chg": 5.02,
-   "value_eok": 50,
-   "value_surge": 1.2,
-   "mktcap_jo": 0.48,
-   "pos_52w": 8.7,
-   "runup": 1.57,
-   "up_from_low": 56.6,
-   "uptail": 25.0,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 22450,
-    "buy_pull": 21400,
-    "stop": 20350,
-    "stop_pct": -9.35,
-    "target1": 24700,
-    "target2": 26950,
-    "trail_pct": 7.0,
-    "rr": 1.07,
+    "rr": 1.1,
     "bar_range_pct": 8.7,
     "max_buy": null,
     "entry": "돌파",
@@ -587,681 +166,121 @@
     "reject": []
    },
    "bar": {
-    "open": 20800,
-    "high": 22400,
-    "low": 20600,
-    "close": 21950
+    "open": 8000,
+    "high": 8600,
+    "low": 7910,
+    "close": 8600
    }
   },
   {
-   "track": "A",
+   "track": "C",
    "status": "near",
    "missing": [
-    "거래대금 500억 이상"
+    "거래대금 50억 이상"
    ],
    "strong_in_weak": true,
-   "code": "489460",
-   "name": "바이오비쥬",
+   "code": "024830",
+   "name": "세원물산",
    "market": "KOSDAQ",
-   "close": 13200,
-   "chg": 6.62,
-   "value_eok": 42,
-   "value_surge": 4.7,
-   "mktcap_jo": 0.19,
-   "pos_52w": 60.3,
-   "runup": 2.52,
-   "up_from_low": 124.5,
-   "uptail": 7.1,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 13280,
-    "buy_pull": 12880,
-    "stop": 12280,
-    "stop_pct": -7.53,
-    "target1": 14610,
-    "target2": 15940,
-    "trail_pct": 7.0,
-    "rr": 1.33,
-    "bar_range_pct": 6.8,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 12570,
-    "high": 13260,
-    "low": 12410,
-    "close": 13200
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "035760",
-   "name": "CJ ENM",
-   "market": "KOSDAQ",
-   "close": 37950,
-   "chg": 6.9,
-   "value_eok": 38,
-   "value_surge": 1.3,
-   "mktcap_jo": 0.83,
-   "pos_52w": 19.0,
-   "runup": 1.35,
-   "up_from_low": 35.1,
-   "uptail": 17.3,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 38650,
-    "buy_pull": 36700,
-    "stop": 34800,
-    "stop_pct": -9.96,
-    "target1": 42500,
-    "target2": 46400,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 10.8,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 35400,
-    "high": 38600,
-    "low": 34850,
-    "close": 37950
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "101360",
-   "name": "에코앤드림",
-   "market": "KOSDAQ",
-   "close": 9210,
-   "chg": 9.51,
-   "value_eok": 18,
-   "value_surge": 2.2,
-   "mktcap_jo": 0.16,
-   "pos_52w": 19.8,
-   "runup": 1.9,
-   "up_from_low": 89.7,
-   "uptail": 1.9,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 9230,
-    "buy_pull": 8960,
-    "stop": 8600,
-    "stop_pct": -6.83,
-    "target1": 10150,
-    "target2": 11080,
-    "trail_pct": 7.0,
-    "rr": 1.46,
-    "bar_range_pct": 6.1,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 8710,
-    "high": 9220,
-    "low": 8690,
-    "close": 9210
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "003310",
-   "name": "대주산업",
-   "market": "KOSDAQ",
-   "close": 1725,
-   "chg": 6.15,
-   "value_eok": 14,
-   "value_surge": 3.9,
-   "mktcap_jo": 0.06,
-   "pos_52w": 7.8,
-   "runup": 1.27,
-   "up_from_low": 27.3,
-   "uptail": 27.8,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 1759,
-    "buy_pull": 1684,
-    "stop": 1625,
-    "stop_pct": -7.62,
-    "target1": 1935,
-    "target2": 2110,
-    "trail_pct": 7.0,
-    "rr": 1.31,
-    "bar_range_pct": 7.0,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 1642,
-    "high": 1757,
-    "low": 1642,
-    "close": 1725
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "059100",
-   "name": "아이컴포넌트",
-   "market": "KOSDAQ",
-   "close": 7320,
-   "chg": 9.58,
-   "value_eok": 11,
-   "value_surge": 6.2,
-   "mktcap_jo": 0.05,
-   "pos_52w": 80.4,
-   "runup": 1.71,
-   "up_from_low": 70.8,
-   "uptail": 22.6,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 7570,
-    "buy_pull": 7000,
-    "stop": 6820,
-    "stop_pct": -9.91,
-    "target1": 8330,
-    "target2": 9080,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 16.3,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 6680,
-    "high": 7560,
-    "low": 6500,
-    "close": 7320
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "355690",
-   "name": "에이텀",
-   "market": "KOSDAQ",
-   "close": 6820,
-   "chg": 6.56,
-   "value_eok": 9,
-   "value_surge": 1.6,
-   "mktcap_jo": 0.07,
-   "pos_52w": 50.7,
-   "runup": 1.88,
-   "up_from_low": 83.3,
-   "uptail": 14.5,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 6930,
-    "buy_pull": 6610,
-    "stop": 6240,
-    "stop_pct": -9.96,
-    "target1": 7620,
-    "target2": 8320,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 11.1,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 6400,
-    "high": 6920,
-    "low": 6230,
-    "close": 6820
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "082800",
-   "name": "비보존 제약",
-   "market": "KOSDAQ",
-   "close": 3030,
-   "chg": 5.03,
-   "value_eok": 5,
-   "value_surge": 1.3,
-   "mktcap_jo": 0.18,
-   "pos_52w": 19.5,
-   "runup": 1.46,
-   "up_from_low": 46.4,
-   "uptail": 23.1,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 3080,
-    "buy_pull": 2980,
-    "stop": 2850,
-    "stop_pct": -7.47,
-    "target1": 3390,
-    "target2": 3695,
-    "trail_pct": 7.0,
-    "rr": 1.35,
-    "bar_range_pct": 6.8,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 2930,
-    "high": 3075,
-    "low": 2880,
-    "close": 3030
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "025550",
-   "name": "한국선재",
-   "market": "KOSDAQ",
-   "close": 2355,
-   "chg": 5.61,
-   "value_eok": 4,
-   "value_surge": 2.8,
-   "mktcap_jo": 0.06,
-   "pos_52w": 18.1,
-   "runup": 1.31,
-   "up_from_low": 30.8,
-   "uptail": 14.3,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 2380,
-    "buy_pull": 2295,
-    "stop": 2210,
-    "stop_pct": -7.14,
-    "target1": 2620,
-    "target2": 2855,
-    "trail_pct": 7.0,
-    "rr": 1.41,
-    "bar_range_pct": 6.3,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 2235,
-    "high": 2375,
-    "low": 2235,
-    "close": 2355
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "024800",
-   "name": "유성티엔에스",
-   "market": "KOSDAQ",
-   "close": 4390,
-   "chg": 7.07,
-   "value_eok": 3,
-   "value_surge": 2.0,
-   "mktcap_jo": 0.15,
-   "pos_52w": 58.9,
-   "runup": 2.08,
-   "up_from_low": 19.8,
+   "close": 8600,
+   "chg": 7.23,
+   "value_eok": 0,
+   "vol_man": 0,
+   "vol_vs_prev": 3.8,
+   "up_from_low": 8.7,
+   "low_recent": 7910,
+   "runup": 1.09,
    "uptail": 0.0,
+   "mktcap_jo": 0.07,
    "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
+   "peers": [],
+   "sector_confirmed": null,
    "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
     "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": false,
+    "1년 저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 4395,
-    "buy_pull": 4290,
-    "stop": 3960,
-    "stop_pct": -9.9,
-    "target1": 4835,
-    "target2": 5270,
+    "buy_break": 8610,
+    "buy_pull": 8300,
+    "stop": 7830,
+    "stop_pct": -9.06,
+    "target1": 9470,
+    "target2": 10330,
     "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 9.8,
-    "max_buy": null,
+    "rr": 1.1,
+    "bar_range_pct": 8.7,
+    "max_buy": 9490,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 4185,
-    "high": 4390,
-    "low": 4000,
-    "close": 4390
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "042600",
-   "name": "새로닉스",
-   "market": "KOSDAQ",
-   "close": 11850,
-   "chg": 8.72,
-   "value_eok": 3,
-   "value_surge": 1.3,
-   "mktcap_jo": 0.15,
-   "pos_52w": 31.8,
-   "runup": 1.81,
-   "up_from_low": 80.6,
-   "uptail": 4.0,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 11910,
-    "buy_pull": 11420,
-    "stop": 10790,
-    "stop_pct": -9.4,
-    "target1": 13100,
-    "target2": 14290,
-    "trail_pct": 7.0,
-    "rr": 1.06,
-    "bar_range_pct": 9.1,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 10990,
-    "high": 11890,
-    "low": 10900,
-    "close": 11850
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "391710",
-   "name": "코닉오토메이션",
-   "market": "KOSDAQ",
-   "close": 1220,
-   "chg": 7.68,
-   "value_eok": 1,
-   "value_surge": 0.1,
-   "mktcap_jo": 0.05,
-   "pos_52w": 9.3,
-   "runup": 1.26,
-   "up_from_low": 23.5,
-   "uptail": 21.4,
-   "sector": null,
-   "peers": [
-    "삼미금속",
-    "빛샘전자",
-    "대주전자재료",
-    "HT로보틱스",
-    "LS머트리얼즈",
-    "한선엔지니어링"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 1246,
-    "buy_pull": 1176,
-    "stop": 1122,
-    "stop_pct": -9.95,
-    "target1": 1371,
-    "target2": 1495,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 9.9,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 1133,
-    "high": 1244,
-    "low": 1132,
-    "close": 1220
+    "open": 8000,
+    "high": 8600,
+    "low": 7910,
+    "close": 8600
    }
   }
  ],
  "warnings": [
   {
+   "code": "043260",
+   "name": "성호전자",
+   "close": 27200,
+   "chg": -8.72,
+   "runup": 26.41,
+   "pos_52w": 44.7,
+   "flags": [
+    "긴 윗꼬리",
+    "도지형"
+   ]
+  },
+  {
+   "code": "085910",
+   "name": "네오티스",
+   "close": 17950,
+   "chg": -10.25,
+   "runup": 4.61,
+   "pos_52w": 43.4,
+   "flags": [
+    "도지형"
+   ]
+  },
+  {
    "code": "072950",
    "name": "빛샘전자",
-   "close": 15550,
-   "chg": 5.85,
-   "runup": 3.38,
-   "pos_52w": 51.9,
+   "close": 15280,
+   "chg": -1.74,
+   "runup": 3.32,
+   "pos_52w": 50.6,
    "flags": [
     "긴 윗꼬리"
    ]
   },
   {
-   "code": "012210",
-   "name": "삼미금속",
-   "close": 10590,
-   "chg": 5.48,
-   "runup": 2.63,
-   "pos_52w": 39.0,
+   "code": "396300",
+   "name": "HT로보틱스",
+   "close": 7150,
+   "chg": 4.08,
+   "runup": 3.15,
+   "pos_52w": 84.1,
+   "flags": [
+    "긴 윗꼬리",
+    "도지형"
+   ]
+  },
+  {
+   "code": "131970",
+   "name": "두산테스나",
+   "close": 120600,
+   "chg": -4.44,
+   "runup": 3.0,
+   "pos_52w": 51.3,
    "flags": [
     "긴 윗꼬리"
    ]
