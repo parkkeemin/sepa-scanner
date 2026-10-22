@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-21 23:30:47",
- "base_date": "2026-10-20",
+ "generated_at": "2026-10-22 10:29:16",
+ "base_date": "2026-10-21",
  "stale": {
-  "weekdays_behind": 1,
+  "weekdays_behind": 0,
   "checked_until": "2026-10-21"
  },
  "fetch_log": [
   {
-   "date": "20261021",
+   "date": "20261022",
    "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+  },
+  {
+   "date": "20261021",
+   "result": "수집 1,822종목"
   },
   {
    "date": "20261020",
@@ -24,10 +28,6 @@
   },
   {
    "date": "20261015",
-   "result": "캐시에 있음"
-  },
-  {
-   "date": "20261014",
    "result": "캐시에 있음"
   }
  ],
@@ -47,11 +47,11 @@
    "market": "KOSDAQ",
    "state": "하락추세",
    "action": "지수 60일선 아래. 이 구간에서 조건을 충족한 종목은 시장보다 강한 종목입니다",
-   "falling": true,
-   "day_chg": -3.14,
-   "pos_pct": 26.0,
-   "vs_ma20": -6.92,
-   "vs_ma60": -2.97
+   "falling": false,
+   "day_chg": 1.37,
+   "pos_pct": 27.8,
+   "vs_ma20": -5.52,
+   "vs_ma60": -1.75
   }
  ],
  "track_a": [],
@@ -62,28 +62,147 @@
    "track": "A",
    "status": "near",
    "missing": [
-    "거래대금 500억 이상"
+    "저점 대비 3배 미만"
    ],
-   "strong_in_weak": true,
-   "code": "340450",
-   "name": "지씨지놈",
+   "strong_in_weak": false,
+   "code": "043260",
+   "name": "성호전자",
    "market": "KOSDAQ",
-   "close": 10250,
-   "chg": 9.63,
-   "value_eok": 149,
-   "value_surge": 2.2,
-   "mktcap_jo": 0.24,
-   "pos_52w": 96.4,
-   "runup": 2.5,
-   "up_from_low": 150.0,
-   "uptail": 9.6,
+   "close": 28900,
+   "chg": 7.64,
+   "value_eok": 844,
+   "value_surge": 0.6,
+   "mktcap_jo": 2.18,
+   "pos_52w": 47.4,
+   "runup": 23.23,
+   "up_from_low": 145.1,
+   "uptail": 8.5,
    "sector": null,
    "peers": [
     "빅웨이브로보틱스",
-    "양지사",
-    "빅텍",
-    "녹십자엠에스",
-    "HT로보틱스"
+    "대한광통신",
+    "엘리스",
+    "두산테스나",
+    "앤로보틱스",
+    "멜콘"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": false
+   },
+   "plan": {
+    "buy_break": 29200,
+    "buy_pull": 28100,
+    "stop": 26300,
+    "stop_pct": -9.93,
+    "target1": 32100,
+    "target2": 35050,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 27300,
+    "high": 29150,
+    "low": 26200,
+    "close": 28900
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "긴 윗꼬리 없음"
+   ],
+   "strong_in_weak": false,
+   "code": "131970",
+   "name": "두산테스나",
+   "market": "KOSDAQ",
+   "close": 112200,
+   "chg": 9.57,
+   "value_eok": 749,
+   "value_surge": 1.3,
+   "mktcap_jo": 2.17,
+   "pos_52w": 45.8,
+   "runup": 2.77,
+   "up_from_low": 121.7,
+   "uptail": 45.0,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "앤로보틱스",
+    "멜콘"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": false,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 118200,
+    "buy_pull": 108900,
+    "stop": 106400,
+    "stop_pct": -9.98,
+    "target1": 130000,
+    "target2": 141800,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 12.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 105600,
+    "high": 118000,
+    "low": 105100,
+    "close": 112200
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "347850",
+   "name": "디앤디파마텍",
+   "market": "KOSDAQ",
+   "close": 43300,
+   "chg": 6.65,
+   "value_eok": 220,
+   "value_surge": 0.9,
+   "mktcap_jo": 1.99,
+   "pos_52w": 2.9,
+   "runup": 1.26,
+   "up_from_low": 25.5,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -95,25 +214,25 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 10370,
-    "buy_pull": 9790,
-    "stop": 9340,
-    "stop_pct": -9.93,
-    "target1": 11410,
-    "target2": 12440,
+    "buy_break": 43350,
+    "buy_pull": 42150,
+    "stop": 40500,
+    "stop_pct": -6.57,
+    "target1": 47700,
+    "target2": 52000,
     "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 11.2,
+    "rr": 1.53,
+    "bar_range_pct": 5.7,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 9330,
-    "high": 10350,
-    "low": 9310,
-    "close": 10250
+    "open": 41000,
+    "high": 43300,
+    "low": 40950,
+    "close": 43300
    }
   },
   {
@@ -122,26 +241,204 @@
    "missing": [
     "거래대금 500억 이상"
    ],
-   "strong_in_weak": true,
-   "code": "122640",
-   "name": "예스티",
+   "strong_in_weak": false,
+   "code": "119850",
+   "name": "지엔씨에너지",
    "market": "KOSDAQ",
-   "close": 28250,
-   "chg": 5.61,
-   "value_eok": 117,
-   "value_surge": 1.1,
-   "mktcap_jo": 0.61,
-   "pos_52w": 45.3,
-   "runup": 1.86,
-   "up_from_low": 72.3,
+   "close": 42100,
+   "chg": 7.26,
+   "value_eok": 148,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.69,
+   "pos_52w": 58.4,
+   "runup": 2.29,
+   "up_from_low": 53.1,
+   "uptail": 8.5,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 42400,
+    "buy_pull": 40800,
+    "stop": 39000,
+    "stop_pct": -8.02,
+    "target1": 46650,
+    "target2": 50900,
+    "trail_pct": 7.0,
+    "rr": 1.25,
+    "bar_range_pct": 7.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 39500,
+    "high": 42350,
+    "low": 39400,
+    "close": 42100
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "079370",
+   "name": "제우스",
+   "market": "KOSDAQ",
+   "close": 12010,
+   "chg": 9.18,
+   "value_eok": 81,
+   "value_surge": 1.0,
+   "mktcap_jo": 0.37,
+   "pos_52w": 37.8,
+   "runup": 1.83,
+   "up_from_low": 82.5,
    "uptail": 32.2,
    "sector": null,
    "peers": [
     "빅웨이브로보틱스",
-    "양지사",
-    "빅텍",
-    "녹십자엠에스",
-    "HT로보틱스"
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 12520,
+    "buy_pull": 11550,
+    "stop": 11270,
+    "stop_pct": -9.98,
+    "target1": 13770,
+    "target2": 15020,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 13.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 11090,
+    "high": 12500,
+    "low": 10980,
+    "close": 12010
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "166090",
+   "name": "하나머티리얼즈",
+   "market": "KOSDAQ",
+   "close": 54900,
+   "chg": 6.81,
+   "value_eok": 69,
+   "value_surge": 0.8,
+   "mktcap_jo": 1.09,
+   "pos_52w": 36.2,
+   "runup": 1.52,
+   "up_from_low": 36.6,
+   "uptail": 21.6,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 55800,
+    "buy_pull": 53800,
+    "stop": 51400,
+    "stop_pct": -7.89,
+    "target1": 61400,
+    "target2": 67000,
+    "trail_pct": 7.0,
+    "rr": 1.27,
+    "bar_range_pct": 7.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 52700,
+    "high": 55700,
+    "low": 52000,
+    "close": 54900
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "039440",
+   "name": "에스티아이",
+   "market": "KOSDAQ",
+   "close": 29000,
+   "chg": 6.23,
+   "value_eok": 60,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.45,
+   "pos_52w": 45.1,
+   "runup": 1.67,
+   "up_from_low": 67.4,
+   "uptail": 9.8,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -154,24 +451,24 @@
    },
    "plan": {
     "buy_break": 29250,
-    "buy_pull": 27500,
-    "stop": 26350,
-    "stop_pct": -9.91,
+    "buy_pull": 28300,
+    "stop": 26850,
+    "stop_pct": -8.21,
     "target1": 32200,
     "target2": 35100,
     "trail_pct": 7.0,
-    "rr": 1.02,
-    "bar_range_pct": 11.2,
+    "rr": 1.23,
+    "bar_range_pct": 7.6,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 26750,
+    "open": 27600,
     "high": 29200,
-    "low": 26250,
-    "close": 28250
+    "low": 27150,
+    "close": 29000
    }
   },
   {
@@ -180,26 +477,27 @@
    "missing": [
     "거래대금 500억 이상"
    ],
-   "strong_in_weak": true,
-   "code": "468530",
-   "name": "프로티나",
+   "strong_in_weak": false,
+   "code": "074600",
+   "name": "원익QnC",
    "market": "KOSDAQ",
-   "close": 42900,
-   "chg": 7.38,
-   "value_eok": 100,
-   "value_surge": 1.2,
-   "mktcap_jo": 0.48,
-   "pos_52w": 26.2,
-   "runup": 2.77,
-   "up_from_low": 176.8,
-   "uptail": 28.8,
+   "close": 27800,
+   "chg": 5.5,
+   "value_eok": 48,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.73,
+   "pos_52w": 34.5,
+   "runup": 1.5,
+   "up_from_low": 39.0,
+   "uptail": 29.0,
    "sector": null,
    "peers": [
     "빅웨이브로보틱스",
-    "양지사",
-    "빅텍",
-    "녹십자엠에스",
-    "HT로보틱스"
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -211,95 +509,870 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 44650,
-    "buy_pull": 41400,
-    "stop": 40200,
-    "stop_pct": -9.97,
-    "target1": 49100,
-    "target2": 53600,
+    "buy_break": 28300,
+    "buy_pull": 27250,
+    "stop": 26400,
+    "stop_pct": -6.71,
+    "target1": 31150,
+    "target2": 33950,
     "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 15.2,
+    "rr": 1.5,
+    "bar_range_pct": 5.8,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 39950,
-    "high": 44600,
-    "low": 38700,
-    "close": 42900
+    "open": 26700,
+    "high": 28250,
+    "low": 26700,
+    "close": 27800
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "323350",
+   "name": "다원넥스뷰",
+   "market": "KOSDAQ",
+   "close": 12880,
+   "chg": 9.62,
+   "value_eok": 43,
+   "value_surge": 2.6,
+   "mktcap_jo": 0.1,
+   "pos_52w": 34.2,
+   "runup": 2.6,
+   "up_from_low": 143.5,
+   "uptail": 31.6,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 13380,
+    "buy_pull": 12460,
+    "stop": 12050,
+    "stop_pct": -9.94,
+    "target1": 14720,
+    "target2": 16060,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 12.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 12050,
+    "high": 13360,
+    "low": 11840,
+    "close": 12880
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "115180",
+   "name": "큐리언트",
+   "market": "KOSDAQ",
+   "close": 21650,
+   "chg": 8.25,
+   "value_eok": 38,
+   "value_surge": 1.3,
+   "mktcap_jo": 0.81,
+   "pos_52w": 15.1,
+   "runup": 1.51,
+   "up_from_low": 51.1,
+   "uptail": 28.1,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 22400,
+    "buy_pull": 20800,
+    "stop": 20200,
+    "stop_pct": -9.82,
+    "target1": 24650,
+    "target2": 26900,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 12.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 20000,
+    "high": 22350,
+    "low": 19860,
+    "close": 21650
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "019210",
+   "name": "와이지-원",
+   "market": "KOSDAQ",
+   "close": 11220,
+   "chg": 6.05,
+   "value_eok": 35,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.42,
+   "pos_52w": 26.8,
+   "runup": 2.29,
+   "up_from_low": 8.9,
+   "uptail": 9.1,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 11290,
+    "buy_pull": 10970,
+    "stop": 10610,
+    "stop_pct": -6.02,
+    "target1": 12420,
+    "target2": 13550,
+    "trail_pct": 7.0,
+    "rr": 1.66,
+    "bar_range_pct": 5.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 10720,
+    "high": 11270,
+    "low": 10720,
+    "close": 11220
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "475830",
+   "name": "오름테라퓨틱",
+   "market": "KOSDAQ",
+   "close": 17200,
+   "chg": 5.91,
+   "value_eok": 33,
+   "value_surge": 0.2,
+   "mktcap_jo": 0.37,
+   "pos_52w": 1.2,
+   "runup": 1.1,
+   "up_from_low": 9.6,
+   "uptail": 29.7,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 17490,
+    "buy_pull": 16940,
+    "stop": 16390,
+    "stop_pct": -6.29,
+    "target1": 19240,
+    "target2": 21000,
+    "trail_pct": 7.0,
+    "rr": 1.59,
+    "bar_range_pct": 5.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 16690,
+    "high": 17470,
+    "low": 16560,
+    "close": 17200
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "061090",
+   "name": "세나테크놀로지",
+   "market": "KOSDAQ",
+   "close": 32450,
+   "chg": 9.63,
+   "value_eok": 22,
+   "value_surge": 2.1,
+   "mktcap_jo": 0.18,
+   "pos_52w": 3.6,
+   "runup": 1.2,
+   "up_from_low": 13.3,
+   "uptail": 32.4,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 33600,
+    "buy_pull": 31500,
+    "stop": 30250,
+    "stop_pct": -9.97,
+    "target1": 36950,
+    "target2": 40300,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 30500,
+    "high": 33550,
+    "low": 30150,
+    "close": 32450
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "0017J0",
+   "name": "세미티에스",
+   "market": "KOSDAQ",
+   "close": 3280,
+   "chg": 9.15,
+   "value_eok": 20,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.1,
+   "pos_52w": 16.5,
+   "runup": 1.45,
+   "up_from_low": 45.1,
+   "uptail": 10.5,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3315,
+    "buy_pull": 3175,
+    "stop": 2990,
+    "stop_pct": -9.8,
+    "target1": 3645,
+    "target2": 3980,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 9.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3070,
+    "high": 3310,
+    "low": 3025,
+    "close": 3280
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "482630",
+   "name": "삼양엔씨켐",
+   "market": "KOSDAQ",
+   "close": 13000,
+   "chg": 7.26,
+   "value_eok": 19,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.28,
+   "pos_52w": 11.8,
+   "runup": 1.44,
+   "up_from_low": 43.6,
+   "uptail": 17.8,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 13180,
+    "buy_pull": 12700,
+    "stop": 12130,
+    "stop_pct": -7.97,
+    "target1": 14500,
+    "target2": 15820,
+    "trail_pct": 7.0,
+    "rr": 1.26,
+    "bar_range_pct": 7.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 12400,
+    "high": 13160,
+    "low": 12260,
+    "close": 13000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "484120",
+   "name": "도우인시스",
+   "market": "KOSDAQ",
+   "close": 24050,
+   "chg": 6.65,
+   "value_eok": 19,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.26,
+   "pos_52w": 63.7,
+   "runup": 2.06,
+   "up_from_low": 106.1,
+   "uptail": 29.4,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 24600,
+    "buy_pull": 23450,
+    "stop": 22600,
+    "stop_pct": -8.13,
+    "target1": 27050,
+    "target2": 29500,
+    "trail_pct": 7.0,
+    "rr": 1.23,
+    "bar_range_pct": 7.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 22850,
+    "high": 24550,
+    "low": 22850,
+    "close": 24050
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "156100",
+   "name": "엘앤케이바이오",
+   "market": "KOSDAQ",
+   "close": 6680,
+   "chg": 8.44,
+   "value_eok": 11,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.15,
+   "pos_52w": 28.9,
+   "runup": 2.45,
+   "up_from_low": 144.7,
+   "uptail": 23.5,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6880,
+    "buy_pull": 6480,
+    "stop": 6200,
+    "stop_pct": -9.88,
+    "target1": 7570,
+    "target2": 8260,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 13.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 6270,
+    "high": 6870,
+    "low": 6060,
+    "close": 6680
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "251370",
+   "name": "와이엠티",
+   "market": "KOSDAQ",
+   "close": 8150,
+   "chg": 9.1,
+   "value_eok": 10,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.15,
+   "pos_52w": 11.3,
+   "runup": 1.31,
+   "up_from_low": 31.5,
+   "uptail": 8.4,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8230,
+    "buy_pull": 7820,
+    "stop": 7410,
+    "stop_pct": -9.96,
+    "target1": 9050,
+    "target2": 9880,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 7480,
+    "high": 8220,
+    "low": 7390,
+    "close": 8150
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "080160",
+   "name": "모두투어",
+   "market": "KOSDAQ",
+   "close": 7940,
+   "chg": 5.03,
+   "value_eok": 9,
+   "value_surge": 1.5,
+   "mktcap_jo": 0.15,
+   "pos_52w": 7.6,
+   "runup": 1.11,
+   "up_from_low": 11.0,
+   "uptail": 13.1,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8030,
+    "buy_pull": 7720,
+    "stop": 7330,
+    "stop_pct": -8.72,
+    "target1": 8830,
+    "target2": 9640,
+    "trail_pct": 7.0,
+    "rr": 1.14,
+    "bar_range_pct": 8.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 7490,
+    "high": 8020,
+    "low": 7410,
+    "close": 7940
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "475230",
+   "name": "엔알비",
+   "market": "KOSDAQ",
+   "close": 8380,
+   "chg": 8.27,
+   "value_eok": 6,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.09,
+   "pos_52w": 11.6,
+   "runup": 1.5,
+   "up_from_low": 49.6,
+   "uptail": 20.3,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8540,
+    "buy_pull": 8080,
+    "stop": 7710,
+    "stop_pct": -9.72,
+    "target1": 9390,
+    "target2": 10250,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 9.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 7790,
+    "high": 8530,
+    "low": 7790,
+    "close": 8380
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "179530",
+   "name": "애드바이오텍",
+   "market": "KOSDAQ",
+   "close": 2145,
+   "chg": 9.1,
+   "value_eok": 3,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.07,
+   "pos_52w": 30.2,
+   "runup": 1.65,
+   "up_from_low": 33.3,
+   "uptail": 30.0,
+   "sector": null,
+   "peers": [
+    "빅웨이브로보틱스",
+    "대한광통신",
+    "엘리스",
+    "성호전자",
+    "두산테스나",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 2255,
+    "buy_pull": 2055,
+    "stop": 2030,
+    "stop_pct": -9.98,
+    "target1": 2480,
+    "target2": 2705,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 18.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 1966,
+    "high": 2250,
+    "low": 1900,
+    "close": 2145
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "거래대금 50억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "061090",
+   "name": "세나테크놀로지",
+   "market": "KOSDAQ",
+   "close": 32450,
+   "chg": 9.63,
+   "value_eok": 22,
+   "vol_man": 7,
+   "vol_vs_prev": 3.2,
+   "up_from_low": 13.3,
+   "low_recent": 28650,
+   "runup": 1.2,
+   "uptail": 32.4,
+   "mktcap_jo": 0.18,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": false,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 33600,
+    "buy_pull": 31500,
+    "stop": 30250,
+    "stop_pct": -9.97,
+    "target1": 36950,
+    "target2": 40300,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.3,
+    "max_buy": 34350,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 30500,
+    "high": 33550,
+    "low": 30150,
+    "close": 32450
    }
   }
  ],
  "warnings": [
   {
-   "code": "043260",
-   "name": "성호전자",
-   "close": 26850,
-   "chg": 0.0,
-   "runup": 23.25,
-   "pos_52w": 44.0,
-   "flags": [
-    "긴 윗꼬리",
-    "도지형"
-   ]
-  },
-  {
-   "code": "396300",
-   "name": "HT로보틱스",
-   "close": 9770,
-   "chg": 7.13,
-   "runup": 4.3,
-   "pos_52w": 83.5,
+   "code": "080220",
+   "name": "제주반도체",
+   "close": 68400,
+   "chg": 3.64,
+   "runup": 3.91,
+   "pos_52w": 42.3,
    "flags": [
     "긴 윗꼬리"
    ]
   },
   {
-   "code": "089230",
-   "name": "THE E&M",
-   "close": 2785,
-   "chg": 10.3,
-   "runup": 3.24,
-   "pos_52w": 52.9,
+   "code": "240810",
+   "name": "원익IPS",
+   "close": 104800,
+   "chg": 1.55,
+   "runup": 2.01,
+   "pos_52w": 38.8,
    "flags": [
-    "갭상승 후 음봉"
-   ]
-  },
-  {
-   "code": "042510",
-   "name": "라온시큐어",
-   "close": 18170,
-   "chg": -7.81,
-   "runup": 2.88,
-   "pos_52w": 73.5,
-   "flags": [
-    "긴 윗꼬리"
-   ]
-  },
-  {
-   "code": "014950",
-   "name": "삼익제약",
-   "close": 8150,
-   "chg": 2.77,
-   "runup": 2.2,
-   "pos_52w": 20.8,
-   "flags": [
-    "긴 윗꼬리",
     "도지형"
-   ]
-  },
-  {
-   "code": "126340",
-   "name": "비나텍",
-   "close": 91700,
-   "chg": 11.83,
-   "runup": 2.12,
-   "pos_52w": 30.1,
-   "flags": [
-    "갭상승 후 음봉"
    ]
   }
  ],
