@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-27 01:09:54",
- "base_date": "2026-10-23",
+ "generated_at": "2026-10-27 11:02:13",
+ "base_date": "2026-10-26",
  "stale": {
-  "weekdays_behind": 1,
+  "weekdays_behind": 0,
   "checked_until": "2026-10-26"
  },
  "fetch_log": [
@@ -12,7 +12,7 @@
   },
   {
    "date": "20261026",
-   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+   "result": "수집 1,824종목"
   },
   {
    "date": "20261023",
@@ -28,10 +28,6 @@
   },
   {
    "date": "20261020",
-   "result": "캐시에 있음"
-  },
-  {
-   "date": "20261019",
    "result": "캐시에 있음"
   }
  ],
@@ -52,10 +48,10 @@
    "state": "하락추세",
    "action": "지수 60일선 아래. 이 구간에서 조건을 충족한 종목은 시장보다 강한 종목입니다",
    "falling": true,
-   "day_chg": -1.5,
-   "pos_pct": 20.9,
-   "vs_ma20": -9.5,
-   "vs_ma60": -6.64
+   "day_chg": -3.36,
+   "pos_pct": 16.4,
+   "vs_ma20": -12.02,
+   "vs_ma60": -9.73
   }
  ],
  "track_a": [],
@@ -66,484 +62,29 @@
    "track": "A",
    "status": "near",
    "missing": [
-    "기준봉 고저 폭 21% — 변동성 과대"
-   ],
-   "strong_in_weak": true,
-   "code": "126340",
-   "name": "비나텍",
-   "market": "KOSDAQ",
-   "close": 119500,
-   "chg": 9.94,
-   "value_eok": 627,
-   "value_surge": 3.6,
-   "mktcap_jo": 0.86,
-   "pos_52w": 47.3,
-   "runup": 2.77,
-   "up_from_low": 176.6,
-   "uptail": 6.6,
-   "sector": null,
-   "peers": [
-    "디티에스",
-    "앤로보틱스",
-    "지투지바이오"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 121100,
-    "buy_pull": 111600,
-    "stop": 109000,
-    "stop_pct": -9.99,
-    "target1": 133200,
-    "target2": 145300,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 21.3,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": false,
-    "reject": [
-     "기준봉 고저 폭 21% — 변동성 과대"
-    ]
-   },
-   "bar": {
-    "open": 103700,
-    "high": 120900,
-    "low": 99700,
-    "close": 119500
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
     "거래대금 500억 이상"
    ],
    "strong_in_weak": true,
-   "code": "200470",
-   "name": "에이팩트",
+   "code": "080160",
+   "name": "모두투어",
    "market": "KOSDAQ",
-   "close": 9310,
-   "chg": 8.0,
-   "value_eok": 319,
-   "value_surge": 2.5,
-   "mktcap_jo": 0.42,
-   "pos_52w": 59.3,
-   "runup": 2.46,
-   "up_from_low": 145.6,
-   "uptail": 26.5,
-   "sector": null,
-   "peers": [
-    "디티에스",
-    "비나텍",
-    "앤로보틱스",
-    "지투지바이오"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 9670,
-    "buy_pull": 8920,
-    "stop": 8710,
-    "stop_pct": -9.93,
-    "target1": 10640,
-    "target2": 11600,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 15.8,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 8520,
-    "high": 9660,
-    "low": 8340,
-    "close": 9310
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "293490",
-   "name": "카카오게임즈",
-   "market": "KOSDAQ",
-   "close": 11550,
-   "chg": 6.16,
-   "value_eok": 227,
-   "value_surge": 4.6,
-   "mktcap_jo": 1.23,
-   "pos_52w": 40.9,
-   "runup": 1.7,
-   "up_from_low": 65.0,
-   "uptail": 32.7,
-   "sector": null,
-   "peers": [
-    "디티에스",
-    "비나텍",
-    "앤로보틱스",
-    "지투지바이오"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 11940,
-    "buy_pull": 11220,
-    "stop": 10750,
-    "stop_pct": -9.97,
-    "target1": 13130,
-    "target2": 14330,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 10.5,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 10880,
-    "high": 11920,
-    "low": 10790,
-    "close": 11550
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "425420",
-   "name": "티에프이",
-   "market": "KOSDAQ",
-   "close": 65000,
-   "chg": 8.33,
-   "value_eok": 129,
-   "value_surge": 1.2,
-   "mktcap_jo": 0.8,
-   "pos_52w": 76.6,
-   "runup": 2.77,
-   "up_from_low": 176.6,
-   "uptail": 5.7,
-   "sector": null,
-   "peers": [
-    "디티에스",
-    "비나텍",
-    "앤로보틱스",
-    "지투지바이오"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 65600,
-    "buy_pull": 61500,
-    "stop": 59100,
-    "stop_pct": -9.91,
-    "target1": 72200,
-    "target2": 78700,
-    "trail_pct": 7.0,
-    "rr": 1.02,
-    "bar_range_pct": 15.3,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 58000,
-    "high": 65500,
-    "low": 56800,
-    "close": 65000
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "079370",
-   "name": "제우스",
-   "market": "KOSDAQ",
-   "close": 12000,
-   "chg": 6.01,
-   "value_eok": 54,
-   "value_surge": 0.6,
-   "mktcap_jo": 0.37,
-   "pos_52w": 37.7,
-   "runup": 1.82,
-   "up_from_low": 82.4,
-   "uptail": 0.0,
-   "sector": null,
-   "peers": [
-    "디티에스",
-    "비나텍",
-    "앤로보틱스",
-    "지투지바이오"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 12020,
-    "buy_pull": 11470,
-    "stop": 10820,
-    "stop_pct": -9.98,
-    "target1": 13220,
-    "target2": 14420,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 14.3,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 10940,
-    "high": 12000,
-    "low": 10500,
-    "close": 12000
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "156100",
-   "name": "엘앤케이바이오",
-   "market": "KOSDAQ",
-   "close": 7100,
-   "chg": 5.34,
-   "value_eok": 21,
-   "value_surge": 1.5,
-   "mktcap_jo": 0.16,
-   "pos_52w": 32.0,
-   "runup": 2.6,
-   "up_from_low": 160.1,
-   "uptail": 5.5,
-   "sector": null,
-   "peers": [
-    "디티에스",
-    "비나텍",
-    "앤로보틱스",
-    "지투지바이오"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 7150,
-    "buy_pull": 6800,
-    "stop": 6440,
-    "stop_pct": -9.93,
-    "target1": 7870,
-    "target2": 8580,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 11.4,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 6510,
-    "high": 7140,
-    "low": 6410,
-    "close": 7100
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "084110",
-   "name": "휴온스글로벌",
-   "market": "KOSDAQ",
-   "close": 22200,
-   "chg": 5.46,
-   "value_eok": 12,
-   "value_surge": 2.0,
-   "mktcap_jo": 0.28,
-   "pos_52w": 3.7,
-   "runup": 1.1,
-   "up_from_low": 10.4,
-   "uptail": 5.4,
-   "sector": null,
-   "peers": [
-    "디티에스",
-    "비나텍",
-    "앤로보틱스",
-    "지투지바이오"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 22350,
-    "buy_pull": 21400,
-    "stop": 20200,
-    "stop_pct": -9.62,
-    "target1": 24600,
-    "target2": 26800,
-    "trail_pct": 7.0,
-    "rr": 1.05,
-    "bar_range_pct": 9.0,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 20600,
-    "high": 22300,
-    "low": 20450,
-    "close": 22200
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "489460",
-   "name": "바이오비쥬",
-   "market": "KOSDAQ",
-   "close": 12330,
-   "chg": 5.38,
-   "value_eok": 9,
-   "value_surge": 0.7,
-   "mktcap_jo": 0.18,
-   "pos_52w": 64.9,
-   "runup": 2.36,
-   "up_from_low": 45.9,
-   "uptail": 0.0,
-   "sector": null,
-   "peers": [
-    "디티에스",
-    "비나텍",
-    "앤로보틱스",
-    "지투지바이오"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 12350,
-    "buy_pull": 11840,
-    "stop": 11120,
-    "stop_pct": -9.96,
-    "target1": 13590,
-    "target2": 14820,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 11.2,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 11350,
-    "high": 12330,
-    "low": 11090,
-    "close": 12330
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "474610",
-   "name": "RF시스템즈",
-   "market": "KOSDAQ",
-   "close": 7840,
-   "chg": 8.14,
+   "close": 8160,
+   "chg": 5.43,
    "value_eok": 8,
-   "value_surge": 1.1,
-   "mktcap_jo": 0.11,
-   "pos_52w": 28.5,
-   "runup": 2.02,
-   "up_from_low": 64.5,
-   "uptail": 0.0,
+   "value_surge": 1.7,
+   "mktcap_jo": 0.15,
+   "pos_52w": 9.8,
+   "runup": 1.14,
+   "up_from_low": 14.1,
+   "uptail": 12.3,
    "sector": null,
    "peers": [
-    "디티에스",
-    "비나텍",
-    "앤로보틱스",
-    "지투지바이오"
+    "엠에스바이오",
+    "빅웨이브로보틱스",
+    "원익홀딩스",
+    "로보티즈",
+    "AP위성",
+    "루닛"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -555,49 +96,221 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 7850,
-    "buy_pull": 7540,
-    "stop": 7070,
-    "stop_pct": -9.94,
-    "target1": 8640,
-    "target2": 9420,
+    "buy_break": 8250,
+    "buy_pull": 7880,
+    "stop": 7510,
+    "stop_pct": -8.97,
+    "target1": 9080,
+    "target2": 9900,
     "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 12.5,
+    "rr": 1.12,
+    "bar_range_pct": 8.6,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 7250,
-    "high": 7840,
-    "low": 6970,
-    "close": 7840
+    "open": 7590,
+    "high": 8240,
+    "low": 7590,
+    "close": 8160
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "307870",
+   "name": "비투엔",
+   "market": "KOSDAQ",
+   "close": 1065,
+   "chg": 7.04,
+   "value_eok": 5,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.08,
+   "pos_52w": 46.5,
+   "runup": 2.04,
+   "up_from_low": 44.3,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "빅웨이브로보틱스",
+    "원익홀딩스",
+    "로보티즈",
+    "AP위성",
+    "루닛"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 1067,
+    "buy_pull": 1037,
+    "stop": 970,
+    "stop_pct": -9.09,
+    "target1": 1174,
+    "target2": 1280,
+    "trail_pct": 7.0,
+    "rr": 1.1,
+    "bar_range_pct": 8.7,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 1009,
+    "high": 1065,
+    "low": 980,
+    "close": 1065
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "155650",
+   "name": "와이엠씨",
+   "market": "KOSDAQ",
+   "close": 3625,
+   "chg": 6.46,
+   "value_eok": 2,
+   "value_surge": 1.1,
+   "mktcap_jo": 0.07,
+   "pos_52w": 43.2,
+   "runup": 1.46,
+   "up_from_low": 46.2,
+   "uptail": 1.8,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "빅웨이브로보틱스",
+    "원익홀딩스",
+    "로보티즈",
+    "AP위성",
+    "루닛"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3635,
+    "buy_pull": 3490,
+    "stop": 3320,
+    "stop_pct": -8.67,
+    "target1": 4000,
+    "target2": 4360,
+    "trail_pct": 7.0,
+    "rr": 1.16,
+    "bar_range_pct": 8.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3355,
+    "high": 3630,
+    "low": 3355,
+    "close": 3625
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "최근 60일 저점 대비 +20% 미만"
+   ],
+   "strong_in_weak": true,
+   "code": "448900",
+   "name": "한국피아이엠",
+   "market": "KOSDAQ",
+   "close": 46650,
+   "chg": 17.06,
+   "value_eok": 104,
+   "vol_man": 23,
+   "vol_vs_prev": 9.6,
+   "up_from_low": 21.3,
+   "low_recent": 38450,
+   "runup": 2.21,
+   "uptail": 29.2,
+   "mktcap_jo": 0.28,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": false,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": true,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 49050,
+    "buy_pull": 43900,
+    "stop": 44150,
+    "stop_pct": -9.99,
+    "target1": 54000,
+    "target2": 58900,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 19.7,
+    "max_buy": 46100,
+    "entry": "눌림만",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 41100,
+    "high": 49000,
+    "low": 40950,
+    "close": 46650
    }
   }
  ],
  "warnings": [
   {
-   "code": "036930",
-   "name": "주성엔지니어링",
-   "close": 179900,
-   "chg": -3.64,
-   "runup": 6.83,
-   "pos_52w": 59.6,
+   "code": "396300",
+   "name": "HT로보틱스",
+   "close": 9360,
+   "chg": 1.63,
+   "runup": 4.12,
+   "pos_52w": 75.3,
    "flags": [
-    "도지형"
+    "긴 윗꼬리"
    ]
   },
   {
-   "code": "042510",
-   "name": "라온시큐어",
-   "close": 16900,
-   "chg": -2.59,
-   "runup": 2.67,
-   "pos_52w": 65.6,
+   "code": "356680",
+   "name": "엑스게이트",
+   "close": 14840,
+   "chg": 3.92,
+   "runup": 2.43,
+   "pos_52w": 35.7,
    "flags": [
-    "갭상승 후 음봉"
+    "긴 윗꼬리"
    ]
   }
  ],
