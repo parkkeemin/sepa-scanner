@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-28 00:23:49",
- "base_date": "2026-10-26",
+ "generated_at": "2026-10-28 11:11:35",
+ "base_date": "2026-10-27",
  "stale": {
-  "weekdays_behind": 1,
+  "weekdays_behind": 0,
   "checked_until": "2026-10-27"
  },
  "fetch_log": [
@@ -12,7 +12,7 @@
   },
   {
    "date": "20261027",
-   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+   "result": "수집 1,825종목"
   },
   {
    "date": "20261026",
@@ -29,13 +29,9 @@
   {
    "date": "20261021",
    "result": "캐시에 있음"
-  },
-  {
-   "date": "20261020",
-   "result": "캐시에 있음"
   }
  ],
- "universe": 1824,
+ "universe": 1825,
  "regime": [
   {
    "market": "KOSPI",
@@ -51,11 +47,11 @@
    "market": "KOSDAQ",
    "state": "하락추세",
    "action": "지수 60일선 아래. 이 구간에서 조건을 충족한 종목은 시장보다 강한 종목입니다",
-   "falling": true,
-   "day_chg": -3.36,
-   "pos_pct": 16.4,
-   "vs_ma20": -12.02,
-   "vs_ma60": -9.73
+   "falling": false,
+   "day_chg": 2.28,
+   "pos_pct": 19.4,
+   "vs_ma20": -9.49,
+   "vs_ma60": -7.77
   }
  ],
  "track_a": [],
@@ -66,29 +62,88 @@
    "track": "A",
    "status": "near",
    "missing": [
-    "거래대금 500억 이상"
+    "양봉 실체 확보"
    ],
-   "strong_in_weak": true,
-   "code": "080160",
-   "name": "모두투어",
+   "strong_in_weak": false,
+   "code": "095340",
+   "name": "ISC",
    "market": "KOSDAQ",
-   "close": 8160,
-   "chg": 5.43,
-   "value_eok": 8,
+   "close": 151300,
+   "chg": 7.61,
+   "value_eok": 514,
    "value_surge": 1.7,
-   "mktcap_jo": 0.15,
-   "pos_52w": 9.8,
-   "runup": 1.14,
-   "up_from_low": 14.1,
-   "uptail": 12.3,
+   "mktcap_jo": 3.21,
+   "pos_52w": 36.6,
+   "runup": 2.17,
+   "up_from_low": 46.8,
+   "uptail": 23.6,
    "sector": null,
    "peers": [
     "엠에스바이오",
-    "빅웨이브로보틱스",
-    "원익홀딩스",
-    "로보티즈",
-    "AP위성",
-    "루닛"
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "고영",
+    "앤로보틱스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": false,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 155200,
+    "buy_pull": 148400,
+    "stop": 139700,
+    "stop_pct": -9.99,
+    "target1": 170700,
+    "target2": 186200,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 145400,
+    "high": 155000,
+    "low": 139300,
+    "close": 151300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "084370",
+   "name": "유진테크",
+   "market": "KOSDAQ",
+   "close": 108400,
+   "chg": 8.29,
+   "value_eok": 256,
+   "value_surge": 0.8,
+   "mktcap_jo": 2.48,
+   "pos_52w": 23.8,
+   "runup": 1.55,
+   "up_from_low": 25.9,
+   "uptail": 17.2,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -100,25 +155,25 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 8250,
-    "buy_pull": 7880,
-    "stop": 7510,
-    "stop_pct": -8.97,
-    "target1": 9080,
-    "target2": 9900,
+    "buy_break": 109700,
+    "buy_pull": 106200,
+    "stop": 102000,
+    "stop_pct": -7.02,
+    "target1": 120700,
+    "target2": 131600,
     "trail_pct": 7.0,
-    "rr": 1.12,
-    "bar_range_pct": 8.6,
+    "rr": 1.43,
+    "bar_range_pct": 6.2,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 7590,
-    "high": 8240,
-    "low": 7590,
-    "close": 8160
+    "open": 104000,
+    "high": 109500,
+    "low": 103100,
+    "close": 108400
    }
   },
   {
@@ -127,27 +182,263 @@
    "missing": [
     "거래대금 500억 이상"
    ],
-   "strong_in_weak": true,
-   "code": "307870",
-   "name": "비투엔",
+   "strong_in_weak": false,
+   "code": "200470",
+   "name": "에이팩트",
    "market": "KOSDAQ",
-   "close": 1065,
-   "chg": 7.04,
-   "value_eok": 5,
+   "close": 10050,
+   "chg": 7.26,
+   "value_eok": 179,
+   "value_surge": 1.3,
+   "mktcap_jo": 0.45,
+   "pos_52w": 67.2,
+   "runup": 2.65,
+   "up_from_low": 165.2,
+   "uptail": 17.6,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10160,
+    "buy_pull": 9890,
+    "stop": 9530,
+    "stop_pct": -6.2,
+    "target1": 11180,
+    "target2": 12190,
+    "trail_pct": 7.0,
+    "rr": 1.62,
+    "bar_range_pct": 5.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 9730,
+    "high": 10140,
+    "low": 9630,
+    "close": 10050
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "122640",
+   "name": "예스티",
+   "market": "KOSDAQ",
+   "close": 27850,
+   "chg": 8.37,
+   "value_eok": 92,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.6,
+   "pos_52w": 43.9,
+   "runup": 1.83,
+   "up_from_low": 69.8,
+   "uptail": 19.4,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 28200,
+    "buy_pull": 27300,
+    "stop": 26300,
+    "stop_pct": -6.74,
+    "target1": 31000,
+    "target2": 33850,
+    "trail_pct": 7.0,
+    "rr": 1.47,
+    "bar_range_pct": 5.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 26700,
+    "high": 28150,
+    "low": 26600,
+    "close": 27850
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "263860",
+   "name": "지니언스",
+   "market": "KOSDAQ",
+   "close": 21000,
+   "chg": 7.97,
+   "value_eok": 77,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.19,
+   "pos_52w": 64.5,
+   "runup": 1.91,
+   "up_from_low": 90.9,
+   "uptail": 12.2,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 21300,
+    "buy_pull": 20200,
+    "stop": 19170,
+    "stop_pct": -10.0,
+    "target1": 23450,
+    "target2": 25550,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 10.7,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 19350,
+    "high": 21250,
+    "low": 19200,
+    "close": 21000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "039440",
+   "name": "에스티아이",
+   "market": "KOSDAQ",
+   "close": 25350,
+   "chg": 7.42,
+   "value_eok": 57,
    "value_surge": 0.7,
-   "mktcap_jo": 0.08,
-   "pos_52w": 46.5,
-   "runup": 2.04,
-   "up_from_low": 44.3,
+   "mktcap_jo": 0.39,
+   "pos_52w": 31.0,
+   "runup": 1.46,
+   "up_from_low": 46.4,
+   "uptail": 23.3,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 25750,
+    "buy_pull": 24800,
+    "stop": 23950,
+    "stop_pct": -6.99,
+    "target1": 28350,
+    "target2": 30900,
+    "trail_pct": 7.0,
+    "rr": 1.44,
+    "bar_range_pct": 6.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 24300,
+    "high": 25700,
+    "low": 24200,
+    "close": 25350
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "158430",
+   "name": "아톤",
+   "market": "KOSDAQ",
+   "close": 5210,
+   "chg": 5.15,
+   "value_eok": 53,
+   "value_surge": 0.3,
+   "mktcap_jo": 0.13,
+   "pos_52w": 23.7,
+   "runup": 1.58,
+   "up_from_low": 57.9,
    "uptail": 0.0,
    "sector": null,
    "peers": [
     "엠에스바이오",
-    "빅웨이브로보틱스",
-    "원익홀딩스",
-    "로보티즈",
-    "AP위성",
-    "루닛"
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -159,25 +450,25 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 1067,
-    "buy_pull": 1037,
-    "stop": 970,
-    "stop_pct": -9.09,
-    "target1": 1174,
-    "target2": 1280,
+    "buy_break": 5220,
+    "buy_pull": 5100,
+    "stop": 4930,
+    "stop_pct": -5.56,
+    "target1": 5740,
+    "target2": 6260,
     "trail_pct": 7.0,
-    "rr": 1.1,
-    "bar_range_pct": 8.7,
+    "rr": 1.79,
+    "bar_range_pct": 4.6,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 1009,
-    "high": 1065,
-    "low": 980,
-    "close": 1065
+    "open": 4995,
+    "high": 5210,
+    "low": 4980,
+    "close": 5210
    }
   },
   {
@@ -186,27 +477,27 @@
    "missing": [
     "거래대금 500억 이상"
    ],
-   "strong_in_weak": true,
-   "code": "155650",
-   "name": "와이엠씨",
+   "strong_in_weak": false,
+   "code": "083450",
+   "name": "GST",
    "market": "KOSDAQ",
-   "close": 3625,
-   "chg": 6.46,
-   "value_eok": 2,
-   "value_surge": 1.1,
-   "mktcap_jo": 0.07,
-   "pos_52w": 43.2,
-   "runup": 1.46,
-   "up_from_low": 46.2,
-   "uptail": 1.8,
+   "close": 43400,
+   "chg": 7.03,
+   "value_eok": 52,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.8,
+   "pos_52w": 42.9,
+   "runup": 1.9,
+   "up_from_low": 31.3,
+   "uptail": 32.2,
    "sector": null,
    "peers": [
     "엠에스바이오",
-    "빅웨이브로보틱스",
-    "원익홀딩스",
-    "로보티즈",
-    "AP위성",
-    "루닛"
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -218,53 +509,2000 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 3635,
-    "buy_pull": 3490,
-    "stop": 3320,
-    "stop_pct": -8.67,
-    "target1": 4000,
-    "target2": 4360,
+    "buy_break": 44400,
+    "buy_pull": 42400,
+    "stop": 40950,
+    "stop_pct": -7.77,
+    "target1": 48850,
+    "target2": 53300,
     "trail_pct": 7.0,
-    "rr": 1.16,
-    "bar_range_pct": 8.2,
+    "rr": 1.29,
+    "bar_range_pct": 7.1,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 3355,
-    "high": 3630,
-    "low": 3355,
-    "close": 3625
+    "open": 41400,
+    "high": 44350,
+    "low": 41400,
+    "close": 43400
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "332570",
+   "name": "PS일렉트로닉스",
+   "market": "KOSDAQ",
+   "close": 6700,
+   "chg": 5.85,
+   "value_eok": 38,
+   "value_surge": 0.4,
+   "mktcap_jo": 0.31,
+   "pos_52w": 24.1,
+   "runup": 1.65,
+   "up_from_low": 8.1,
+   "uptail": 24.4,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6810,
+    "buy_pull": 6540,
+    "stop": 6320,
+    "stop_pct": -7.2,
+    "target1": 7490,
+    "target2": 8170,
+    "trail_pct": 7.0,
+    "rr": 1.39,
+    "bar_range_pct": 6.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 6390,
+    "high": 6800,
+    "low": 6390,
+    "close": 6700
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "488280",
+   "name": "에스투더블유",
+   "market": "KOSDAQ",
+   "close": 10890,
+   "chg": 7.61,
+   "value_eok": 29,
+   "value_surge": 0.2,
+   "mktcap_jo": 0.12,
+   "pos_52w": 9.5,
+   "runup": 1.36,
+   "up_from_low": 36.0,
+   "uptail": 9.8,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10990,
+    "buy_pull": 10520,
+    "stop": 10040,
+    "stop_pct": -8.64,
+    "target1": 12090,
+    "target2": 13190,
+    "trail_pct": 7.0,
+    "rr": 1.16,
+    "bar_range_pct": 8.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 10150,
+    "high": 10970,
+    "low": 10150,
+    "close": 10890
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "102710",
+   "name": "이엔에프테크놀로지",
+   "market": "KOSDAQ",
+   "close": 42150,
+   "chg": 7.8,
+   "value_eok": 28,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.6,
+   "pos_52w": 27.9,
+   "runup": 1.27,
+   "up_from_low": 26.6,
+   "uptail": 32.7,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 43050,
+    "buy_pull": 41300,
+    "stop": 39950,
+    "stop_pct": -7.2,
+    "target1": 47350,
+    "target2": 51700,
+    "trail_pct": 7.0,
+    "rr": 1.39,
+    "bar_range_pct": 6.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 40400,
+    "high": 43000,
+    "low": 40400,
+    "close": 42150
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "243840",
+   "name": "신흥에스이씨",
+   "market": "KOSDAQ",
+   "close": 6010,
+   "chg": 8.29,
+   "value_eok": 28,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.23,
+   "pos_52w": 29.2,
+   "runup": 1.75,
+   "up_from_low": 75.5,
+   "uptail": 25.0,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6140,
+    "buy_pull": 5830,
+    "stop": 5590,
+    "stop_pct": -8.96,
+    "target1": 6750,
+    "target2": 7370,
+    "trail_pct": 7.0,
+    "rr": 1.11,
+    "bar_range_pct": 8.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 5650,
+    "high": 6130,
+    "low": 5650,
+    "close": 6010
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "023160",
+   "name": "태광",
+   "market": "KOSDAQ",
+   "close": 25950,
+   "chg": 5.49,
+   "value_eok": 27,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.66,
+   "pos_52w": 20.5,
+   "runup": 1.34,
+   "up_from_low": 33.6,
+   "uptail": 29.0,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 26450,
+    "buy_pull": 25400,
+    "stop": 24600,
+    "stop_pct": -6.99,
+    "target1": 29100,
+    "target2": 31750,
+    "trail_pct": 7.0,
+    "rr": 1.43,
+    "bar_range_pct": 6.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 24850,
+    "high": 26400,
+    "low": 24850,
+    "close": 25950
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "104830",
+   "name": "원익머트리얼즈",
+   "market": "KOSDAQ",
+   "close": 35450,
+   "chg": 7.42,
+   "value_eok": 26,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.45,
+   "pos_52w": 32.5,
+   "runup": 1.39,
+   "up_from_low": 39.0,
+   "uptail": 31.7,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 36150,
+    "buy_pull": 34800,
+    "stop": 33700,
+    "stop_pct": -6.78,
+    "target1": 39750,
+    "target2": 43400,
+    "trail_pct": 7.0,
+    "rr": 1.47,
+    "bar_range_pct": 6.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 34100,
+    "high": 36100,
+    "low": 34050,
+    "close": 35450
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "265740",
+   "name": "엔에프씨",
+   "market": "KOSDAQ",
+   "close": 6810,
+   "chg": 6.74,
+   "value_eok": 20,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.12,
+   "pos_52w": 47.9,
+   "runup": 1.69,
+   "up_from_low": 46.8,
+   "uptail": 12.3,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6890,
+    "buy_pull": 6610,
+    "stop": 6240,
+    "stop_pct": -9.43,
+    "target1": 7580,
+    "target2": 8270,
+    "trail_pct": 7.0,
+    "rr": 1.06,
+    "bar_range_pct": 9.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 6410,
+    "high": 6880,
+    "low": 6310,
+    "close": 6810
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "272110",
+   "name": "케이엔제이",
+   "market": "KOSDAQ",
+   "close": 26000,
+   "chg": 9.7,
+   "value_eok": 20,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.21,
+   "pos_52w": 26.4,
+   "runup": 1.35,
+   "up_from_low": 34.6,
+   "uptail": 20.9,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 26500,
+    "buy_pull": 25150,
+    "stop": 24050,
+    "stop_pct": -9.25,
+    "target1": 29150,
+    "target2": 31800,
+    "trail_pct": 7.0,
+    "rr": 1.08,
+    "bar_range_pct": 8.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 24300,
+    "high": 26450,
+    "low": 24300,
+    "close": 26000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "405100",
+   "name": "큐알티",
+   "market": "KOSDAQ",
+   "close": 17280,
+   "chg": 5.37,
+   "value_eok": 17,
+   "value_surge": 1.2,
+   "mktcap_jo": 0.21,
+   "pos_52w": 57.1,
+   "runup": 2.14,
+   "up_from_low": 114.4,
+   "uptail": 27.7,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 17580,
+    "buy_pull": 16920,
+    "stop": 16380,
+    "stop_pct": -6.83,
+    "target1": 19340,
+    "target2": 21100,
+    "trail_pct": 7.0,
+    "rr": 1.47,
+    "bar_range_pct": 6.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 16550,
+    "high": 17560,
+    "low": 16550,
+    "close": 17280
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "129920",
+   "name": "대성하이텍",
+   "market": "KOSDAQ",
+   "close": 6780,
+   "chg": 6.44,
+   "value_eok": 16,
+   "value_surge": 1.2,
+   "mktcap_jo": 0.11,
+   "pos_52w": 28.7,
+   "runup": 2.04,
+   "up_from_low": 98.5,
+   "uptail": 30.9,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 7000,
+    "buy_pull": 6580,
+    "stop": 6300,
+    "stop_pct": -10.0,
+    "target1": 7700,
+    "target2": 8400,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 6370,
+    "high": 6990,
+    "low": 6310,
+    "close": 6780
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "036200",
+   "name": "유니셈",
+   "market": "KOSDAQ",
+   "close": 8900,
+   "chg": 5.95,
+   "value_eok": 15,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.27,
+   "pos_52w": 34.6,
+   "runup": 1.48,
+   "up_from_low": 48.3,
+   "uptail": 30.4,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 9050,
+    "buy_pull": 8740,
+    "stop": 8490,
+    "stop_pct": -6.19,
+    "target1": 9960,
+    "target2": 10860,
+    "trail_pct": 7.0,
+    "rr": 1.62,
+    "bar_range_pct": 5.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8580,
+    "high": 9040,
+    "low": 8580,
+    "close": 8900
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "080160",
+   "name": "모두투어",
+   "market": "KOSDAQ",
+   "close": 8570,
+   "chg": 5.02,
+   "value_eok": 15,
+   "value_surge": 3.0,
+   "mktcap_jo": 0.16,
+   "pos_52w": 13.7,
+   "runup": 1.2,
+   "up_from_low": 19.9,
+   "uptail": 8.0,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8620,
+    "buy_pull": 8340,
+    "stop": 8020,
+    "stop_pct": -6.96,
+    "target1": 9480,
+    "target2": 10340,
+    "trail_pct": 7.0,
+    "rr": 1.43,
+    "bar_range_pct": 6.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8110,
+    "high": 8610,
+    "low": 8110,
+    "close": 8570
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "494120",
+   "name": "큐리오시스",
+   "market": "KOSDAQ",
+   "close": 8710,
+   "chg": 6.35,
+   "value_eok": 11,
+   "value_surge": 1.2,
+   "mktcap_jo": 0.13,
+   "pos_52w": 2.0,
+   "runup": 1.26,
+   "up_from_low": 26.2,
+   "uptail": 9.1,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8780,
+    "buy_pull": 8510,
+    "stop": 8020,
+    "stop_pct": -8.66,
+    "target1": 9660,
+    "target2": 10540,
+    "trail_pct": 7.0,
+    "rr": 1.16,
+    "bar_range_pct": 8.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8310,
+    "high": 8770,
+    "low": 8110,
+    "close": 8710
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "0017J0",
+   "name": "세미티에스",
+   "market": "KOSDAQ",
+   "close": 2805,
+   "chg": 7.68,
+   "value_eok": 10,
+   "value_surge": 0.3,
+   "mktcap_jo": 0.08,
+   "pos_52w": 8.8,
+   "runup": 1.24,
+   "up_from_low": 24.1,
+   "uptail": 19.0,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 2850,
+    "buy_pull": 2720,
+    "stop": 2605,
+    "stop_pct": -8.6,
+    "target1": 3135,
+    "target2": 3420,
+    "trail_pct": 7.0,
+    "rr": 1.16,
+    "bar_range_pct": 8.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2635,
+    "high": 2845,
+    "low": 2635,
+    "close": 2805
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "168360",
+   "name": "펨트론",
+   "market": "KOSDAQ",
+   "close": 9720,
+   "chg": 7.4,
+   "value_eok": 10,
+   "value_surge": 0.4,
+   "mktcap_jo": 0.22,
+   "pos_52w": 4.0,
+   "runup": 1.12,
+   "up_from_low": 12.1,
+   "uptail": 26.6,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 9900,
+    "buy_pull": 9480,
+    "stop": 9150,
+    "stop_pct": -7.58,
+    "target1": 10890,
+    "target2": 11880,
+    "trail_pct": 7.0,
+    "rr": 1.32,
+    "bar_range_pct": 6.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 9250,
+    "high": 9890,
+    "low": 9250,
+    "close": 9720
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "187870",
+   "name": "디바이스",
+   "market": "KOSDAQ",
+   "close": 10540,
+   "chg": 5.61,
+   "value_eok": 9,
+   "value_surge": 0.3,
+   "mktcap_jo": 0.15,
+   "pos_52w": 6.7,
+   "runup": 1.26,
+   "up_from_low": 25.9,
+   "uptail": 28.6,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10720,
+    "buy_pull": 10340,
+    "stop": 10030,
+    "stop_pct": -6.44,
+    "target1": 11790,
+    "target2": 12860,
+    "trail_pct": 7.0,
+    "rr": 1.55,
+    "bar_range_pct": 5.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 10140,
+    "high": 10700,
+    "low": 10140,
+    "close": 10540
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "084110",
+   "name": "휴온스글로벌",
+   "market": "KOSDAQ",
+   "close": 21950,
+   "chg": 6.55,
+   "value_eok": 8,
+   "value_surge": 1.3,
+   "mktcap_jo": 0.28,
+   "pos_52w": 3.3,
+   "runup": 1.09,
+   "up_from_low": 9.2,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 22000,
+    "buy_pull": 21300,
+    "stop": 20400,
+    "stop_pct": -7.27,
+    "target1": 24200,
+    "target2": 26400,
+    "trail_pct": 7.0,
+    "rr": 1.38,
+    "bar_range_pct": 6.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 20650,
+    "high": 21950,
+    "low": 20650,
+    "close": 21950
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "396470",
+   "name": "워트",
+   "market": "KOSDAQ",
+   "close": 6040,
+   "chg": 8.05,
+   "value_eok": 7,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.1,
+   "pos_52w": 28.0,
+   "runup": 1.46,
+   "up_from_low": 46.4,
+   "uptail": 27.8,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6200,
+    "buy_pull": 5840,
+    "stop": 5590,
+    "stop_pct": -9.84,
+    "target1": 6820,
+    "target2": 7440,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 9.6,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 5650,
+    "high": 6190,
+    "low": 5650,
+    "close": 6040
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "051160",
+   "name": "지어소프트",
+   "market": "KOSDAQ",
+   "close": 13110,
+   "chg": 7.28,
+   "value_eok": 6,
+   "value_surge": 0.3,
+   "mktcap_jo": 0.18,
+   "pos_52w": 73.3,
+   "runup": 2.09,
+   "up_from_low": 79.6,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 13130,
+    "buy_pull": 12690,
+    "stop": 12140,
+    "stop_pct": -7.54,
+    "target1": 14440,
+    "target2": 15760,
+    "trail_pct": 7.0,
+    "rr": 1.32,
+    "bar_range_pct": 6.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 12270,
+    "high": 13110,
+    "low": 12270,
+    "close": 13110
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "241770",
+   "name": "메카로",
+   "market": "KOSDAQ",
+   "close": 33400,
+   "chg": 6.54,
+   "value_eok": 6,
+   "value_surge": 1.0,
+   "mktcap_jo": 0.34,
+   "pos_52w": 47.9,
+   "runup": 1.67,
+   "up_from_low": 17.8,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 33450,
+    "buy_pull": 32350,
+    "stop": 30500,
+    "stop_pct": -8.82,
+    "target1": 36800,
+    "target2": 40150,
+    "trail_pct": 7.0,
+    "rr": 1.14,
+    "bar_range_pct": 8.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 31300,
+    "high": 33400,
+    "low": 30850,
+    "close": 33400
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "473980",
+   "name": "노머스",
+   "market": "KOSDAQ",
+   "close": 10760,
+   "chg": 8.36,
+   "value_eok": 6,
+   "value_surge": 1.0,
+   "mktcap_jo": 0.12,
+   "pos_52w": 8.8,
+   "runup": 1.23,
+   "up_from_low": 23.1,
+   "uptail": 29.9,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 11070,
+    "buy_pull": 10420,
+    "stop": 9970,
+    "stop_pct": -9.94,
+    "target1": 12180,
+    "target2": 13280,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 9.6,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 10080,
+    "high": 11050,
+    "low": 10080,
+    "close": 10760
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "083500",
+   "name": "에프엔에스테크",
+   "market": "KOSDAQ",
+   "close": 12800,
+   "chg": 7.29,
+   "value_eok": 5,
+   "value_surge": 0.3,
+   "mktcap_jo": 0.11,
+   "pos_52w": 22.3,
+   "runup": 1.34,
+   "up_from_low": 34.0,
+   "uptail": 8.1,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 12890,
+    "buy_pull": 12520,
+    "stop": 11880,
+    "stop_pct": -7.84,
+    "target1": 14180,
+    "target2": 15470,
+    "trail_pct": 7.0,
+    "rr": 1.28,
+    "bar_range_pct": 7.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 12230,
+    "high": 12870,
+    "low": 12010,
+    "close": 12800
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "093520",
+   "name": "매커스",
+   "market": "KOSDAQ",
+   "close": 26200,
+   "chg": 6.94,
+   "value_eok": 5,
+   "value_surge": 1.1,
+   "mktcap_jo": 0.31,
+   "pos_52w": 57.1,
+   "runup": 1.64,
+   "up_from_low": 56.8,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 26250,
+    "buy_pull": 25450,
+    "stop": 24450,
+    "stop_pct": -6.86,
+    "target1": 28900,
+    "target2": 31500,
+    "trail_pct": 7.0,
+    "rr": 1.47,
+    "bar_range_pct": 6.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 24700,
+    "high": 26200,
+    "low": 24700,
+    "close": 26200
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "101330",
+   "name": "모베이스",
+   "market": "KOSDAQ",
+   "close": 3635,
+   "chg": 5.52,
+   "value_eok": 4,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.08,
+   "pos_52w": 12.6,
+   "runup": 1.28,
+   "up_from_low": 28.0,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3640,
+    "buy_pull": 3550,
+    "stop": 3415,
+    "stop_pct": -6.18,
+    "target1": 4005,
+    "target2": 4370,
+    "trail_pct": 7.0,
+    "rr": 1.62,
+    "bar_range_pct": 5.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3470,
+    "high": 3635,
+    "low": 3450,
+    "close": 3635
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "362320",
+   "name": "청담글로벌",
+   "market": "KOSDAQ",
+   "close": 4850,
+   "chg": 6.83,
+   "value_eok": 4,
+   "value_surge": 1.4,
+   "mktcap_jo": 0.1,
+   "pos_52w": 27.1,
+   "runup": 1.47,
+   "up_from_low": 20.0,
+   "uptail": 2.9,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 4865,
+    "buy_pull": 4680,
+    "stop": 4460,
+    "stop_pct": -8.32,
+    "target1": 5350,
+    "target2": 5840,
+    "trail_pct": 7.0,
+    "rr": 1.2,
+    "bar_range_pct": 7.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 4510,
+    "high": 4860,
+    "low": 4510,
+    "close": 4850
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "417500",
+   "name": "제이아이테크",
+   "market": "KOSDAQ",
+   "close": 3975,
+   "chg": 5.72,
+   "value_eok": 3,
+   "value_surge": 0.2,
+   "mktcap_jo": 0.13,
+   "pos_52w": 40.6,
+   "runup": 1.6,
+   "up_from_low": 60.3,
+   "uptail": 8.8,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3995,
+    "buy_pull": 3900,
+    "stop": 3780,
+    "stop_pct": -5.38,
+    "target1": 4395,
+    "target2": 4795,
+    "trail_pct": 7.0,
+    "rr": 1.86,
+    "bar_range_pct": 4.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3820,
+    "high": 3990,
+    "low": 3820,
+    "close": 3975
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "172670",
+   "name": "에이엘티",
+   "market": "KOSDAQ",
+   "close": 10560,
+   "chg": 5.28,
+   "value_eok": 2,
+   "value_surge": 0.2,
+   "mktcap_jo": 0.09,
+   "pos_52w": 25.2,
+   "runup": 1.52,
+   "up_from_low": 51.5,
+   "uptail": 30.7,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10810,
+    "buy_pull": 10300,
+    "stop": 9930,
+    "stop_pct": -8.14,
+    "target1": 11890,
+    "target2": 12970,
+    "trail_pct": 7.0,
+    "rr": 1.23,
+    "bar_range_pct": 7.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 10040,
+    "high": 10790,
+    "low": 10040,
+    "close": 10560
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "251120",
+   "name": "바이오에프디엔씨",
+   "market": "KOSDAQ",
+   "close": 9250,
+   "chg": 5.35,
+   "value_eok": 2,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.08,
+   "pos_52w": 25.6,
+   "runup": 1.46,
+   "up_from_low": 46.1,
+   "uptail": 17.4,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 9340,
+    "buy_pull": 9060,
+    "stop": 8780,
+    "stop_pct": -6.0,
+    "target1": 10270,
+    "target2": 11210,
+    "trail_pct": 7.0,
+    "rr": 1.66,
+    "bar_range_pct": 5.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8870,
+    "high": 9330,
+    "low": 8870,
+    "close": 9250
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "023600",
+   "name": "삼보판지",
+   "market": "KOSDAQ",
+   "close": 8590,
+   "chg": 5.01,
+   "value_eok": 1,
+   "value_surge": 1.4,
+   "mktcap_jo": 0.14,
+   "pos_52w": 25.6,
+   "runup": 1.11,
+   "up_from_low": 11.4,
+   "uptail": 3.1,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8610,
+    "buy_pull": 8440,
+    "stop": 8190,
+    "stop_pct": -4.88,
+    "target1": 9470,
+    "target2": 10330,
+    "trail_pct": 7.0,
+    "rr": 2.05,
+    "bar_range_pct": 3.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8290,
+    "high": 8600,
+    "low": 8280,
+    "close": 8590
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "065530",
+   "name": "와이어블",
+   "market": "KOSDAQ",
+   "close": 1337,
+   "chg": 5.78,
+   "value_eok": 1,
+   "value_surge": 0.1,
+   "mktcap_jo": 0.06,
+   "pos_52w": 14.5,
+   "runup": 1.33,
+   "up_from_low": 28.6,
+   "uptail": 15.2,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 1349,
+    "buy_pull": 1316,
+    "stop": 1268,
+    "stop_pct": -6.0,
+    "target1": 1484,
+    "target2": 1619,
+    "trail_pct": 7.0,
+    "rr": 1.67,
+    "bar_range_pct": 5.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 1295,
+    "high": 1347,
+    "low": 1281,
+    "close": 1337
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "101970",
+   "name": "우양에이치씨",
+   "market": "KOSDAQ",
+   "close": 8730,
+   "chg": 6.33,
+   "value_eok": 1,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.13,
+   "pos_52w": 8.8,
+   "runup": 1.1,
+   "up_from_low": 6.3,
+   "uptail": 18.8,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8860,
+    "buy_pull": 8470,
+    "stop": 8120,
+    "stop_pct": -8.35,
+    "target1": 9750,
+    "target2": 10630,
+    "trail_pct": 7.0,
+    "rr": 1.2,
+    "bar_range_pct": 7.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8210,
+    "high": 8850,
+    "low": 8210,
+    "close": 8730
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "357550",
+   "name": "석경에이티",
+   "market": "KOSDAQ",
+   "close": 28300,
+   "chg": 5.2,
+   "value_eok": 1,
+   "value_surge": 1.0,
+   "mktcap_jo": 0.15,
+   "pos_52w": 3.7,
+   "runup": 1.07,
+   "up_from_low": 6.8,
+   "uptail": 32.5,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 29000,
+    "buy_pull": 27600,
+    "stop": 26650,
+    "stop_pct": -8.1,
+    "target1": 31900,
+    "target2": 34800,
+    "trail_pct": 7.0,
+    "rr": 1.23,
+    "bar_range_pct": 7.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 26950,
+    "high": 28950,
+    "low": 26950,
+    "close": 28300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "348150",
+   "name": "고바이오랩",
+   "market": "KOSDAQ",
+   "close": 2750,
+   "chg": 5.16,
+   "value_eok": 0,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.05,
+   "pos_52w": 6.9,
+   "runup": 1.19,
+   "up_from_low": 19.0,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "엠에스바이오",
+    "엘리스",
+    "JYP Ent.",
+    "에코프로",
+    "ISC",
+    "고영"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 2755,
+    "buy_pull": 2675,
+    "stop": 2570,
+    "stop_pct": -6.72,
+    "target1": 3030,
+    "target2": 3305,
+    "trail_pct": 7.0,
+    "rr": 1.49,
+    "bar_range_pct": 5.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2600,
+    "high": 2750,
+    "low": 2600,
+    "close": 2750
    }
   },
   {
    "track": "C",
    "status": "near",
    "missing": [
-    "최근 60일 저점 대비 +20% 미만"
+    "장대양봉 +5%↑"
    ],
-   "strong_in_weak": true,
-   "code": "448900",
-   "name": "한국피아이엠",
+   "strong_in_weak": false,
+   "code": "237690",
+   "name": "에스티팜",
    "market": "KOSDAQ",
-   "close": 46650,
-   "chg": 17.06,
-   "value_eok": 104,
-   "vol_man": 23,
-   "vol_vs_prev": 9.6,
-   "up_from_low": 21.3,
-   "low_recent": 38450,
-   "runup": 2.21,
-   "uptail": 29.2,
-   "mktcap_jo": 0.28,
+   "close": 80400,
+   "chg": -9.15,
+   "value_eok": 214,
+   "vol_man": 26,
+   "vol_vs_prev": 5.8,
+   "up_from_low": 5.0,
+   "low_recent": 76600,
+   "runup": 1.05,
+   "uptail": 6.8,
+   "mktcap_jo": 1.68,
    "sector": null,
    "peers": [],
    "sector_confirmed": null,
    "checks": {
-    "최근 60일 저점 대비 +20% 미만": false,
-    "장대양봉 +5%↑": true,
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": false,
     "양봉 실체 확보 (도지 배제)": true,
     "긴 윗꼬리 없음": true,
     "전일 대비 거래량 300%↑": true,
@@ -272,49 +2510,127 @@
     "1년 저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 49050,
-    "buy_pull": 43900,
-    "stop": 44150,
-    "stop_pct": -9.99,
-    "target1": 54000,
-    "target2": 58900,
+    "buy_break": 90000,
+    "buy_pull": 84700,
+    "stop": 81000,
+    "stop_pct": -10.0,
+    "target1": 99000,
+    "target2": 108000,
     "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 19.7,
-    "max_buy": 46100,
-    "entry": "눌림만",
+    "rr": 1.0,
+    "bar_range_pct": 17.4,
+    "max_buy": 91900,
+    "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 41100,
-    "high": 49000,
-    "low": 40950,
-    "close": 46650
+    "open": 89000,
+    "high": 89900,
+    "low": 76600,
+    "close": 80400
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "전일 대비 거래량 300%↑"
+   ],
+   "strong_in_weak": false,
+   "code": "089970",
+   "name": "브이엠",
+   "market": "KOSDAQ",
+   "close": 43200,
+   "chg": 11.34,
+   "value_eok": 276,
+   "vol_man": 64,
+   "vol_vs_prev": 2.5,
+   "up_from_low": 11.6,
+   "low_recent": 38700,
+   "runup": 2.04,
+   "uptail": 20.8,
+   "mktcap_jo": 1.15,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": false,
+    "거래대금 50억 이상": true,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 44050,
+    "buy_pull": 41850,
+    "stop": 39700,
+    "stop_pct": -9.88,
+    "target1": 48450,
+    "target2": 52900,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 9.6,
+    "max_buy": 46400,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 40500,
+    "high": 44000,
+    "low": 40150,
+    "close": 43200
    }
   }
  ],
  "warnings": [
   {
-   "code": "396300",
-   "name": "HT로보틱스",
-   "close": 9360,
-   "chg": 1.63,
-   "runup": 4.12,
-   "pos_52w": 75.3,
+   "code": "010170",
+   "name": "대한광통신",
+   "close": 13700,
+   "chg": 2.39,
+   "runup": 8.35,
+   "pos_52w": 40.4,
+   "flags": [
+    "긴 윗꼬리",
+    "갭상승 후 음봉"
+   ]
+  },
+  {
+   "code": "036930",
+   "name": "주성엔지니어링",
+   "close": 174800,
+   "chg": 4.3,
+   "runup": 6.63,
+   "pos_52w": 57.6,
+   "flags": [
+    "긴 윗꼬리",
+    "도지형"
+   ]
+  },
+  {
+   "code": "222800",
+   "name": "심텍",
+   "close": 117200,
+   "chg": 9.23,
+   "runup": 2.76,
+   "pos_52w": 53.3,
    "flags": [
     "긴 윗꼬리"
    ]
   },
   {
-   "code": "356680",
-   "name": "엑스게이트",
-   "close": 14840,
-   "chg": 3.92,
-   "runup": 2.43,
-   "pos_52w": 35.7,
+   "code": "327260",
+   "name": "RF머트리얼즈",
+   "close": 34750,
+   "chg": -4.79,
+   "runup": 2.28,
+   "pos_52w": 17.5,
    "flags": [
-    "긴 윗꼬리"
+    "갭상승 후 음봉"
    ]
   }
  ],
