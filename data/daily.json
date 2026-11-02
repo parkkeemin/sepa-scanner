@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-31 00:58:08",
- "base_date": "2026-10-29",
+ "generated_at": "2026-11-02 11:28:20",
+ "base_date": "2026-10-30",
  "stale": {
-  "weekdays_behind": 1,
-  "checked_until": "2026-10-30"
+  "weekdays_behind": 0,
+  "checked_until": "2026-11-01"
  },
  "fetch_log": [
   {
-   "date": "20261030",
+   "date": "20261102",
    "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+  },
+  {
+   "date": "20261030",
+   "result": "수집 1,828종목"
   },
   {
    "date": "20261029",
@@ -25,13 +29,9 @@
   {
    "date": "20261026",
    "result": "캐시에 있음"
-  },
-  {
-   "date": "20261023",
-   "result": "캐시에 있음"
   }
  ],
- "universe": 1825,
+ "universe": 1828,
  "regime": [
   {
    "market": "KOSPI",
@@ -48,10 +48,10 @@
    "state": "하락추세",
    "action": "지수 60일선 아래. 이 구간에서 조건을 충족한 종목은 시장보다 강한 종목입니다",
    "falling": true,
-   "day_chg": -2.3,
-   "pos_pct": 21.0,
-   "vs_ma20": -7.44,
-   "vs_ma60": -7.06
+   "day_chg": -3.7,
+   "pos_pct": 16.1,
+   "vs_ma20": -10.16,
+   "vs_ma60": -10.53
   }
  ],
  "track_a": [],
@@ -62,59 +62,116 @@
    "track": "A",
    "status": "near",
    "missing": [
-    "거래대금 500억 이상"
+    "등락률 +5~+10% 장대양봉"
    ],
    "strong_in_weak": true,
-   "code": "049430",
-   "name": "코메론",
+   "code": "053800",
+   "name": "안랩",
    "market": "KOSDAQ",
-   "close": 20600,
-   "chg": 6.4,
-   "value_eok": 9,
-   "value_surge": 1.8,
-   "mktcap_jo": 0.16,
-   "pos_52w": 76.5,
-   "runup": 2.02,
-   "up_from_low": 9.5,
-   "uptail": 0.0,
+   "close": 118100,
+   "chg": 17.98,
+   "value_eok": 1543,
+   "value_surge": 5.2,
+   "mktcap_jo": 1.31,
+   "pos_52w": 98.1,
+   "runup": 2.32,
+   "up_from_low": 124.1,
+   "uptail": 7.5,
    "sector": null,
    "peers": [
-    "액스비스",
-    "티앤이코리아",
-    "양지사",
-    "서산",
-    "RF머트리얼즈",
-    "컨텍"
+    "원익홀딩스",
+    "라온시큐어",
+    "라온로보틱스",
+    "지니언스",
+    "인텔리빅스"
    ],
    "sector_confirmed": true,
    "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
     "양봉 실체 확보": true,
     "긴 윗꼬리 없음": true,
     "시총 10조 이하": true,
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 20650,
-    "buy_pull": 20000,
-    "stop": 19190,
-    "stop_pct": -7.07,
-    "target1": 22700,
-    "target2": 24800,
+    "buy_break": 119500,
+    "buy_pull": 111600,
+    "stop": 107600,
+    "stop_pct": -9.96,
+    "target1": 131400,
+    "target2": 143400,
     "trail_pct": 7.0,
-    "rr": 1.4,
-    "bar_range_pct": 6.2,
+    "rr": 1.0,
+    "bar_range_pct": 15.4,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 19440,
-    "high": 20600,
-    "low": 19390,
-    "close": 20600
+    "open": 105100,
+    "high": 119300,
+    "low": 103400,
+    "close": 118100
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "저점 대비 3배 미만"
+   ],
+   "strong_in_weak": true,
+   "code": "030530",
+   "name": "원익홀딩스",
+   "market": "KOSDAQ",
+   "close": 29500,
+   "chg": 5.17,
+   "value_eok": 1464,
+   "value_surge": 4.0,
+   "mktcap_jo": 2.28,
+   "pos_52w": 58.3,
+   "runup": null,
+   "up_from_low": 98.7,
+   "uptail": 32.7,
+   "sector": null,
+   "peers": [
+    "라온시큐어",
+    "안랩",
+    "라온로보틱스",
+    "지니언스",
+    "인텔리빅스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": false
+   },
+   "plan": {
+    "buy_break": 30450,
+    "buy_pull": 28700,
+    "stop": 27450,
+    "stop_pct": -9.85,
+    "target1": 33500,
+    "target2": 36550,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 9.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 27850,
+    "high": 30400,
+    "low": 27650,
+    "close": 29500
    }
   },
   {
@@ -124,26 +181,26 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": true,
-   "code": "050960",
-   "name": "수산아이앤티",
+   "code": "456010",
+   "name": "아이씨티케이",
    "market": "KOSDAQ",
-   "close": 8650,
-   "chg": 8.4,
-   "value_eok": 0,
+   "close": 19990,
+   "chg": 5.71,
+   "value_eok": 188,
    "value_surge": 1.3,
-   "mktcap_jo": 0.06,
-   "pos_52w": 47.6,
-   "runup": 1.26,
-   "up_from_low": 13.2,
-   "uptail": 0.0,
+   "mktcap_jo": 0.29,
+   "pos_52w": 31.1,
+   "runup": 1.82,
+   "up_from_low": 58.5,
+   "uptail": 18.0,
    "sector": null,
    "peers": [
-    "액스비스",
-    "티앤이코리아",
-    "양지사",
-    "서산",
-    "RF머트리얼즈",
-    "컨텍"
+    "원익홀딩스",
+    "라온시큐어",
+    "안랩",
+    "라온로보틱스",
+    "지니언스",
+    "인텔리빅스"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -155,94 +212,230 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 8660,
-    "buy_pull": 8320,
-    "stop": 7800,
-    "stop_pct": -9.93,
-    "target1": 9530,
-    "target2": 10390,
+    "buy_break": 20350,
+    "buy_pull": 19540,
+    "stop": 18390,
+    "stop_pct": -9.63,
+    "target1": 22400,
+    "target2": 24400,
     "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 13.2,
+    "rr": 1.05,
+    "bar_range_pct": 9.3,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 7980,
-    "high": 8650,
-    "low": 7640,
-    "close": 8650
+    "open": 19080,
+    "high": 20300,
+    "low": 18580,
+    "close": 19990
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "293490",
+   "name": "카카오게임즈",
+   "market": "KOSDAQ",
+   "close": 11880,
+   "chg": 5.98,
+   "value_eok": 100,
+   "value_surge": 1.4,
+   "mktcap_jo": 1.27,
+   "pos_52w": 43.7,
+   "runup": 1.75,
+   "up_from_low": 55.7,
+   "uptail": 25.6,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "라온시큐어",
+    "안랩",
+    "라온로보틱스",
+    "지니언스",
+    "인텔리빅스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 12130,
+    "buy_pull": 11560,
+    "stop": 11090,
+    "stop_pct": -8.57,
+    "target1": 13340,
+    "target2": 14560,
+    "trail_pct": 7.0,
+    "rr": 1.16,
+    "bar_range_pct": 8.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 11250,
+    "high": 12110,
+    "low": 11210,
+    "close": 11880
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "053350",
+   "name": "이니텍",
+   "market": "KOSDAQ",
+   "close": 5960,
+   "chg": 8.56,
+   "value_eok": 13,
+   "value_surge": 2.9,
+   "mktcap_jo": 0.13,
+   "pos_52w": 51.7,
+   "runup": 2.75,
+   "up_from_low": 70.0,
+   "uptail": 3.1,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "라온시큐어",
+    "안랩",
+    "라온로보틱스",
+    "지니언스",
+    "인텔리빅스"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 5990,
+    "buy_pull": 5730,
+    "stop": 5400,
+    "stop_pct": -9.85,
+    "target1": 6590,
+    "target2": 7190,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 12.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 5500,
+    "high": 5980,
+    "low": 5330,
+    "close": 5960
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "장대양봉 +5%↑"
+   ],
+   "strong_in_weak": true,
+   "code": "236200",
+   "name": "슈프리마",
+   "market": "KOSDAQ",
+   "close": 45650,
+   "chg": -16.85,
+   "value_eok": 110,
+   "vol_man": 24,
+   "vol_vs_prev": 5.9,
+   "up_from_low": 6.2,
+   "low_recent": 43000,
+   "runup": 1.5,
+   "uptail": 0.8,
+   "mktcap_jo": 0.32,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": false,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": true,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 49150,
+    "buy_pull": 47350,
+    "stop": 44250,
+    "stop_pct": -9.97,
+    "target1": 54100,
+    "target2": 59000,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 14.2,
+    "max_buy": 51600,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 49050,
+    "high": 49100,
+    "low": 43000,
+    "close": 45650
    }
   }
  ],
  "warnings": [
   {
-   "code": "043260",
-   "name": "성호전자",
-   "close": 29150,
-   "chg": 1.57,
-   "runup": 21.2,
-   "pos_52w": 47.7,
-   "flags": [
-    "긴 윗꼬리",
-    "도지형"
-   ]
-  },
-  {
-   "code": "010170",
-   "name": "대한광통신",
-   "close": 15030,
-   "chg": 0.33,
-   "runup": 9.16,
-   "pos_52w": 44.8,
-   "flags": [
-    "긴 윗꼬리",
-    "도지형"
-   ]
-  },
-  {
-   "code": "080220",
-   "name": "제주반도체",
-   "close": 70300,
-   "chg": 1.15,
-   "runup": 4.02,
-   "pos_52w": 43.8,
-   "flags": [
-    "긴 윗꼬리",
-    "도지형"
-   ]
-  },
-  {
-   "code": "072950",
-   "name": "빛샘전자",
-   "close": 16050,
-   "chg": 2.56,
-   "runup": 3.49,
-   "pos_52w": 54.3,
+   "code": "036930",
+   "name": "주성엔지니어링",
+   "close": 165000,
+   "chg": -6.78,
+   "runup": 6.26,
+   "pos_52w": 53.8,
    "flags": [
     "긴 윗꼬리"
    ]
   },
   {
-   "code": "327260",
-   "name": "RF머트리얼즈",
-   "close": 37950,
-   "chg": 9.05,
-   "runup": 2.49,
-   "pos_52w": 20.4,
+   "code": "263860",
+   "name": "지니언스",
+   "close": 27750,
+   "chg": 11.0,
+   "runup": 2.52,
+   "pos_52w": 87.2,
    "flags": [
     "긴 윗꼬리"
    ]
   },
   {
-   "code": "093320",
-   "name": "케이아이엔엑스",
-   "close": 177400,
-   "chg": 13.28,
-   "runup": 2.22,
-   "pos_52w": 97.1,
+   "code": "046890",
+   "name": "서울반도체",
+   "close": 11640,
+   "chg": 3.93,
+   "runup": 2.03,
+   "pos_52w": 44.7,
    "flags": [
     "갭상승 후 음봉"
    ]
