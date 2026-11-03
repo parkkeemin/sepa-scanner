@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-03 04:32:32",
- "base_date": "2026-10-30",
+ "generated_at": "2026-11-03 12:55:38",
+ "base_date": "2026-11-02",
  "stale": {
-  "weekdays_behind": 1,
+  "weekdays_behind": 0,
   "checked_until": "2026-11-02"
  },
  "fetch_log": [
@@ -12,7 +12,7 @@
   },
   {
    "date": "20261102",
-   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+   "result": "수집 1,828종목"
   },
   {
    "date": "20261030",
@@ -28,10 +28,6 @@
   },
   {
    "date": "20261027",
-   "result": "캐시에 있음"
-  },
-  {
-   "date": "20261026",
    "result": "캐시에 있음"
   }
  ],
@@ -51,14 +47,154 @@
    "market": "KOSDAQ",
    "state": "하락추세",
    "action": "지수 60일선 아래. 이 구간에서 조건을 충족한 종목은 시장보다 강한 종목입니다",
-   "falling": true,
-   "day_chg": -3.7,
-   "pos_pct": 16.1,
-   "vs_ma20": -10.16,
-   "vs_ma60": -10.53
+   "falling": false,
+   "day_chg": 1.39,
+   "pos_pct": 17.9,
+   "vs_ma20": -8.03,
+   "vs_ma60": -9.31
   }
  ],
- "track_a": [],
+ "track_a": [
+  {
+   "track": "A",
+   "status": "pass",
+   "missing": [],
+   "strong_in_weak": false,
+   "code": "222800",
+   "name": "심텍",
+   "market": "KOSDAQ",
+   "close": 120400,
+   "chg": 6.08,
+   "value_eok": 586,
+   "value_surge": 0.5,
+   "mktcap_jo": 4.7,
+   "pos_52w": 55.6,
+   "runup": 2.83,
+   "up_from_low": 35.1,
+   "uptail": 26.7,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 123300,
+    "buy_pull": 117000,
+    "stop": 111800,
+    "stop_pct": -9.33,
+    "target1": 135600,
+    "target2": 148000,
+    "trail_pct": 7.0,
+    "rr": 1.07,
+    "bar_range_pct": 8.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 113600,
+    "high": 123100,
+    "low": 113000,
+    "close": 120400
+   },
+   "company": {
+    "ok": true,
+    "name": "(주)심텍",
+    "ceo": "전영선, 김영구",
+    "industry_code": "2622",
+    "established": "20150701",
+    "homepage": "www.simmtech.co.kr",
+    "market": "K",
+    "fin": {
+     "year": "2025",
+     "revenue": 1410559919451.0,
+     "operating_income": 11868602919.0,
+     "net_income": null,
+     "total_equity": 576366152429.0,
+     "total_liabilities": 1043963591400.0,
+     "op_margin": 0.8,
+     "debt_ratio": 181.1
+    },
+    "flags": [
+     {
+      "level": "양호",
+      "text": "흑자 · 재무 양호 · 최근 90일 위험 공시 없음"
+     }
+    ],
+    "filings": [
+     {
+      "date": "20261013",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000275",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20261008",
+      "title": "전환청구권행사",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008900522",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20261007",
+      "title": "주식등의대량보유상황보고서(약식)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000299",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20261002",
+      "title": "주식등의대량보유상황보고서(약식)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000233",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20261001",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000429",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20260904",
+      "title": "전환청구권행사",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904900533",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20260901",
+      "title": "주식등의대량보유상황보고서(약식)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000189",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20260825",
+      "title": "신규시설투자등",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825900407",
+      "risk": null,
+      "why": null
+     }
+    ],
+    "dart_url": "https://dart.fss.or.kr/dsab001/main.do?option=corp&textCrpNm=(주)심텍"
+   }
+  }
+ ],
  "track_b": [],
  "track_c": [],
  "near": [
@@ -66,86 +202,27 @@
    "track": "A",
    "status": "near",
    "missing": [
-    "등락률 +5~+10% 장대양봉"
-   ],
-   "strong_in_weak": true,
-   "code": "053800",
-   "name": "안랩",
-   "market": "KOSDAQ",
-   "close": 118100,
-   "chg": 17.98,
-   "value_eok": 1543,
-   "value_surge": 5.2,
-   "mktcap_jo": 1.31,
-   "pos_52w": 98.1,
-   "runup": 2.32,
-   "up_from_low": 124.1,
-   "uptail": 7.5,
-   "sector": null,
-   "peers": [
-    "원익홀딩스",
-    "라온시큐어",
-    "라온로보틱스",
-    "지니언스",
-    "인텔리빅스"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": true,
-    "등락률 +5~+10% 장대양봉": false,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 119500,
-    "buy_pull": 111600,
-    "stop": 107600,
-    "stop_pct": -9.96,
-    "target1": 131400,
-    "target2": 143400,
-    "trail_pct": 7.0,
-    "rr": 1.0,
-    "bar_range_pct": 15.4,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 105100,
-    "high": 119300,
-    "low": 103400,
-    "close": 118100
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
     "저점 대비 3배 미만"
    ],
-   "strong_in_weak": true,
+   "strong_in_weak": false,
    "code": "030530",
    "name": "원익홀딩스",
    "market": "KOSDAQ",
-   "close": 29500,
-   "chg": 5.17,
-   "value_eok": 1464,
-   "value_surge": 4.0,
-   "mktcap_jo": 2.28,
-   "pos_52w": 58.3,
+   "close": 32350,
+   "chg": 9.66,
+   "value_eok": 2653,
+   "value_surge": 6.2,
+   "mktcap_jo": 2.5,
+   "pos_52w": 63.9,
    "runup": null,
-   "up_from_low": 98.7,
-   "uptail": 32.7,
+   "up_from_low": 92.4,
+   "uptail": 33.7,
    "sector": null,
    "peers": [
-    "라온시큐어",
-    "안랩",
+    "멜콘",
+    "심텍",
     "라온로보틱스",
-    "지니언스",
-    "인텔리빅스"
+    "영광"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -157,25 +234,82 @@
     "저점 대비 3배 미만": false
    },
    "plan": {
-    "buy_break": 30450,
-    "buy_pull": 28700,
-    "stop": 27450,
-    "stop_pct": -9.85,
-    "target1": 33500,
-    "target2": 36550,
+    "buy_break": 34050,
+    "buy_pull": 30700,
+    "stop": 30650,
+    "stop_pct": -9.99,
+    "target1": 37450,
+    "target2": 40850,
     "trail_pct": 7.0,
-    "rr": 1.02,
-    "bar_range_pct": 9.9,
+    "rr": 1.0,
+    "bar_range_pct": 16.8,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 27850,
-    "high": 30400,
-    "low": 27650,
-    "close": 29500
+    "open": 29100,
+    "high": 34000,
+    "low": 29100,
+    "close": 32350
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "등락률 +5~+10% 장대양봉"
+   ],
+   "strong_in_weak": false,
+   "code": "232680",
+   "name": "라온로보틱스",
+   "market": "KOSDAQ",
+   "close": 13500,
+   "chg": 16.88,
+   "value_eok": 747,
+   "value_surge": 17.3,
+   "mktcap_jo": 0.18,
+   "pos_52w": 38.3,
+   "runup": 1.92,
+   "up_from_low": 63.2,
+   "uptail": 17.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 13820,
+    "buy_pull": 12770,
+    "stop": 12440,
+    "stop_pct": -9.99,
+    "target1": 15200,
+    "target2": 16580,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 14.6,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 12040,
+    "high": 13800,
+    "low": 12040,
+    "close": 13500
    }
   },
   {
@@ -184,27 +318,26 @@
    "missing": [
     "거래대금 500억 이상"
    ],
-   "strong_in_weak": true,
-   "code": "456010",
-   "name": "아이씨티케이",
+   "strong_in_weak": false,
+   "code": "095340",
+   "name": "ISC",
    "market": "KOSDAQ",
-   "close": 19990,
+   "close": 164700,
    "chg": 5.71,
-   "value_eok": 188,
-   "value_surge": 1.3,
-   "mktcap_jo": 0.29,
-   "pos_52w": 31.1,
-   "runup": 1.82,
-   "up_from_low": 58.5,
-   "uptail": 18.0,
+   "value_eok": 284,
+   "value_surge": 0.9,
+   "mktcap_jo": 3.49,
+   "pos_52w": 42.6,
+   "runup": 2.36,
+   "up_from_low": 33.8,
+   "uptail": 24.9,
    "sector": null,
    "peers": [
     "원익홀딩스",
-    "라온시큐어",
-    "안랩",
+    "멜콘",
+    "심텍",
     "라온로보틱스",
-    "지니언스",
-    "인텔리빅스"
+    "영광"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -216,14 +349,884 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 20350,
-    "buy_pull": 19540,
-    "stop": 18390,
-    "stop_pct": -9.63,
-    "target1": 22400,
-    "target2": 24400,
+    "buy_break": 169100,
+    "buy_pull": 159600,
+    "stop": 152200,
+    "stop_pct": -9.99,
+    "target1": 186000,
+    "target2": 203000,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 154400,
+    "high": 168900,
+    "low": 152000,
+    "close": 164700
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "105740",
+   "name": "디케이락",
+   "market": "KOSDAQ",
+   "close": 13300,
+   "chg": 6.4,
+   "value_eok": 180,
+   "value_surge": 1.6,
+   "mktcap_jo": 0.14,
+   "pos_52w": 98.6,
+   "runup": 2.16,
+   "up_from_low": 99.7,
+   "uptail": 10.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 13420,
+    "buy_pull": 13000,
+    "stop": 12270,
+    "stop_pct": -8.57,
+    "target1": 14760,
+    "target2": 16100,
+    "trail_pct": 7.0,
+    "rr": 1.17,
+    "bar_range_pct": 8.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 12700,
+    "high": 13400,
+    "low": 12400,
+    "close": 13300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "356860",
+   "name": "티엘비",
+   "market": "KOSDAQ",
+   "close": 38900,
+   "chg": 5.42,
+   "value_eok": 158,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.92,
+   "pos_52w": 15.8,
+   "runup": 1.98,
+   "up_from_low": 56.2,
+   "uptail": 32.5,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 40300,
+    "buy_pull": 37500,
+    "stop": 36300,
+    "stop_pct": -9.93,
+    "target1": 44350,
+    "target2": 48350,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 11.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 36100,
+    "high": 40250,
+    "low": 36100,
+    "close": 38900
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "218410",
+   "name": "RFHIC",
+   "market": "KOSDAQ",
+   "close": 52000,
+   "chg": 5.05,
+   "value_eok": 137,
+   "value_surge": 0.6,
+   "mktcap_jo": 1.38,
+   "pos_52w": 26.1,
+   "runup": 2.03,
+   "up_from_low": 21.9,
+   "uptail": 15.7,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 52800,
+    "buy_pull": 50300,
+    "stop": 47750,
+    "stop_pct": -9.56,
+    "target1": 58100,
+    "target2": 63400,
     "trail_pct": 7.0,
     "rr": 1.05,
+    "bar_range_pct": 9.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 48550,
+    "high": 52700,
+    "low": 48250,
+    "close": 52000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "491000",
+   "name": "리브스메드",
+   "market": "KOSDAQ",
+   "close": 43300,
+   "chg": 9.9,
+   "value_eok": 137,
+   "value_surge": 1.1,
+   "mktcap_jo": 1.09,
+   "pos_52w": 23.5,
+   "runup": 1.6,
+   "up_from_low": 59.8,
+   "uptail": 9.6,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 43900,
+    "buy_pull": 40800,
+    "stop": 39550,
+    "stop_pct": -9.91,
+    "target1": 48300,
+    "target2": 52700,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 15.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 38250,
+    "high": 43850,
+    "low": 38100,
+    "close": 43300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "052710",
+   "name": "아모텍",
+   "market": "KOSDAQ",
+   "close": 17310,
+   "chg": 9.97,
+   "value_eok": 128,
+   "value_surge": 1.1,
+   "mktcap_jo": 0.32,
+   "pos_52w": 32.4,
+   "runup": 2.1,
+   "up_from_low": 70.4,
+   "uptail": 28.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 18110,
+    "buy_pull": 16300,
+    "stop": 16300,
+    "stop_pct": -9.99,
+    "target1": 19920,
+    "target2": 21750,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 18.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 15300,
+    "high": 18090,
+    "low": 15300,
+    "close": 17310
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "232140",
+   "name": "와이씨",
+   "market": "KOSDAQ",
+   "close": 12800,
+   "chg": 5.79,
+   "value_eok": 108,
+   "value_surge": 0.4,
+   "mktcap_jo": 1.05,
+   "pos_52w": 34.5,
+   "runup": 1.88,
+   "up_from_low": 47.5,
+   "uptail": 28.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 13190,
+    "buy_pull": 12340,
+    "stop": 11880,
+    "stop_pct": -9.93,
+    "target1": 14510,
+    "target2": 15830,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 11.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 11870,
+    "high": 13170,
+    "low": 11850,
+    "close": 12800
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "140860",
+   "name": "파크시스템스",
+   "market": "KOSDAQ",
+   "close": 232500,
+   "chg": 5.92,
+   "value_eok": 95,
+   "value_surge": 1.1,
+   "mktcap_jo": 1.63,
+   "pos_52w": 18.9,
+   "runup": 1.13,
+   "up_from_low": 7.4,
+   "uptail": 17.9,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 236500,
+    "buy_pull": 225000,
+    "stop": 214000,
+    "stop_pct": -9.51,
+    "target1": 260000,
+    "target2": 284000,
+    "trail_pct": 7.0,
+    "rr": 1.04,
+    "bar_range_pct": 9.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 217500,
+    "high": 236000,
+    "low": 216500,
+    "close": 232500
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "425040",
+   "name": "티이엠씨",
+   "market": "KOSDAQ",
+   "close": 13200,
+   "chg": 6.97,
+   "value_eok": 73,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.29,
+   "pos_52w": 28.7,
+   "runup": 2.1,
+   "up_from_low": 64.4,
+   "uptail": 18.2,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 13490,
+    "buy_pull": 12600,
+    "stop": 12150,
+    "stop_pct": -9.93,
+    "target1": 14840,
+    "target2": 16190,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 12.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 12000,
+    "high": 13470,
+    "low": 11990,
+    "close": 13200
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "290650",
+   "name": "엘앤씨바이오",
+   "market": "KOSDAQ",
+   "close": 25350,
+   "chg": 5.85,
+   "value_eok": 59,
+   "value_surge": 0.2,
+   "mktcap_jo": 0.68,
+   "pos_52w": 1.9,
+   "runup": 1.08,
+   "up_from_low": 8.3,
+   "uptail": 24.5,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 26000,
+    "buy_pull": 24500,
+    "stop": 23400,
+    "stop_pct": -10.0,
+    "target1": 28600,
+    "target2": 31200,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 23650,
+    "high": 25950,
+    "low": 23500,
+    "close": 25350
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "234690",
+   "name": "녹십자웰빙",
+   "market": "KOSDAQ",
+   "close": 11170,
+   "chg": 6.89,
+   "value_eok": 55,
+   "value_surge": 1.3,
+   "mktcap_jo": 0.2,
+   "pos_52w": 48.8,
+   "runup": 1.67,
+   "up_from_low": 37.6,
+   "uptail": 26.8,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 11520,
+    "buy_pull": 10720,
+    "stop": 10370,
+    "stop_pct": -9.98,
+    "target1": 12670,
+    "target2": 13820,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 12.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 10270,
+    "high": 11500,
+    "low": 10270,
+    "close": 11170
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "441270",
+   "name": "파인엠텍",
+   "market": "KOSDAQ",
+   "close": 8160,
+   "chg": 5.02,
+   "value_eok": 53,
+   "value_surge": 0.4,
+   "mktcap_jo": 0.35,
+   "pos_52w": 39.8,
+   "runup": 1.53,
+   "up_from_low": 28.9,
+   "uptail": 23.8,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8360,
+    "buy_pull": 7880,
+    "stop": 7530,
+    "stop_pct": -9.93,
+    "target1": 9200,
+    "target2": 10030,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 10.6,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 7600,
+    "high": 8350,
+    "low": 7550,
+    "close": 8160
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "138080",
+   "name": "오이솔루션",
+   "market": "KOSDAQ",
+   "close": 25550,
+   "chg": 9.42,
+   "value_eok": 39,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.32,
+   "pos_52w": 31.0,
+   "runup": 2.32,
+   "up_from_low": 46.8,
+   "uptail": 4.5,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 25750,
+    "buy_pull": 23950,
+    "stop": 23200,
+    "stop_pct": -9.9,
+    "target1": 28350,
+    "target2": 30900,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 15.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 22350,
+    "high": 25700,
+    "low": 22350,
+    "close": 25550
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "083450",
+   "name": "GST",
+   "market": "KOSDAQ",
+   "close": 43800,
+   "chg": 5.54,
+   "value_eok": 37,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.81,
+   "pos_52w": 43.8,
+   "runup": 1.92,
+   "up_from_low": 11.5,
+   "uptail": 13.3,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 44400,
+    "buy_pull": 42000,
+    "stop": 40000,
+    "stop_pct": -9.91,
+    "target1": 48850,
+    "target2": 53300,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 10.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 40200,
+    "high": 44350,
+    "low": 40200,
+    "close": 43800
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "033100",
+   "name": "제룡전기",
+   "market": "KOSDAQ",
+   "close": 38750,
+   "chg": 6.75,
+   "value_eok": 28,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.62,
+   "pos_52w": 9.5,
+   "runup": 1.18,
+   "up_from_low": 9.2,
+   "uptail": 4.4,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 38950,
+    "buy_pull": 37100,
+    "stop": 35100,
+    "stop_pct": -9.88,
+    "target1": 42850,
+    "target2": 46750,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 9.6,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 35500,
+    "high": 38900,
+    "low": 35500,
+    "close": 38750
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "079370",
+   "name": "제우스",
+   "market": "KOSDAQ",
+   "close": 11470,
+   "chg": 5.13,
+   "value_eok": 25,
+   "value_surge": 0.3,
+   "mktcap_jo": 0.36,
+   "pos_52w": 34.0,
+   "runup": 1.74,
+   "up_from_low": 34.2,
+   "uptail": 32.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 11810,
+    "buy_pull": 11130,
+    "stop": 10680,
+    "stop_pct": -9.57,
+    "target1": 12990,
+    "target2": 14170,
+    "trail_pct": 7.0,
+    "rr": 1.04,
     "bar_range_pct": 9.3,
     "max_buy": null,
     "entry": "돌파",
@@ -231,10 +1234,10 @@
     "reject": []
    },
    "bar": {
-    "open": 19080,
-    "high": 20300,
-    "low": 18580,
-    "close": 19990
+    "open": 10790,
+    "high": 11790,
+    "low": 10790,
+    "close": 11470
    }
   },
   {
@@ -243,27 +1246,26 @@
    "missing": [
     "거래대금 500억 이상"
    ],
-   "strong_in_weak": true,
-   "code": "293490",
-   "name": "카카오게임즈",
+   "strong_in_weak": false,
+   "code": "012210",
+   "name": "삼미금속",
    "market": "KOSDAQ",
-   "close": 11880,
-   "chg": 5.98,
-   "value_eok": 100,
-   "value_surge": 1.4,
-   "mktcap_jo": 1.27,
-   "pos_52w": 43.7,
-   "runup": 1.75,
-   "up_from_low": 55.7,
-   "uptail": 25.6,
+   "close": 7810,
+   "chg": 5.54,
+   "value_eok": 24,
+   "value_surge": 0.1,
+   "mktcap_jo": 0.18,
+   "pos_52w": 22.5,
+   "runup": 1.94,
+   "up_from_low": 35.6,
+   "uptail": 14.1,
    "sector": null,
    "peers": [
     "원익홀딩스",
-    "라온시큐어",
-    "안랩",
+    "멜콘",
+    "심텍",
     "라온로보틱스",
-    "지니언스",
-    "인텔리빅스"
+    "영광"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -275,25 +1277,25 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 12130,
-    "buy_pull": 11560,
-    "stop": 11090,
-    "stop_pct": -8.57,
-    "target1": 13340,
-    "target2": 14560,
+    "buy_break": 7910,
+    "buy_pull": 7540,
+    "stop": 7180,
+    "stop_pct": -9.23,
+    "target1": 8700,
+    "target2": 9490,
     "trail_pct": 7.0,
-    "rr": 1.16,
-    "bar_range_pct": 8.0,
+    "rr": 1.08,
+    "bar_range_pct": 8.8,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 11250,
-    "high": 12110,
-    "low": 11210,
-    "close": 11880
+    "open": 7260,
+    "high": 7900,
+    "low": 7260,
+    "close": 7810
    }
   },
   {
@@ -302,27 +1304,200 @@
    "missing": [
     "거래대금 500억 이상"
    ],
-   "strong_in_weak": true,
+   "strong_in_weak": false,
+   "code": "160980",
+   "name": "싸이맥스",
+   "market": "KOSDAQ",
+   "close": 21150,
+   "chg": 5.91,
+   "value_eok": 19,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.23,
+   "pos_52w": 22.0,
+   "runup": 1.55,
+   "up_from_low": 12.3,
+   "uptail": 13.3,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 21450,
+    "buy_pull": 20350,
+    "stop": 19320,
+    "stop_pct": -9.93,
+    "target1": 23600,
+    "target2": 25750,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 9.6,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 19520,
+    "high": 21400,
+    "low": 19520,
+    "close": 21150
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "054540",
+   "name": "삼영엠텍",
+   "market": "KOSDAQ",
+   "close": 5600,
+   "chg": 6.87,
+   "value_eok": 11,
+   "value_surge": 2.5,
+   "mktcap_jo": 0.07,
+   "pos_52w": 3.0,
+   "runup": 1.1,
+   "up_from_low": 10.2,
+   "uptail": 27.8,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 5810,
+    "buy_pull": 5350,
+    "stop": 5230,
+    "stop_pct": -9.98,
+    "target1": 6390,
+    "target2": 6970,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 14.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 5100,
+    "high": 5800,
+    "low": 5080,
+    "close": 5600
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "381620",
+   "name": "제닉스로보틱스",
+   "market": "KOSDAQ",
+   "close": 5410,
+   "chg": 9.96,
+   "value_eok": 11,
+   "value_surge": 1.8,
+   "mktcap_jo": 0.07,
+   "pos_52w": 5.5,
+   "runup": 1.19,
+   "up_from_low": 16.5,
+   "uptail": 9.5,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 5490,
+    "buy_pull": 5080,
+    "stop": 4945,
+    "stop_pct": -9.93,
+    "target1": 6040,
+    "target2": 6590,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 15.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 4745,
+    "high": 5480,
+    "low": 4745,
+    "close": 5410
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
    "code": "053350",
    "name": "이니텍",
    "market": "KOSDAQ",
-   "close": 5960,
-   "chg": 8.56,
-   "value_eok": 13,
-   "value_surge": 2.9,
-   "mktcap_jo": 0.13,
-   "pos_52w": 51.7,
-   "runup": 2.75,
-   "up_from_low": 70.0,
-   "uptail": 3.1,
+   "close": 6290,
+   "chg": 5.54,
+   "value_eok": 10,
+   "value_surge": 2.0,
+   "mktcap_jo": 0.14,
+   "pos_52w": 56.2,
+   "runup": 2.91,
+   "up_from_low": 79.5,
+   "uptail": 2.0,
    "sector": null,
    "peers": [
     "원익홀딩스",
-    "라온시큐어",
-    "안랩",
+    "멜콘",
+    "심텍",
     "라온로보틱스",
-    "지니언스",
-    "인텔리빅스"
+    "영광"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -334,25 +1509,2403 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 5990,
-    "buy_pull": 5730,
-    "stop": 5400,
-    "stop_pct": -9.85,
-    "target1": 6590,
-    "target2": 7190,
+    "buy_break": 6310,
+    "buy_pull": 6120,
+    "stop": 5750,
+    "stop_pct": -8.87,
+    "target1": 6940,
+    "target2": 7570,
     "trail_pct": 7.0,
-    "rr": 1.02,
-    "bar_range_pct": 12.2,
+    "rr": 1.12,
+    "bar_range_pct": 8.4,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 5500,
-    "high": 5980,
-    "low": 5330,
-    "close": 5960
+    "open": 5960,
+    "high": 6300,
+    "low": 5810,
+    "close": 6290
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "101330",
+   "name": "모베이스",
+   "market": "KOSDAQ",
+   "close": 3930,
+   "chg": 7.97,
+   "value_eok": 10,
+   "value_surge": 2.0,
+   "mktcap_jo": 0.09,
+   "pos_52w": 17.3,
+   "runup": 1.38,
+   "up_from_low": 20.9,
+   "uptail": 17.7,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 4005,
+    "buy_pull": 3780,
+    "stop": 3605,
+    "stop_pct": -9.99,
+    "target1": 4405,
+    "target2": 4805,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3635,
+    "high": 4000,
+    "low": 3605,
+    "close": 3930
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "260970",
+   "name": "에스앤디",
+   "market": "KOSDAQ",
+   "close": 52900,
+   "chg": 6.76,
+   "value_eok": 10,
+   "value_surge": 1.1,
+   "mktcap_jo": 0.15,
+   "pos_52w": 21.6,
+   "runup": 1.26,
+   "up_from_low": 12.7,
+   "uptail": 19.6,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 53900,
+    "buy_pull": 51000,
+    "stop": 48700,
+    "stop_pct": -9.65,
+    "target1": 59300,
+    "target2": 64700,
+    "trail_pct": 7.0,
+    "rr": 1.04,
+    "bar_range_pct": 9.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 49200,
+    "high": 53800,
+    "low": 49200,
+    "close": 52900
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "073490",
+   "name": "LIG아큐버",
+   "market": "KOSDAQ",
+   "close": 26900,
+   "chg": 6.32,
+   "value_eok": 9,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.2,
+   "pos_52w": 14.1,
+   "runup": 1.28,
+   "up_from_low": 7.4,
+   "uptail": 11.9,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 27200,
+    "buy_pull": 26100,
+    "stop": 24750,
+    "stop_pct": -9.01,
+    "target1": 29900,
+    "target2": 32650,
+    "trail_pct": 7.0,
+    "rr": 1.1,
+    "bar_range_pct": 8.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 25250,
+    "high": 27150,
+    "low": 25050,
+    "close": 26900
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "099190",
+   "name": "아이센스",
+   "market": "KOSDAQ",
+   "close": 16830,
+   "chg": 5.45,
+   "value_eok": 9,
+   "value_surge": 1.5,
+   "mktcap_jo": 0.5,
+   "pos_52w": 20.8,
+   "runup": 1.2,
+   "up_from_low": 8.8,
+   "uptail": 10.9,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 16970,
+    "buy_pull": 16340,
+    "stop": 15690,
+    "stop_pct": -7.54,
+    "target1": 18670,
+    "target2": 20350,
+    "trail_pct": 7.0,
+    "rr": 1.33,
+    "bar_range_pct": 6.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 15850,
+    "high": 16950,
+    "low": 15850,
+    "close": 16830
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "217190",
+   "name": "제너셈",
+   "market": "KOSDAQ",
+   "close": 8460,
+   "chg": 7.91,
+   "value_eok": 9,
+   "value_surge": 0.3,
+   "mktcap_jo": 0.11,
+   "pos_52w": 67.2,
+   "runup": 2.13,
+   "up_from_low": 84.3,
+   "uptail": 17.9,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8640,
+    "buy_pull": 8070,
+    "stop": 7780,
+    "stop_pct": -9.95,
+    "target1": 9500,
+    "target2": 10370,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 12.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 7680,
+    "high": 8630,
+    "low": 7680,
+    "close": 8460
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "054930",
+   "name": "유신",
+   "market": "KOSDAQ",
+   "close": 17810,
+   "chg": 6.26,
+   "value_eok": 8,
+   "value_surge": 0.1,
+   "mktcap_jo": 0.05,
+   "pos_52w": 23.6,
+   "runup": 1.25,
+   "up_from_low": 9.2,
+   "uptail": 14.1,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 18020,
+    "buy_pull": 17260,
+    "stop": 16480,
+    "stop_pct": -8.55,
+    "target1": 19820,
+    "target2": 21600,
+    "trail_pct": 7.0,
+    "rr": 1.17,
+    "bar_range_pct": 8.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 16700,
+    "high": 18000,
+    "low": 16650,
+    "close": 17810
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "098070",
+   "name": "한텍",
+   "market": "KOSDAQ",
+   "close": 17120,
+   "chg": 5.22,
+   "value_eok": 8,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.19,
+   "pos_52w": 2.5,
+   "runup": 1.07,
+   "up_from_low": 7.2,
+   "uptail": 13.5,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 17320,
+    "buy_pull": 16560,
+    "stop": 15810,
+    "stop_pct": -8.72,
+    "target1": 19050,
+    "target2": 20800,
+    "trail_pct": 7.0,
+    "rr": 1.15,
+    "bar_range_pct": 8.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 15990,
+    "high": 17300,
+    "low": 15970,
+    "close": 17120
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "270660",
+   "name": "에브리봇",
+   "market": "KOSDAQ",
+   "close": 12910,
+   "chg": 5.39,
+   "value_eok": 8,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.16,
+   "pos_52w": 15.3,
+   "runup": 1.36,
+   "up_from_low": 21.1,
+   "uptail": 12.7,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 13060,
+    "buy_pull": 12460,
+    "stop": 11890,
+    "stop_pct": -8.96,
+    "target1": 14370,
+    "target2": 15670,
+    "trail_pct": 7.0,
+    "rr": 1.12,
+    "bar_range_pct": 8.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 12020,
+    "high": 13040,
+    "low": 12020,
+    "close": 12910
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "014940",
+   "name": "오리엔탈정공",
+   "market": "KOSDAQ",
+   "close": 3795,
+   "chg": 6.01,
+   "value_eok": 7,
+   "value_surge": 1.5,
+   "mktcap_jo": 0.17,
+   "pos_52w": 2.9,
+   "runup": 1.08,
+   "up_from_low": 7.8,
+   "uptail": 30.7,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3915,
+    "buy_pull": 3665,
+    "stop": 3525,
+    "stop_pct": -9.96,
+    "target1": 4305,
+    "target2": 4700,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.6,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3535,
+    "high": 3910,
+    "low": 3535,
+    "close": 3795
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "058630",
+   "name": "엠게임",
+   "market": "KOSDAQ",
+   "close": 4000,
+   "chg": 8.7,
+   "value_eok": 7,
+   "value_surge": 4.2,
+   "mktcap_jo": 0.08,
+   "pos_52w": 17.8,
+   "runup": 1.19,
+   "up_from_low": 19.2,
+   "uptail": 20.3,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 4080,
+    "buy_pull": 3880,
+    "stop": 3675,
+    "stop_pct": -9.93,
+    "target1": 4490,
+    "target2": 4895,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 10.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3755,
+    "high": 4075,
+    "low": 3705,
+    "close": 4000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "333430",
+   "name": "일승",
+   "market": "KOSDAQ",
+   "close": 3080,
+   "chg": 7.69,
+   "value_eok": 7,
+   "value_surge": 1.5,
+   "mktcap_jo": 0.09,
+   "pos_52w": 3.7,
+   "runup": 1.08,
+   "up_from_low": 8.5,
+   "uptail": 28.4,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3180,
+    "buy_pull": 2960,
+    "stop": 2865,
+    "stop_pct": -9.91,
+    "target1": 3500,
+    "target2": 3815,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 11.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2840,
+    "high": 3175,
+    "low": 2840,
+    "close": 3080
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "474610",
+   "name": "RF시스템즈",
+   "market": "KOSDAQ",
+   "close": 7300,
+   "chg": 5.95,
+   "value_eok": 7,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.11,
+   "pos_52w": 24.6,
+   "runup": 1.88,
+   "up_from_low": 20.1,
+   "uptail": 7.9,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 7380,
+    "buy_pull": 7060,
+    "stop": 6650,
+    "stop_pct": -9.89,
+    "target1": 8120,
+    "target2": 8860,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 13.7,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 6810,
+    "high": 7370,
+    "low": 6480,
+    "close": 7300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "318060",
+   "name": "그래피",
+   "market": "KOSDAQ",
+   "close": 10690,
+   "chg": 7.01,
+   "value_eok": 6,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.12,
+   "pos_52w": 3.3,
+   "runup": 1.23,
+   "up_from_low": 9.1,
+   "uptail": 15.5,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10870,
+    "buy_pull": 10280,
+    "stop": 9790,
+    "stop_pct": -9.94,
+    "target1": 11960,
+    "target2": 13040,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 10.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 9870,
+    "high": 10850,
+    "low": 9820,
+    "close": 10690
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "451220",
+   "name": "아이엠티",
+   "market": "KOSDAQ",
+   "close": 9000,
+   "chg": 6.76,
+   "value_eok": 6,
+   "value_surge": 1.7,
+   "mktcap_jo": 0.07,
+   "pos_52w": 20.8,
+   "runup": 1.44,
+   "up_from_low": 28.2,
+   "uptail": 18.7,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 9210,
+    "buy_pull": 8560,
+    "stop": 8290,
+    "stop_pct": -9.99,
+    "target1": 10130,
+    "target2": 11050,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 13.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8130,
+    "high": 9200,
+    "low": 8130,
+    "close": 9000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "032620",
+   "name": "GC메디아이",
+   "market": "KOSDAQ",
+   "close": 3035,
+   "chg": 7.82,
+   "value_eok": 5,
+   "value_surge": 3.2,
+   "mktcap_jo": 0.16,
+   "pos_52w": 22.3,
+   "runup": 1.15,
+   "up_from_low": 9.4,
+   "uptail": 5.8,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3055,
+    "buy_pull": 2915,
+    "stop": 2760,
+    "stop_pct": -9.66,
+    "target1": 3360,
+    "target2": 3665,
+    "trail_pct": 7.0,
+    "rr": 1.03,
+    "bar_range_pct": 9.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2795,
+    "high": 3050,
+    "low": 2790,
+    "close": 3035
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "036710",
+   "name": "심텍홀딩스",
+   "market": "KOSDAQ",
+   "close": 3620,
+   "chg": 5.39,
+   "value_eok": 5,
+   "value_surge": 0.3,
+   "mktcap_jo": 0.19,
+   "pos_52w": 35.6,
+   "runup": 1.78,
+   "up_from_low": 18.3,
+   "uptail": 6.7,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3645,
+    "buy_pull": 3530,
+    "stop": 3305,
+    "stop_pct": -9.33,
+    "target1": 4010,
+    "target2": 4375,
+    "trail_pct": 7.0,
+    "rr": 1.07,
+    "bar_range_pct": 9.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3435,
+    "high": 3640,
+    "low": 3340,
+    "close": 3620
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "067570",
+   "name": "엔브이에이치코리아",
+   "market": "KOSDAQ",
+   "close": 1679,
+   "chg": 6.06,
+   "value_eok": 5,
+   "value_surge": 4.2,
+   "mktcap_jo": 0.07,
+   "pos_52w": 17.7,
+   "runup": 1.12,
+   "up_from_low": 11.9,
+   "uptail": 24.5,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 1717,
+    "buy_pull": 1638,
+    "stop": 1552,
+    "stop_pct": -9.61,
+    "target1": 1889,
+    "target2": 2060,
+    "trail_pct": 7.0,
+    "rr": 1.04,
+    "bar_range_pct": 9.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 1597,
+    "high": 1715,
+    "low": 1568,
+    "close": 1679
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "104480",
+   "name": "티케이케미칼",
+   "market": "KOSDAQ",
+   "close": 1818,
+   "chg": 5.39,
+   "value_eok": 5,
+   "value_surge": 1.2,
+   "mktcap_jo": 0.17,
+   "pos_52w": 29.5,
+   "runup": 1.34,
+   "up_from_low": 19.8,
+   "uptail": 20.8,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 1851,
+    "buy_pull": 1759,
+    "stop": 1683,
+    "stop_pct": -9.08,
+    "target1": 2035,
+    "target2": 2220,
+    "trail_pct": 7.0,
+    "rr": 1.1,
+    "bar_range_pct": 8.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 1700,
+    "high": 1849,
+    "low": 1700,
+    "close": 1818
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "187870",
+   "name": "디바이스",
+   "market": "KOSDAQ",
+   "close": 10700,
+   "chg": 6.26,
+   "value_eok": 5,
+   "value_surge": 0.1,
+   "mktcap_jo": 0.15,
+   "pos_52w": 7.1,
+   "runup": 1.28,
+   "up_from_low": 11.6,
+   "uptail": 10.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10820,
+    "buy_pull": 10300,
+    "stop": 9740,
+    "stop_pct": -9.98,
+    "target1": 11900,
+    "target2": 12980,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 9900,
+    "high": 10800,
+    "low": 9800,
+    "close": 10700
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "389650",
+   "name": "넥스트바이오메디컬",
+   "market": "KOSDAQ",
+   "close": 28650,
+   "chg": 5.52,
+   "value_eok": 5,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.24,
+   "pos_52w": 4.6,
+   "runup": 1.14,
+   "up_from_low": 13.9,
+   "uptail": 8.3,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 28850,
+    "buy_pull": 27800,
+    "stop": 26700,
+    "stop_pct": -7.45,
+    "target1": 31750,
+    "target2": 34600,
+    "trail_pct": 7.0,
+    "rr": 1.35,
+    "bar_range_pct": 6.7,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 27000,
+    "high": 28800,
+    "low": 27000,
+    "close": 28650
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "464080",
+   "name": "에스오에스랩",
+   "market": "KOSDAQ",
+   "close": 8670,
+   "chg": 5.86,
+   "value_eok": 5,
+   "value_surge": 0.8,
+   "mktcap_jo": 0.16,
+   "pos_52w": 9.6,
+   "runup": 1.32,
+   "up_from_low": 8.4,
+   "uptail": 23.8,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8880,
+    "buy_pull": 8430,
+    "stop": 8000,
+    "stop_pct": -9.91,
+    "target1": 9770,
+    "target2": 10660,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 10.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8190,
+    "high": 8870,
+    "low": 8030,
+    "close": 8670
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "0001A0",
+   "name": "덕양에너젠",
+   "market": "KOSDAQ",
+   "close": 7020,
+   "chg": 6.36,
+   "value_eok": 4,
+   "value_surge": 1.1,
+   "mktcap_jo": 0.18,
+   "pos_52w": 3.0,
+   "runup": 1.19,
+   "up_from_low": 15.1,
+   "uptail": 13.2,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 7170,
+    "buy_pull": 6740,
+    "stop": 6460,
+    "stop_pct": -9.9,
+    "target1": 7890,
+    "target2": 8600,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 17.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 6450,
+    "high": 7160,
+    "low": 6100,
+    "close": 7020
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "033230",
+   "name": "인성정보",
+   "market": "KOSDAQ",
+   "close": 1122,
+   "chg": 6.86,
+   "value_eok": 4,
+   "value_surge": 1.9,
+   "mktcap_jo": 0.06,
+   "pos_52w": 19.7,
+   "runup": 1.4,
+   "up_from_low": 20.4,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 1124,
+    "buy_pull": 1070,
+    "stop": 1012,
+    "stop_pct": -9.96,
+    "target1": 1236,
+    "target2": 1349,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 1018,
+    "high": 1122,
+    "low": 1018,
+    "close": 1122
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "037070",
+   "name": "파세코",
+   "market": "KOSDAQ",
+   "close": 6460,
+   "chg": 5.38,
+   "value_eok": 4,
+   "value_surge": 1.0,
+   "mktcap_jo": 0.13,
+   "pos_52w": 29.5,
+   "runup": 1.29,
+   "up_from_low": 24.0,
+   "uptail": 6.8,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 6500,
+    "buy_pull": 6300,
+    "stop": 5980,
+    "stop_pct": -8.0,
+    "target1": 7150,
+    "target2": 7800,
+    "trail_pct": 7.0,
+    "rr": 1.25,
+    "bar_range_pct": 7.3,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 6130,
+    "high": 6490,
+    "low": 6050,
+    "close": 6460
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "073560",
+   "name": "우리손에프앤지",
+   "market": "KOSDAQ",
+   "close": 1490,
+   "chg": 5.75,
+   "value_eok": 4,
+   "value_surge": 2.8,
+   "mktcap_jo": 0.1,
+   "pos_52w": 16.5,
+   "runup": 1.1,
+   "up_from_low": 5.7,
+   "uptail": 2.4,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 1494,
+    "buy_pull": 1450,
+    "stop": 1394,
+    "stop_pct": -6.69,
+    "target1": 1643,
+    "target2": 1793,
+    "trail_pct": 7.0,
+    "rr": 1.49,
+    "bar_range_pct": 5.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 1409,
+    "high": 1492,
+    "low": 1409,
+    "close": 1490
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "293580",
+   "name": "나우IB",
+   "market": "KOSDAQ",
+   "close": 1288,
+   "chg": 5.57,
+   "value_eok": 4,
+   "value_surge": 1.5,
+   "mktcap_jo": 0.12,
+   "pos_52w": 12.8,
+   "runup": 1.31,
+   "up_from_low": 30.8,
+   "uptail": 10.3,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 1302,
+    "buy_pull": 1236,
+    "stop": 1172,
+    "stop_pct": -9.98,
+    "target1": 1432,
+    "target2": 1562,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 9.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 1183,
+    "high": 1300,
+    "low": 1183,
+    "close": 1288
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "323990",
+   "name": "박셀바이오",
+   "market": "KOSDAQ",
+   "close": 4000,
+   "chg": 7.38,
+   "value_eok": 4,
+   "value_surge": 1.4,
+   "mktcap_jo": 0.09,
+   "pos_52w": 8.0,
+   "runup": 1.19,
+   "up_from_low": 9.1,
+   "uptail": 9.8,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 4035,
+    "buy_pull": 3860,
+    "stop": 3685,
+    "stop_pct": -8.67,
+    "target1": 4440,
+    "target2": 4840,
+    "trail_pct": 7.0,
+    "rr": 1.16,
+    "bar_range_pct": 8.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3725,
+    "high": 4030,
+    "low": 3725,
+    "close": 4000
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "473980",
+   "name": "노머스",
+   "market": "KOSDAQ",
+   "close": 10900,
+   "chg": 6.13,
+   "value_eok": 4,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.12,
+   "pos_52w": 9.4,
+   "runup": 1.25,
+   "up_from_low": 12.4,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10920,
+    "buy_pull": 10520,
+    "stop": 9970,
+    "stop_pct": -8.7,
+    "target1": 12010,
+    "target2": 13100,
+    "trail_pct": 7.0,
+    "rr": 1.15,
+    "bar_range_pct": 8.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 10130,
+    "high": 10900,
+    "low": 10080,
+    "close": 10900
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "046210",
+   "name": "HLB파나진",
+   "market": "KOSDAQ",
+   "close": 1341,
+   "chg": 6.51,
+   "value_eok": 3,
+   "value_surge": 0.2,
+   "mktcap_jo": 0.06,
+   "pos_52w": 18.4,
+   "runup": 1.37,
+   "up_from_low": 26.4,
+   "uptail": 17.1,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 1357,
+    "buy_pull": 1312,
+    "stop": 1260,
+    "stop_pct": -7.15,
+    "target1": 1493,
+    "target2": 1628,
+    "trail_pct": 7.0,
+    "rr": 1.4,
+    "bar_range_pct": 6.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 1284,
+    "high": 1355,
+    "low": 1273,
+    "close": 1341
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "092460",
+   "name": "한라IMS",
+   "market": "KOSDAQ",
+   "close": 14450,
+   "chg": 6.02,
+   "value_eok": 3,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.25,
+   "pos_52w": 14.9,
+   "runup": 1.1,
+   "up_from_low": 8.6,
+   "uptail": 18.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 14720,
+    "buy_pull": 13880,
+    "stop": 13250,
+    "stop_pct": -9.99,
+    "target1": 16190,
+    "target2": 17660,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 13310,
+    "high": 14700,
+    "low": 13310,
+    "close": 14450
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "302550",
+   "name": "리메드",
+   "market": "KOSDAQ",
+   "close": 2410,
+   "chg": 5.24,
+   "value_eok": 3,
+   "value_surge": 0.1,
+   "mktcap_jo": 0.07,
+   "pos_52w": 18.0,
+   "runup": 1.18,
+   "up_from_low": 17.8,
+   "uptail": 21.2,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 2470,
+    "buy_pull": 2310,
+    "stop": 2225,
+    "stop_pct": -9.92,
+    "target1": 2715,
+    "target2": 2965,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2205,
+    "high": 2465,
+    "low": 2205,
+    "close": 2410
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "352480",
+   "name": "씨앤씨인터내셔널",
+   "market": "KOSDAQ",
+   "close": 19640,
+   "chg": 7.03,
+   "value_eok": 3,
+   "value_surge": 1.3,
+   "mktcap_jo": 0.27,
+   "pos_52w": 12.8,
+   "runup": 1.19,
+   "up_from_low": 10.4,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 19660,
+    "buy_pull": 18990,
+    "stop": 17930,
+    "stop_pct": -8.8,
+    "target1": 21650,
+    "target2": 23600,
+    "trail_pct": 7.0,
+    "rr": 1.15,
+    "bar_range_pct": 8.4,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 18340,
+    "high": 19640,
+    "low": 18120,
+    "close": 19640
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "474650",
+   "name": "링크솔루션",
+   "market": "KOSDAQ",
+   "close": 16600,
+   "chg": 6.34,
+   "value_eok": 3,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.1,
+   "pos_52w": 1.4,
+   "runup": 1.07,
+   "up_from_low": 7.1,
+   "uptail": 8.3,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 16720,
+    "buy_pull": 16050,
+    "stop": 15340,
+    "stop_pct": -8.25,
+    "target1": 18390,
+    "target2": 20050,
+    "trail_pct": 7.0,
+    "rr": 1.21,
+    "bar_range_pct": 7.7,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 15500,
+    "high": 16700,
+    "low": 15500,
+    "close": 16600
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "475230",
+   "name": "엔알비",
+   "market": "KOSDAQ",
+   "close": 8300,
+   "chg": 5.33,
+   "value_eok": 3,
+   "value_surge": 0.4,
+   "mktcap_jo": 0.09,
+   "pos_52w": 11.2,
+   "runup": 1.48,
+   "up_from_low": 20.8,
+   "uptail": 7.1,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8360,
+    "buy_pull": 7980,
+    "stop": 7570,
+    "stop_pct": -9.45,
+    "target1": 9200,
+    "target2": 10030,
+    "trail_pct": 7.0,
+    "rr": 1.06,
+    "bar_range_pct": 9.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 7650,
+    "high": 8350,
+    "low": 7650,
+    "close": 8300
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "024800",
+   "name": "유성티엔에스",
+   "market": "KOSDAQ",
+   "close": 4210,
+   "chg": 6.99,
+   "value_eok": 2,
+   "value_surge": 1.4,
+   "mktcap_jo": 0.15,
+   "pos_52w": 54.3,
+   "runup": 2.0,
+   "up_from_low": 8.8,
+   "uptail": 19.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 4295,
+    "buy_pull": 4100,
+    "stop": 3870,
+    "stop_pct": -9.9,
+    "target1": 4725,
+    "target2": 5150,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 10.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3985,
+    "high": 4290,
+    "low": 3870,
+    "close": 4210
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "042600",
+   "name": "새로닉스",
+   "market": "KOSDAQ",
+   "close": 9290,
+   "chg": 5.93,
+   "value_eok": 2,
+   "value_surge": 0.6,
+   "mktcap_jo": 0.12,
+   "pos_52w": 16.4,
+   "runup": 1.42,
+   "up_from_low": 14.7,
+   "uptail": 10.3,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 9390,
+    "buy_pull": 9030,
+    "stop": 8460,
+    "stop_pct": -9.9,
+    "target1": 10330,
+    "target2": 11270,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 10.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8770,
+    "high": 9380,
+    "low": 8510,
+    "close": 9290
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "108230",
+   "name": "톱텍",
+   "market": "KOSDAQ",
+   "close": 2745,
+   "chg": 5.17,
+   "value_eok": 2,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.1,
+   "pos_52w": 8.2,
+   "runup": 1.09,
+   "up_from_low": 8.9,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 2750,
+    "buy_pull": 2660,
+    "stop": 2530,
+    "stop_pct": -8.0,
+    "target1": 3025,
+    "target2": 3300,
+    "trail_pct": 7.0,
+    "rr": 1.25,
+    "bar_range_pct": 7.2,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2570,
+    "high": 2745,
+    "low": 2560,
+    "close": 2745
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "297090",
+   "name": "씨에스베어링",
+   "market": "KOSDAQ",
+   "close": 3980,
+   "chg": 6.28,
+   "value_eok": 2,
+   "value_surge": 0.4,
+   "mktcap_jo": 0.11,
+   "pos_52w": 14.2,
+   "runup": 1.3,
+   "up_from_low": 14.7,
+   "uptail": 9.6,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 4010,
+    "buy_pull": 3910,
+    "stop": 3705,
+    "stop_pct": -7.61,
+    "target1": 4410,
+    "target2": 4810,
+    "trail_pct": 7.0,
+    "rr": 1.31,
+    "bar_range_pct": 6.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3840,
+    "high": 4005,
+    "low": 3745,
+    "close": 3980
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "418420",
+   "name": "라온텍",
+   "market": "KOSDAQ",
+   "close": 3095,
+   "chg": 7.47,
+   "value_eok": 2,
+   "value_surge": 0.5,
+   "mktcap_jo": 0.1,
+   "pos_52w": 4.7,
+   "runup": 1.17,
+   "up_from_low": 9.4,
+   "uptail": 14.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3135,
+    "buy_pull": 3010,
+    "stop": 2850,
+    "stop_pct": -9.09,
+    "target1": 3450,
+    "target2": 3760,
+    "trail_pct": 7.0,
+    "rr": 1.11,
+    "bar_range_pct": 8.7,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2920,
+    "high": 3130,
+    "low": 2880,
+    "close": 3095
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "453450",
+   "name": "그리드위즈",
+   "market": "KOSDAQ",
+   "close": 9980,
+   "chg": 6.74,
+   "value_eok": 2,
+   "value_surge": 1.1,
+   "mktcap_jo": 0.08,
+   "pos_52w": 4.4,
+   "runup": 1.1,
+   "up_from_low": 10.0,
+   "uptail": 7.1,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 10070,
+    "buy_pull": 9520,
+    "stop": 9070,
+    "stop_pct": -9.93,
+    "target1": 11080,
+    "target2": 12080,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 10.8,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 9070,
+    "high": 10050,
+    "low": 9070,
+    "close": 9980
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "066590",
+   "name": "스모트로닉",
+   "market": "KOSDAQ",
+   "close": 2355,
+   "chg": 9.28,
+   "value_eok": 1,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.09,
+   "pos_52w": 23.9,
+   "runup": 1.33,
+   "up_from_low": 17.2,
+   "uptail": 0.0,
+   "sector": null,
+   "peers": [
+    "원익홀딩스",
+    "멜콘",
+    "심텍",
+    "라온로보틱스",
+    "영광"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 2360,
+    "buy_pull": 2230,
+    "stop": 2125,
+    "stop_pct": -9.96,
+    "target1": 2595,
+    "target2": 2830,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 11.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2105,
+    "high": 2355,
+    "low": 2105,
+    "close": 2355
    }
   },
   {
@@ -361,20 +3914,20 @@
    "missing": [
     "장대양봉 +5%↑"
    ],
-   "strong_in_weak": true,
-   "code": "236200",
-   "name": "슈프리마",
+   "strong_in_weak": false,
+   "code": "067160",
+   "name": "SOOP",
    "market": "KOSDAQ",
-   "close": 45650,
-   "chg": -16.85,
-   "value_eok": 110,
-   "vol_man": 24,
-   "vol_vs_prev": 5.9,
-   "up_from_low": 6.2,
-   "low_recent": 43000,
-   "runup": 1.5,
-   "uptail": 0.8,
-   "mktcap_jo": 0.32,
+   "close": 32900,
+   "chg": -11.32,
+   "value_eok": 53,
+   "vol_man": 16,
+   "vol_vs_prev": 3.4,
+   "up_from_low": 6.6,
+   "low_recent": 30850,
+   "runup": 1.07,
+   "uptail": 0.0,
+   "mktcap_jo": 0.37,
    "sector": null,
    "peers": [],
    "sector_confirmed": null,
@@ -388,63 +3941,353 @@
     "1년 저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 49150,
-    "buy_pull": 47350,
-    "stop": 44250,
-    "stop_pct": -9.97,
-    "target1": 54100,
-    "target2": 59000,
+    "buy_break": 36200,
+    "buy_pull": 34500,
+    "stop": 32600,
+    "stop_pct": -9.94,
+    "target1": 39800,
+    "target2": 43450,
     "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 14.2,
-    "max_buy": 51600,
+    "rr": 1.0,
+    "bar_range_pct": 17.2,
+    "max_buy": 37000,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 49050,
-    "high": 49100,
-    "low": 43000,
-    "close": 45650
+    "open": 36150,
+    "high": 36150,
+    "low": 30850,
+    "close": 32900
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "전일 대비 거래량 300%↑"
+   ],
+   "strong_in_weak": false,
+   "code": "140860",
+   "name": "파크시스템스",
+   "market": "KOSDAQ",
+   "close": 232500,
+   "chg": 5.92,
+   "value_eok": 95,
+   "vol_man": 4,
+   "vol_vs_prev": 1.7,
+   "up_from_low": 7.4,
+   "low_recent": 216500,
+   "runup": 1.13,
+   "uptail": 17.9,
+   "mktcap_jo": 1.63,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": false,
+    "거래대금 50억 이상": true,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 236500,
+    "buy_pull": 225000,
+    "stop": 214000,
+    "stop_pct": -9.51,
+    "target1": 260000,
+    "target2": 284000,
+    "trail_pct": 7.0,
+    "rr": 1.04,
+    "bar_range_pct": 9.0,
+    "max_buy": 259500,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 217500,
+    "high": 236000,
+    "low": 216500,
+    "close": 232500
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "전일 대비 거래량 300%↑"
+   ],
+   "strong_in_weak": false,
+   "code": "290650",
+   "name": "엘앤씨바이오",
+   "market": "KOSDAQ",
+   "close": 25350,
+   "chg": 5.85,
+   "value_eok": 59,
+   "vol_man": 23,
+   "vol_vs_prev": 1.0,
+   "up_from_low": 8.3,
+   "low_recent": 23400,
+   "runup": 1.08,
+   "uptail": 24.5,
+   "mktcap_jo": 0.68,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": false,
+    "거래대금 50억 이상": true,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 26000,
+    "buy_pull": 24500,
+    "stop": 23400,
+    "stop_pct": -10.0,
+    "target1": 28600,
+    "target2": 31200,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 10.4,
+    "max_buy": 28050,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 23650,
+    "high": 25950,
+    "low": 23500,
+    "close": 25350
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "거래대금 50억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "333430",
+   "name": "일승",
+   "market": "KOSDAQ",
+   "close": 3080,
+   "chg": 7.69,
+   "value_eok": 7,
+   "vol_man": 22,
+   "vol_vs_prev": 3.1,
+   "up_from_low": 8.5,
+   "low_recent": 2840,
+   "runup": 1.08,
+   "uptail": 28.4,
+   "mktcap_jo": 0.09,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": false,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3180,
+    "buy_pull": 2960,
+    "stop": 2865,
+    "stop_pct": -9.91,
+    "target1": 3500,
+    "target2": 3815,
+    "trail_pct": 7.0,
+    "rr": 1.02,
+    "bar_range_pct": 11.8,
+    "max_buy": 3405,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 2840,
+    "high": 3175,
+    "low": 2840,
+    "close": 3080
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "거래대금 50억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "054540",
+   "name": "삼영엠텍",
+   "market": "KOSDAQ",
+   "close": 5600,
+   "chg": 6.87,
+   "value_eok": 11,
+   "vol_man": 19,
+   "vol_vs_prev": 3.7,
+   "up_from_low": 10.2,
+   "low_recent": 5080,
+   "runup": 1.1,
+   "uptail": 27.8,
+   "mktcap_jo": 0.07,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": false,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 5810,
+    "buy_pull": 5350,
+    "stop": 5230,
+    "stop_pct": -9.98,
+    "target1": 6390,
+    "target2": 6970,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 14.2,
+    "max_buy": 6090,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 5100,
+    "high": 5800,
+    "low": 5080,
+    "close": 5600
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "거래대금 50억 이상"
+   ],
+   "strong_in_weak": false,
+   "code": "260970",
+   "name": "에스앤디",
+   "market": "KOSDAQ",
+   "close": 52900,
+   "chg": 6.76,
+   "value_eok": 10,
+   "vol_man": 2,
+   "vol_vs_prev": 3.7,
+   "up_from_low": 12.7,
+   "low_recent": 46950,
+   "runup": 1.26,
+   "uptail": 19.6,
+   "mktcap_jo": 0.15,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": true,
+    "거래대금 50억 이상": false,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 53900,
+    "buy_pull": 51000,
+    "stop": 48700,
+    "stop_pct": -9.65,
+    "target1": 59300,
+    "target2": 64700,
+    "trail_pct": 7.0,
+    "rr": 1.04,
+    "bar_range_pct": 9.3,
+    "max_buy": 56300,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 49200,
+    "high": 53800,
+    "low": 49200,
+    "close": 52900
+   }
+  },
+  {
+   "track": "C",
+   "status": "near",
+   "missing": [
+    "전일 대비 거래량 300%↑"
+   ],
+   "strong_in_weak": false,
+   "code": "236200",
+   "name": "슈프리마",
+   "market": "KOSDAQ",
+   "close": 51400,
+   "chg": 12.6,
+   "value_eok": 73,
+   "vol_man": 14,
+   "vol_vs_prev": 0.6,
+   "up_from_low": 19.5,
+   "low_recent": 43000,
+   "runup": 1.69,
+   "uptail": 11.2,
+   "mktcap_jo": 0.36,
+   "sector": null,
+   "peers": [],
+   "sector_confirmed": null,
+   "checks": {
+    "최근 60일 저점 대비 +20% 미만": true,
+    "장대양봉 +5%↑": true,
+    "양봉 실체 확보 (도지 배제)": true,
+    "긴 윗꼬리 없음": true,
+    "전일 대비 거래량 300%↑": false,
+    "거래대금 50억 이상": true,
+    "1년 저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 52300,
+    "buy_pull": 48350,
+    "stop": 47100,
+    "stop_pct": -9.94,
+    "target1": 57500,
+    "target2": 62800,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 15.9,
+    "max_buy": 51600,
+    "entry": "눌림만",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 45300,
+    "high": 52200,
+    "low": 45050,
+    "close": 51400
    }
   }
  ],
- "warnings": [
-  {
-   "code": "036930",
-   "name": "주성엔지니어링",
-   "close": 165000,
-   "chg": -6.78,
-   "runup": 6.26,
-   "pos_52w": 53.8,
-   "flags": [
-    "긴 윗꼬리"
-   ]
-  },
-  {
-   "code": "263860",
-   "name": "지니언스",
-   "close": 27750,
-   "chg": 11.0,
-   "runup": 2.52,
-   "pos_52w": 87.2,
-   "flags": [
-    "긴 윗꼬리"
-   ]
-  },
-  {
-   "code": "046890",
-   "name": "서울반도체",
-   "close": 11640,
-   "chg": 3.93,
-   "runup": 2.03,
-   "pos_52w": 44.7,
-   "flags": [
-    "갭상승 후 음봉"
-   ]
-  }
- ],
+ "warnings": [],
  "config": {
   "A_MIN_VALUE_eok": 500,
   "A_CHG": [
