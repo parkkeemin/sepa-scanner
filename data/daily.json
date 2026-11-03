@@ -1,18 +1,22 @@
 {
- "generated_at": "2026-11-03 12:55:38",
+ "generated_at": "2026-11-04 02:06:37",
  "base_date": "2026-11-02",
  "stale": {
-  "weekdays_behind": 0,
-  "checked_until": "2026-11-02"
+  "weekdays_behind": 1,
+  "checked_until": "2026-11-03"
  },
  "fetch_log": [
+  {
+   "date": "20261104",
+   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+  },
   {
    "date": "20261103",
    "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
   },
   {
    "date": "20261102",
-   "result": "수집 1,828종목"
+   "result": "캐시에 있음"
   },
   {
    "date": "20261030",
@@ -135,6 +139,27 @@
     ],
     "filings": [
      {
+      "date": "20261103",
+      "title": "신규시설투자등",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900663",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20261103",
+      "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900445",
+      "risk": null,
+      "why": null
+     },
+     {
+      "date": "20261103",
+      "title": "기업설명회(IR)개최",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900449",
+      "risk": null,
+      "why": null
+     },
+     {
       "date": "20261013",
       "title": "임원ㆍ주요주주특정증권등소유상황보고서",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000275",
@@ -166,27 +191,6 @@
       "date": "20261001",
       "title": "임원ㆍ주요주주특정증권등소유상황보고서",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000429",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260904",
-      "title": "전환청구권행사",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904900533",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260901",
-      "title": "주식등의대량보유상황보고서(약식)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000189",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260825",
-      "title": "신규시설투자등",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825900407",
       "risk": null,
       "why": null
      }
