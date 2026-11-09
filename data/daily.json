@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-11-07 01:48:00",
- "base_date": "2026-11-05",
+ "generated_at": "2026-11-09 11:38:55",
+ "base_date": "2026-11-06",
  "stale": {
-  "weekdays_behind": 1,
-  "checked_until": "2026-11-06"
+  "weekdays_behind": 0,
+  "checked_until": "2026-11-08"
  },
  "fetch_log": [
   {
-   "date": "20261106",
+   "date": "20261109",
    "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+  },
+  {
+   "date": "20261106",
+   "result": "수집 1,831종목"
   },
   {
    "date": "20261105",
@@ -24,10 +28,6 @@
   },
   {
    "date": "20261102",
-   "result": "캐시에 있음"
-  },
-  {
-   "date": "20261030",
    "result": "캐시에 있음"
   }
  ],
@@ -48,10 +48,10 @@
    "state": "하락추세",
    "action": "지수 60일선 아래. 이 구간에서 조건을 충족한 종목은 시장보다 강한 종목입니다",
    "falling": true,
-   "day_chg": -4.84,
-   "pos_pct": 8.5,
-   "vs_ma20": -11.41,
-   "vs_ma60": -15.52
+   "day_chg": -5.03,
+   "pos_pct": 2.4,
+   "vs_ma20": -14.53,
+   "vs_ma60": -19.55
   }
  ],
  "track_a": [],
@@ -62,30 +62,30 @@
    "track": "A",
    "status": "near",
    "missing": [
-    "거래대금 500억 이상"
+    "기준봉 고저 폭 25% — 변동성 과대"
    ],
    "strong_in_weak": true,
-   "code": "293490",
-   "name": "카카오게임즈",
+   "code": "030530",
+   "name": "원익홀딩스",
    "market": "KOSDAQ",
-   "close": 12690,
-   "chg": 6.19,
-   "value_eok": 197,
-   "value_surge": 2.6,
-   "mktcap_jo": 1.35,
-   "pos_52w": 50.7,
-   "runup": 1.87,
-   "up_from_low": 61.9,
-   "uptail": 28.9,
+   "close": 28300,
+   "chg": 5.01,
+   "value_eok": 1321,
+   "value_surge": 1.9,
+   "mktcap_jo": 2.19,
+   "pos_52w": 40.4,
+   "runup": 2.14,
+   "up_from_low": 68.4,
+   "uptail": 15.7,
    "sector": null,
    "peers": [
-    "엠에스바이오",
-    "대동기어",
-    "금양그린파워"
+    "래블업",
+    "엘리스",
+    "루닛"
    ],
    "sector_confirmed": true,
    "checks": {
-    "거래대금 500억 이상": false,
+    "거래대금 500억 이상": true,
     "등락률 +5~+10% 장대양봉": true,
     "양봉 실체 확보": true,
     "긴 윗꼬리 없음": true,
@@ -93,279 +93,114 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 12950,
-    "buy_pull": 12400,
-    "stop": 11970,
-    "stop_pct": -7.57,
-    "target1": 14250,
-    "target2": 15540,
+    "buy_break": 29250,
+    "buy_pull": 25900,
+    "stop": 26350,
+    "stop_pct": -9.91,
+    "target1": 32200,
+    "target2": 35100,
     "trail_pct": 7.0,
-    "rr": 1.33,
-    "bar_range_pct": 6.9,
+    "rr": 1.02,
+    "bar_range_pct": 24.5,
     "max_buy": null,
     "entry": "돌파",
-    "ok": true,
-    "reject": []
+    "ok": false,
+    "reject": [
+     "기준봉 고저 폭 25% — 변동성 과대"
+    ]
    },
    "bar": {
-    "open": 12100,
-    "high": 12930,
-    "low": 12100,
-    "close": 12690
+    "open": 23450,
+    "high": 29200,
+    "low": 23450,
+    "close": 28300
    }
   },
   {
    "track": "A",
    "status": "near",
    "missing": [
-    "거래대금 500억 이상"
+    "등락률 +5~+10% 장대양봉"
    ],
    "strong_in_weak": true,
-   "code": "195940",
-   "name": "HK이노엔",
+   "code": "108490",
+   "name": "로보티즈",
    "market": "KOSDAQ",
-   "close": 36650,
-   "chg": 7.01,
-   "value_eok": 86,
-   "value_surge": 2.3,
-   "mktcap_jo": 1.04,
-   "pos_52w": 15.6,
-   "runup": 1.12,
-   "up_from_low": 12.4,
-   "uptail": 15.5,
+   "close": 222000,
+   "chg": 1.37,
+   "value_eok": 609,
+   "value_surge": 1.0,
+   "mktcap_jo": 3.26,
+   "pos_52w": 21.7,
+   "runup": 1.43,
+   "up_from_low": 13.8,
+   "uptail": 28.0,
    "sector": null,
    "peers": [
-    "엠에스바이오",
-    "대동기어",
-    "금양그린파워"
+    "래블업",
+    "엘리스",
+    "원익홀딩스",
+    "루닛"
    ],
    "sector_confirmed": true,
    "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
     "양봉 실체 확보": true,
     "긴 윗꼬리 없음": true,
     "시총 10조 이하": true,
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 37150,
-    "buy_pull": 35600,
-    "stop": 33850,
-    "stop_pct": -8.88,
-    "target1": 40850,
-    "target2": 44600,
+    "buy_break": 233000,
+    "buy_pull": 209500,
+    "stop": 210000,
+    "stop_pct": -9.87,
+    "target1": 256500,
+    "target2": 279500,
     "trail_pct": 7.0,
-    "rr": 1.12,
-    "bar_range_pct": 8.5,
+    "rr": 1.02,
+    "bar_range_pct": 19.2,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 34550,
-    "high": 37100,
-    "low": 34200,
-    "close": 36650
+    "open": 197000,
+    "high": 232500,
+    "low": 195000,
+    "close": 222000
    }
   },
   {
    "track": "A",
    "status": "near",
    "missing": [
-    "거래대금 500억 이상"
+    "기준봉 고저 폭 22% — 변동성 과대"
    ],
    "strong_in_weak": true,
-   "code": "068760",
-   "name": "셀트리온제약",
+   "code": "328130",
+   "name": "루닛",
    "market": "KOSDAQ",
-   "close": 40350,
-   "chg": 6.61,
-   "value_eok": 64,
-   "value_surge": 3.1,
-   "mktcap_jo": 1.79,
-   "pos_52w": 11.1,
-   "runup": 1.13,
-   "up_from_low": 13.3,
-   "uptail": 5.6,
-   "sector": null,
-   "peers": [
-    "엠에스바이오",
-    "대동기어",
-    "금양그린파워"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 40500,
-    "buy_pull": 39700,
-    "stop": 38250,
-    "stop_pct": -5.56,
-    "target1": 44550,
-    "target2": 48600,
-    "trail_pct": 7.0,
-    "rr": 1.8,
-    "bar_range_pct": 4.7,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 39000,
-    "high": 40450,
-    "low": 38650,
-    "close": 40350
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "122870",
-   "name": "와이지엔터테인먼트",
-   "market": "KOSDAQ",
-   "close": 41350,
-   "chg": 5.48,
-   "value_eok": 39,
-   "value_surge": 1.1,
-   "mktcap_jo": 0.77,
-   "pos_52w": 11.6,
-   "runup": 1.21,
-   "up_from_low": 12.4,
-   "uptail": 16.7,
-   "sector": null,
-   "peers": [
-    "엠에스바이오",
-    "대동기어",
-    "금양그린파워"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 41700,
-    "buy_pull": 40600,
-    "stop": 39450,
-    "stop_pct": -5.4,
-    "target1": 45850,
-    "target2": 50000,
-    "trail_pct": 7.0,
-    "rr": 1.84,
-    "bar_range_pct": 4.5,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 39850,
-    "high": 41650,
-    "low": 39850,
-    "close": 41350
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "376300",
-   "name": "디어유",
-   "market": "KOSDAQ",
-   "close": 18960,
-   "chg": 9.91,
-   "value_eok": 24,
-   "value_surge": 1.2,
-   "mktcap_jo": 0.45,
-   "pos_52w": 9.9,
-   "runup": 1.19,
-   "up_from_low": 18.5,
-   "uptail": 12.1,
-   "sector": null,
-   "peers": [
-    "엠에스바이오",
-    "대동기어",
-    "금양그린파워"
-   ],
-   "sector_confirmed": true,
-   "checks": {
-    "거래대금 500억 이상": false,
-    "등락률 +5~+10% 장대양봉": true,
-    "양봉 실체 확보": true,
-    "긴 윗꼬리 없음": true,
-    "시총 10조 이하": true,
-    "저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 19170,
-    "buy_pull": 18270,
-    "stop": 17400,
-    "stop_pct": -9.23,
-    "target1": 21100,
-    "target2": 23000,
-    "trail_pct": 7.0,
-    "rr": 1.09,
-    "bar_range_pct": 8.9,
-    "max_buy": null,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 17580,
-    "high": 19150,
-    "low": 17580,
-    "close": 18960
-   }
-  },
-  {
-   "track": "A",
-   "status": "near",
-   "missing": [
-    "거래대금 500억 이상"
-   ],
-   "strong_in_weak": true,
-   "code": "086900",
-   "name": "메디톡스",
-   "market": "KOSDAQ",
-   "close": 66400,
-   "chg": 6.07,
-   "value_eok": 20,
+   "close": 15450,
+   "chg": 5.32,
+   "value_eok": 550,
    "value_surge": 2.0,
-   "mktcap_jo": 0.48,
-   "pos_52w": 6.5,
-   "runup": 1.08,
-   "up_from_low": 8.5,
-   "uptail": 28.9,
+   "mktcap_jo": 1.15,
+   "pos_52w": 17.5,
+   "runup": 1.89,
+   "up_from_low": 88.9,
+   "uptail": 20.7,
    "sector": null,
    "peers": [
-    "엠에스바이오",
-    "대동기어",
-    "금양그린파워"
+    "래블업",
+    "엘리스",
+    "원익홀딩스"
    ],
    "sector_confirmed": true,
    "checks": {
-    "거래대금 500억 이상": false,
+    "거래대금 500억 이상": true,
     "등락률 +5~+10% 장대양봉": true,
     "양봉 실체 확보": true,
     "긴 윗꼬리 없음": true,
@@ -373,25 +208,84 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 67800,
-    "buy_pull": 64800,
-    "stop": 62500,
-    "stop_pct": -7.82,
-    "target1": 74600,
-    "target2": 81400,
+    "buy_break": 16070,
+    "buy_pull": 14360,
+    "stop": 14470,
+    "stop_pct": -9.96,
+    "target1": 17680,
+    "target2": 19280,
     "trail_pct": 7.0,
-    "rr": 1.28,
-    "bar_range_pct": 7.1,
+    "rr": 1.01,
+    "bar_range_pct": 22.1,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": false,
+    "reject": [
+     "기준봉 고저 폭 22% — 변동성 과대"
+    ]
+   },
+   "bar": {
+    "open": 13280,
+    "high": 16050,
+    "low": 13150,
+    "close": 15450
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "등락률 +5~+10% 장대양봉"
+   ],
+   "strong_in_weak": true,
+   "code": "053800",
+   "name": "안랩",
+   "market": "KOSDAQ",
+   "close": 99100,
+   "chg": 0.92,
+   "value_eok": 511,
+   "value_surge": 1.0,
+   "mktcap_jo": 1.1,
+   "pos_52w": 55.8,
+   "runup": 1.95,
+   "up_from_low": 78.2,
+   "uptail": 20.0,
+   "sector": null,
+   "peers": [
+    "래블업",
+    "엘리스",
+    "원익홀딩스",
+    "루닛"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": true,
+    "등락률 +5~+10% 장대양봉": false,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 101800,
+    "buy_pull": 94300,
+    "stop": 91700,
+    "stop_pct": -9.92,
+    "target1": 112000,
+    "target2": 122200,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 14.0,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 63200,
-    "high": 67700,
-    "low": 63200,
-    "close": 66400
+    "open": 89500,
+    "high": 101600,
+    "low": 89100,
+    "close": 99100
    }
   },
   {
@@ -401,23 +295,24 @@
     "거래대금 500억 이상"
    ],
    "strong_in_weak": true,
-   "code": "040160",
-   "name": "누리플렉스",
+   "code": "101360",
+   "name": "에코앤드림",
    "market": "KOSDAQ",
-   "close": 4855,
-   "chg": 9.72,
-   "value_eok": 1,
-   "value_surge": 1.2,
-   "mktcap_jo": 0.06,
-   "pos_52w": 12.1,
-   "runup": 1.7,
-   "up_from_low": 11.6,
-   "uptail": 19.8,
+   "close": 9950,
+   "chg": 6.19,
+   "value_eok": 48,
+   "value_surge": 0.7,
+   "mktcap_jo": 0.18,
+   "pos_52w": 24.7,
+   "runup": 2.05,
+   "up_from_low": 37.6,
+   "uptail": 12.6,
    "sector": null,
    "peers": [
-    "엠에스바이오",
-    "대동기어",
-    "금양그린파워"
+    "래블업",
+    "엘리스",
+    "원익홀딩스",
+    "루닛"
    ],
    "sector_confirmed": true,
    "checks": {
@@ -429,245 +324,389 @@
     "저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 4955,
-    "buy_pull": 4660,
-    "stop": 4460,
-    "stop_pct": -9.99,
-    "target1": 5450,
-    "target2": 5950,
+    "buy_break": 10160,
+    "buy_pull": 9300,
+    "stop": 9150,
+    "stop_pct": -9.94,
+    "target1": 11180,
+    "target2": 12190,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 17.5,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8640,
+    "high": 10140,
+    "low": 8630,
+    "close": 9950
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "206640",
+   "name": "바디텍메드",
+   "market": "KOSDAQ",
+   "close": 8900,
+   "chg": 5.7,
+   "value_eok": 13,
+   "value_surge": 4.8,
+   "mktcap_jo": 0.19,
+   "pos_52w": 14.9,
+   "runup": 1.12,
+   "up_from_low": 11.5,
+   "uptail": 11.5,
+   "sector": null,
+   "peers": [
+    "래블업",
+    "엘리스",
+    "원익홀딩스",
+    "루닛"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 9030,
+    "buy_pull": 8580,
+    "stop": 8130,
+    "stop_pct": -9.97,
+    "target1": 9930,
+    "target2": 10840,
     "trail_pct": 7.0,
     "rr": 1.0,
-    "bar_range_pct": 10.7,
+    "bar_range_pct": 13.0,
     "max_buy": null,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 4470,
-    "high": 4950,
-    "low": 4470,
-    "close": 4855
+    "open": 8250,
+    "high": 9020,
+    "low": 7980,
+    "close": 8900
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "121440",
+   "name": "골프존홀딩스",
+   "market": "KOSDAQ",
+   "close": 8840,
+   "chg": 8.47,
+   "value_eok": 10,
+   "value_surge": 4.0,
+   "mktcap_jo": 0.38,
+   "pos_52w": 97.3,
+   "runup": 2.16,
+   "up_from_low": 32.9,
+   "uptail": 12.6,
+   "sector": null,
+   "peers": [
+    "래블업",
+    "엘리스",
+    "원익홀딩스",
+    "루닛"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 8980,
+    "buy_pull": 8440,
+    "stop": 8090,
+    "stop_pct": -9.91,
+    "target1": 9880,
+    "target2": 10780,
+    "trail_pct": 7.0,
+    "rr": 1.01,
+    "bar_range_pct": 13.0,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 8050,
+    "high": 8970,
+    "low": 7940,
+    "close": 8840
+   }
+  },
+  {
+   "track": "A",
+   "status": "near",
+   "missing": [
+    "거래대금 500억 이상"
+   ],
+   "strong_in_weak": true,
+   "code": "321820",
+   "name": "아티스트컴퍼니",
+   "market": "KOSDAQ",
+   "close": 3240,
+   "chg": 6.58,
+   "value_eok": 4,
+   "value_surge": 0.9,
+   "mktcap_jo": 0.05,
+   "pos_52w": 31.4,
+   "runup": 1.65,
+   "up_from_low": 46.6,
+   "uptail": 16.5,
+   "sector": null,
+   "peers": [
+    "래블업",
+    "엘리스",
+    "원익홀딩스",
+    "루닛"
+   ],
+   "sector_confirmed": true,
+   "checks": {
+    "거래대금 500억 이상": false,
+    "등락률 +5~+10% 장대양봉": true,
+    "양봉 실체 확보": true,
+    "긴 윗꼬리 없음": true,
+    "시총 10조 이하": true,
+    "저점 대비 3배 미만": true
+   },
+   "plan": {
+    "buy_break": 3320,
+    "buy_pull": 3120,
+    "stop": 2990,
+    "stop_pct": -9.94,
+    "target1": 3650,
+    "target2": 3985,
+    "trail_pct": 7.0,
+    "rr": 1.0,
+    "bar_range_pct": 15.9,
+    "max_buy": null,
+    "entry": "돌파",
+    "ok": true,
+    "reject": []
+   },
+   "bar": {
+    "open": 3005,
+    "high": 3315,
+    "low": 2860,
+    "close": 3240
    }
   },
   {
    "track": "C",
    "status": "near",
    "missing": [
-    "전일 대비 거래량 300%↑"
+    "거래대금 50억 이상"
    ],
    "strong_in_weak": true,
-   "code": "195940",
-   "name": "HK이노엔",
+   "code": "206640",
+   "name": "바디텍메드",
    "market": "KOSDAQ",
-   "close": 36650,
-   "chg": 7.01,
-   "value_eok": 86,
-   "vol_man": 24,
-   "vol_vs_prev": 1.7,
-   "up_from_low": 12.4,
-   "low_recent": 32600,
+   "close": 8900,
+   "chg": 5.7,
+   "value_eok": 13,
+   "vol_man": 15,
+   "vol_vs_prev": 5.1,
+   "up_from_low": 11.5,
+   "low_recent": 7980,
    "runup": 1.12,
-   "uptail": 15.5,
-   "mktcap_jo": 1.04,
+   "uptail": 11.5,
+   "mktcap_jo": 0.19,
    "sector": null,
    "peers": [],
    "sector_confirmed": null,
    "checks": {
     "최근 60일 저점 대비 +20% 미만": true,
     "장대양봉 +5%↑": true,
-    "양봉 실체 확보 (도지 배제)": true,
-    "긴 윗꼬리 없음": true,
-    "전일 대비 거래량 300%↑": false,
-    "거래대금 50억 이상": true,
-    "1년 저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 37150,
-    "buy_pull": 35600,
-    "stop": 33850,
-    "stop_pct": -8.88,
-    "target1": 40850,
-    "target2": 44600,
-    "trail_pct": 7.0,
-    "rr": 1.12,
-    "bar_range_pct": 8.5,
-    "max_buy": 39100,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 34550,
-    "high": 37100,
-    "low": 34200,
-    "close": 36650
-   }
-  },
-  {
-   "track": "C",
-   "status": "near",
-   "missing": [
-    "전일 대비 거래량 300%↑"
-   ],
-   "strong_in_weak": true,
-   "code": "068760",
-   "name": "셀트리온제약",
-   "market": "KOSDAQ",
-   "close": 40350,
-   "chg": 6.61,
-   "value_eok": 64,
-   "vol_man": 16,
-   "vol_vs_prev": 2.2,
-   "up_from_low": 13.3,
-   "low_recent": 35600,
-   "runup": 1.13,
-   "uptail": 5.6,
-   "mktcap_jo": 1.79,
-   "sector": null,
-   "peers": [],
-   "sector_confirmed": null,
-   "checks": {
-    "최근 60일 저점 대비 +20% 미만": true,
-    "장대양봉 +5%↑": true,
-    "양봉 실체 확보 (도지 배제)": true,
-    "긴 윗꼬리 없음": true,
-    "전일 대비 거래량 300%↑": false,
-    "거래대금 50억 이상": true,
-    "1년 저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 40500,
-    "buy_pull": 39700,
-    "stop": 38250,
-    "stop_pct": -5.56,
-    "target1": 44550,
-    "target2": 48600,
-    "trail_pct": 7.0,
-    "rr": 1.8,
-    "bar_range_pct": 4.7,
-    "max_buy": 42700,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 39000,
-    "high": 40450,
-    "low": 38650,
-    "close": 40350
-   }
-  },
-  {
-   "track": "C",
-   "status": "near",
-   "missing": [
-    "장대양봉 +5%↑"
-   ],
-   "strong_in_weak": true,
-   "code": "289080",
-   "name": "SV인베스트먼트",
-   "market": "KOSDAQ",
-   "close": 2155,
-   "chg": -2.49,
-   "value_eok": 54,
-   "vol_man": 224,
-   "vol_vs_prev": 5.9,
-   "up_from_low": 14.3,
-   "low_recent": 1886,
-   "runup": 1.5,
-   "uptail": 17.4,
-   "mktcap_jo": 0.13,
-   "sector": null,
-   "peers": [],
-   "sector_confirmed": null,
-   "checks": {
-    "최근 60일 저점 대비 +20% 미만": true,
-    "장대양봉 +5%↑": false,
     "양봉 실체 확보 (도지 배제)": true,
     "긴 윗꼬리 없음": true,
     "전일 대비 거래량 300%↑": true,
-    "거래대금 50억 이상": true,
+    "거래대금 50억 이상": false,
     "1년 저점 대비 3배 미만": true
    },
    "plan": {
-    "buy_break": 2250,
-    "buy_pull": 2190,
-    "stop": 2105,
-    "stop_pct": -6.44,
-    "target1": 2475,
-    "target2": 2700,
+    "buy_break": 9030,
+    "buy_pull": 8580,
+    "stop": 8130,
+    "stop_pct": -9.97,
+    "target1": 9930,
+    "target2": 10840,
     "trail_pct": 7.0,
-    "rr": 1.55,
-    "bar_range_pct": 5.4,
-    "max_buy": 2260,
+    "rr": 1.0,
+    "bar_range_pct": 13.0,
+    "max_buy": 9570,
     "entry": "돌파",
     "ok": true,
     "reject": []
    },
    "bar": {
-    "open": 2225,
-    "high": 2245,
-    "low": 2130,
-    "close": 2155
-   }
-  },
-  {
-   "track": "C",
-   "status": "near",
-   "missing": [
-    "전일 대비 거래량 300%↑"
-   ],
-   "strong_in_weak": true,
-   "code": "041510",
-   "name": "에스엠",
-   "market": "KOSDAQ",
-   "close": 79100,
-   "chg": 11.72,
-   "value_eok": 134,
-   "vol_man": 17,
-   "vol_vs_prev": 0.9,
-   "up_from_low": 15.5,
-   "low_recent": 68500,
-   "runup": 1.24,
-   "uptail": 20.7,
-   "mktcap_jo": 1.81,
-   "sector": null,
-   "peers": [],
-   "sector_confirmed": null,
-   "checks": {
-    "최근 60일 저점 대비 +20% 미만": true,
-    "장대양봉 +5%↑": true,
-    "양봉 실체 확보 (도지 배제)": true,
-    "긴 윗꼬리 없음": true,
-    "전일 대비 거래량 300%↑": false,
-    "거래대금 50억 이상": true,
-    "1년 저점 대비 3배 미만": true
-   },
-   "plan": {
-    "buy_break": 80900,
-    "buy_pull": 76000,
-    "stop": 72900,
-    "stop_pct": -9.89,
-    "target1": 89000,
-    "target2": 97100,
-    "trail_pct": 7.0,
-    "rr": 1.01,
-    "bar_range_pct": 11.3,
-    "max_buy": 82200,
-    "entry": "돌파",
-    "ok": true,
-    "reject": []
-   },
-   "bar": {
-    "open": 72800,
-    "high": 80800,
-    "low": 72600,
-    "close": 79100
+    "open": 8250,
+    "high": 9020,
+    "low": 7980,
+    "close": 8900
    }
   }
  ],
- "warnings": [],
+ "warnings": [
+  {
+   "code": "010170",
+   "name": "대한광통신",
+   "close": 10590,
+   "chg": -9.18,
+   "runup": 5.79,
+   "pos_52w": 29.5,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "036930",
+   "name": "주성엔지니어링",
+   "close": 132800,
+   "chg": -9.48,
+   "runup": 5.04,
+   "pos_52w": 41.3,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "131290",
+   "name": "티에스이",
+   "close": 162000,
+   "chg": -12.43,
+   "runup": 3.54,
+   "pos_52w": 38.8,
+   "flags": [
+    "긴 윗꼬리",
+    "도지형"
+   ]
+  },
+  {
+   "code": "064290",
+   "name": "인텍플러스",
+   "close": 36200,
+   "chg": -12.45,
+   "runup": 3.3,
+   "pos_52w": 47.0,
+   "flags": [
+    "긴 윗꼬리",
+    "도지형"
+   ]
+  },
+  {
+   "code": "031980",
+   "name": "피에스케이홀딩스",
+   "close": 119300,
+   "chg": -13.11,
+   "runup": 2.95,
+   "pos_52w": 44.1,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "080220",
+   "name": "제주반도체",
+   "close": 50100,
+   "chg": -10.05,
+   "runup": 2.87,
+   "pos_52w": 27.1,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "319660",
+   "name": "피에스케이",
+   "close": 77900,
+   "chg": -12.77,
+   "runup": 2.7,
+   "pos_52w": 25.7,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "425420",
+   "name": "티에프이",
+   "close": 61600,
+   "chg": -10.98,
+   "runup": 2.62,
+   "pos_52w": 55.8,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "098120",
+   "name": "마이크로컨텍솔",
+   "close": 40300,
+   "chg": -16.04,
+   "runup": 2.6,
+   "pos_52w": 52.2,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "080580",
+   "name": "오킨스전자",
+   "close": 17980,
+   "chg": -13.35,
+   "runup": 2.39,
+   "pos_52w": 43.6,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "095610",
+   "name": "테스",
+   "close": 77800,
+   "chg": -11.59,
+   "runup": 2.19,
+   "pos_52w": 21.1,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  },
+  {
+   "code": "091580",
+   "name": "상신이디피",
+   "close": 22150,
+   "chg": -14.81,
+   "runup": 2.01,
+   "pos_52w": 54.2,
+   "flags": [
+    "긴 윗꼬리"
+   ]
+  }
+ ],
  "config": {
   "A_MIN_VALUE_eok": 500,
   "A_CHG": [
