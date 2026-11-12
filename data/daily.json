@@ -1,18 +1,22 @@
 {
- "generated_at": "2026-11-12 12:47:57",
+ "generated_at": "2026-11-13 02:37:53",
  "base_date": "2026-11-11",
  "stale": {
-  "weekdays_behind": 0,
-  "checked_until": "2026-11-11"
+  "weekdays_behind": 1,
+  "checked_until": "2026-11-12"
  },
  "fetch_log": [
+  {
+   "date": "20261113",
+   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+  },
   {
    "date": "20261112",
    "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
   },
   {
    "date": "20261111",
-   "result": "수집 1,833종목"
+   "result": "캐시에 있음"
   },
   {
    "date": "20261110",
@@ -317,13 +321,6 @@
       "date": "20260908",
       "title": "주식등의대량보유상황보고서(일반)",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000406",
-      "risk": null,
-      "why": null
-     },
-     {
-      "date": "20260814",
-      "title": "반기보고서 (2026.06)",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003380",
       "risk": null,
       "why": null
      }
