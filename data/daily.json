@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-13 12:24:17",
+ "generated_at": "2026-11-14 02:15:07",
  "base_date": "2026-11-12",
  "stale": {
-  "weekdays_behind": 0,
-  "checked_until": "2026-11-12"
+  "weekdays_behind": 1,
+  "checked_until": "2026-11-13"
  },
  "fetch_log": [
   {
@@ -12,7 +12,7 @@
   },
   {
    "date": "20261112",
-   "result": "수집 1,834종목"
+   "result": "캐시에 있음"
   },
   {
    "date": "20261111",
