@@ -1,11 +1,15 @@
 {
- "generated_at": "2026-11-21 02:53:19",
+ "generated_at": "2026-11-23 12:45:29",
  "base_date": "2026-11-12",
  "stale": {
   "weekdays_behind": 6,
-  "checked_until": "2026-11-20"
+  "checked_until": "2026-11-22"
  },
  "fetch_log": [
+  {
+   "date": "20261123",
+   "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
+  },
   {
    "date": "20261120",
    "result": "KRX 응답 비어 있음(휴장 또는 미반영)"
@@ -32,10 +36,6 @@
   },
   {
    "date": "20261112",
-   "result": "캐시에 있음"
-  },
-  {
-   "date": "20261111",
    "result": "캐시에 있음"
   }
  ],
