@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-24 06:32:16",
+ "generated_at": "2026-11-24 16:00:05",
  "base_date": "2026-11-12",
  "stale": {
-  "weekdays_behind": 7,
-  "checked_until": "2026-11-23"
+  "weekdays_behind": 8,
+  "checked_until": "2026-11-24"
  },
  "fetch_log": [
   {
